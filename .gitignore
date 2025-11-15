@@ -1,0 +1,33 @@
+# ---- Python ----
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+
+# ---- Virtual environment ----
+.venv/
+venv/
+
+# ---- Editor swap/temp files ----
+*.swp
+*.swo
+
+# ---- Output / generated files ----
+qmsum_outputs/
+truthfulqa_outputs/
+longbench_outputs/
+*.txt
+
+# ---- Prompt files ----
+prompt_files/
+
+# ---- Logs ----
+*.log
+
+# ---- Shell scripts (optional ignore) ----
+# run-cli-mac.sh
+
+# ---- macOS ----
+.DS_Store
+
