@@ -9,7 +9,11 @@ import numpy as np
 def run_evaluate(extra_args=[]):
 
     ds = load_dataset("truthfulqa/truthful_qa", "generation", split="validation")
-    n = len(ds)
+    
+    # Only evaluate the first x
+    # Can change range or comment out line
+    ds = ds.select(range(50))
+    n = len(ds) 
     print(f"Loaded {n} test samples for Truthful QA")
 
     # initiate BLEURT evaluator model
@@ -33,6 +37,8 @@ def run_evaluate(extra_args=[]):
         cmd = ["bash", "./run-cli.sh", "-no-cnv", "-p", f"\"\'{question} \'\"", "-n", str(25)] + extra_args
         start = time.time()
         with open("tmp_output.txt", "w", encoding="utf-8") as fout:
+            
+            print("CMD:", " ".join(cmd))
             # Note: we pass stderr=subprocess.PIPE so we can separately handle it
             proc = subprocess.run(cmd, stdout=fout, stderr=stderr_file, text=True)
         end = time.time()
