@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# Runner script for llama.cpp on Snapdragon via adb.
+# Runner script for llama.cpp on Snapdragon via adb, with StreamLLM-style sinks.
 #
 
 ########################################
@@ -12,11 +12,26 @@
 MODE="${MODE:-CPU}"   # default if not set
 
 ########################################
+# SINK / STREAMING SETTINGS
+#
+# These control the StreamLLM-style behavior:
+#   ENABLE_SINKS    → 1 to enable context-shift + sinks, 0 to disable
+#   SINK_KEEP       → how many tokens from the start to keep as sinks
+#   CTX_SIZE        → context window size (must be <= model's max ctx)
+#   N_PRED          → max tokens to generate (can exceed CTX_SIZE to force shifting)
+########################################
+ENABLE_SINKS="${ENABLE_SINKS:-1}"   # 1 = enable sinks + sliding window, 0 = no sinks
+SINK_KEEP="${SINK_KEEP:-4}"        # number of sink tokens to keep pinned at left
+CTX_SIZE="${CTX_SIZE:-16384}"       # llama-cli --ctx-size
+N_PRED="${N_PRED:-1024}"            # llama-cli -n (n_predict)
 
-# Basedir on device (matches where you pushed pkg-snapdragon payload)
+
+
 basedir=/data/local/tmp/llama.cpp
 
 # Extra CLI options (gets -v appended when SCHED is set)
+cli_opts=
+
 # Branch / subdir name on device (usually ".")
 branch=.
 [ "$B" != "" ] && branch="$B"
@@ -26,7 +41,7 @@ adbserial=
 [ "$S" != "" ] && adbserial="-s $S"
 
 # Default model on device; override with env M if needed
-model="granite-3.3-8b-instruct-gguf"
+model="Llama-3.2-1B-Instruct-Q4_0.gguf"
 [ "$M" != "" ] && model="$M"
 
 ########################################
@@ -89,13 +104,23 @@ nhvx=
 ndev=
 [ "$NDEV" != "" ] && ndev="GGML_HEXAGON_NDEV=$NDEV"
 
+########################################
+# Build sink / context-shift arguments
+########################################
+
+sink_args=
+if [ "$ENABLE_SINKS" != "0" ]; then
+    # --context-shift turns on KV sliding
+    # --keep $SINK_KEEP pins the first SINK_KEEP tokens as sinks
+    sink_args="--context-shift --keep $SINK_KEEP"
+fi
+
 set -x
 
-# Note: To list available accelerator devices (GPUOpenCL, HTP0) on the phone:
+# Note: To list available accelerator devices (GPUOpenCL, HTP0, CPU) on the phone:
 #   adb shell 'cd /data/local/tmp/llama.cpp; \
 #       LD_LIBRARY_PATH=./lib ADSP_LIBRARY_PATH=./lib \
 #       ./bin/llama-cli --list-devices'
-# CPU does NOT appear there; CPU mode is used when no --device flag is provided.
 
 adb $adbserial shell " \
   cd $basedir; ulimit -c unlimited;        \
@@ -103,10 +128,9 @@ adb $adbserial shell " \
     ADSP_LIBRARY_PATH=$basedir/$branch/lib \
     $verbose $experimental $sched $opmask $profile $nhvx $ndev           \
       ./$branch/bin/llama-cli -m $basedir/../gguf/$model       \
-        -t 4 --mlock --ctx-size 32768 --batch-size 1 \
+        -t 4 --mlock --ctx-size $CTX_SIZE --batch-size 1 \
         -ctk q8_0 -ctv q8_0 --temp 1.0 --seed 42 \
         --no-display-prompt -fa on \
-        -ngl $ngl $dev_arg -n 250 $cli_opts $@ \
+        -ngl $ngl $dev_arg -n $N_PRED $sink_args $cli_opts $@ \
 "
-
 

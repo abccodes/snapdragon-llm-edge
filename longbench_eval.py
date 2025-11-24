@@ -52,19 +52,37 @@ def evaluate_folder_outputs(output_dir: str, ref_map: dict):
         predictions.append(pred)
         references.append(ref)
 
-    # Compute ROUGE (aggregated)
-    result = rouge.compute(predictions=predictions, references=references, use_stemmer=True)
-    # result is a dict: e.g. { 'rouge1': ..., 'rouge2': ..., 'rougeL': ..., 'rougeLsum': ... } :contentReference[oaicite:0]{index=0}
+    # Compute per-sample scores
+    per_sample = rouge.compute(
+        predictions=predictions,
+        references=references,
+        use_stemmer=True,
+        use_aggregator=False
+    )
 
-    # Also compute per-sample if desired by setting `use_aggregator=False`
-    per_sample = rouge.compute(predictions=predictions, references=references, use_stemmer=True, use_aggregator=False)
-
-    # per_sample entries are lists of scores per sample e.g. per_sample['rougeL'] is list of f1 for each sample :contentReference[oaicite:1]{index=1}
-
+    # Build per-sample result list (idx, rougeL)
     results = []
     for i, idx in enumerate(sample_ids):
         rl = per_sample["rougeL"][i]
         results.append((idx, rl))
+
+    # === Filter out samples with ROUGE-L == 0.0 for aggregated score ===
+    filtered_predictions = []
+    filtered_references = []
+    for i, rl in enumerate(per_sample["rougeL"]):
+        if rl > 0.0:
+            filtered_predictions.append(predictions[i])
+            filtered_references.append(references[i])
+
+    if filtered_predictions:
+        result = rouge.compute(
+            predictions=filtered_predictions,
+            references=filtered_references,
+            use_stemmer=True
+        )
+    else:
+        # Fallback: no non-zero samples, return zeros
+        result = {"rouge1": 0.0, "rouge2": 0.0, "rougeL": 0.0, "rougeLsum": 0.0}
 
     return results, result
 
@@ -88,3 +106,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

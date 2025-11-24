@@ -85,9 +85,9 @@ def run_all(local_prompt_dir: str, device_prompt_prefix: str, output_dir: str,
         latencies.append((fname, latency))
 
         # Wait one minute after each sample, except after the last one
-        if idx < len(prompt_files) - 1:
-            print("waiting 60 seconds before next run...\n")
-            time.sleep(60)
+        # if idx < len(prompt_files) - 1:
+        #     print("waiting 60 seconds before next run...\n")
+        #     time.sleep(60)
 
     t1 = time.time()
     total = t1 - t0
@@ -97,7 +97,7 @@ def main():
     local_prompt_dir = "./prompt_files"
     device_prompt_prefix = "/data/local/tmp/prompt_files"
     output_dir = "./qmsum_outputs"
-    cli_path = "./run-cli.sh"  # or path to llama-cli or wrapper
+    cli_path = "./run-cli-streamllm.sh"  # or path to llama-cli or wrapper
     extra_args = []  # e.g. model settings, etc.
 
     latencies, total_time = run_all(

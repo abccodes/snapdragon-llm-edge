@@ -34,7 +34,7 @@ def run_evaluate(extra_args=[]):
         question = question.replace("'", " ")
         question = question.replace('"', ' ')
 
-        cmd = ["bash", "./run-cli.sh", "-no-cnv", "-p", f"\"\'{question} \'\"", "-n", str(25)] + extra_args
+        cmd = ["bash", "./run-cli-streamllm.sh", "-no-cnv", "-p", f"\"\'{question} \'\"", "-n", str(25)] + extra_args
         start = time.time()
         with open("tmp_output.txt", "w", encoding="utf-8") as fout:
             
