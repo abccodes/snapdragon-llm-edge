@@ -126,6 +126,70 @@ Once your session is initiated, you can login by following the tutorial given on
 
 ---
 
+## Model Selection Guide
+
+Choosing the right model depends on your specific use case, device memory constraints, and performance requirements. This guide helps you select the best model for your needs on Snapdragon edge devices.
+
+### Quick Recommendations by Use Case
+
+| Use Case | Recommended Model | Size | Backend | Notes |
+|----------|------------------|------|---------|-------|
+| **General Q&A / Chat** | Llama-3.2-1B-Instruct | 1B | HTP0 (NPU) | Fast, efficient, good for basic conversations |
+| **Code Assistance** | Granite-3.3-8B-Instruct | 8B | HTP0,HTP1 | Better reasoning for coding tasks |
+| **Long Document Analysis** | Llama-3.2-1B-Instruct | 1B | HTP0 | Good context handling with 32K context |
+| **Knowledge Tasks** | Granite-3.3-8B-Instruct | 8B | HTP0,HTP1 | Higher accuracy for factual responses |
+| **Vision + Language (VQA)** | MobileVLM_V2-1.7B | 1.7B | HTP0 | Multimodal capabilities |
+| **Edge Efficiency** | LFM2-1.2B | 1.2B | HTP0 | Optimized for edge deployment |
+| **Mixture of Experts** | OLMoE-1B-7B | 1B active / 7B total | HTP0,HTP1 | Efficient sparse model |
+
+### Model Size and Memory Requirements
+
+| Model Size | Quantization | Approx. Memory | HTP Sessions Required |
+|------------|--------------|----------------|----------------------|
+| 1-2B | Q4_0 | ~1-2 GB | 1 (HTP0) |
+| 3-4B | Q4_0 | ~2-3 GB | 1 (HTP0) |
+| 7-8B | Q4_0 | ~4-5 GB | 2 (HTP0,HTP1) |
+| 13B | Q4_0 | ~7-8 GB | 2+ (HTP0,HTP1) |
+
+### Backend Selection Guide
+
+| Backend | Best For | Tradeoffs |
+|---------|----------|-----------|
+| **NPU (HTP0)** | Production use, power efficiency | Best performance/watt, limited to quantized models |
+| **GPU (GPUOpenCL)** | FP16 models, larger models | Good performance, higher power consumption |
+| **CPU** | Development, debugging | Slowest but most compatible |
+
+### Choosing Based on Your Priorities
+
+**If speed is your priority:**
+- Use smaller models (1-2B parameters)
+- Use NPU backend (HTP0)
+- Use Q4_0 quantization
+
+**If accuracy is your priority:**
+- Use larger models (7-8B parameters)  
+- Use Q8_0 quantization if memory allows
+- Consider Granite or Llama models
+
+**If you need multimodal capabilities:**
+- Use MobileVLM_V2-1.7B for vision tasks
+- See the "Run Vision Language Models" section below
+
+**If you're benchmarking for competitions:**
+- Start with Llama-3.2-1B-Instruct for baseline
+- Test with LFM2-1.2B for efficiency
+- Use the TruthfulQA and LongBench benchmarks provided
+
+### Getting Started
+
+For most users, we recommend starting with **Llama-3.2-1B-Instruct** as it provides a good balance of performance and quality:
+
+```bash
+wget https://huggingface.co/bartowski/Llama-3.2-1B-Instruct-GGUF/resolve/main/Llama-3.2-1B-Instruct-Q4_0.gguf
+```
+
+---
+
 ## Running Our First Model
 
 Pull a model to test (run this on native machine in `llama.cpp`):
