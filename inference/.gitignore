@@ -1,0 +1,66 @@
+# ---------------------------
+# Python
+# ---------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+*.egg-info/
+
+# Virtual envs
+.venv/
+env/
+venv/
+
+# ---------------------------
+# Logs & Debug
+# ---------------------------
+*.log
+debug.log
+logs/
+*.err
+*.out
+
+# ---------------------------
+# Temporary artifacts
+# ---------------------------
+*.zip
+*.tmp
+*.cache
+*.bak
+*.swp
+
+# Prompt/Output dumps
+prompt_files/
+prompt_files.zip
+qmsum_outputs/
+results/
+outputs/
+
+# ---------------------------
+# Model files
+# ---------------------------
+*.bin
+*.safetensors
+*.pt
+*.gguf
+*.onnx
+
+# ---------------------------
+# CLI generated files
+# ---------------------------
+run-cli-streamllm.sh~
+run-cli.sh~
+*.run
+*.trace
+*.profile
+
+# ---------------------------
+# OS / Editor
+# ---------------------------
+.DS_Store
+*.code-workspace
+.idea/
+
