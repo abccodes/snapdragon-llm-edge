@@ -2,5 +2,10 @@ rouge_score
 transformers
 datasets
 evaluate
-BLEURT @ git+https://github.com/google-research/bleurt.git
 numpy
+
+tensorflow-macos==2.15.*
+tensorflow-metal==1.1.*
+bleurt
+protobuf<4
+absl-py<2
