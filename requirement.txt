@@ -1,6 +1,0 @@
-rouge_score
-transformers
-datasets
-evaluate
-BLEURT @ git+https://github.com/google-research/bleurt.git
-numpy

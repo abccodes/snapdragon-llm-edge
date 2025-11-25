@@ -41,7 +41,7 @@ adbserial=
 [ "$S" != "" ] && adbserial="-s $S"
 
 # Default model on device; override with env M if needed
-model="Llama-3.2-1B-Instruct-Q4_0.gguf"
+model="qwen2-7b-tinytron-Q4_K_M.gguf"
 [ "$M" != "" ] && model="$M"
 
 ########################################
