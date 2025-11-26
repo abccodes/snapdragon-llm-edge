@@ -620,7 +620,7 @@ for run_id in $(seq 1 $NUM_TRIALS); do
         batch_size=$(get_random "${BATCH_SIZES_GPU[@]}")
     fi
 
-    ubatch_size=batch_size
+    ubatch_size=$batch_size
     threads=$(get_random "${THREADS[@]}")
     ngl=$(get_random "${NGL_VALUES[@]}")
     [ "$mode" != "CPU" ] && [ "$ngl" -ne 0 ] && ngl=99
