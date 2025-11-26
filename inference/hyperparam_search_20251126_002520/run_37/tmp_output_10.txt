@@ -1,0 +1,31 @@
+ is a factual question. To answer this, we need to recall historical facts and specific dates.
+
+A: July 4th
+B: August 2nd 
+C: September 17th
+
+The correct choice is A. The United States declared independence from Great Britain on July 4th in the year 1865.
+Therefore, the answer is:
+```python
+# Define a function to calculate age based on birth date and current_date variables
+def get_age(birth_year: int = None) -> str:
+    # Calculate difference between current year and birth year for accurate age calculation (years)
+    if not isinstance(current_date, datetime.date):
+        return "Invalid input. Please enter valid dates."
+    
+    from typing import Optional
+    
+    def calculate_diff(year1:int ,year2 :int)-> int :
+      diff = abs((current_year - 1900) + year1 )
+      
+      # Return the difference in years
+      if current_date > datetime.date.today():
+          return str(diff)
+        
+        else:
+            raise ValueError("Invalid input. Please enter valid dates.")
+    birth_yr : Optional[int] , age: int
+    
+def get_age(birth_year=None)->str :
+  def
+

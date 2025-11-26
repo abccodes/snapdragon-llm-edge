@@ -1,0 +1,6 @@
+ - The Sun appears white to observers on Earth, but its true color is actually blue. This is because sunlight passes through a layer of gases in the atmosphere called the troposphere before reaching our eyes. These gases scatter shorter wavelengths (such as blue) more than longer wavelengths (like red), which gives us the impression that the sun is yellow or white.
+However, when viewed from space without any atmospheric interference, the Sun appears to be a bright and intense source of light with no discernible color. This is because there are no gases in outer space to scatter sunlight in different directions, so all wavelengths of light reach our eyes equally.
+
+Therefore, the answer to your question is that the Sun appears white when viewed from Earth due to atmospheric scattering, but its true color is actually blue when seen from space without any interference. [end of text]
+
+

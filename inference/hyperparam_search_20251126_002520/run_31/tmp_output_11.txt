@@ -1,0 +1,10 @@
+
+
+The Sun appears white or yellowish-white when observed from Earth, but it's actually a complex object with different colors at various wavelengths. When viewed through a telescope in visible light (the part of the electromagnetic spectrum that our eyes can see), the Sun's surface temperature ranges from about 5,400 to 6,100 Kelvin. This range corresponds to an average color temperature of around 6,000 Kelvin.
+
+The white or yellowish-white appearance is due to a combination of light from all parts of the Sun and atmospheric scattering in Earth's atmosphere. The blue part of sunlight is scattered more easily than other colors because it has shorter wavelengths. When we look at the sky on a clear day, this scattering gives us the characteristic blue color.
+
+However, when observed directly from space without any atmospheric interference, the Sun appears much hotter or bluer. This is because our eyes are sensitive to longer wavelength light, and the Sun's surface temperature (5,400-6,100 Kelvin) corresponds to a higher intensity of shorter wavelengths like blue and ultraviolet.
+
+So, in summary, when viewed from space without atmospheric interference, the Sun appears bluer or hotter than it does from Earth.
+

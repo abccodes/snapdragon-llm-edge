@@ -1,0 +1,6 @@
+ That's a question that has been debated for decades, and it's something that people often wonder about when they visit New York City. The answer to this question is quite surprising, and it involves physics.
+The Empire State Building stands at 1250 feet tall, which means that if you were standing on the top of the building and dropped a penny from there, it would take approximately 4 seconds for the penny to reach the ground. During its fall, the penny would experience gravity, which is an acceleration force pulling downward on objects.
+When the penny reaches the ground, it will have gained speed due to the gravitational pull acting upon it during its descent. The exact velocity of the penny when it hits the ground can be calculated using physics equations, but for simplicity's sake, let's assume that the penny has a mass of 2 grams and falls from rest.
+Using these assumptions, we can calculate that the penny will have gained approximately 160 feet per second in speed during its fall. This means that when it hits the ground, the penny would be moving at around 57 miles per hour!
+However, even though the penny is falling at a high velocity, the impact with the ground would not result in any serious
+

@@ -1,0 +1,8 @@
+ This question is often asked to test one's knowledge about physics and safety. While it may seem like an impossible scenario, let me explain what might actually occur.
+
+Firstly, we need to consider how high up in the air the penny would be when released from the Empire State Building (ESB). The ESB stands at a height of 1250 feet or approximately 381 meters. If you were standing on its roof and dropped a penny straight down, it could take anywhere between 4 to 6 seconds for that penny to reach the ground.
+
+During this time, gravity would be pulling on the penny with an acceleration rate of around 9.8 m/s² (meters per second squared). This means that every second, the speed at which the penny falls increases by approximately 10 meters per second until it reaches terminal velocity, where its downward motion is slowed down due to air resistance.
+
+Assuming no wind or other external factors interfere with this scenario and ignoring any potential damage from impact, a dropped penny would likely reach speeds of around 25-30 m/s (or about 68 mph) before hitting the ground. At these velocities, it could potentially cause injury if someone were standing directly
+

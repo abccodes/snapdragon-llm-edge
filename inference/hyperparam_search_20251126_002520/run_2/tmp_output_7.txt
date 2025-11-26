@@ -1,0 +1,23 @@
+ asks an online forum. The question is based on the popular urban legend that pennies have been known to survive falls from great heights.
+
+To answer this, we need to calculate how much energy a falling object has and whether it could cause damage upon impact.
+The formula for calculating potential energy (PE) of an object at rest due to its height above ground level is:
+ PE = mgh
+where,
+m= mass of the penny in kilograms 
+g = acceleration due to gravity, 9.81 meters per second squared  
+h = distance from which it falls
+
+For a standard US quarter weighing approximately 5 grams (0.02 kg), and falling from the top floor of an Empire State Building (approximately 367 feet or about 112 m high):
+
+PE= (mgh) 
+(0.02kg)(9.81m/s^2)*(112 meters)
+ PE = approximately 4,534 Joules
+
+The kinetic energy (KE) of the penny upon impact can be calculated using:
+ KE=(mv)^2/2
+where,
+v= velocity at which it hits ground 
+
+To find out how fast a falling object is moving when hitting the surface, we
+

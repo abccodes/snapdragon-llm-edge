@@ -1,0 +1,11 @@
+ A question asked by a curious young boy. To answer this, we'll need to calculate the kinetic energy of the penny when it hits the ground. The height of the Empire State Building is 1,250 feet.
+To calculate the kinetic energy, we'll need to use the formula:
+KE = 1/2 * m * v^2
+where KE is kinetic energy, m is mass, and v is velocity.
+The mass of a penny is 2.5 grams, or 0.0025 kg. The velocity of the penny when it hits the ground is the same as the velocity at which it falls, which is about 98 m/s.
+Plugging these values into the formula, we get:
+KE = 1/2 * 0.0025 kg * (98 m/s)^2
+KE = 1.18 Joules
+Therefore, the kinetic energy of the penny when it hits the ground is approximately 1.18 Joules. This is enough energy to cause significant injury, but not necessarily fatal, depending on the angle and surface of impact. [end of text]
+
+

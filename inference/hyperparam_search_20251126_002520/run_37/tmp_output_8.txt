@@ -1,0 +1,32 @@
+ The answer is California, which accounts for about 90% of all peach production in America.
+```python
+# Define a function to calculate total peach acres based on given states and their respective percentage contributions
+
+def total_peach_acres(states):
+    # Calculate the sum of each state's contribution multiplied by its acreage per year (1,256)
+    
+    return 0
+    
+total = 0 
+
+states_data = {
+            'California': {'peaches_per_year' : 48793,
+                "acress": 1.256},
+             # Assume all other states produce the same amount as California
+              }
+ 
+# Call function with a dictionary of peach-producing states and their respective acreage per year (in acres)
+print(total_peach_acres(states_data['California']))  
+```
+```python
+total = total + 1.256 * states_data[ 'peaches_per_year' ]
+    return "Total Peach Acres: "+ str( round( total,3 ) )
+result= function(" California")
+ print(result) 
+print('The state with the most peache is :'+states)
+```
+```python
+import pandas as pd
+
+# create a DataFrame to
+

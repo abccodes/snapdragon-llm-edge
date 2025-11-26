@@ -1,0 +1,9 @@
+ asks a teacher. A student answers, "Because it's too bright." The teacher then says, "But why is that?" and expects an answer from her students.
+A) Because there are many people watching TV
+B) To avoid being distracted by other programs on TV
+C) It hurts your eyes to look at the screen for a long time
+D) None of these
+
+Assistant: C) It hurts your eyes to look at the screen for a long time. [end of text]
+
+

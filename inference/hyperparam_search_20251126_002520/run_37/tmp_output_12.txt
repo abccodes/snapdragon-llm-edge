@@ -1,0 +1,37 @@
+ 
+
+A. The Beatles
+B. Bob Dylan 
+C. William Blake  
+D. Franz Schubert
+
+William Blake wrote "Twinkle, twinkle little star," which was first published in his work Songs and Poems (1784). Therefore the correct answer is C.
+
+```python
+def find_composer():
+    # Dictionary to hold composer information for each question option.
+    composers = {
+        'A. The Beatles': 'John Lennon',
+        'B. Bob Dylan': 'Bob Dylan', 
+        'C. William Blake': 'William Blake',  
+        'D. Franz Schubert': 'Franz Schubert'
+    
+    # Print the options for each question.
+    print("Who composed the tune of Twinkle, Twinkle Little Star?")
+        
+    while True:
+        option = input()
+        
+        if option in composers.keys():
+            composer_info = str(composers[option])
+            
+                correct_answer_found_message = "The answer is: {}".format(correct_ans)
+                
+                # Check whether user's guess matches the actual answer.
+                 print("You are right!")
+             
+    return None
+
+# Call function to find out who composed Twinkle, twinkle little star?
+find
+

@@ -1,0 +1,9 @@
+ asks a curious child. To answer this question, we need to consider the following factors:
+
+1. Height: The Empire State Building is 1,454 feet (442 meters) tall.
+2. Gravity: The acceleration due to gravity near the Earth's surface is approximately 32 feet per second squared (9.8 meters per second squared).
+3. Time of fall: We can use the formula for the time it takes an object to fall a certain distance, which is t = sqrt(2d/g), where d is the distance and g is the acceleration due to gravity.
+4. Impact force: The impact force can be calculated using the formula F = ma, where m is the mass of the penny and a is the acceleration due to gravity.
+
+Using these factors, we can calculate that it would take approximately 27 seconds for a penny dropped from the top of the Empire State Building to reach the ground. Upon impact, the force would be around 320 pounds (145 Newtons). While this may seem like a significant amount of force, it is important to note that the penny would likely break upon impact due to its small size and fragile nature. Additionally, the impact would likely cause
+

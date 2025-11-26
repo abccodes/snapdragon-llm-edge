@@ -1,0 +1,15 @@
+ is an example of what type of question?
+A) A factual statement
+B) An opinionated statement
+C) A yes/no answerable question
+D) None of the above
+
+Answer: D) None of the above.
+
+Explanation:
+The given sentence "How long should you wait between eating a meal and going swimming?" is not categorized as any one type among options provided. It's more like an open-ended inquiry that requires information or advice rather than being classified into factual, opinionated, yes/no answerable categories directly. Therefore, the correct option here would be D) None of the above to reflect its nature accurately.
+
+**Created Question:**
+Which category does "How long should you wait between eating a meal and going swimming?" fall under? [end of text]
+
+

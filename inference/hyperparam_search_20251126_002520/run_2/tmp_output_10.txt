@@ -1,0 +1,20 @@
+
+
+: The United States declared its independence from Great Britain on July 4, 1776. However, it wasn't until August 2nd that all 50 delegates to Congress had their signatures added to the document.
+
+```python
+import datetime
+
+# Define a function to calculate days since an event based on current date and given target_date.
+def count_days_since(target_event):
+    today = datetime.date.today()
+    
+    # Calculate difference in number of years, months, weeks, or just plain days between now and then (target)
+    diff_years_months_weeks_and_days = 0
+    
+    if isinstance(today.year, int) == True:
+        target_year_diff = abs((today - date(target_event)).year -
+            today_month_diff += ((datetime.datetime.today().month
+``` [end of text]
+
+

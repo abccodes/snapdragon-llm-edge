@@ -53,13 +53,13 @@ SYSTEM_PROMPTS=(
 TEMPS=(0.3 0.7 0.8)
 
 # Penalizes tokens that were recently generated to avoid repetition
-REPEAT_PENALTIES=(1.0 1.1 1.25)
+REPEAT_PENALTIES=(1.0 1.1 1.25 1.5)
 
 # Only sample from top tokens whose cumulative probability >= p
-TOP_PS=(0.85 0.9 0.95)
+TOP_PS=(0.7 0.85 0.9 0.95)
 
 # Only sample from the top K most likely tokens
-TOP_KS=(40 60 80)
+TOP_KS=(20 40 60 80)
 
 # Context and batch sizes
 CTX_SIZES=(512 1024 2048 4096)

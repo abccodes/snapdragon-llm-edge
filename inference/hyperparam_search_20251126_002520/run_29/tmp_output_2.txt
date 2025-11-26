@@ -1,0 +1,6 @@
+ is a question that many people have asked. The answer to this question lies in the way light interacts with blood and how our eyes perceive it.
+Veins are typically visible on skin because they contain deoxygenated red blood cells, which absorb most of the wavelengths of white light except for green and some near-infrared (NIR) radiation. When sunlight passes through the air or other mediums such as water, blue-green light is scattered more than longer wavelength colors like yellow-orange-red.
+As a result, when we look at veins on skin, they appear to be dark because most of the red blood cells are absorbing all wavelengths except for green and NIR which pass through our eyes. The remaining reflected color appears blue due to how human eye perceives it.
+In summary, Veins appear blue because light is scattered more by shorter wavelength colors like blue-green than longer ones such as yellow-orange-red when passing through air or other mediums. This causes most of the red blood cells in veins to absorb all wavelengths except for green and NIR which pass through our eyes, leaving behind a reflected color that appears blue due to how human eye perceives it.
+It's worth noting that this explanation applies primarily to visible light (400-750 nm
+

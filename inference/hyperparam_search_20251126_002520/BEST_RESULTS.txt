@@ -1,0 +1,41 @@
+================================================================================
+HYPERPARAMETER SEARCH V2 - BEST RESULTS
+Updated: 2025-11-26 10:01:55
+================================================================================
+
+Total: 41 | Valid: 38 | Failed: 3
+
+STATISTICS
+================================================================================
+BLEURT: -1.0023 - -0.5280 (avg: -0.8193)
+Accuracy: 0.400 - 0.680 (avg: 0.549)
+Prefill Speed: 14.81 - 38.08 tok/s (avg: 23.81)
+Decode Speed: 9.88 - 22.04 tok/s (avg: 15.63)
+Total Speed: 10.32 - 23.10 tok/s (avg: 16.41)
+
+🏆 BEST BY BLEURT SCORE
+================================================================================
+Run: 22 | BLEURT: -0.5280 | Accuracy: 0.625
+Model: qwen2-7b-tinytron-Q4_K_M.gguf | Mode: CPU
+Temp: 0.3 | Top-p: 0.95 | Top-k: 60
+Repeat Penalty: 1.1
+Context: 512 | Keep: 4 | Batch: 64 | UBatch: 64
+Threads: 8 | Flash Attn: on | KV: f16/f16
+Context Shift: 1 | Poll: 50 | MMap: 0
+System Prompt: 'nan'
+Prefill: 34.53 tok/s | Decode: 21.69 tok/s | Total: 22.75 tok/s
+
+🎯 BEST BY ACCURACY (correct > incorrect)
+================================================================================
+Run: 12 | Accuracy: 0.680 | BLEURT: -0.8781
+Model: Llama-3.2-3B-Instruct-Q4_K_M.gguf | Temp: 0.3
+Context: 2048 | Batch: 64
+System Prompt: 'nan'
+
+⚠️  FAILED RUNS
+================================================================================
+Run 39: LFM2-8B-A1B-Q4_K_M.gguf | Accuracy = 0.0
+Run 40: Llama-3.2-3B-Instruct-Q4_K_M.gguf | Accuracy = 0.0
+Run 41: LFM2-8B-A1B-Q4_K_M.gguf | Accuracy = 0.0
+
+Full results: /Users/aidanbayer-calvert/DocumentsNotICloud/cs259/snapdragon-llm-edge/inference/hyperparam_search_20251126_002520/results.csv

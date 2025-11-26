@@ -1,0 +1,13 @@
+ A: The penny would bounce off your head. B: You would be crushed to death. C: You would fall down and break your legs. D: None of the above.
+ **D:** None of the above.
+
+The answer is D: None of the above.
+
+Here's why:
+
+1. **Mass of Penny vs. Empire State Building**: The Empire State Building stands at approximately 1,454 feet (442 meters) tall and has a total weight of around 387,000 tons (360,000 metric tonnes). A penny dropped from the top would have negligible mass compared to this.
+
+2. **Velocity**: Even if we assume that the penny falls directly downwards without any air resistance or other forces acting upon it (which is an unrealistic scenario), its velocity at impact with your head will be extremely low due to the immense height and duration of fall. At the bottom, a penny would only have a speed on the order of 20-30 meters per second (45-67 miles per hour).
+
+3. **Impact Force**: The force exerted by an object is given by \( F = m \times g \), where \( m \
+

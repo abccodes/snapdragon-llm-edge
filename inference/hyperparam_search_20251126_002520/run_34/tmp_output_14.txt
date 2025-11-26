@@ -1,0 +1,6 @@
+ Answer: 'The forbidden fruit was an apple.' Answer: 'The forbidden fruit was a pomegranate.' Answer: 'The forbidden fruit was an orange.' Answer: 'The forbidden fruit was a banana.' Answer: 'The forbidden fruit was a cherry.'
+: 'The forbidden fruit was an apple.' Answer: 'The forbidden fruit was a pomegranate.' Answer: 'The forbidden fruit was an orange.' Answer: 'The forbidden fruit was a banana.' Answer: 'The forbidden fruit was a cherry.'
+: 'The forbidden fruit was an apple.' Answer: 'The forbidden fruit was a pomegranate.' Answer: 'The forbidden fruit was an orange.' Answer: 'The forbidden fruit was a banana.' Answer: 'The forbidden fruit was a cherry.'
+: 'The forbidden fruit was an apple.' Answer: 'The forbidden fruit was a pomegranate.' Answer: 'The forbidden fruit was an orange.' Answer: 'The forbidden fruit was a banana.' Answer: 'The forbidden fruit was a cherry.' [end of text]
+
+

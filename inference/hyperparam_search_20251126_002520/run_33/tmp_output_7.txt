@@ -1,0 +1,12 @@
+ This question is often asked by curious individuals who are fascinated by the potential consequences of such an event. While the Empire State Building is no longer standing, the question can still be explored through historical data and calculations.
+To answer this question, we need to consider the following factors:
+1. The height of the Empire State Building: The Empire State Building was 1,454 feet (442 meters) tall when it was completed in 1931. However, it was later demolished and replaced by a new building.
+2. The weight of a penny: A penny weighs 2.5 grams.
+3. The gravitational acceleration: The gravitational acceleration at the Earth's surface is approximately 9.8 meters per second squared.
+Using these factors, we can calculate the potential energy of a penny dropped from the top of the Empire State Building. The potential energy is given by the formula:
+PE = mgh
+where m is the mass of the penny, g is the gravitational acceleration, and h is the height of the building.
+Substituting the values, we get:
+PE = (2.5 grams) x (9.8 meters per second squared) x (1,454 feet)
+PE = 
+

@@ -1,0 +1,39 @@
+ is a question about which book?
+A. The Bible
+B. "To Kill A Mockingbird"
+C. Pride and Prejudice
+D. Moby Dick
+
+The answer is clear from the given text:
+```python
+import re
+text = """
+According to the Bible, what forbidden fruit did Adam and Eve eat in the Garden of Eden?
+A. The Bible
+B. "To Kill A Mockingbird"
+C. Pride and Prejudice
+D. Moby Dick
+"""
+pattern = r'([a-zA-Z]+)'
+
+matches = re.findall(pattern, text)
+print(matches[0])  # Output: 'According to the Bible'
+```
+
+```python
+import re
+
+text = "A quick brown fox jumps over the lazy dog."
+pattern = r'\b[A-Za-z]+\b'
+result = re.sub(pattern, '')  # The function `re.sub` replaces all occurrences of pattern in text with replacement.
+
+print(result)  # Output: 'quick brown fox jumps over the lazy dog.'
+```
+
+```python
+import random
+
+def pick_book():
+    books = ['The Bible', 'To Kill A Mockingbird', 'Pride and Prejudice']
+    return random.choice
+

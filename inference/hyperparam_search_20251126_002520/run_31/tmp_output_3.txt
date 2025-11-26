@@ -1,0 +1,11 @@
+ I asked. The was no definitive answer, but some people suggested it might be near the seeds.
+To test this hypothesis, we can compare the heat levels of different parts of a chili pepper. We can use the Scoville scale to measure the heat level of each part and see if there is any correlation between the location of the hottest part and its proximity to the seeds.
+
+We start by selecting several chili peppers from various species and cultivars. Then, we carefully cut them open and remove all the flesh except for a small sample taken near the seeds. We repeat this process for different parts of each pepper, such as the stem, leaves, and flowers.
+
+Once we have collected our samples, we use the Scoville scale to measure their heat levels. The scale is based on subjective ratings by taste testers who rate how hot each sample feels compared to a reference solution of water and sugar. We repeat this process for several different samples from each part of the pepper.
+
+Finally, we compare the results and look for any correlations between the location of the hottest part and its proximity to the seeds. If our hypothesis is correct, we should find that the hottest parts are located near the seeds.
+
+In conclusion, by comparing the heat levels of different parts
+

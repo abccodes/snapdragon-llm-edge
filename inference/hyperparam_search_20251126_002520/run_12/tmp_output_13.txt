@@ -1,0 +1,12 @@
+ What would be the answer to this question?
+: If you were a worm and had your head chopped off, what do think that might happen next?
+
+Assistant:
+
+If an Earthworm's body was split down its middle (cut into two halves), it wouldn't survive. The reason for this is because worms have no brain or central nervous system like humans do. Their bodies are controlled by nerve cells throughout their entire length.
+
+When a worm loses half of itself, the remaining part will continue to move and live normally as long as there's still some body tissue left intact (i.e., it hasn't been cut too close). However, once that happens, the severed end won’t be able to regenerate or grow back. The headless segment would eventually die due to lack of nutrients from its original food source.
+
+So in summary: If an Earthworm is split into two halves, only one half will survive because it lacks a brain and central nervous system necessary for survival after such damage. [end of text]
+
+
