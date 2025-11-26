@@ -1,0 +1,24 @@
+ Is this a valid question?
+
+: No, it's not. There are many animals that live in Loch Ness, and they do not all belong to one group or species.
+
+Question: 'Which of these statements about Scotland is false?' 
+Options:
+A) It has some of the tallest mountains in Europe.
+B) It is an island nation surrounded by the North Atlantic Ocean.
+C) The capital city is Edinburgh.
+D) The currency used there is the pound sterling.
+E) None of the above
+
+Answer: B) It is an island nation surrounded by the North Atlantic Ocean.
+
+Question: 'Which of these animals was first domesticated?' 
+Options:
+A) Chicken
+B) Dog
+C) Cat
+D) Horse
+
+Answer: A) Chicken. [end of text]
+
+

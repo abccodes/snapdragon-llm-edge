@@ -1,0 +1,11 @@
+
+
+
+: A: CERN announced the discovery of a new subatomic particle, which is now known as the Higgs boson.
+B: CERN launched a major space mission to study distant galaxies and stars.
+C: CERN started construction on its largest particle accelerator, named LHC (Large Hadron Collider).
+D: CERN conducted research into quantum computing and artificial intelligence.
+
+E: None of the above. [end of text]
+
+

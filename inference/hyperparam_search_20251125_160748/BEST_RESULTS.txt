@@ -1,0 +1,43 @@
+================================================================================
+HYPERPARAMETER SEARCH V2 - BEST RESULTS
+Updated: 2025-11-25 17:12:28
+================================================================================
+
+Total: 6 | Valid: 1 | Failed: 5
+
+STATISTICS
+================================================================================
+BLEURT: -0.8283 - -0.8283 (avg: -0.8283)
+Accuracy: 0.560 - 0.560 (avg: 0.560)
+Prefill Speed: 29.76 - 29.76 tok/s (avg: 29.76)
+Decode Speed: 19.74 - 19.74 tok/s (avg: 19.74)
+Total Speed: 20.41 - 20.41 tok/s (avg: 20.41)
+
+🏆 BEST BY BLEURT SCORE
+================================================================================
+Run: 2 | BLEURT: -0.8283 | Accuracy: 0.560
+Model: microsoft_Phi-4-mini-instruct-Q4_K_M.gguf | Mode: CPU
+Temp: 0.5 | Top-p: 0.9 | Top-k: 60
+Repeat Penalty: 1.1
+Context: 4096 | Keep: 4 | Batch: 128 | UBatch: 256
+Threads: 8 | Flash Attn: on | KV: f16/f16
+Context Shift: 1 | Poll: 100 | MMap: 0
+System Prompt: 'nan'
+Prefill: 29.76 tok/s | Decode: 19.74 tok/s | Total: 20.41 tok/s
+
+🎯 BEST BY ACCURACY (correct > incorrect)
+================================================================================
+Run: 2 | Accuracy: 0.560 | BLEURT: -0.8283
+Model: microsoft_Phi-4-mini-instruct-Q4_K_M.gguf | Temp: 0.5
+Context: 4096 | Batch: 128
+System Prompt: 'nan'
+
+⚠️  FAILED RUNS
+================================================================================
+Run 1: LFM2-8B-A1B-Q4_K_M.gguf | Accuracy = 0.0
+Run 3: qwen2-7b-tinytron-Q4_K_M.gguf | Accuracy = 0.0
+Run 4: minicpm-3b-openhermes-2.5-v2.Q4_K_M.gguf | Accuracy = 0.0
+Run 5: qwen2-7b-tinytron-Q4_K_M.gguf | Accuracy = 0.0
+Run 6: LFM2-8B-A1B-Q4_K_M.gguf | Accuracy = 0.0
+
+Full results: /Users/aidanbayer-calvert/DocumentsNotICloud/cs259/snapdragon-llm-edge/inference/hyperparam_search_20251125_160748/results.csv

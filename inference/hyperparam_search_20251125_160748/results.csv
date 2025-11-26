@@ -1,0 +1,7 @@
+run_id,model,mode,temperature,repeat_penalty,top_p,top_k,ctx_size,keep,batch_size,ubatch_size,threads,ngl,ctk,ctv,flash_attn,context_shift,poll_level,use_mmap,split_mode,system_prompt,bleurt_score,accuracy,avg_prefill_speed,avg_decode_speed,avg_total_speed,runtime_seconds
+1,LFM2-8B-A1B-Q4_K_M.gguf,CPU,0.5,1.0,0.85,80,8192,4,128,1024,6,0,f16,q8_0,off,1,50,1,none,"",0.0,0.0,0.00,0.00,0.00,526
+2,microsoft_Phi-4-mini-instruct-Q4_K_M.gguf,CPU,0.5,1.1,0.9,60,4096,4,128,256,8,0,f16,f16,on,1,100,0,none,"",-0.8283053296804428,0.56,29.76,19.74,20.41,1494
+3,qwen2-7b-tinytron-Q4_K_M.gguf,CPU,0.5,1.25,0.95,60,4096,4,64,512,6,0,q8_0,q8_0,off,1,100,1,none,"",0.0,0.0,0.00,0.00,0.00,476
+4,minicpm-3b-openhermes-2.5-v2.Q4_K_M.gguf,CPU,0.5,1.1,0.85,40,2048,4,256,256,6,0,q8_0,q8_0,off,1,100,1,none,"",0.0,0.0,0.00,0.00,0.00,458
+5,qwen2-7b-tinytron-Q4_K_M.gguf,CPU,0.5,1.25,0.9,60,4096,4,128,512,6,0,f16,q8_0,off,1,100,1,none,"",0.0,0.0,0.00,0.00,0.00,458
+6,LFM2-8B-A1B-Q4_K_M.gguf,CPU,0.3,1.0,0.95,40,8192,4,64,1024,6,0,q8_0,q8_0,off,1,0,1,none,"",0.0,0.0,0.00,0.00,0.00,461

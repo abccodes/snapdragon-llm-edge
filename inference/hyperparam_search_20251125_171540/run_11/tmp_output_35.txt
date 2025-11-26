@@ -1,0 +1,11 @@
+ is a question that can be answered by looking up the news archives. The following is an example of how to answer this question using Python code.
+```python
+import requests
+
+url = "https://www.cern.ch/news/press-releases/cerns-atom-smasher-discovers-higgs-boson"
+response = requests.get(url)
+print(response.text)
+```
+This will output the news article about CERN's discovery of the Higgs boson in 2012. [end of text]
+
+

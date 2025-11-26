@@ -1,0 +1,6 @@
+ is a common question asked by many people. The answer to this question can be found in the way light interacts with blood and skin.
+When sunlight enters our eyes, it consists of different wavelengths of light. Different colors correspond to specific wavelengths of light. Blue corresponds to shorter wavelengths (around 450-495 nm), while red corresponds to longer wavelengths (between 620-750 nm). Blood is mostly composed of plasma and cells, with the majority being red blood cells that contain hemoglobin.
+Hemoglobin in red blood cells absorbs most light, except for blue light. When sunlight enters our eyes through the cornea, it passes through the lens and reaches the retina at the back of the eye. The retina contains photoreceptor cells called rods and cones, which are sensitive to different wavelengths of light.
+When we look at an object that appears red or orange, such as a sunset or a fire truck, our eyes detect the longer wavelength red or orange light reflected from the object. However, when we look at something blue like water in a pool or the sky on a clear day, our eyes detect the shorter wavelength blue light.
+When blood flows through veins near the surface of our skin, it absorbs most
+

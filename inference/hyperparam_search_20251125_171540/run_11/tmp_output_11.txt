@@ -1,0 +1,4 @@
+ What's the answer?
+ The Sun appears white to observers on Earth, but it emits light across a spectrum of colors. From space, the Sun would appear white because it reflects all wavelengths of visible light equally. However, if you were able to observe the Sun through a filter that only allowed certain wavelengths of light to pass, it might appear differently depending on what those wavelengths are. For example, if you used a filter that only allowed blue and green light to pass, the Sun would appear yellow because these colors have higher energy than red or orange light. Similarly, if you used a filter that only allowed infrared light to pass, the Sun would appear black because it absorbs most of this type of radiation. Overall, though, from space the Sun appears white due to its ability to reflect all wavelengths of visible light equally. [end of text]
+
+

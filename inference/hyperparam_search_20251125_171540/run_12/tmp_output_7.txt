@@ -1,0 +1,11 @@
+
+
+
+: A. You'd be hit by an object that is 635 feet high and weighing about a pound.
+B. You'd bounce off without being injured because a penny doesn't have enough force to cause harm.
+C. It would hurt, but not as much as you might expect due to the air resistance on the way down.
+D. It's impossible for someone to get hit by a penny dropped from that height.
+
+Assistant: C. It would hurt, but not as much as you might expect due to the air resistance on the way down. [end of text]
+
+

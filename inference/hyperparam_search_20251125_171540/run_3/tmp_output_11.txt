@@ -1,0 +1,9 @@
+ Is this a question that can be answered with certainty?
+: The answer to "What color is the sun when viewed from space?" is white. However, it's important to note that what we perceive as white light is actually a combination of all visible wavelengths of light.
+
+To determine the actual color of the Sun in terms of its spectrum, we need to consider its temperature and other properties. The Sun has an effective surface temperature of about 5700 Kelvin (K). This high temperature causes it to emit radiation across a wide range of frequencies, including both shorter wavelengths that correspond to blue light and longer wavelengths that correspond to red light.
+
+When the Sun is viewed from space or through clear Earth skies, we perceive its overall color as white because our eyes are sensitive to all visible colors. The white appearance comes from a combination of the different wavelengths emitted by the Sun, which we interpret as white when they reach our retinas.
+
+However, if you were to take an image of the Sun using specialized equipment that can capture individual wavelength bands or use spectroscopy to analyze its spectrum, you would see that it has characteristics typical of a blackbody radiator with a peak wavelength around 502.7 nanometers (nm), which corresponds to
+

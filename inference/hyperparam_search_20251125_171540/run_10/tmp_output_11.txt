@@ -1,0 +1,3 @@
+ is a question that can be answered by a simple observation. The sun appears yellow when viewed from space. This is because the sun's light is a combination of all colors of the visible spectrum, and when it passes through the Earth's atmosphere, the blue and green wavelengths are scattered more easily, leaving the yellow and orange wavelengths to dominate our perception of the sun's color. This phenomenon is known as Rayleigh scattering. The sun's color can also vary depending on the time of day and the season, but it is generally yellow when viewed from space. [end of text]
+
+

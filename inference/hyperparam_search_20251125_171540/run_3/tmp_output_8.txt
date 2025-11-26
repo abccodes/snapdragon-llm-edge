@@ -1,0 +1,20 @@
+ The answer is California.
+To solve this problem, we can use Python's built-in function `max()` to find the maximum value in a list of values representing the peach production by states.
+
+Here's an example code that uses `max()` and the dictionary provided:
+
+```python
+peach_production = {'California': 2000,
+                'Georgia': 1500, 
+                'Delaware': 800,
+            }
+
+state_with_max_peaches = max(peach_production, key=peach_production.get)
+print(state_with_max_peaches) # Output: California
+```
+
+In this code, we define a dictionary `peach_production` with keys as the states and values representing their peach production. We then use the built-in function `max()` to find the state with the maximum value using the `key=peach_production.get` argument which tells Python that it should look up each key in the dictionary to retrieve its corresponding value.
+
+Finally, we print out the result, which is 'California'. [end of text]
+
+

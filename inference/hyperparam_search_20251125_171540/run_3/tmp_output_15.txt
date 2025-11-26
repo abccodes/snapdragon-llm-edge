@@ -1,0 +1,36 @@
+
+
+
+: 
+```json
+{
+  "id": "Q01845092",
+  "question_id": "Q1367131601",
+  "parent_question_ids": [],
+  "tags": ["science", "food"],
+  "answers_count": 1,
+  "answer_id": "A13671316085149820",
+  "question_type": "closed"
+}
+```
+
+: 
+```json
+{
+  "id": "Q1367131608",
+  "question_id": "Q01845092",
+  "parent_question_ids": [],
+  "tags": ["science", "food"],
+  "answers_count": 0,
+  "answer_id": null
+}
+```
+
+: 
+```json
+{
+  "id": "A07365020"
+  }
+``` [end of text]
+
+

@@ -50,7 +50,7 @@ SYSTEM_PROMPTS=(
 
 # Sampling parameters
 # Controls randomness of token selection
-TEMPS=(0.3 0.5 0.7 0.9)
+TEMPS=(0.3 0.7 0.8)
 
 # Penalizes tokens that were recently generated to avoid repetition
 REPEAT_PENALTIES=(1.0 1.1 1.25)
@@ -62,18 +62,19 @@ TOP_PS=(0.85 0.9 0.95)
 TOP_KS=(40 60 80)
 
 # Context and batch sizes
-CTX_SIZES=(2048 4096 8192)
+CTX_SIZES=(512 1024 2048 4096)
 
 # LOGICAL maximum batch size - how many tokens to process together
-BATCH_SIZES_CPU=(64 128 256 512)
+BATCH_SIZES_CPU=(64 128 256 512 1024)
 BATCH_SIZES_NPU=(256 512 1024)
 BATCH_SIZES_GPU=(512 1024 2048)
 
+# For now using same UBatch size as batch size
 # PHYSICAL maximum batch size - actual chunk size sent to hardware
-UBATCH_SIZES=(256 512 1024)
+# UBATCH_SIZES=(32 64 256 512 1024)
 
 # Hardware settings
-THREADS=(6 8)
+THREADS=(2 4 6 8)
 
 # Offload layers (0 = CPU only)
 NGL_VALUES=(0)
@@ -389,7 +390,7 @@ TOP_K = $top_k
 CTX_SIZE = $ctx_size
 KEEP = $keep
 BATCH_SIZE = $batch_size
-UBATCH_SIZE = $ubatch_size
+UBATCH_SIZE = $batch_size
 THREADS = $threads
 NGL = $ngl
 CTK = "$ctk"
@@ -407,7 +408,7 @@ PYPYTHON
 
 # Load dataset - exactly like truthful_qa_eval.py
 ds = load_dataset("truthfulqa/truthful_qa", "generation", split="validation")
-ds = ds.select(range(50))
+ds = ds.select(range(25))
 n = len(ds)
 print(f"Loaded {n} test samples for Truthful QA")
 
@@ -443,12 +444,12 @@ for i, rec in enumerate(ds):
     # Add the rest of arguments
     cmd.extend([
         "-p", f"\"\'{question} \'\"",
-        "-n", "250",  # INCREASED from 25 to 250
+        "-n", "250",
         # Pass extra args to override defaults
         "-t", str(THREADS),
         "-c", str(CTX_SIZE),
         "-b", str(BATCH_SIZE),
-        "-ub", str(UBATCH_SIZE),
+        "-ub", str(BATCH_SIZE),
         "-ctk", CTK,
         "-ctv", CTV,
         "--temp", str(TEMP),
@@ -520,7 +521,7 @@ PYPYTHON
 
     chmod +x "$run_dir/run_eval.py"
 
-    echo "Running TruthfulQA test (50 samples)..." | tee -a "$LOG_FILE"
+    echo "Running TruthfulQA test (25 samples)..." | tee -a "$LOG_FILE"
     local start_time=$(date +%s)
 
     # Run the Python evaluation script and save output
@@ -578,17 +579,17 @@ for run_id in $(seq 1 $NUM_TRIALS); do
     top_p=$(get_random "${TOP_PS[@]}")
     top_k=$(get_random "${TOP_KS[@]}")
     ctx_size=$(get_random "${CTX_SIZES[@]}")
-    ubatch_size=$(get_random "${UBATCH_SIZES[@]}")
     keep=$(get_random "${KEEP_VALUES[@]}")
 
     if [ "$mode" = "CPU" ]; then
-        batch_size=$(get_random "${BATCH_SIZES_CPU[@]}")
+        batch_size=$(get_random "${BATCH_SIZES_CPU[@]}")  
     elif [ "$mode" = "NPU" ]; then
         batch_size=$(get_random "${BATCH_SIZES_NPU[@]}")
     else
         batch_size=$(get_random "${BATCH_SIZES_GPU[@]}")
     fi
 
+    ubatch_size=batch_size
     threads=$(get_random "${THREADS[@]}")
     ngl=$(get_random "${NGL_VALUES[@]}")
     [ "$mode" != "CPU" ] && [ "$ngl" -ne 0 ] && ngl=99

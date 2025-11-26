@@ -1,0 +1,13 @@
+ asked an intrigued young boy. To answer this question, we need to know how far it falls and what speed it reaches before striking the ground.
+Assuming that a penny is dropped from the exact height of 1023 feet (which is the approximate height of the Empire State Building), we can use the formula for falling objects:
+d = (gt)^2 / 2
+where d represents the distance fallen, g represents gravity (acceleration due to gravity), and t represents time.
+Substituting in our values, we get:
+d = ((32.1 ft/s)^2) * (0.5 * 60480 feet/hour)
+This gives us a total of approximately 973 miles or 1,564 kilometers fallen from the Empire State Building.
+Next, we need to determine how fast it would be moving before striking the ground. We can use the following formula:
+v = (2gt) / √(8 * g)
+where v represents velocity, t represents time, and g represents gravity (acceleration due to gravity).
+Substituting in our values, we get:
+v = (2*32.1 ft/s)^/√(8 *
+

@@ -1,0 +1,16 @@
+ Answer: She says "Toto, we're home." What is the type of logical reasoning used in this question? This question employs deductive reasoning. Deductive reasoning starts with a general statement or hypothesis and applies it to specific situations to reach a conclusion. In this case, the conclusion drawn from the given information is that Dorothy speaks these words upon reaching Oz.
+
+The core elements of deductive reasoning involved are:
+- The premises: General knowledge or facts about Dorothy (who she is) and her journey.
+- The form of argument: Connecting these premises to reach an inference about what Dorothy says.
+- The conclusion: What follows from the application of the general principles to a specific instance.
+
+The logical steps can be summarized as follows:
+
+1. Dorothy is known for having companionship with Toto during her journey.
+2. She reaches Oz, which implies that she has successfully completed her quest or arrived at her destination.
+3. Upon reaching this new place (Oz), it's reasonable to assume that Dorothy might express happiness and relief.
+4. Given these assumptions, the most likely conclusion is "Toto, we're home."
+
+Deductive reasoning ensures the logical consistency of its conclusion by applying universally true premises to specific cases, resulting in a
+

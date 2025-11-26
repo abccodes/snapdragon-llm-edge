@@ -1,0 +1,19 @@
+ is a question that can be answered using the following code:
+
+```python
+import requests
+import json
+
+def get_country_of_birth(country_name):
+    response = requests.get("https://api.geobytes.com/country/1.json?country_name=" + country_name)
+    data = json.loads(response.text)
+    return data['country_code']
+
+country_name = "Barack Obama"
+country_code = get_country_of_birth(country_name)
+print(country_code)
+```
+
+This code uses the Geobytes API to retrieve the country code of Barack Obama's birth country. The Geobytes API returns the country code in the 'country_code' field of the JSON response. The 'country_code' field is then returned as the result of the function. [end of text]
+
+

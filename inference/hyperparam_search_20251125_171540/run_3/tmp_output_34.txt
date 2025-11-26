@@ -1,0 +1,4 @@
+ and 'What can you see on a visit to Loch Ness?' are two different types of questions, what are they?
+: These are fact-based questions. [end of text]
+
+

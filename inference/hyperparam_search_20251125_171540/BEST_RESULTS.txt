@@ -1,0 +1,35 @@
+================================================================================
+HYPERPARAMETER SEARCH V2 - BEST RESULTS
+Updated: 2025-11-25 22:47:30
+================================================================================
+
+Total: 12 | Valid: 12 | Failed: 0
+
+STATISTICS
+================================================================================
+BLEURT: -0.9774 - -0.7323 (avg: -0.8341)
+Accuracy: 0.460 - 0.620 (avg: 0.538)
+Prefill Speed: 24.00 - 33.35 tok/s (avg: 29.49)
+Decode Speed: 15.33 - 21.20 tok/s (avg: 19.33)
+Total Speed: 16.06 - 22.01 tok/s (avg: 20.09)
+
+🏆 BEST BY BLEURT SCORE
+================================================================================
+Run: 5 | BLEURT: -0.7323 | Accuracy: 0.460
+Model: DeepSeek-R1-Distill-Qwen-1.5B-Q4_K_M.gguf | Mode: CPU
+Temp: 0.3 | Top-p: 0.85 | Top-k: 40
+Repeat Penalty: 1.1
+Context: 2048 | Keep: 4 | Batch: 64 | UBatch: 256
+Threads: 6 | Flash Attn: off | KV: f16/f16
+Context Shift: 1 | Poll: 50 | MMap: 1
+System Prompt: 'nan'
+Prefill: 27.53 tok/s | Decode: 18.52 tok/s | Total: 19.22 tok/s
+
+🎯 BEST BY ACCURACY (correct > incorrect)
+================================================================================
+Run: 3 | Accuracy: 0.620 | BLEURT: -0.9543
+Model: Llama-3.2-1B-Instruct-Q4_K_M.gguf | Temp: 0.9
+Context: 8192 | Batch: 512
+System Prompt: 'nan'
+
+Full results: /Users/aidanbayer-calvert/DocumentsNotICloud/cs259/snapdragon-llm-edge/inference/hyperparam_search_20251125_171540/results.csv

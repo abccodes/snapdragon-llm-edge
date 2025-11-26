@@ -1,0 +1,14 @@
+ A question asked by a curious 10-year-old.
+
+To answer the question, it's important to understand the physics involved. If a penny were dropped from the top of the Empire State Building, which stands at approximately 1,250 feet (381 meters) above the ground, it would experience several forces as it falls.
+
+First, gravity would be the primary force acting on the penny. Gravity pulls the penny downward with a constant acceleration of approximately 9.8 meters per second squared (m/s²). As the penny falls, the force of gravity increases, causing the penny to accelerate.
+
+Second, air resistance would also be acting on the penny. As the penny falls, the air molecules around it create a force that opposes its motion. This force increases as the penny accelerates, and it can become significant at higher speeds.
+
+The exact force of air resistance depends on the shape and size of the penny, its speed, and the density of the air. At lower speeds, the air resistance is relatively small compared to the force of gravity, but as the penny accelerates, the air resistance increases rapidly.
+
+To calculate the force of air resistance, we can use the equation:
+
+\[ F_{air} = 0
+

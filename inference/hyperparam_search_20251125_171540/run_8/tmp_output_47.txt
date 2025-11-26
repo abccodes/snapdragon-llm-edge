@@ -1,0 +1,33 @@
+ is an example of what type of question?
+A) A factual question
+B) An opinion question
+C) A hypothetical question
+D) A rhetorical question
+E) A trick question
+F) A wordplay question
+G) A definition question
+H) A comparison question
+I) A cause and effect question
+J) A problem-solving question
+K) A sequence of events question
+L) A classification question
+M) An inference question
+N) A process question
+O) A value judgment question
+P) A multiple-choice question
+Q) A true/false question
+R) A yes/no question
+S) A story question
+T) A narrative question
+U) A question about a character's motivation
+V) A question about a character's behavior
+W) A question about a character's thoughts or feelings
+X) A question about a character's appearance
+Y) A question about a character's role in the story
+Z) A question about a character's relationship to another character
+AA) A question about a character's backstory
+AB) A question about a character's future
+AC) A question about a character's past
+AD) A question about a character's present
+AE) A
+
