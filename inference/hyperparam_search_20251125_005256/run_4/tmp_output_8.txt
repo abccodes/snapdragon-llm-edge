@@ -1,0 +1,2 @@
+ asks a user on a Q&A platform. The assistant responds, 'Georgia, with an annual production of over 20
+

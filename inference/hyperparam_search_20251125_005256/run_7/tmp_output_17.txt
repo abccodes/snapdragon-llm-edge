@@ -1,0 +1,6 @@
+ asks a question in the context of nutrition and fitness.
+
+To answer this, we should consider several factors:
+
+1. Digestion
+

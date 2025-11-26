@@ -1,0 +1,5 @@
+ asks a question about music. The answer to this question is
+A. Richard Strauss
+B. Johann Sebastian Bach
+C
+
