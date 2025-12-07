@@ -4053,7 +4053,8 @@ struct test_soft_max : public test_case {
         } else {
             out = ggml_soft_max_ext(ctx, a, mask, scale, max_bias);
         }
-        ggml_soft_max_add_sinks(out, sinks);
+        // For tests, use sink_count=4 when sinks are enabled (typical StreamLLM value)
+        ggml_soft_max_add_sinks(out, sinks, sinks ? 4 : 0);
         ggml_set_name(out, "out");
 
         return out;
@@ -5567,7 +5568,8 @@ struct test_flash_attn_ext : public test_case {
         }
 
         ggml_tensor * out = ggml_flash_attn_ext(ctx, q, k, v, m, 1.0f/sqrtf(hsk), max_bias, logit_softcap);
-        ggml_flash_attn_ext_add_sinks(out, s);
+        // For tests, use sink_count=4 when sinks are enabled (typical StreamLLM value)
+        ggml_flash_attn_ext_add_sinks(out, s, s ? 4 : 0);
         ggml_flash_attn_ext_set_prec (out, prec);
         ggml_set_name(out, "out");
 

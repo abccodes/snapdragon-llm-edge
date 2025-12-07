@@ -5082,9 +5082,11 @@ static void ggml_compute_forward_soft_max_f32(
 
     float scale    = 1.0f;
     float max_bias = 0.0f;
+    int32_t sink_count = 0;
 
     memcpy(&scale,    (float *) dst->op_params + 0, sizeof(float));
     memcpy(&max_bias, (float *) dst->op_params + 1, sizeof(float));
+    memcpy(&sink_count, (float *) dst->op_params + 2, sizeof(int32_t));
 
     const int ith = params->ith;
     const int nth = params->nth;
@@ -5110,7 +5112,7 @@ static void ggml_compute_forward_soft_max_f32(
 
     const bool use_f16 = (src1 && src1->type == GGML_TYPE_F16);
 
-    // sinks
+    // sinks: bias tensor per head
     const float * sk = src2 ? (float *)((char *) src2->data) : nullptr;
 
     for (int64_t i03 = 0; i03 < ne03; i03++) {
@@ -5145,6 +5147,16 @@ static void ggml_compute_forward_soft_max_f32(
                     }
                 }
 
+                // Apply sink bias to the first sink_count tokens
+                // This implements StreamLLM-style attention sinks
+                if (sk && sink_count > 0) {
+                    const int64_t n_sink = MIN((int64_t)sink_count, ne00);
+                    const float sink_bias = sk[i02]; // bias for this head
+                    for (int64_t i = 0; i < n_sink; ++i) {
+                        wp[i] += sink_bias;
+                    }
+                }
+
 #ifndef NDEBUG
                 for (int i = 0; i < ne00; ++i) {
                     //printf("p[%d] = %f\n", i, p[i]);
@@ -5155,17 +5167,8 @@ static void ggml_compute_forward_soft_max_f32(
                 float max = -INFINITY;
                 ggml_vec_max_f32(ne00, &max, wp);
 
-                // if we have sinks, make a correction as if they were included in the softmax
-                if (sk) {
-                    max = MAX(max, sk[i02]);
-                }
-
                 ggml_float sum = ggml_vec_soft_max_f32(ne00, dp, wp, max);
                 assert(sum > 0.0);
-
-                if (sk) {
-                    sum += (ggml_float) expf(sk[i02] - max);
-                }
 
                 sum = 1.0/sum;
                 ggml_vec_scale_f32(ne00, dp, sum);
@@ -7978,10 +7981,13 @@ static void ggml_compute_forward_flash_attn_ext_f16_one_chunk(
     float scale         = 1.0f;
     float max_bias      = 0.0f;
     float logit_softcap = 0.0f;
+    int32_t sink_count  = 0;
 
     memcpy(&scale,         (float *) dst->op_params + 0, sizeof(float));
     memcpy(&max_bias,      (float *) dst->op_params + 1, sizeof(float));
     memcpy(&logit_softcap, (float *) dst->op_params + 2, sizeof(float));
+    // Note: op_params[3] is used for precision setting
+    memcpy(&sink_count,    (int32_t *) dst->op_params + 4, sizeof(int32_t));
 
     if (logit_softcap != 0) {
         scale /= logit_softcap;
@@ -8061,6 +8067,12 @@ static void ggml_compute_forward_flash_attn_ext_f16_one_chunk(
             }
 
             s += mv; // apply mask
+            
+            // Apply sink bias to the first sink_count tokens (StreamLLM)
+            if (sinks && sink_count > 0 && ic < sink_count) {
+                const float sink_bias = ((float *)((char *) sinks->data))[h];
+                s += sink_bias;
+            }
 
             const float Mold = M;
 
@@ -8114,23 +8126,6 @@ static void ggml_compute_forward_flash_attn_ext_f16_one_chunk(
             for (int64_t d = 0; d < DV; ++d) {
                 VKQ32[d] = GGML_CPU_FP16_TO_FP32(VKQ16[d]);
             }
-        }
-
-        // sinks
-        if (sinks) {
-            const float s = ((float *)((char *) sinks->data))[h];
-
-            float ms = 1.0f;
-            float vs = 1.0f;
-
-            if (s > M) {
-                ms = expf(M - s);
-                ggml_vec_scale_f32(DV, VKQ32, ms);
-            } else {
-                vs = expf(s - M);
-            }
-
-            S = S*ms + vs;
         }
 
         // V /= S

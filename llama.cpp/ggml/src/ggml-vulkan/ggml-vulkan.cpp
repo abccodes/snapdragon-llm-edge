@@ -14337,7 +14337,9 @@ static void ggml_vk_check_results_0(ggml_backend_vk_context * ctx, ggml_cgraph *
         const float * params = (const float *)tensor->op_params;
         tensor_clone = ggml_flash_attn_ext(ggml_ctx, src_clone[0], src_clone[1], src_clone[2], src_clone[3], params[0], params[1], params[2]);
         if (src_clone[4]) {
-            ggml_flash_attn_ext_add_sinks(tensor_clone, src_clone[4]);
+            const int32_t * iparams = (const int32_t *)tensor->op_params;
+            const int32_t sink_count = iparams[4]; // sink_count stored in op_params[4]
+            ggml_flash_attn_ext_add_sinks(tensor_clone, src_clone[4], sink_count);
         }
     } else if (tensor->op == GGML_OP_MUL_MAT) {
         tensor_clone = ggml_mul_mat(ggml_ctx, src_clone[0], src_clone[1]);
