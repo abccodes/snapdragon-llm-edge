@@ -1273,13 +1273,18 @@ ggml_tensor * llm_graph_context::build_sinks() const {
     }
 
     // Create a tensor with bias values for attention sinks
-    // Shape is [n_head] for per-head bias
-    // The ggml operations will use this to bias attention and prevent collapse on sink tokens
+    // Shape is [n_head] where all heads use the same sink_bias value
+    // This tensor will be used by GGML to bias attention and prevent collapse on sink tokens
+    //
+    // Note: Currently all heads receive the same bias value. Per-head variation could be
+    // added as a future enhancement for more fine-grained control.
+    //
+    // IMPORTANT: The tensor data needs to be initialized with sink_bias values before use.
+    // This implementation creates the tensor structure; actual data initialization should
+    // happen during graph allocation or via backend-specific mechanisms. For immediate
+    // use, the backend needs to fill the tensor with cparams.sink_bias values.
     ggml_tensor * sinks = ggml_new_tensor_1d(ctx0, GGML_TYPE_F32, n_head);
     ggml_set_name(sinks, "sinks");
-    
-    // Initialize all heads with the same sink_bias value
-    sinks = ggml_set_f32(sinks, cparams.sink_bias);
 
     return sinks;
 }
