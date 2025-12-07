@@ -234,6 +234,18 @@ public:
     const llama_memory_recurrent_context * mctx;
 };
 
+class llm_graph_input_sinks : public llm_graph_input_i {
+public:
+    llm_graph_input_sinks(const llama_cparams & cparams) : cparams(cparams) {}
+    virtual ~llm_graph_input_sinks() = default;
+
+    void set_input(const llama_ubatch * ubatch) override;
+
+    ggml_tensor * sinks; // F32 [n_head]
+
+    const llama_cparams cparams;
+};
+
 class llm_graph_input_cross_embd : public llm_graph_input_i {
 public:
     llm_graph_input_cross_embd(

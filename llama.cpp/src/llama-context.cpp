@@ -1424,6 +1424,18 @@ ggml_cgraph * llama_context::graph_reserve(uint32_t n_tokens, uint32_t n_seqs, u
 
     this->n_outputs = save_n_outputs;
 
+    // dump graph to DOT file if GGML_GRAPH_DUMP environment variable is set
+    {
+        const char * graph_dump_path = getenv("GGML_GRAPH_DUMP");
+        if (graph_dump_path) {
+            static int dump_counter = 0;
+            char filename[256];
+            snprintf(filename, sizeof(filename), "%s/ggml_graph_%04d.dot", graph_dump_path, dump_counter++);
+            ggml_graph_dump_dot(nullptr, gf, filename);
+            LLAMA_LOG_INFO("%s: dumped graph to %s\n", __func__, filename);
+        }
+    }
+
     // initialize scheduler with the specified graph
     if (split_only) {
         ggml_backend_sched_split_graph(sched.get(), gf);

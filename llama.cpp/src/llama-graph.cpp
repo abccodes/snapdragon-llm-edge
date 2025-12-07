@@ -251,6 +251,23 @@ void llm_graph_input_rs::set_input(const llama_ubatch * ubatch) {
     }
 }
 
+void llm_graph_input_sinks::set_input(const llama_ubatch * ubatch) {
+    GGML_UNUSED(ubatch);
+
+    if (sinks && cparams.sink_count > 0) {
+        GGML_ASSERT(ggml_backend_buffer_is_host(sinks->buffer));
+        GGML_ASSERT(sinks->type == GGML_TYPE_F32);
+
+        float * data = (float *) sinks->data;
+        const int64_t n_head = sinks->ne[0];
+
+        // Fill all heads with the same sink_bias value
+        for (int64_t i = 0; i < n_head; ++i) {
+            data[i] = cparams.sink_bias;
+        }
+    }
+}
+
 void llm_graph_input_cross_embd::set_input(const llama_ubatch * ubatch) {
     GGML_UNUSED(ubatch);
 
@@ -1272,21 +1289,22 @@ ggml_tensor * llm_graph_context::build_sinks() const {
         return nullptr;
     }
 
+    // Create input handler for sinks
+    auto inp = std::make_unique<llm_graph_input_sinks>(cparams);
+
     // Create a tensor with bias values for attention sinks
     // Shape is [n_head] where all heads use the same sink_bias value
     // This tensor will be used by GGML to bias attention and prevent collapse on sink tokens
-    //
-    // Note: Currently all heads receive the same bias value. Per-head variation could be
-    // added as a future enhancement for more fine-grained control.
-    //
-    // IMPORTANT: The tensor data needs to be initialized with sink_bias values before use.
-    // This implementation creates the tensor structure; actual data initialization should
-    // happen during graph allocation or via backend-specific mechanisms. For immediate
-    // use, the backend needs to fill the tensor with cparams.sink_bias values.
-    ggml_tensor * sinks = ggml_new_tensor_1d(ctx0, GGML_TYPE_F32, n_head);
-    ggml_set_name(sinks, "sinks");
+    inp->sinks = ggml_new_tensor_1d(ctx0, GGML_TYPE_F32, n_head);
+    ggml_set_name(inp->sinks, "sinks");
+    ggml_set_input(inp->sinks);
 
-    return sinks;
+    ggml_tensor * result = inp->sinks;
+
+    // Register the input handler so set_input() will be called to fill the tensor with data
+    res->add_input(std::move(inp));
+
+    return result;
 }
 
 ggml_tensor * llm_graph_context::build_inp_cross_embd() const {
