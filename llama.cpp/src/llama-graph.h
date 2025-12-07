@@ -683,6 +683,8 @@ struct llm_graph_context {
     ggml_tensor * build_inp_mean() const;
     ggml_tensor * build_inp_cls() const;
 
+    ggml_tensor * build_sinks() const;
+
     ggml_tensor * build_inp_cross_embd() const;
     ggml_tensor * build_inp_pos_bucket_enc() const;
     ggml_tensor * build_inp_pos_bucket_dec() const;

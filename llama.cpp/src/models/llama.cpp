@@ -21,6 +21,9 @@ llm_build_llama::llm_build_llama(const llama_model & model, const llm_graph_para
 
         ggml_tensor * inp_out_ids = build_inp_out_ids();
 
+        // Build attention sinks tensor for StreamLLM-style attention
+        ggml_tensor * sinks = build_sinks();
+
         for (int il = 0; il < n_layer; ++il) {
             ggml_tensor * inpSA = inpL;
 
@@ -83,7 +86,7 @@ llm_build_llama::llm_build_llama(const llama_model & model, const llm_graph_para
                 }
                 cur = build_attn(inp_attn,
                         model.layers[il].wo, model.layers[il].bo,
-                        Qcur, Kcur, Vcur, nullptr, nullptr, nullptr, kq_scale, il);
+                        Qcur, Kcur, Vcur, nullptr, sinks, nullptr, kq_scale, il);
                 cb(cur, "attn_out", il);
             }
             if (il == n_layer - 1 && inp_out_ids) {
