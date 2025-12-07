@@ -5086,7 +5086,8 @@ static void ggml_compute_forward_soft_max_f32(
 
     memcpy(&scale,    (float *) dst->op_params + 0, sizeof(float));
     memcpy(&max_bias, (float *) dst->op_params + 1, sizeof(float));
-    memcpy(&sink_count, (float *) dst->op_params + 2, sizeof(int32_t));
+    // Read sink_count as int32_t from position 2
+    sink_count = ((const int32_t *)(dst->op_params))[2];
 
     const int ith = params->ith;
     const int nth = params->nth;
@@ -7986,8 +7987,9 @@ static void ggml_compute_forward_flash_attn_ext_f16_one_chunk(
     memcpy(&scale,         (float *) dst->op_params + 0, sizeof(float));
     memcpy(&max_bias,      (float *) dst->op_params + 1, sizeof(float));
     memcpy(&logit_softcap, (float *) dst->op_params + 2, sizeof(float));
-    // Note: op_params[3] is used for precision setting
-    memcpy(&sink_count,    (int32_t *) dst->op_params + 4, sizeof(int32_t));
+    // Note: op_params[3] is used for precision setting (int32_t)
+    // Read sink_count as int32_t from position 4
+    sink_count = ((const int32_t *)(dst->op_params))[4];
 
     if (logit_softcap != 0) {
         scale /= logit_softcap;
