@@ -26,9 +26,6 @@ struct llama_cparams {
     float yarn_beta_fast;
     float yarn_beta_slow;
 
-    int32_t sink_count;   // number of attention sink tokens for StreamLLM-style attention
-    float   sink_bias;    // bias value for attention sinks
-
     bool embeddings;
     bool causal_attn;
     bool offload_kqv;
