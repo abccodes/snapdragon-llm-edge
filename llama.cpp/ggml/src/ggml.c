@@ -3939,7 +3939,10 @@ void ggml_soft_max_add_sinks(
     a->src[2] = sinks;
     
     // Store sink_count in op_params as int32_t at index 2
-    // Note: op_params[0] (float) = scale, op_params[1] (float) = max_bias
+    // Note: SOFT_MAX op_params layout:
+    //   [0] (float)   = scale
+    //   [1] (float)   = max_bias
+    //   [2] (int32_t) = sink_count
     ggml_set_op_params_i32(a, 2, sink_count);
 }
 
@@ -5152,7 +5155,13 @@ void ggml_flash_attn_ext_add_sinks(
 
     a->src[4] = sinks;
     
-    // Store sink_count in op_params[4] (note: flash_attn_ext already uses params 0-3)
+    // Store sink_count in op_params[4]
+    // Note: FLASH_ATTN_EXT op_params layout:
+    //   [0] (float)   = scale
+    //   [1] (float)   = max_bias
+    //   [2] (float)   = logit_softcap
+    //   [3] (int32_t) = precision
+    //   [4] (int32_t) = sink_count
     ggml_set_op_params_i32(a, 4, sink_count);
 }
 
