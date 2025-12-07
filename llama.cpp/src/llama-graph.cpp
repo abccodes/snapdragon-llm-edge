@@ -1266,6 +1266,24 @@ ggml_tensor * llm_graph_context::build_inp_cls() const {
     return cur;
 }
 
+ggml_tensor * llm_graph_context::build_sinks() const {
+    // Return nullptr if sinks are disabled (sink_count == 0)
+    if (cparams.sink_count <= 0) {
+        return nullptr;
+    }
+
+    // Create a tensor with bias values for attention sinks
+    // Shape is [n_head] for per-head bias
+    // The ggml operations will use this to bias the first sink_count tokens in attention
+    ggml_tensor * sinks = ggml_new_tensor_1d(ctx0, GGML_TYPE_F32, n_head);
+    ggml_set_name(sinks, "sinks");
+    
+    // Initialize with the sink_bias value (will be set during graph execution)
+    sinks = ggml_set_f32(sinks, cparams.sink_bias);
+
+    return sinks;
+}
+
 ggml_tensor * llm_graph_context::build_inp_cross_embd() const {
     auto inp = std::make_unique<llm_graph_input_cross_embd>(cross);
 
