@@ -265,6 +265,10 @@ void llm_graph_input_sinks::set_input(const llama_ubatch * ubatch) {
         for (int64_t i = 0; i < n_head; ++i) {
             data[i] = cparams.sink_bias;
         }
+
+        if (debug > 0) {
+            LLAMA_LOG_DEBUG("%s: initialized sinks tensor with %d heads, bias=%.2f\n", __func__, (int)n_head, cparams.sink_bias);
+        }
     }
 }
 
@@ -1288,6 +1292,9 @@ ggml_tensor * llm_graph_context::build_sinks() const {
     if (cparams.sink_count <= 0) {
         return nullptr;
     }
+
+    LLAMA_LOG_INFO("%s: creating sinks tensor with %d heads, sink_count=%d, sink_bias=%.2f\n", 
+                   __func__, (int)n_head, cparams.sink_count, cparams.sink_bias);
 
     // Create input handler for sinks
     auto inp = std::make_unique<llm_graph_input_sinks>(cparams);
