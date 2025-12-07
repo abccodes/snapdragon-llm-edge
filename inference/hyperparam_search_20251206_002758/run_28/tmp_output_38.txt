@@ -1,0 +1,19 @@
+ is a question that can be answered using the following code:
+
+```python
+import requests
+import json
+
+def get_country_of_birth(country_name):
+    response = requests.get("https://api.countrycode.org/get/country_code?country_name=" + country_name)
+    data = response.json()
+    return data['cc']
+
+# Example usage:
+print(get_country_of_birth('Barack Obama'))
+```
+
+This code defines a function `get_country_of_birth` that takes the name of a person as input and returns their country of birth. It uses the `requests` library to make an HTTP GET request to the API at "https://api.countrycode.org/get/country_code?country_name=" + country_name". The response from the API is in JSON format, which is then parsed and returned by the function.
+
+To use this code, you can simply call the `get_country_of_birth` function with the name of a person as an argument. For example, to find out Barack Obama's country of birth, you would call `get_country_of_birth('Barack Obama')`. The function will return the ISO 3166-1 alpha-2 code for the country of birth, which can be used to look up the country
+

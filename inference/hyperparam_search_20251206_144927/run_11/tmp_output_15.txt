@@ -1,0 +1,8 @@
+ - This question is about the safety of monosodium glutamate (MSG), a common flavor enhancer in foods. The question is framed in a way that suggests the answer is negative, implying that MSG has not been proven to be harmful in small doses. However, the question is not worded in a way that clearly states this assumption, leaving room for interpretation.
+
+To determine the correctness of this statement, we need to analyze the scientific evidence regarding MSG's safety. MSG is a sodium salt of glutamic acid, a common amino acid. It is used as a flavor enhancer in many foods, including soups, sauces, and seasonings.
+
+The safety of MSG has been a subject of debate among scientists and public health experts. Some studies have suggested that MSG can cause symptoms such as headache, sweating, flushing, and nausea in some individuals, especially those with a history of food allergies or sensitivities. However, these effects are generally attributed to an allergic or sensitization response rather than an adverse effect of MSG itself.
+
+On the other hand, other studies have found no evidence of harm from MSG in small doses. The FDA has stated that MSG is generally recognized as safe (GRAS) for use as a flavor enhancer in food.
+

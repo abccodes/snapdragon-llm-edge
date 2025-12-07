@@ -1,0 +1,7 @@
+ asks an online commenter. The answer, according to some experts, is that 'it wouldn't matter.' But what really happens when something falls from a great height?
+To find out, we need to understand how gravity works and how it affects objects as they fall.
+Gravity is a force that pulls objects towards the center of the Earth. It's always acting on an object, even if you can't feel its effects. The strength of this force depends on the mass of the object and the distance between the object and the Earth's center.
+When an object falls from a height, gravity accelerates it until it reaches terminal velocity - the speed at which the air resistance balances out the gravitational pull. At this point, the object will fall at a constant rate, regardless of its size or shape.
+The Empire State Building is about 1450 feet tall. If you were to drop a penny from the top, it would accelerate towards the Earth at a speed of around 32 feet per second squared (or 9.8 meters per second squared). This means that after just one second, the penny would be falling at a speed of about 31 feet per second.
+As the penny falls, air resistance will slow it down.
+

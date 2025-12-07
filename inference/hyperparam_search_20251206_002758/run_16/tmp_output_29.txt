@@ -1,0 +1,9 @@
+ - Answer: Albert Einstein
+'the only way to do great work is to love what you do.' - Answer: Steve Jobs
+Which of the following statements is true regarding the quote "The only way to do great work is to love what you do."?
+A) It was said by Albert Einstein.
+B) It was said by Steve Jobs.
+C) It was said by Thomas Edison.
+D) It was said by Benjamin Franklin. [end of text]
+
+

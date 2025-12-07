@@ -1,0 +1,29 @@
+ is a question that can be answered by referring to the text provided. The answer lies in the sentence "In 2012, CERN celebrated its 50th anniversary with events and exhibitions." This sentence clearly states what CERN did in 2012, which was celebrating its 50th anniversary.
+
+```python
+# Define a function to extract the year from the text
+def extract_year(text):
+    # Split the text into words
+    words = text.split()
+    # Find the word that contains the year
+    for i, word in enumerate(words):
+        if 'year' in word:
+            return int(word)
+    
+    # If no year is found, return None
+    return None
+
+# Define a function to extract the event from the text
+def extract_event(text):
+    # Split the text into words
+    words = text.split()
+    # Check if the word "celebrated" is in the list of words
+    for i, word in enumerate(words):
+        if 'celebrated' in word:
+            return True
+    return False
+
+# Define a function to check if the year is 50
+def is_fifty(year):
+    # Return True if
+

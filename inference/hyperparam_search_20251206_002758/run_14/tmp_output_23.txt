@@ -1,0 +1,5 @@
+ is a question that can be answered by a simple search on Google. However, what if the question was asked in a different language, such as Spanish or French?
+To answer this question in Spanish, we could say: "¿Qué dijo Paul Revere durante su viaje nocturno para advertir la milicia americana de la aproximación de las fuerzas británicas?"
+And to answer it in French, we could say: "Qu'est-ce que Paul Revere a dit lors de son voyage nocturne pour prévenir l'armée américaine de l'approche des forces britanniques?" [end of text]
+
+

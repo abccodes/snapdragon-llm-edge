@@ -1,0 +1,35 @@
+ is a question that can be answered using Python programming. Here's one way to write a program that answers this question:
+
+```python
+import requests
+
+# Define a function that takes in a list of states and returns the state with the highest number of peach production
+def get_top_peach_state(states):
+    # Create a dictionary that maps each state to its peach production
+    peach_production = {}
+    for state, peaches in states:
+        peach_production[state] = peaches
+
+    # Find the state with the highest peach production
+    top_peach_state = max(peach_production, key=peach_production.get)
+
+    return top_peach_state
+
+
+# Define a list of U.S. states and their peach production (in millions of pounds)
+states = [
+    ('California', 40),
+    ('Georgia', 25),
+    ('Texas', 18),
+    ('Florida', 16),
+    ('North Carolina', 13),
+    ('New York', 9),
+    ('Washington', 7),
+    ('Arkansas', 6),
+    ('Mississippi', 5),
+    ('South Carolina', 4)
+]
+
+# Call the function and print the result
+top_peach_state
+

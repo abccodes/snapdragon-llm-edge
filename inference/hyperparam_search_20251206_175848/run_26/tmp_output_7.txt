@@ -1,0 +1,25 @@
+ asks a curious student. To answer this question, we need to consider the following:
+
+1. **Initial Conditions**: The penny is dropped from a height of approximately 1,450 feet (or about 442 meters) above the ground.
+
+2. **Acceleration Due to Gravity**: The acceleration due to gravity near the Earth's surface is approximately \(9.8 \text{ m/s}^2\).
+
+3. **Time of Fall**: We can calculate the time it takes for the penny to fall using the formula:
+   \[
+   t = \sqrt{\frac{2h}{g}}
+   \]
+   where \(h\) is the height and \(g\) is the acceleration due to gravity.
+
+4. **Final Speed**: The speed of the penny just before hitting the ground can be calculated using the formula for the final velocity in free fall:
+   \[
+   v = gt
+   \]
+
+5. **Impact Force**: The impact force when the penny hits the ground can be estimated using the momentum principle, considering both the mass of the penny and its speed.
+
+Let's perform these calculations step by step:
+
+### Step 1: Calculate the Time of Fall
+
+The height \(h\) is 1
+

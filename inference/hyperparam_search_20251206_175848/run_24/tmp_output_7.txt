@@ -1,0 +1,15 @@
+ is an interesting question that combines physics and real-world scenarios. Let's break down the problem step-by-step to understand what might occur.
+
+### Step 1: Understanding the Physics
+- **Empire State Building Height**: The Empire State Building stands at approximately 380 meters (or about 1,246 feet) tall.
+- **Speed of a Penny Falling from That Height**:
+  - At ground level, a penny falls with an initial velocity due to gravity. This is given by the formula \( v = gt \), where \( g \approx 9.8 m/s^2 \).
+  - The time taken for the penny to fall from the top of the building to the ground can be calculated using the equation:
+    \[
+    t = \sqrt{\frac{h}{2g}} = \sqrt{\left(\frac{380\,m}{9.8}\right)} = \approx 15.46 \text{ seconds}
+    \]
+- **Velocity at Impact**:
+  - Using the formula for velocity \( v = gt \):
+    \[
+    v = g t = 9.8 \times 15.47 = 15
+

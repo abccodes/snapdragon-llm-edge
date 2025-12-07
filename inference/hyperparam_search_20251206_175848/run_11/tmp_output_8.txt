@@ -1,0 +1,22 @@
+ is a question that can be answered using Python programming language.
+Here's an example code to answer this question:
+```python
+# Define a dictionary with states and their respective peach production in millions of pounds
+peach_production = {
+    'California': 10,
+    'Georgia': 9.5,
+    'Texas': 8.2,
+    'Florida': 7.6,
+    'North Carolina': 4.3,
+}
+
+# Print the state with the highest peach production
+print('The U.S. state that produces the most peaches is', max(peach_production, key=peach_production.get))
+```
+This code uses a dictionary to store the states and their respective peach productions in millions of pounds. It then finds the maximum value using the `max()` function with the `key` parameter set to `peach_production.get`. This returns the state that has the highest production of peaches.
+When run, this program will output:
+```
+The U.S. state that produces
+``` [end of text]
+
+
