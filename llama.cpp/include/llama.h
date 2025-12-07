@@ -325,6 +325,9 @@ extern "C" {
         uint32_t yarn_orig_ctx;    // YaRN original context size
         float    defrag_thold;     // [DEPRECATED] defragment the KV cache if holes/size > thold, <= 0 disabled (default)
 
+        int32_t  sink_count;       // number of attention sink tokens for StreamLLM-style attention (0 = disabled)
+        float    sink_bias;        // bias value for attention sinks
+
         ggml_backend_sched_eval_callback cb_eval;
         void * cb_eval_user_data;
 

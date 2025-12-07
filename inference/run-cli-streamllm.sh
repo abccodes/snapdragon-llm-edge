@@ -17,11 +17,15 @@ MODE="${MODE:-CPU}"   # default if not set
 # These control the StreamLLM-style behavior:
 #   ENABLE_SINKS    → 1 to enable context-shift + sinks, 0 to disable
 #   SINK_KEEP       → how many tokens from the start to keep as sinks
+#   SINK_COUNT      → number of attention sink tokens (passed to --sink-count)
+#   SINK_BIAS       → bias value for attention sinks (passed to --sink-bias)
 #   CTX_SIZE        → context window size (must be <= model's max ctx)
 #   N_PRED          → max tokens to generate (can exceed CTX_SIZE to force shifting)
 ########################################
 ENABLE_SINKS="${ENABLE_SINKS:-1}"   # 1 = enable sinks + sliding window, 0 = no sinks
 SINK_KEEP="${SINK_KEEP:-4}"        # number of sink tokens to keep pinned at left
+SINK_COUNT="${SINK_COUNT:-4}"      # number of attention sink tokens
+SINK_BIAS="${SINK_BIAS:-4.0}"      # bias value for attention sinks
 CTX_SIZE="${CTX_SIZE:-4096}"       # llama-cli --ctx-size
 N_PRED="${N_PRED:-250}"            # llama-cli -n (n_predict)
 
@@ -112,7 +116,8 @@ sink_args=
 if [ "$ENABLE_SINKS" != "0" ]; then
     # --context-shift turns on KV sliding
     # --keep $SINK_KEEP pins the first SINK_KEEP tokens as sinks
-    sink_args="--context-shift --keep $SINK_KEEP"
+    # --sink-count and --sink-bias control the StreamLLM attention sink behavior
+    sink_args="--context-shift --keep $SINK_KEEP --sink-count $SINK_COUNT --sink-bias $SINK_BIAS"
 fi
 
 set -x
