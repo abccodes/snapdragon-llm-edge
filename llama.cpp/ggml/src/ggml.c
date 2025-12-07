@@ -3940,8 +3940,7 @@ void ggml_soft_max_add_sinks(
     
     // Store sink_count in op_params as int32_t at index 2
     // Note: op_params[0] (float) = scale, op_params[1] (float) = max_bias
-    // We store sink_count as int32_t at the same position as what would be params[2] if it were a float array
-    ((int32_t *)(a->op_params))[2] = sink_count;
+    ggml_set_op_params_i32(a, 2, sink_count);
 }
 
 // ggml_soft_max_ext_back
