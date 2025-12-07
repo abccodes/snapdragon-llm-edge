@@ -266,6 +266,7 @@ void llm_graph_input_sinks::set_input(const llama_ubatch * ubatch) {
             data[i] = cparams.sink_bias;
         }
 
+        // Log when LLAMA_GRAPH_INPUT_DEBUG is set
         if (debug > 0) {
             LLAMA_LOG_DEBUG("%s: initialized sinks tensor with %d heads, bias=%.2f\n", __func__, (int)n_head, cparams.sink_bias);
         }
