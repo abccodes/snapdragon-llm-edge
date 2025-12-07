@@ -3923,8 +3923,7 @@ struct ggml_tensor * ggml_soft_max_ext_inplace(
 
 void ggml_soft_max_add_sinks(
         struct ggml_tensor * a,
-        struct ggml_tensor * sinks,
-        int32_t              sink_count) {
+        struct ggml_tensor * sinks) {
     if (!sinks) {
         a->src[2] = NULL;
         return;
@@ -3934,16 +3933,8 @@ void ggml_soft_max_add_sinks(
     GGML_ASSERT(a->src[2] == NULL);
     GGML_ASSERT(a->src[0]->ne[2] == sinks->ne[0]);
     GGML_ASSERT(sinks->type == GGML_TYPE_F32);
-    GGML_ASSERT(sink_count >= 0);
 
     a->src[2] = sinks;
-    
-    // Store sink_count in op_params as int32_t at index 2
-    // Note: SOFT_MAX op_params layout:
-    //   [0] (float)   = scale
-    //   [1] (float)   = max_bias
-    //   [2] (int32_t) = sink_count
-    ggml_set_op_params_i32(a, 2, sink_count);
 }
 
 // ggml_soft_max_ext_back
@@ -5140,8 +5131,7 @@ enum ggml_prec ggml_flash_attn_ext_get_prec(
 
 void ggml_flash_attn_ext_add_sinks(
         struct ggml_tensor * a,
-        struct ggml_tensor * sinks,
-        int32_t              sink_count) {
+        struct ggml_tensor * sinks) {
     if (!sinks) {
         a->src[4] = NULL;
         return;
@@ -5151,18 +5141,8 @@ void ggml_flash_attn_ext_add_sinks(
     GGML_ASSERT(a->src[4] == NULL);
     GGML_ASSERT(a->src[0]->ne[2] == sinks->ne[0]);
     GGML_ASSERT(sinks->type == GGML_TYPE_F32);
-    GGML_ASSERT(sink_count >= 0);
 
     a->src[4] = sinks;
-    
-    // Store sink_count in op_params[4]
-    // Note: FLASH_ATTN_EXT op_params layout:
-    //   [0] (float)   = scale
-    //   [1] (float)   = max_bias
-    //   [2] (float)   = logit_softcap
-    //   [3] (int32_t) = precision
-    //   [4] (int32_t) = sink_count
-    ggml_set_op_params_i32(a, 4, sink_count);
 }
 
 // ggml_flash_attn_back

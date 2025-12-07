@@ -1684,8 +1684,7 @@ extern "C" {
 
     GGML_API void ggml_soft_max_add_sinks(
             struct ggml_tensor * a,
-            struct ggml_tensor * sinks,
-            int32_t              sink_count);
+            struct ggml_tensor * sinks);
 
     GGML_API struct ggml_tensor * ggml_soft_max_ext_back(
             struct ggml_context * ctx,
@@ -2252,8 +2251,7 @@ extern "C" {
 
     GGML_API void ggml_flash_attn_ext_add_sinks(
             struct ggml_tensor * a,
-            struct ggml_tensor * sinks,
-            int32_t              sink_count);
+            struct ggml_tensor * sinks);
 
     // TODO: needs to be adapted to ggml_flash_attn_ext
     GGML_API struct ggml_tensor * ggml_flash_attn_back(

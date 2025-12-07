@@ -5085,9 +5085,6 @@ static void ggml_compute_forward_soft_max_f32(
 
     memcpy(&scale,    (float *) dst->op_params + 0, sizeof(float));
     memcpy(&max_bias, (float *) dst->op_params + 1, sizeof(float));
-    
-    // Read sink_count as int32_t from position 2 (see ggml_soft_max_add_sinks)
-    const int32_t sink_count = ggml_get_op_params_i32(dst, 2);
 
     const int ith = params->ith;
     const int nth = params->nth;
@@ -5113,7 +5110,7 @@ static void ggml_compute_forward_soft_max_f32(
 
     const bool use_f16 = (src1 && src1->type == GGML_TYPE_F16);
 
-    // sinks: bias tensor per head
+    // sinks
     const float * sk = src2 ? (float *)((char *) src2->data) : nullptr;
 
     for (int64_t i03 = 0; i03 < ne03; i03++) {
@@ -5148,16 +5145,6 @@ static void ggml_compute_forward_soft_max_f32(
                     }
                 }
 
-                // Apply sink bias to the first sink_count tokens
-                // This implements StreamLLM-style attention sinks
-                if (sk && sink_count > 0) {
-                    const int64_t n_sink = MIN((int64_t)sink_count, ne00);
-                    const float sink_bias = sk[i02]; // bias for this head
-                    for (int64_t i = 0; i < n_sink; ++i) {
-                        wp[i] += sink_bias;
-                    }
-                }
-
 #ifndef NDEBUG
                 for (int i = 0; i < ne00; ++i) {
                     //printf("p[%d] = %f\n", i, p[i]);
@@ -5168,6 +5155,11 @@ static void ggml_compute_forward_soft_max_f32(
                 float max = -INFINITY;
                 ggml_vec_max_f32(ne00, &max, wp);
 
+                // StreamingLLM paper: Attention sinks work by keeping initial tokens in KV cache.
+                // No additional bias is needed - tokens naturally receive high attention.
+                // The sink_bias parameter is disabled as it's not part of the paper's methodology.
+                // Reference: https://arxiv.org/abs/2309.17453
+                
                 ggml_float sum = ggml_vec_soft_max_f32(ne00, dp, wp, max);
                 assert(sum > 0.0);
 
@@ -7986,10 +7978,6 @@ static void ggml_compute_forward_flash_attn_ext_f16_one_chunk(
     memcpy(&scale,         (float *) dst->op_params + 0, sizeof(float));
     memcpy(&max_bias,      (float *) dst->op_params + 1, sizeof(float));
     memcpy(&logit_softcap, (float *) dst->op_params + 2, sizeof(float));
-    
-    // Read sink_count as int32_t from position 4 (see ggml_flash_attn_ext_add_sinks)
-    // Note: op_params[3] is used for precision setting (int32_t)
-    const int32_t sink_count = ggml_get_op_params_i32(dst, 4);
 
     if (logit_softcap != 0) {
         scale /= logit_softcap;
@@ -8069,12 +8057,6 @@ static void ggml_compute_forward_flash_attn_ext_f16_one_chunk(
             }
 
             s += mv; // apply mask
-            
-            // Apply sink bias to the first sink_count tokens (StreamLLM)
-            if (sinks && sink_count > 0 && ic < sink_count) {
-                const float sink_bias = ((float *)((char *) sinks->data))[h];
-                s += sink_bias;
-            }
 
             const float Mold = M;
 
@@ -8129,6 +8111,11 @@ static void ggml_compute_forward_flash_attn_ext_f16_one_chunk(
                 VKQ32[d] = GGML_CPU_FP16_TO_FP32(VKQ16[d]);
             }
         }
+
+        // StreamingLLM paper: Attention sinks work by keeping initial tokens in KV cache.
+        // No additional bias is needed - tokens naturally receive high attention.
+        // The sink_bias parameter is disabled as it's not part of the paper's methodology.
+        // Reference: https://arxiv.org/abs/2309.17453
 
         // V /= S
         const float S_inv = S == 0.0f ? 0.0f : 1.0f/S;

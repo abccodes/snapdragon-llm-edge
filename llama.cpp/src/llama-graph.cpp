@@ -1427,7 +1427,7 @@ ggml_tensor * llm_graph_context::build_attn_mha(
                                   hparams.attn_soft_cap ? hparams.f_attn_logit_softcapping : 0.0f);
         cb(cur, LLAMA_TENSOR_NAME_FATTN, il);
 
-        ggml_flash_attn_ext_add_sinks(cur, sinks, cparams.sink_count);
+        ggml_flash_attn_ext_add_sinks(cur, sinks);
         ggml_flash_attn_ext_set_prec (cur, GGML_PREC_F32);
 
         if (v_mla) {
@@ -1484,7 +1484,7 @@ ggml_tensor * llm_graph_context::build_attn_mha(
         }
 
         kq = ggml_soft_max_ext(ctx0, kq, kq_mask, kq_scale, hparams.f_max_alibi_bias);
-        ggml_soft_max_add_sinks(kq, sinks, cparams.sink_count);
+        ggml_soft_max_add_sinks(kq, sinks);
         cb(kq, "kq_soft_max", il);
 
         if (!v_trans) {

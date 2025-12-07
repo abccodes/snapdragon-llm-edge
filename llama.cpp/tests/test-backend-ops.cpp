@@ -1733,8 +1733,6 @@ struct test_case {
 // ## Section 2: GGML Op Defintions ##
 // ###################################
 
-// Constants for test configurations
-static constexpr int32_t TEST_SINK_COUNT = 4; // Default sink count for StreamLLM tests
 
 // The following is an example showing the bare minimum for creating a test for a GGML op.
 
@@ -4055,8 +4053,7 @@ struct test_soft_max : public test_case {
         } else {
             out = ggml_soft_max_ext(ctx, a, mask, scale, max_bias);
         }
-        // For tests, use TEST_SINK_COUNT when sinks are enabled (typical StreamLLM value)
-        ggml_soft_max_add_sinks(out, sinks, sinks ? TEST_SINK_COUNT : 0);
+        ggml_soft_max_add_sinks(out, sinks);
         ggml_set_name(out, "out");
 
         return out;
@@ -5570,8 +5567,7 @@ struct test_flash_attn_ext : public test_case {
         }
 
         ggml_tensor * out = ggml_flash_attn_ext(ctx, q, k, v, m, 1.0f/sqrtf(hsk), max_bias, logit_softcap);
-        // For tests, use TEST_SINK_COUNT when sinks are enabled (typical StreamLLM value)
-        ggml_flash_attn_ext_add_sinks(out, s, s ? TEST_SINK_COUNT : 0);
+        ggml_flash_attn_ext_add_sinks(out, s);
         ggml_flash_attn_ext_set_prec (out, prec);
         ggml_set_name(out, "out");
 
