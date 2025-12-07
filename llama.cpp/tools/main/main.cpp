@@ -995,5 +995,4 @@ int main(int argc, char ** argv) {
     ggml_threadpool_free_fn(threadpool_batch);
 
     return 0;
-}
 
