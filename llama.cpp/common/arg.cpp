@@ -1920,6 +1920,20 @@ common_params_context common_params_parser_init(common_params & params, llama_ex
         }
     ));
     add_opt(common_arg(
+        {"--sink-count"}, "N",
+        string_format("number of attention sink tokens to use for StreamLLM-style attention (default: %d, 0 = disabled)", params.sink_count),
+        [](common_params & params, int value) {
+            params.sink_count = value;
+        }
+    ));
+    add_opt(common_arg(
+        {"--sink-bias"}, "N",
+        string_format("bias value for attention sinks (default: %.1f)", params.sink_bias),
+        [](common_params & params, const std::string & value) {
+            params.sink_bias = std::stof(value);
+        }
+    ));
+    add_opt(common_arg(
         {"--swa-full"},
         string_format("use full-size SWA cache (default: %s)\n"
             "[(more info)](https://github.com/ggml-org/llama.cpp/pull/13194#issuecomment-2868343055)", params.swa_full ? "true" : "false"),
