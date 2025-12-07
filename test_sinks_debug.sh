@@ -3,6 +3,13 @@
 
 LLAMA_CLI="./llama.cpp/build/bin/llama-cli"
 
+# Check if llama-cli exists
+if [ ! -f "$LLAMA_CLI" ]; then
+    echo "Error: llama-cli not found at $LLAMA_CLI"
+    echo "Please build first: cd llama.cpp && cmake -B build && cmake --build build --target llama-cli"
+    exit 1
+fi
+
 echo "==================================="
 echo "Sinks Debug Test"
 echo "==================================="

@@ -4,8 +4,16 @@
 set -e
 
 LLAMA_CLI="./llama.cpp/build/bin/llama-cli"
-TEST_DIR="/tmp/sinks_test_$$"
-mkdir -p "$TEST_DIR"
+
+# Check if llama-cli exists
+if [ ! -f "$LLAMA_CLI" ]; then
+    echo "Error: llama-cli not found at $LLAMA_CLI"
+    echo "Please build first: cd llama.cpp && cmake -B build && cmake --build build --target llama-cli"
+    exit 1
+fi
+
+TEST_DIR=$(mktemp -d)
+trap "rm -rf $TEST_DIR" EXIT
 
 echo "==================================="
 echo "Attention Sinks Test Suite"
