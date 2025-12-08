@@ -23,9 +23,9 @@ Controls whether attention sinks are enabled:
 This should typically match the `--keep` value to ensure the kept tokens receive the attention bias.
 
 ### `--sink-bias X` (default: 4.0)
-The bias value applied to sink tokens in the attention softmax. This value is added as an implicit token in the softmax calculation, preventing attention weights from going to zero.
+**Note:** According to the StreamingLLM paper, no additional bias is needed for attention sinks. The paper's key insight is that initial tokens naturally receive high attention (the "attention sink" phenomenon). By keeping these tokens in the KV cache via `--keep`, we preserve this natural attention pattern without any artificial biasing.
 
-Higher values increase the attention weight on sink tokens.
+This parameter is currently disabled in the implementation to align with the paper's methodology.
 
 ## Implementation Details
 
@@ -50,12 +50,13 @@ Passed to build_attn() → ggml_soft_max_add_sinks()
 
 ### GGML Integration
 
-The sinks tensor is a 1D float tensor of shape `[n_head]` where each element contains the sink bias value. During softmax computation, GGML:
+**Updated Implementation:** Following the StreamingLLM paper (https://arxiv.org/abs/2309.17453), the sinks mechanism works by:
 
-1. Treats the bias as if there's an implicit extra token with that value
-2. Includes it in the max calculation: `max = MAX(max, sinks[head])`
-3. Includes it in the sum: `sum += exp(sinks[head] - max)`
-4. This prevents attention weights from collapsing to near-zero values
+1. **Keeping initial tokens in KV cache**: Use `--keep N` to retain the first N tokens
+2. **Natural attention**: These initial tokens naturally receive high attention due to the "attention sink" phenomenon
+3. **No artificial bias**: The paper does not add any bias to attention scores - the natural attention pattern is sufficient
+
+The previous implementation that added artificial bias has been disabled to align with the paper's methodology.
 
 ### Model Support
 
