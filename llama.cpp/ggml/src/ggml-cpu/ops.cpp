@@ -5155,13 +5155,17 @@ static void ggml_compute_forward_soft_max_f32(
                 float max = -INFINITY;
                 ggml_vec_max_f32(ne00, &max, wp);
 
-                // StreamingLLM paper: Attention sinks work by keeping initial tokens in KV cache.
-                // No additional bias is needed - tokens naturally receive high attention.
-                // The sink_bias parameter is disabled as it's not part of the paper's methodology.
-                // Reference: https://arxiv.org/abs/2309.17453
-                
+                // if we have sinks, make a correction as if they were included in the softmax
+                if (sk) {
+                    max = MAX(max, sk[i02]);
+                }
+
                 ggml_float sum = ggml_vec_soft_max_f32(ne00, dp, wp, max);
                 assert(sum > 0.0);
+
+                if (sk) {
+                    sum += (ggml_float) expf(sk[i02] - max);
+                }
 
                 sum = 1.0/sum;
                 ggml_vec_scale_f32(ne00, dp, sum);
@@ -8112,10 +8116,22 @@ static void ggml_compute_forward_flash_attn_ext_f16_one_chunk(
             }
         }
 
-        // StreamingLLM paper: Attention sinks work by keeping initial tokens in KV cache.
-        // No additional bias is needed - tokens naturally receive high attention.
-        // The sink_bias parameter is disabled as it's not part of the paper's methodology.
-        // Reference: https://arxiv.org/abs/2309.17453
+        // sinks
+        if (sinks) {
+            const float s = ((float *)((char *) sinks->data))[h];
+
+            float ms = 1.0f;
+            float vs = 1.0f;
+
+            if (s > M) {
+                ms = expf(M - s);
+                ggml_vec_scale_f32(DV, VKQ32, ms);
+            } else {
+                vs = expf(s - M);
+            }
+
+            S = S*ms + vs;
+        }
 
         // V /= S
         const float S_inv = S == 0.0f ? 0.0f : 1.0f/S;
