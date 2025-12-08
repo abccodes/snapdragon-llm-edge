@@ -1,0 +1,84 @@
+Using the latest cached version of the dataset since zai-org/LongBench couldn't be found on the Hugging Face Hub
+Found the latest cached dataset configuration 'qmsum' at /Users/aidanbayer-calvert/.cache/huggingface/datasets/zai-org___long_bench/qmsum/1.0.0/4a916a4bde5c3481ac49b84d5dde69a9d2eefcd67f884ef65b3d97ee7cc91f3e (last modified on Sun Nov  9 21:41:01 2025).
+-------- sample 0 --------
+Running inference for sample 0...
+Output file: hyperparam_search_longbench_20251206_222236/run_7/outputs/out_0.txt
+Return code: 0
+Output file size: 1128 bytes
+Prediction length: 1124 chars
+First 100 chars: The team discussed and agreed upon a new design for the remote control that incorporates various fea
+-------- sample 1 --------
+Running inference for sample 1...
+Output file: hyperparam_search_longbench_20251206_222236/run_7/outputs/out_1.txt
+Return code: 0
+Output file size: 519 bytes
+Prediction length: 515 chars
+First 100 chars: The group discussed the use of a touch screen in an educational setting, but with limitations due to
+-------- sample 2 --------
+Running inference for sample 2...
+Output file: hyperparam_search_longbench_20251206_222236/run_7/outputs/out_2.txt
+Return code: 0
+Output file size: 1307 bytes
+Prediction length: 1303 chars
+First 100 chars: The meeting between [Name] and [Recipient's Name] focused on discussing various aspects of a propose
+-------- sample 3 --------
+Running inference for sample 3...
+Output file: hyperparam_search_longbench_20251206_222236/run_7/outputs/out_3.txt
+Return code: 0
+Output file size: 1137 bytes
+Prediction length: 1133 chars
+First 100 chars: The project manager's perspective is that the prototype has shown promising results, but there are s
+-------- sample 4 --------
+Running inference for sample 4...
+Output file: hyperparam_search_longbench_20251206_222236/run_7/outputs/out_4.txt
+Return code: 0
+Output file size: 1327 bytes
+Prediction length: 1323 chars
+First 100 chars: The meeting was attended by representatives from various companies, including a software development
+-------- sample 5 --------
+Running inference for sample 5...
+Output file: hyperparam_search_longbench_20251206_222236/run_7/outputs/out_5.txt
+Return code: 0
+Output file size: 2281 bytes
+Prediction length: 2277 chars
+First 100 chars: The meeting between User Interface and Remote Control introduced a new design concept for the user i
+-------- sample 6 --------
+Running inference for sample 6...
+Output file: hyperparam_search_longbench_20251206_222236/run_7/outputs/out_6.txt
+Return code: 0
+Output file size: 1107 bytes
+Prediction length: 1103 chars
+First 100 chars: The team discussed and decided to set up a recording device for future meetings. This was done in or
+-------- sample 7 --------
+Running inference for sample 7...
+Output file: hyperparam_search_longbench_20251206_222236/run_7/outputs/out_7.txt
+Return code: 0
+Output file size: 2848 bytes
+Prediction length: 2845 chars
+First 100 chars: The professor expressed concerns about the safety of monosodium glutamate (MSG) and its potential he
+
+=== EVALUATION SUMMARY ===
+Total predictions: 8
+Total references: 8
+
+=== Per-sample ROUGE-L ===
+Sample 0: ROUGE-L = 0.1708
+Sample 1: ROUGE-L = 0.1775
+Sample 2: ROUGE-L = 0.1348
+Sample 3: ROUGE-L = 0.1316
+Sample 4: ROUGE-L = 0.0667
+Sample 5: ROUGE-L = 0.1134
+Sample 6: ROUGE-L = 0.1039
+Sample 7: ROUGE-L = 0.0795
+
+Filtered: 8/8 samples with ROUGE-L > 0
+
+=== Aggregated ROUGE ===
+ROUGE-1: 0.2064
+ROUGE-2: 0.0187
+ROUGE-L: 0.1232
+ROUGE-Lsum: 0.1381
+ROUGE1=0.20640452575472484
+ROUGE2=0.01874251041727535
+ROUGEL=0.12318599060011615
+ROUGELSUM=0.13806047686960526

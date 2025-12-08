@@ -1,18 +1,18 @@
 ================================================================================
 LONGBENCH (QMSUM) - BEST RESULTS
-Updated: 2025-12-06 22:42:17
+Updated: 2025-12-07 00:54:47
 ================================================================================
 
-Total: 5 | Valid: 5 | Failed: 0
+Total: 45 | Valid: 45 | Failed: 0
 
 STATISTICS
 ================================================================================
-ROUGE-L: 0.1022 - 0.1164 (avg: 0.1113)
+ROUGE-L: 0.0982 - 0.1638 (avg: 0.1263)
 
 🏆 BEST BY ROUGE-L
 ================================================================================
-Run: 1 | ROUGE-L: 0.1164
-Model: qwen2-7b-tinytron-Q4_K_M.gguf
-Temp: 0.2 | Batch: 128 | KV: f16/q8_0
+Run: 14 | ROUGE-L: 0.1638
+Model: TinyLlama-1.1B-Chat-Q4_K_M.gguf
+Temp: 0.3 | Batch: 512 | KV: f16/q8_0
 
 Full results: /Users/aidanbayer-calvert/DocumentsNotICloud/cs259/snapdragon-llm-edge/inference/hyperparam_search_longbench_20251206_222236/results.csv

@@ -1,0 +1,90 @@
+Using the latest cached version of the dataset since zai-org/LongBench couldn't be found on the Hugging Face Hub
+Found the latest cached dataset configuration 'qmsum' at /Users/aidanbayer-calvert/.cache/huggingface/datasets/zai-org___long_bench/qmsum/1.0.0/4a916a4bde5c3481ac49b84d5dde69a9d2eefcd67f884ef65b3d97ee7cc91f3e (last modified on Sun Nov  9 21:41:01 2025).
+-------- sample 0 --------
+Running inference for sample 0...
+Output file: hyperparam_search_longbench_20251206_222236/run_12/outputs/out_0.txt
+Return code: 0
+Output file size: 3481 bytes
+Prediction length: 3457 chars
+First 100 chars: The summary is that it's a simple, compact device with limited functionality. It has no built-in lig
+-------- sample 1 --------
+Running inference for sample 1...
+Output file: hyperparam_search_longbench_20251206_222236/run_12/outputs/out_1.txt
+Return code: 0
+Output file size: 3919 bytes
+Prediction length: 3914 chars
+First 100 chars: The team discussed various ideas for a new touch screen, but due to limited resources and time const
+-------- sample 2 --------
+Running inference for sample 2...
+Output file: hyperparam_search_longbench_20251206_222236/run_12/outputs/out_2.txt
+Return code: 0
+Output file size: 4611 bytes
+Prediction length: 4608 chars
+First 100 chars: The general discussion involved a variety of topics, including discussions about how to handle unexp
+-------- sample 3 --------
+Running inference for sample 3...
+Output file: hyperparam_search_longbench_20251206_222236/run_12/outputs/out_3.txt
+Return code: 0
+Output file size: 671 bytes
+Prediction length: 667 chars
+First 100 chars: The project manager is concerned with whether the prototype meets all requirements and if it's feasi
+-------- sample 4 --------
+Running inference for sample 4...
+Output file: hyperparam_search_longbench_20251206_222236/run_12/outputs/out_4.txt
+Return code: 0
+Output file size: 1001 bytes
+Prediction length: 997 chars
+First 100 chars: The user is asking about which demo or examples of a product, such as an application or service.
+
+Qu
+-------- sample 5 --------
+Running inference for sample 5...
+Output file: hyperparam_search_longbench_20251206_222236/run_12/outputs/out_5.txt
+Return code: 0
+Output file size: 3988 bytes
+Prediction length: 3975 chars
+First 100 chars: The user selected a button on the left side, and then pressed it. It was as if they were touching bu
+-------- sample 6 --------
+Running inference for sample 6...
+Output file: hyperparam_search_longbench_20251206_222236/run_12/outputs/out_6.txt
+Return code: 0
+Output file size: 981 bytes
+Prediction length: 977 chars
+First 100 chars: I don't have enough information to answer this question.
+
+Wait, but maybe you can tell me more. What
+-------- sample 7 --------
+Running inference for sample 7...
+Output file: hyperparam_search_longbench_20251206_222236/run_12/outputs/out_7.txt
+Return code: 0
+Output file size: 659 bytes
+Prediction length: 655 chars
+First 100 chars: The professor thought that it was a good idea to use MSG in food.
+
+Wait, but I'm not sure if this is
+
+=== EVALUATION SUMMARY ===
+Total predictions: 8
+Total references: 8
+
+=== Per-sample ROUGE-L ===
+Sample 0: ROUGE-L = 0.0985
+Sample 1: ROUGE-L = 0.0588
+Sample 2: ROUGE-L = 0.0727
+Sample 3: ROUGE-L = 0.1558
+Sample 4: ROUGE-L = 0.0824
+Sample 5: ROUGE-L = 0.0811
+Sample 6: ROUGE-L = 0.1063
+Sample 7: ROUGE-L = 0.1392
+
+Filtered: 8/8 samples with ROUGE-L > 0
+
+=== Aggregated ROUGE ===
+ROUGE-1: 0.1672
+ROUGE-2: 0.0212
+ROUGE-L: 0.0982
+ROUGE-Lsum: 0.1146
+ROUGE1=0.16715092703812606
+ROUGE2=0.021244620271340844
+ROUGEL=0.09818698794221042
+ROUGELSUM=0.11458412471692811
