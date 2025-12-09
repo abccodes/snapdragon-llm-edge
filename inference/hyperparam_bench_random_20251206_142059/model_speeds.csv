@@ -1,0 +1,38 @@
+model,prefill_speed,decode_speed
+llama 1B Q4_0,492.38,69.41
+qwen2 1.5B Q4_K - Medium,108.75,37.70
+llama4 ?B Q4_0,366.77,70.62
+llama4 ?B Q4_0,547.83,90.74
+qwen2 1.5B Q4_K - Medium,131.26,38.47
+llama 1B Q4_0,296.69,68.61
+qwen2 1.5B Q4_K - Medium,90.45,38.91
+llama4 ?B Q4_0,374.90,81.05
+qwen2 1.5B Q4_K - Medium,90.51,37.31
+llama4 ?B Q4_0,371.73,70.30
+llama 1B Q4_K - Medium,119.23,58.50
+qwen2 1.5B Q4_K - Medium,90.63,36.09
+llama 1B Q4_K - Medium,109.31,56.08
+llama4 ?B Q4_0,595.00,89.41
+llama 1B Q4_K - Medium,186.80,67.23
+llama4 ?B Q4_0,374.00,88.34
+qwen2 1.5B Q4_K - Medium,120.57,37.65
+llama 1B Q4_K - Medium,155.02,64.82
+qwen2 1.5B Q4_K - Medium,127.30,36.16
+qwen2 1.5B Q4_K - Medium,129.31,32.71
+llama4 ?B Q4_0,368.73,68.87
+llama 1B Q4_K - Medium,152.61,72.44
+qwen2 1.5B Q4_K - Medium,93.26,36.28
+llama4 ?B Q4_0,374.05,87.03
+llama4 ?B Q4_0,375.33,79.46
+llama4 ?B Q4_0,365.24,73.70
+qwen2 1.5B Q4_K - Medium,113.34,35.23
+qwen2 1.5B Q4_K - Medium,131.00,30.77
+qwen2 1.5B Q4_K - Medium,82.56,30.63
+qwen2 1.5B Q4_K - Medium,119.78,34.03
+qwen2 1.5B Q4_K - Medium,82.22,27.39
+llama 1B Q4_K - Medium,136.61,64.54
+llama 1B Q4_0,296.39,71.63
+llama4 ?B Q4_0,358.97,69.47
+llama 1B Q4_0,392.28,68.76
+llama 1B Q4_0,291.15,57.36
+llama 1B Q4_K - Medium,168.57,61.53

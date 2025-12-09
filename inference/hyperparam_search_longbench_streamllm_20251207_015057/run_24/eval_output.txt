@@ -1,0 +1,853 @@
+Using the latest cached version of the dataset since zai-org/LongBench couldn't be found on the Hugging Face Hub
+Found the latest cached dataset configuration 'qmsum' at /Users/aidanbayer-calvert/.cache/huggingface/datasets/zai-org___long_bench/qmsum/1.0.0/4a916a4bde5c3481ac49b84d5dde69a9d2eefcd67f884ef65b3d97ee7cc91f3e (last modified on Sun Nov  9 21:41:01 2025).
+-------- sample 0 --------
+Running inference for sample 0...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_24/outputs/out_0.txt
+Return code: 0
+Output file size: 1179 bytes
+Prediction length: 1176 chars
+First 100 chars: The working design of the sum and the summary.
+
+Working Sum Sum Working Sum Sum Sum Sum Sum
+
+
+
+
+
+
+
+
+
+-------- sample 1 --------
+Running inference for sample 1...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_24/outputs/out_1.txt
+Return code: 0
+Output file size: 1325 bytes
+Prediction length: 1320 chars
+First 100 chars: What did it be be be it it it (group group group group group group) and what was the budget.
+
+### ##
+-------- sample 2 --------
+Running inference for sample 2...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_24/outputs/out_2.txt
+Return code: 0
+Output file size: 1197 bytes
+Prediction length: 1194 chars
+First 100 chars: what is the answer.
+
+Answer Answer Answer Answer Answer
+
+**
+
+**
+
+ ** ** ** ** ** ** ** ** ** ** ** *
+-------- sample 3 --------
+Running inference for sample 3...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_24/outputs/out_3.txt
+Return code: 0
+Output file size: 1245 bytes
+Prediction length: 1242 chars
+First 100 chars: Sum Sum.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+..
+.
+.
+---
+---
+---
+---
+---
+
+-------- sample 4 --------
+Running inference for sample 4...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_24/outputs/out_4.txt
+Return code: 0
+Output file size: 76 bytes
+Prediction length: 72 chars
+First 100 chars: what is      2  22222211119999999999999999999. 
+
+ 
+
+ 
+
+ 
+
+ [end of text]
+-------- sample 5 --------
+Running inference for sample 5...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_24/outputs/out_5.txt
+Return code: 0
+Output file size: 1202 bytes
+Prediction length: 1196 chars
+First 100 chars: How how how how..
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+
+.
+
+
+.
+
+
+.
+
+
+.
+
+
+.
+
+
+
+-------- sample 6 --------
+Running inference for sample 6...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_24/outputs/out_6.txt
+Return code: 0
+Output file size: 1697 bytes
+Prediction length: 1694 chars
+First 100 chars: what did did did do for for for for for      2    3
+
+### ### ### ### ### ( ( ( ( ( ( ) ) ) ) )
+
+( ( 
+-------- sample 7 --------
+Running inference for sample 7...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_24/outputs/out_7.txt
+Return code: 0
+Output file size: 1192 bytes
+Prediction length: 1187 chars
+First 100 chars: what did the the the the and
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+99999999999999999910000000000000099999
+-------- sample 8 --------
+Running inference for sample 8...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_24/outputs/out_8.txt
+Return code: 0
+Output file size: 1232 bytes
+Prediction length: 1229 chars
+First 100 chars: What is the the the the - - - - - ( ( ( ( ( (       + + + + +    22222111133333999999999999999999999
+-------- sample 9 --------
+Running inference for sample 9...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_24/outputs/out_9.txt
+Return code: 0
+Output file size: 1466 bytes
+Prediction length: 1463 chars
+First 100 chars: What does does does do do do do the the the the,, to to to to to is is is
+
+So so, we need to be able
+-------- sample 10 --------
+Running inference for sample 10...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_24/outputs/out_10.txt
+Return code: 0
+Output file size: 1993 bytes
+Prediction length: 1990 chars
+First 100 chars: what does does does do.
+
+The summary is done, and it's done, it's done done done ( ( ( ( ( ( ) ) ) )
+-------- sample 11 --------
+Running inference for sample 11...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_24/outputs/out_11.txt
+Return code: 0
+Output file size: 1434 bytes
+Prediction length: 1431 chars
+First 100 chars: what is the group discussing.
+
+Group GroupGroupGroupGroupGroupGroup999999999999999999998999999999999
+-------- sample 12 --------
+Running inference for sample 12...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_24/outputs/out_12.txt
+Return code: 0
+Output file size: 1291 bytes
+Prediction length: 1288 chars
+First 100 chars: what is what it it it it (sum,,,)))) ) ) ) ) ) for sum in the summary.
+
+For Sum of of of of of - - -
+-------- sample 13 --------
+Running inference for sample 13...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_24/outputs/out_13.txt
+Return code: 0
+Output file size: 169 bytes
+Prediction length: 165 chars
+First 100 chars: what did did did with the user interface, what did the user interface have been
+
+So the answer is:
+
+
+-------- sample 14 --------
+Running inference for sample 14...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_24/outputs/out_14.txt
+Return code: 0
+Output file size: 1308 bytes
+Prediction length: 1305 chars
+First 100 chars: The discussion is is is is is is       ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** *
+-------- sample 15 --------
+Running inference for sample 15...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_24/outputs/out_15.txt
+Return code: 0
+Output file size: 1905 bytes
+Prediction length: 1902 chars
+First 100 chars: what did the professor think, what was the professor's own own, what was the student's own.
+
+So, the
+-------- sample 16 --------
+Running inference for sample 16...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_24/outputs/out_16.txt
+Return code: 0
+Output file size: 2095 bytes
+Prediction length: 2092 chars
+First 100 chars: What did it group talk to the group.
+
+Group, what does it group do do it it it it and and
+
+The answe
+-------- sample 17 --------
+Running inference for sample 17...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_24/outputs/out_17.txt
+Return code: 0
+Output file size: 194 bytes
+Prediction length: 190 chars
+First 100 chars: what is what at at at a group group group group group, and what is what, so so it it it
+
+So the answ
+-------- sample 18 --------
+Running inference for sample 18...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_24/outputs/out_18.txt
+Return code: 0
+Output file size: 1871 bytes
+Prediction length: 1868 chars
+First 100 chars: what is the group group group group group (group) of of of of of in in group group group group - - -
+-------- sample 19 --------
+Running inference for sample 19...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_24/outputs/out_19.txt
+Return code: 0
+Output file size: 1289 bytes
+Prediction length: 1283 chars
+First 100 chars: what is is is is is is
+
+The answer answer answer answer a a a a ( ( ( ( ( (     2 222229999999999999
+-------- sample 20 --------
+Running inference for sample 20...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_24/outputs/out_20.txt
+Return code: 0
+Output file size: 1501 bytes
+Prediction length: 1498 chars
+First 100 chars: what was was was what was done done done done, which is a a a a a a as as as as asasasasas as 222222
+-------- sample 21 --------
+Running inference for sample 21...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_24/outputs/out_21.txt
+Return code: 0
+Output file size: 112 bytes
+Prediction length: 108 chars
+First 100 chars: What did did did when when the the the the and and and.
+
+### ### ### ### ### ( ( ( ( ( (       [end 
+-------- sample 22 --------
+Running inference for sample 22...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_24/outputs/out_22.txt
+Return code: 0
+Output file size: 1768 bytes
+Prediction length: 1765 chars
+First 100 chars: The discussion of the project.
+
+The problem is is is is is is      999999999999999999999999999999999
+-------- sample 23 --------
+Running inference for sample 23...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_24/outputs/out_23.txt
+Return code: 0
+Output file size: 1164 bytes
+Prediction length: 1155 chars
+First 100 chars: Why why why why the the the the summary
+
+### ### ### ### ###       ( ( ( ( ( ( ) ) ) ) ) )) )) - - -
+-------- sample 24 --------
+Running inference for sample 24...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_24/outputs/out_24.txt
+Return code: 0
+Output file size: 1125 bytes
+Prediction length: 1122 chars
+First 100 chars: why should be be be be ( ( ( ( ( (      2   2 ) ) ) ) )) )) )) )
+
+)
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+     
+-------- sample 25 --------
+Running inference for sample 25...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_24/outputs/out_25.txt
+Return code: 0
+Output file size: 1114 bytes
+Prediction length: 1103 chars
+First 100 chars: Sum Sum is is is is is       - - - - (- ( ( ( ( ( ( ) ) ) ) ) )
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+9
+-------- sample 26 --------
+Running inference for sample 26...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_24/outputs/out_26.txt
+Return code: 0
+Output file size: 1203 bytes
+Prediction length: 1188 chars
+First 100 chars: what did did done done done done, what did we do, what we did, what we do.
+
+. . . . . . . -- -- -- -
+-------- sample 27 --------
+Running inference for sample 27...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_24/outputs/out_27.txt
+Return code: 0
+Output file size: 729 bytes
+Prediction length: 726 chars
+First 100 chars: what is is is is is      2
+
+2
+
+2
+
+2
+
+2
+
+2
+
+2
+
+2
+
+2
+
+2
+
+2
+
+2
+
+2
+
+2
+
+2
+
+2
+
+2
+
+2
+
+2
+
+2
+
+2
+
+2
+
+2
+
+2
+
+2
+
+
+-------- sample 28 --------
+Running inference for sample 28...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_24/outputs/out_28.txt
+Return code: 0
+Output file size: 1129 bytes
+Prediction length: 1126 chars
+First 100 chars: Summing the meeting's.
+
+### ### Sum Sum Sum Sum.
+
+.
+
+. . . . . . - - - - -      22222111333399999999
+-------- sample 29 --------
+Running inference for sample 29...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_24/outputs/out_29.txt
+Return code: 0
+Output file size: 1445 bytes
+Prediction length: 1442 chars
+First 100 chars: Sum of of of sum.
+
+But if if if if, then the summary is is is is is.
+
+So, if if is is is is are are 
+-------- sample 30 --------
+Running inference for sample 30...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_24/outputs/out_30.txt
+Return code: 0
+Output file size: 1019 bytes
+Prediction length: 1017 chars
+First 100 chars: :
+:
+---
+---
+---
+---
+---
+9999999999999999 (9999999999999999990000000009999999999999991111119999999999
+-------- sample 31 --------
+Running inference for sample 31...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_24/outputs/out_31.txt
+Return code: 0
+Output file size: 1360 bytes
+Prediction length: 1357 chars
+First 100 chars: Service is is is service service service service.
+
+### ### Sum
+
+### ### Sum
+
+### ### ### ### ( ( ( (
+-------- sample 32 --------
+Running inference for sample 32...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_24/outputs/out_32.txt
+Return code: 0
+Output file size: 162 bytes
+Prediction length: 158 chars
+First 100 chars: What was was was was
+
+********************************** ** ** ** ** ** ** ** ** ** ** ** ** ** ** *
+-------- sample 33 --------
+Running inference for sample 33...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_24/outputs/out_33.txt
+Return code: 0
+Output file size: 1238 bytes
+Prediction length: 1221 chars
+First 100 chars: what did it it it it. The summary is also a valid answer.
+
+******************************** ** ** **
+-------- sample 34 --------
+Running inference for sample 34...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_24/outputs/out_34.txt
+Return code: 0
+Output file size: 1789 bytes
+Prediction length: 1786 chars
+First 100 chars: What did did,,,,, and and and and ( ( ( ( (      999999999999999999000999999999999999999999999999999
+-------- sample 35 --------
+Running inference for sample 35...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_24/outputs/out_35.txt
+Return code: 0
+Output file size: 1040 bytes
+Prediction length: 1037 chars
+First 100 chars: What did you want to be,,,,....
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+---
+---
+---
+---
+---
+---
+---
+---
+---
+-------- sample 36 --------
+Running inference for sample 36...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_24/outputs/out_36.txt
+Return code: 0
+Output file size: 2004 bytes
+Prediction length: 2001 chars
+First 100 chars: Why do you group your your's's's group, and the group is a function.
+
+Group and Group Function Funct
+-------- sample 37 --------
+Running inference for sample 37...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_24/outputs/out_37.txt
+Return code: 0
+Output file size: 1329 bytes
+Prediction length: 1323 chars
+First 100 chars: What did it it it it it ( ( ( ( ( (   2 22211999999999999999999000000000999999999999999999 ( ( ( ( )
+-------- sample 38 --------
+Running inference for sample 38...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_24/outputs/out_38.txt
+Return code: 0
+Output file size: 1999 bytes
+Prediction length: 1994 chars
+First 100 chars: What does it do at the same time.
+
+So, what is the answer?
+
+The answer is:
+
+The answer is:
+
+The answ
+-------- sample 39 --------
+Running inference for sample 39...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_24/outputs/out_39.txt
+Return code: 0
+Output file size: 1325 bytes
+Prediction length: 1322 chars
+First 100 chars: What did did it it it it it. The answer is 5.
+
+This is a test for for for for,,, for for for ( ( ( (
+-------- sample 40 --------
+Running inference for sample 40...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_24/outputs/out_40.txt
+Return code: 0
+Output file size: 144 bytes
+Prediction length: 140 chars
+First 100 chars: What did it group.
+
+It is also,,, and and and and..
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+-------- sample 41 --------
+Running inference for sample 41...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_24/outputs/out_41.txt
+Return code: 0
+Output file size: 1120 bytes
+Prediction length: 1116 chars
+First 100 chars: how how,,,,,, and and and and as as as for for as as if111111999999999999999999000999999999999999999
+-------- sample 42 --------
+Running inference for sample 42...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_24/outputs/out_42.txt
+Return code: 0
+Output file size: 1148 bytes
+Prediction length: 1143 chars
+First 100 chars: what s s s m m m m m l l l a a a a a at      3
+
+So, the answer is:
+
+\boxed \ \ \ \ \ \boxed \ \ \ \
+
+-------- sample 43 --------
+Running inference for sample 43...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_24/outputs/out_43.txt
+Return code: 0
+Output file size: 1267 bytes
+Prediction length: 1264 chars
+First 100 chars: Sum Sum is is is is is as as as as a a a a a as as as sum.
+
+Sum, and and that which which which wher
+-------- sample 44 --------
+Running inference for sample 44...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_24/outputs/out_44.txt
+Return code: 0
+Output file size: 1236 bytes
+Prediction length: 1231 chars
+First 100 chars: The decision is not not not,,,, and and and and in the design.
+
+The problem is to to the sum of the 
+-------- sample 45 --------
+Running inference for sample 45...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_24/outputs/out_45.txt
+Return code: 0
+Output file size: 1911 bytes
+Prediction length: 1906 chars
+First 100 chars: how how
+
+This is a very very very very (the the the the the 1111119999999999999999999990009999999999
+-------- sample 46 --------
+Running inference for sample 46...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_24/outputs/out_46.txt
+Return code: 0
+Output file size: 1716 bytes
+Prediction length: 1711 chars
+First 100 chars: Sum Sum, and the review's's's's's't't999999999999999999111133334449999999999999999999999999999999999
+-------- sample 47 --------
+Running inference for sample 47...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_24/outputs/out_47.txt
+Return code: 0
+Output file size: 1571 bytes
+Prediction length: 1568 chars
+First 100 chars: What did did group think, group group group group group, group group.
+
+### ###
+
+### ### ### ### 
+
+Wh
+-------- sample 48 --------
+Running inference for sample 48...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_24/outputs/out_48.txt
+Return code: 0
+Output file size: 1849 bytes
+Prediction length: 1846 chars
+First 100 chars: The conclusion of a summary's's's's't't999999999999999999999999999999999999999991111222222      3
+
+T
+-------- sample 49 --------
+Running inference for sample 49...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_24/outputs/out_49.txt
+Return code: 0
+Output file size: 1047 bytes
+Prediction length: 1044 chars
+First 100 chars: why why why at at at a a a a a a - - - - -             - - - - ( ( ( ( ( (     2 ) ) ) ) - - - - + +
+\n=== EVALUATION SUMMARY ===
+Total predictions: 50
+Total references: 50
+\n=== Per-sample ROUGE-L ===
+Sample 0: ROUGE-L = 0.1271
+Sample 1: ROUGE-L = 0.0385
+Sample 2: ROUGE-L = 0.0175
+Sample 3: ROUGE-L = 0.1350
+Sample 4: ROUGE-L = 0.0741
+Sample 5: ROUGE-L = 0.0000
+Sample 6: ROUGE-L = 0.0823
+Sample 7: ROUGE-L = 0.0752
+Sample 8: ROUGE-L = 0.1043
+Sample 9: ROUGE-L = 0.0422
+Sample 10: ROUGE-L = 0.0338
+Sample 11: ROUGE-L = 0.0092
+Sample 12: ROUGE-L = 0.0356
+Sample 13: ROUGE-L = 0.1495
+Sample 14: ROUGE-L = 0.1099
+Sample 15: ROUGE-L = 0.0731
+Sample 16: ROUGE-L = 0.0714
+Sample 17: ROUGE-L = 0.0909
+Sample 18: ROUGE-L = 0.0977
+Sample 19: ROUGE-L = 0.0594
+Sample 20: ROUGE-L = 0.0695
+Sample 21: ROUGE-L = 0.1333
+Sample 22: ROUGE-L = 0.0568
+Sample 23: ROUGE-L = 0.0893
+Sample 24: ROUGE-L = 0.0000
+Sample 25: ROUGE-L = 0.0000
+Sample 26: ROUGE-L = 0.0405
+Sample 27: ROUGE-L = 0.0000
+Sample 28: ROUGE-L = 0.0698
+Sample 29: ROUGE-L = 0.0506
+Sample 30: ROUGE-L = 0.0519
+Sample 31: ROUGE-L = 0.0194
+Sample 32: ROUGE-L = 0.0690
+Sample 33: ROUGE-L = 0.0702
+Sample 34: ROUGE-L = 0.0823
+Sample 35: ROUGE-L = 0.0680
+Sample 36: ROUGE-L = 0.0942
+Sample 37: ROUGE-L = 0.0234
+Sample 38: ROUGE-L = 0.0145
+Sample 39: ROUGE-L = 0.0331
+Sample 40: ROUGE-L = 0.1010
+Sample 41: ROUGE-L = 0.1068
+Sample 42: ROUGE-L = 0.0226
+Sample 43: ROUGE-L = 0.1042
+Sample 44: ROUGE-L = 0.0805
+Sample 45: ROUGE-L = 0.0298
+Sample 46: ROUGE-L = 0.1053
+Sample 47: ROUGE-L = 0.1385
+Sample 48: ROUGE-L = 0.0990
+Sample 49: ROUGE-L = 0.0197
+\nFiltered: 46/50 samples with ROUGE-L > 0
+\n=== Aggregated ROUGE ===
+ROUGE-1: 0.0907
+ROUGE-2: 0.0074
+ROUGE-L: 0.0711
+ROUGE-Lsum: 0.0715
+ROUGE1=0.09067580534295105
+ROUGE2=0.007420154719974221
+ROUGEL=0.0711246389836617
+ROUGELSUM=0.0714688933050101

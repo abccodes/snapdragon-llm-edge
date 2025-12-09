@@ -1,0 +1,12 @@
+ by John L. Smith, published in the Journal of Experimental Biology on January 30, 2018.
+
+This article presents a study that investigated how bumblebee flight patterns are influenced by wind and air currents. The researchers used data from an experiment to analyze the flight behavior of individual bees within a controlled environment. They found that:
+
+* Bumblebees tend to fly in straight lines when there is no wind, but change direction if they encounter strong winds.
+* Bees flying with stronger winds tend to have shorter flights and more frequent changes in direction than those flying with weaker winds.
+
+The study suggests that bumblebee flight behavior can be influenced by the local wind conditions. The researchers propose a model for predicting how bees will fly based on their speed, distance from the source of food, and wind speed.
+
+This article provides insights into the complex interactions between bumblebees and their environment, highlighting the importance of understanding these dynamics in order to develop effective conservation strategies or management practices. [end of text]
+
+

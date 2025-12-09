@@ -1,0 +1,142 @@
+Using the latest cached version of the dataset since zai-org/LongBench couldn't be found on the Hugging Face Hub
+Found the latest cached dataset configuration 'qmsum' at /Users/aidanbayer-calvert/.cache/huggingface/datasets/zai-org___long_bench/qmsum/1.0.0/4a916a4bde5c3481ac49b84d5dde69a9d2eefcd67f884ef65b3d97ee7cc91f3e (last modified on Sun Nov  9 21:41:01 2025).
+-------- sample 0 --------
+Running inference for sample 0...
+Output file: hyperparam_search_longbench_20251207_215517/run_12/outputs/out_0.txt
+Return code: 0
+Output file size: 1870 bytes
+Prediction length: 1866 chars
+First 100 chars: The team discussed and agreed upon a new design for the remote control, which includes a flat surfac
+-------- sample 1 --------
+Running inference for sample 1...
+Output file: hyperparam_search_longbench_20251207_215517/run_12/outputs/out_1.txt
+Return code: 0
+Output file size: 1973 bytes
+Prediction length: 1969 chars
+First 100 chars: The group discussed how to use a new touch screen device that was being purchased, but had limited f
+-------- sample 2 --------
+Running inference for sample 2...
+Output file: hyperparam_search_longbench_20251207_215517/run_12/outputs/out_2.txt
+Return code: 0
+Output file size: 1031 bytes
+Prediction length: 1027 chars
+First 100 chars: The meeting between the CEO and the board of directors to discuss the company's financial situation,
+-------- sample 3 --------
+Running inference for sample 3...
+Output file: hyperparam_search_longbench_20251207_215517/run_12/outputs/out_3.txt
+Return code: 0
+Output file size: 1084 bytes
+Prediction length: 1080 chars
+First 100 chars: The project manager's summary of the meeting is as follows:
+
+* The team has completed a significant 
+-------- sample 4 --------
+Running inference for sample 4...
+Output file: hyperparam_search_longbench_20251207_215517/run_12/outputs/out_4.txt
+Return code: 0
+Output file size: 1192 bytes
+Prediction length: 1188 chars
+First 100 chars: The meeting was attended by representatives from various departments, including marketing, sales, an
+-------- sample 5 --------
+Running inference for sample 5...
+Output file: hyperparam_search_longbench_20251207_215517/run_12/outputs/out_5.txt
+Return code: 0
+Output file size: 1104 bytes
+Prediction length: 1100 chars
+First 100 chars: The meeting between User Interface and Remote Control introduced a new prototype that would be used 
+-------- sample 6 --------
+Running inference for sample 6...
+Output file: hyperparam_search_longbench_20251207_215517/run_12/outputs/out_6.txt
+Return code: 0
+Output file size: 469 bytes
+Prediction length: 465 chars
+First 100 chars: The meeting was attended by C, who expressed concerns about using the new recording equipment. He me
+-------- sample 7 --------
+Running inference for sample 7...
+Output file: hyperparam_search_longbench_20251207_215517/run_12/outputs/out_7.txt
+Return code: 0
+Output file size: 1433 bytes
+Prediction length: 1429 chars
+First 100 chars: The professor discussed the effects of MSG (monosodium glutamate) on human health. He noted that MSG
+-------- sample 8 --------
+Running inference for sample 8...
+Output file: hyperparam_search_longbench_20251207_215517/run_12/outputs/out_8.txt
+Return code: 0
+Output file size: 3760 bytes
+Prediction length: 3756 chars
+First 100 chars: The marketing team discussed the design and functionality of a new remote control, including its use
+-------- sample 9 --------
+Running inference for sample 9...
+Output file: hyperparam_search_longbench_20251207_215517/run_12/outputs/out_9.txt
+Return code: 0
+Output file size: 1809 bytes
+Prediction length: 1805 chars
+First 100 chars: The professor discussed how clustering can be used to analyze and visualize data. They mentioned tha
+-------- sample 10 --------
+Running inference for sample 10...
+Output file: hyperparam_search_longbench_20251207_215517/run_12/outputs/out_10.txt
+Return code: 0
+Output file size: 1753 bytes
+Prediction length: 1748 chars
+First 100 chars: The meeting between Grad F and the committee was productive, with discussions on the proposed projec
+-------- sample 11 --------
+Running inference for sample 11...
+Output file: hyperparam_search_longbench_20251207_215517/run_12/outputs/out_11.txt
+Return code: 0
+Output file size: 2345 bytes
+Prediction length: 2341 chars
+First 100 chars: The team discussed a new approach to speech recognition that uses a combination of machine learning 
+-------- sample 12 --------
+Running inference for sample 12...
+Output file: hyperparam_search_longbench_20251207_215517/run_12/outputs/out_12.txt
+Return code: 0
+Output file size: 860 bytes
+Prediction length: 856 chars
+First 100 chars: The meetings discussed several key points related to implementing new technologies, including the im
+-------- sample 13 --------
+Running inference for sample 13...
+Output file: hyperparam_search_longbench_20251207_215517/run_12/outputs/out_13.txt
+Return code: 0
+Output file size: 1734 bytes
+Prediction length: 1730 chars
+First 100 chars: The user interface discussed the use of titanium in their design, but found it difficult to explain 
+-------- sample 14 --------
+Running inference for sample 14...
+Output file: hyperparam_search_longbench_20251207_215517/run_12/outputs/out_14.txt
+Return code: 0
+Output file size: 1807 bytes
+Prediction length: 1803 chars
+First 100 chars: The meeting focused on discussing trends in fashion, particularly in terms of trend watching (how to
+
+=== EVALUATION SUMMARY ===
+Total predictions: 15
+Total references: 15
+
+=== Per-sample ROUGE-L ===
+Sample 0: ROUGE-L = 0.1645
+Sample 1: ROUGE-L = 0.1141
+Sample 2: ROUGE-L = 0.1116
+Sample 3: ROUGE-L = 0.1339
+Sample 4: ROUGE-L = 0.1015
+Sample 5: ROUGE-L = 0.1796
+Sample 6: ROUGE-L = 0.1832
+Sample 7: ROUGE-L = 0.0985
+Sample 8: ROUGE-L = 0.0488
+Sample 9: ROUGE-L = 0.0962
+Sample 10: ROUGE-L = 0.1014
+Sample 11: ROUGE-L = 0.1012
+Sample 12: ROUGE-L = 0.1088
+Sample 13: ROUGE-L = 0.1631
+Sample 14: ROUGE-L = 0.1357
+
+Filtered: 15/15 samples with ROUGE-L > 0
+
+=== Aggregated ROUGE ===
+ROUGE-1: 0.1932
+ROUGE-2: 0.0268
+ROUGE-L: 0.1222
+ROUGE-Lsum: 0.1382
+ROUGE1=0.193200070211421
+ROUGE2=0.02678599094160803
+ROUGEL=0.12218261241629075
+ROUGELSUM=0.13817224135624845

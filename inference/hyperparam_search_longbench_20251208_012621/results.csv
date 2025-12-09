@@ -1,0 +1,2 @@
+run_id,model,mode,temperature,repeat_penalty,top_p,top_k,min_p,ctx_size,keep,batch_size,ubatch_size,threads,ngl,ctk,ctv,flash_attn,context_shift,poll_level,use_mmap,split_mode,dry_multiplier,frequency_penalty,presence_penalty,token_limit,system_prompt,rouge1,rouge2,rougeL,rougeLsum,avg_prefill_speed,avg_decode_speed,avg_total_speed,runtime_seconds
+1,llama-3.2-1b-instruct-q4_k_m.gguf,CPU,0.2,1.1,1.0,40,0.15,2048,4,128,128,8,0,f16,q8_0,on,1,30,0,none,1.0,0.1,0.4,600,,0.20271379622543356,0.025820339126176373,0.12384632364299816,0.14459987380248612,0.00,0.00,46.94,2298

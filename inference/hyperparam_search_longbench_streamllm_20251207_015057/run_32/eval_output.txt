@@ -1,0 +1,173 @@
+Using the latest cached version of the dataset since zai-org/LongBench couldn't be found on the Hugging Face Hub
+Found the latest cached dataset configuration 'qmsum' at /Users/aidanbayer-calvert/.cache/huggingface/datasets/zai-org___long_bench/qmsum/1.0.0/4a916a4bde5c3481ac49b84d5dde69a9d2eefcd67f884ef65b3d97ee7cc91f3e (last modified on Sun Nov  9 21:41:01 2025).
+-------- sample 0 --------
+Running inference for sample 0...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_32/outputs/out_0.txt
+Return code: 0
+Output file size: 185 bytes
+Prediction length: 181 chars
+First 100 chars: This is a report on the systematicalysisqueenoughly, this, that and zilkaylily, that's, that, that'l
+-------- sample 1 --------
+Running inference for sample 1...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_32/outputs/out_1.txt
+Return code: 0
+Output file size: 1492 bytes
+Prediction length: 1489 chars
+First 100 chars: The group, a newswapping. The following the transcription, the following, and, and to the transcript
+-------- sample 2 --------
+Running inference for sample 2...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_32/outputs/out_2.txt
+Return code: 0
+Output file size: 2246 bytes
+Prediction length: 2243 chars
+First 100 chars: The article discusses a panel of experts from various backgrounds and specialists, who will be discu
+-------- sample 3 --------
+Running inference for sample 3...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_32/outputs/out_3.txt
+Return code: 0
+Output file size: 1318 bytes
+Prediction length: 1314 chars
+First 100 chars: The purpose of this report is to provide a comprehensive overview of the design, and a thorough expl
+-------- sample 4 --------
+Running inference for sample 4...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_32/outputs/out_4.txt
+Return code: 0
+Output file size: 1745 bytes
+Prediction length: 1742 chars
+First 100 chars: A comprehensive overview of a case study, which will include an overview on the topic. The research 
+-------- sample 5 --------
+Running inference for sample 5...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_32/outputs/out_5.txt
+Return code: 0
+Output file size: 82 bytes
+Prediction length: 78 chars
+First 100 chars: A comprehensive overview of the user interface for a new design. [end of text]
+-------- sample 6 --------
+Running inference for sample 6...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_32/outputs/out_6.txt
+Return code: 0
+Output file size: 60 bytes
+Prediction length: 56 chars
+First 100 chars: Actor and Summarized itinerary of theater. [end of text]
+-------- sample 7 --------
+Running inference for sample 7...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_32/outputs/out_7.txt
+Return code: 0
+Output file size: 826 bytes
+Prediction length: 823 chars
+First 100 chars: The article is a comprehensive and informative. It provides an thoroughness of the material, which i
+-------- sample 8 --------
+Running inference for sample 8...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_32/outputs/out_8.txt
+Return code: 0
+Output file size: 119 bytes
+Prediction length: 115 chars
+First 100 chars: The author's thoughts on a newest of the latest and fast-pacross, wearing a new topsychannelledgeral
+-------- sample 9 --------
+Running inference for sample 9...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_32/outputs/out_9.txt
+Return code: 0
+Output file size: 1641 bytes
+Prediction length: 1638 chars
+First 100 chars: The article is a comprehensive overview of the given the subjective and in-sure.
+Theironnective, and
+-------- sample 10 --------
+Running inference for sample 10...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_32/outputs/out_10.txt
+Return code: 0
+Output file size: 499 bytes
+Prediction length: 495 chars
+First 100 chars: A well-drafted in a well-cookederated by an in-correated by a revised by revisedly on the revisedy o
+-------- sample 11 --------
+Running inference for sample 11...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_32/outputs/out_11.txt
+Return code: 0
+Output file size: 1456 bytes
+Prediction length: 1453 chars
+First 100 chars: The workshop, aims to be held by the as well-being of the. Away to be discussed. The and the of the 
+-------- sample 12 --------
+Running inference for sample 12...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_32/outputs/out_12.txt
+Return code: 0
+Output file size: 195 bytes
+Prediction length: 190 chars
+First 100 chars: The text material is a collection of essayes. The second, and the first, anews are the sothroughly t
+-------- sample 13 --------
+Running inference for sample 13...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_32/outputs/out_13.txt
+Return code: 0
+Output file size: 2217 bytes
+Prediction length: 2214 chars
+First 100 chars: A comprehensive overview of the user interface, including a summary of the title. The following the 
+-------- sample 14 --------
+Running inference for sample 14...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_32/outputs/out_14.txt
+Return code: 0
+Output file size: 566 bytes
+Prediction length: 562 chars
+First 100 chars: The following the meeting, a follow-up with the schedule, the report of the presentation, a summary 
+-------- sample 15 --------
+Running inference for sample 15...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_32/outputs/out_15.txt
+Return code: 0
+Output file size: 1114 bytes
+Prediction length: 1111 chars
+First 100 chars: The article is a comprehensive overview of the course, including anecognificatntheory. The course, w
+-------- sample 16 --------
+Running inference for sample 16...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_32/outputs/out_16.txt
+Return code: 0
+Output file size: 1766 bytes
+Prediction length: 1763 chars
+First 100 chars: The presentation of a new report on the computer screen.
+
+10. Audience and 25. Adoeaselectronic 30. 
+-------- sample 17 --------
+Running inference for sample 17...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_32/outputs/out_17.txt
+Return code: 0
+Output file size: 157 bytes
+Prediction length: 153 chars
+First 100 chars: The documentary on the screening of a new drama, which is scheduled for 7 pm. At the same time, we w
+-------- sample 18 --------
+Running inference for sample 18...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_32/outputs/out_18.txt
+Return code: 0
+Output file size: 1701 bytes
+Prediction length: 1698 chars
+First 100 chars: A professional development workshop, a training, a course, an internship, a seminar. The semester, t
+-------- sample 19 --------
+Running inference for sample 19...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_32/outputs/out_19.txt
+Return code: 0
+Output file size: 2161 bytes
+Prediction length: 2158 chars
+First 100 chars: A comprehensive report of the following presentation.
+
+Introduction: This is a comprehensive overvie
+-------- sample 20 --------
+Running inference for sample 20...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_32/outputs/out_20.txt
+Return code: 0
+Output file size: 1330 bytes
+Prediction length: 1327 chars
+First 100 chars: The given that theater rehearing of a.
+Theater, and theatering, and theatre, and-endings, andtertain
+-------- sample 21 --------
+Running inference for sample 21...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_32/outputs/out_21.txt
+Return code: 0
+Output file size: 157 bytes
+Prediction length: 153 chars
+First 100 chars: A comprehensive overview of the newest and most recent design. The latest in-line with the new, the 
+-------- sample 22 --------
+Running inference for sample 22...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_32/outputs/out_22.txt
+Return code: 0
+Output file size: 595 bytes
+Traceback (most recent call last):
+  File "/Users/aidanbayer-calvert/DocumentsNotICloud/cs259/snapdragon-llm-edge/inference/hyperparam_search_longbench_streamllm_20251207_015057/run_32/run_eval.py", line 97, in <module>
+    pred = fin.read().strip()
+           ^^^^^^^^^^
+  File "<frozen codecs>", line 322, in decode
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xc5 in position 446: invalid continuation byte

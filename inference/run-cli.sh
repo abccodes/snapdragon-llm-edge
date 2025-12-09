@@ -26,7 +26,7 @@ adbserial=
 [ "$S" != "" ] && adbserial="-s $S"
 
 # Default model on device; override with env M if needed
-model="granite-3.3-8b-instruct-gguf"
+model=""
 [ "$M" != "" ] && model="$M"
 
 ########################################

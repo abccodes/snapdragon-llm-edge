@@ -1,0 +1,28 @@
+ The answer is yes, and it's a crucial one.
+
+Social media platforms have been accused of manipulating public opinion through algorithms that prioritize sensational or provocative content. This can lead to an echo chamber effect where people only see information that confirms their existing views, making them less likely to consider opposing viewpoints. In the context of the 2016 US presidential election, social media played a significant role in shaping public discourse.
+
+A study by the Pew Research Center found that nearly all Americans (96%) have access to the internet, and most use it for news consumption. However, this doesn't mean they're always getting accurate information. Social media platforms like Facebook, Twitter, and Instagram are often used as sources of news, but their algorithms can influence what content is displayed.
+
+The 2016 presidential election was particularly susceptible to social media manipulation due to the rapid spread of misinformation on these platforms. In fact, a study by the Knight Foundation found that during this time, nearly all major news outlets reported on the same story: Donald Trump's "birther" conspiracy theory. This created an echo chamber effect, where people were only exposed to information that reinforced their existing views.
+
+The impact of social media on public discourse is not limited to the 2016 election. It has been shown in various studies that it can lead to:
+
+* **Confirmation bias**: Social media algorithms often prioritize content that confirms users' pre-existing beliefs, making them more likely to ignore opposing viewpoints.
+* **Misinformation and disinformation**: Social media platforms can spread false or misleading information quickly, which can be difficult to correct.
+* **Polarization**: Social media can exacerbate existing social divisions by amplifying divisive rhetoric.
+
+To mitigate the impact of social media on public discourse, it's essential to:
+
+1. **Verify information**: Before sharing or consuming content online, verify its accuracy through reputable sources.
+2. **Use fact-checking websites**: Websites like Snopes and FactCheck.org can help identify false information.
+3. **Engage in respectful dialogue**: Encourage open and respectful discussions with others who may hold different views.
+
+In conclusion, social media has been a significant factor in shaping public discourse during the 2016 US presidential election. While it's not possible to completely eliminate its impact, understanding how it works can help us navigate online information more effectively. By verifying sources, engaging in respectful dialogue, and being aware of the potential for misinformation and polarization, we can make informed decisions about what information is worth sharing or consuming.
+
+Sources:
+
+* Pew Research Center (2016). News Use by Adults.
+* Knight Foundation (2017). The State of Social Media 2017: A Report on the Impact of Social Media on Public Discourse. [end of text]
+
+

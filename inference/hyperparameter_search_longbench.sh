@@ -28,40 +28,31 @@ echo "run_id,model,mode,temperature,repeat_penalty,top_p,top_k,min_p,ctx_size,ke
 ################################################################################
 
 MODELS=(
-    "Llama-3.2-1B-Instruct-Q4_0.gguf"
-    "DeepSeek-R1-Distill-Qwen-1.5B-Q4_K_M.gguf"
-    "qwen2-7b-tinytron-Q4_K_M.gguf"
-    "TinyLlama-1.1B-Chat-Q4_K_M.gguf"
+	"llama-3.2-1b-instruct-q4_k_m.gguf"
 )
 
 MODES=("CPU")
 SYSTEM_PROMPTS=("")
 
-# PROVEN: Temperature 0.2-0.3
-TEMPS=(0.2 0.3)
+TEMPS=(0.2)
 
-REPEAT_PENALTIES=(1.1 1.2)
+REPEAT_PENALTIES=(1.1)
 
 TOP_PS=(1.0)
 
-TOP_KS=(30 40)
+TOP_KS=(40)
 
-MIN_P=(0.1 0.15)
+MIN_P=(0.15)
 
-# Token limits for summaries
-TOKEN_LIMITS=(500 750)
+TOKEN_LIMITS=(600)
 
-# Larger context for meeting transcripts
-CTX_SIZES=(512 1024 2048 4096)
+CTX_SIZES=(2048)
 
-# BATCH SIZES - test multiple values like TruthfulQA
-BATCH_SIZES_CPU=(128 256 512)
+BATCH_SIZES_CPU=(128)
 
-# Hardware settings
 THREADS=(8)
 NGL_VALUES=(0)
 
-# KV cache quantization
 KV_CACHE_CTK_VALUES=("f16")
 KV_CACHE_CTV_VALUES=("q8_0")
 
@@ -69,7 +60,7 @@ KV_CACHE_CTV_VALUES=("q8_0")
 FLASH_ATTN=("on")
 
 # StreamLLM: 4 sink tokens
-KEEP_VALUES=(0 4)
+KEEP_VALUES=(4)
 
 # Context shift - Always on
 CONTEXT_SHIFT=(1)
@@ -83,9 +74,9 @@ USE_MMAP=(0)
 SPLIT_MODES=("none")
 
 # Sampling parameters
-DRY_MULTIPLIER=(0.8 1.0)
-FREQUENCY_PENALTY=(0.1 0.15)
-PRESENCE_PENALTY=(0.2 0.3 0.4)
+DRY_MULTIPLIER=(1.0)
+FREQUENCY_PENALTY=(0.1)
+PRESENCE_PENALTY=(0.4)
 
 ################################################################################
 # HELPER FUNCTIONS
@@ -231,7 +222,7 @@ ENDPY
     # Append main evaluation logic
     cat >> "$run_dir/run_eval.py" << 'ENDPY'
 
-ds = load_dataset("zai-org/LongBench", "qmsum", split="test").select(range(8))
+ds = load_dataset("zai-org/LongBench", "qmsum", split="test").select(range(100))
 rouge = evaluate.load("rouge")
 output_dir = os.path.join(RUN_DIR, "outputs")
 os.makedirs(output_dir, exist_ok=True)

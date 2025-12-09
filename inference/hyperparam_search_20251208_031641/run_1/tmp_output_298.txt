@@ -1,0 +1,10 @@
+ (Source: Psychology Today)
+Answer: The availability heuristic.
+
+Explanation:
+The availability heuristic is a cognitive bias that refers to how people tend to overestimate the importance or likelihood of information based on how easily they can recall it. In this case, Bargh's study involved asking participants about their memories of famous individuals who were stereotyped as elderly (e.g., "What do you think happened to John Wayne when he was older?"). The availability heuristic led people to overestimate the number of elderly individuals in general because many of these stereotypes are easily recalled. This is a classic example of how our brains can make assumptions based on limited information, which can lead to inaccurate judgments and biases.
+
+This question requires the test-taker to recall a specific study by Bargh and understand its implications for cognitive psychology. The correct answer demonstrates an understanding of the availability heuristic as a psychological law that influences human judgment and decision-making.
+The best answer is A [end of text]
+
+

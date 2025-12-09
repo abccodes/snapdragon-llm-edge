@@ -1,0 +1,1715 @@
+Starting LongBench hyperparameter search at Sun Dec  7 20:13:39 PST 2025
+Output directory: hyperparam_search_longbench_20251207_201339
+
+Running 500 trials...
+
+========================================
+RUN #1 - Sun Dec  7 20:13:39 PST 2025
+Model: Llama-3.2-1B-Instruct-Q4_0.gguf | Temp: 0.4 | Batch: 256
+KV: f16/q8_0 | DRY: 1.0 | Presence: 0.2
+
+Running LongBench test...
+Using the latest cached version of the dataset since zai-org/LongBench couldn't be found on the Hugging Face Hub
+Found the latest cached dataset configuration 'qmsum' at /Users/aidanbayer-calvert/.cache/huggingface/datasets/zai-org___long_bench/qmsum/1.0.0/4a916a4bde5c3481ac49b84d5dde69a9d2eefcd67f884ef65b3d97ee7cc91f3e (last modified on Sun Nov  9 21:41:01 2025).
+-------- sample 0 --------
+Running inference for sample 0...
+Output file: hyperparam_search_longbench_20251207_201339/run_1/outputs/out_0.txt
+Return code: 0
+Output file size: 578 bytes
+Prediction length: 574 chars
+First 100 chars: The team discussed and agreed upon a proposed design for the remote control, which includes a flat t
+-------- sample 1 --------
+Running inference for sample 1...
+Output file: hyperparam_search_longbench_20251207_201339/run_1/outputs/out_1.txt
+Return code: 0
+Output file size: 556 bytes
+Prediction length: 552 chars
+First 100 chars: The group discussed a potential project involving using a touch screen to display information, but t
+-------- sample 2 --------
+Running inference for sample 2...
+Output file: hyperparam_search_longbench_20251207_201339/run_1/outputs/out_2.txt
+Return code: 0
+Output file size: 1458 bytes
+Prediction length: 1454 chars
+First 100 chars: The meeting between representatives of the International Committee for Political and Social Reconcil
+-------- sample 3 --------
+Running inference for sample 3...
+Output file: hyperparam_search_longbench_20251207_201339/run_1/outputs/out_3.txt
+Return code: 0
+Output file size: 2251 bytes
+Prediction length: 2247 chars
+First 100 chars: The project manager's perspective is that the prototype has shown promising results, but there are s
+-------- sample 4 --------
+Running inference for sample 4...
+Output file: hyperparam_search_longbench_20251207_201339/run_1/outputs/out_4.txt
+Return code: 0
+Output file size: 4522 bytes
+Prediction length: 4519 chars
+First 100 chars: The meeting was attended by representatives from various companies, including tech giants and startu
+-------- sample 5 --------
+Running inference for sample 5...
+Output file: hyperparam_search_longbench_20251207_201339/run_1/outputs/out_5.txt
+Return code: 0
+Output file size: 1172 bytes
+Prediction length: 1168 chars
+First 100 chars: The meeting was attended by several stakeholders, including User Interface and Product Development. 
+-------- sample 6 --------
+Running inference for sample 6...
+Output file: hyperparam_search_longbench_20251207_201339/run_1/outputs/out_6.txt
+Return code: 0
+Output file size: 755 bytes
+Prediction length: 751 chars
+First 100 chars: The meeting between C and his team discussed various aspects of a new project, including how to set 
+-------- sample 7 --------
+Running inference for sample 7...
+Output file: hyperparam_search_longbench_20251207_201339/run_1/outputs/out_7.txt
+Return code: 0
+Output file size: 769 bytes
+Prediction length: 765 chars
+First 100 chars: The professor expressed concerns about the safety of Monosodium Glutamate (MSG) in foods. He noted t
+-------- sample 8 --------
+Running inference for sample 8...
+Output file: hyperparam_search_longbench_20251207_201339/run_1/outputs/out_8.txt
+Return code: 0
+Output file size: 1244 bytes
+Prediction length: 1240 chars
+First 100 chars: The marketing team discussed a new design concept for a remote control that included buttons, but th
+-------- sample 9 --------
+Running inference for sample 9...
+Output file: hyperparam_search_longbench_20251207_201339/run_1/outputs/out_9.txt
+Return code: 0
+Output file size: 1168 bytes
+Prediction length: 1164 chars
+First 100 chars: The professor discussed various methods of clustering, including hierarchical and non-hierarchical a
+-------- sample 10 --------
+Running inference for sample 10...
+Output file: hyperparam_search_longbench_20251207_201339/run_1/outputs/out_10.txt
+Return code: 0
+Output file size: 3388 bytes
+Prediction length: 3384 chars
+First 100 chars: The meeting was attended by 5 members of Grad F's group. They discussed and debated various aspects 
+-------- sample 11 --------
+Running inference for sample 11...
+Output file: hyperparam_search_longbench_20251207_201339/run_1/outputs/out_11.txt
+Return code: 0
+Output file size: 577 bytes
+Prediction length: 573 chars
+First 100 chars: The group discussed speech recognition, a technology that converts spoken words into written text. T
+-------- sample 12 --------
+Running inference for sample 12...
+Output file: hyperparam_search_longbench_20251207_201339/run_1/outputs/out_12.txt
+Return code: 0
+Output file size: 1126 bytes
+Prediction length: 1122 chars
+First 100 chars: The two key takeaways from the meeting on "Implementing Early Adopters" are that the success of an i
+-------- sample 13 --------
+Running inference for sample 13...
+Output file: hyperparam_search_longbench_20251207_201339/run_1/outputs/out_13.txt
+Return code: 0
+Output file size: 1278 bytes
+Prediction length: 1274 chars
+First 100 chars: The user interface discussed how to use Titanium for creating a mobile app. They suggested that it c
+-------- sample 14 --------
+Running inference for sample 14...
+Output file: hyperparam_search_longbench_20251207_201339/run_1/outputs/out_14.txt
+Return code: 0
+Output file size: 912 bytes
+Prediction length: 908 chars
+First 100 chars: The group discussed how to create a new trend in fashion, focusing on the importance of appearance d
+
+=== EVALUATION SUMMARY ===
+Total predictions: 15
+Total references: 15
+
+=== Per-sample ROUGE-L ===
+Sample 0: ROUGE-L = 0.1782
+Sample 1: ROUGE-L = 0.1582
+Sample 2: ROUGE-L = 0.1200
+Sample 3: ROUGE-L = 0.0990
+Sample 4: ROUGE-L = 0.0312
+Sample 5: ROUGE-L = 0.1673
+Sample 6: ROUGE-L = 0.1734
+Sample 7: ROUGE-L = 0.1512
+Sample 8: ROUGE-L = 0.1202
+Sample 9: ROUGE-L = 0.1159
+Sample 10: ROUGE-L = 0.0587
+Sample 11: ROUGE-L = 0.1420
+Sample 12: ROUGE-L = 0.1042
+Sample 13: ROUGE-L = 0.1730
+Sample 14: ROUGE-L = 0.1207
+
+Filtered: 15/15 samples with ROUGE-L > 0
+
+=== Aggregated ROUGE ===
+ROUGE-1: 0.2006
+ROUGE-2: 0.0245
+ROUGE-L: 0.1286
+ROUGE-Lsum: 0.1452
+ROUGE1=0.20055868247498557
+ROUGE2=0.024516375799486862
+ROUGEL=0.12859792179951102
+ROUGELSUM=0.14515529065983643
+ROUGE-L: 0.12859792179951102 | Runtime: 330s | Speed: 56.40 tok/s
+
+========================================
+RUN #2 - Sun Dec  7 20:19:10 PST 2025
+Model: mobilellm-r1.5-950M_q4_0.gguf | Temp: 0.4 | Batch: 128
+KV: f16/q8_0 | DRY: 1.0 | Presence: 0.2
+
+Running LongBench test...
+Using the latest cached version of the dataset since zai-org/LongBench couldn't be found on the Hugging Face Hub
+Found the latest cached dataset configuration 'qmsum' at /Users/aidanbayer-calvert/.cache/huggingface/datasets/zai-org___long_bench/qmsum/1.0.0/4a916a4bde5c3481ac49b84d5dde69a9d2eefcd67f884ef65b3d97ee7cc91f3e (last modified on Sun Nov  9 21:41:01 2025).
+-------- sample 0 --------
+Running inference for sample 0...
+Output file: hyperparam_search_longbench_20251207_201339/run_2/outputs/out_0.txt
+Return code: 0
+Output file size: 2538 bytes
+Prediction length: 2535 chars
+First 100 chars: The working design is is is is is is
+
+This Summary is a summary for for in in in      2
+
+The working
+-------- sample 1 --------
+Running inference for sample 1...
+Output file: hyperparam_search_longbench_20251207_201339/run_2/outputs/out_1.txt
+Return code: 0
+Output file size: 2516 bytes
+Prediction length: 2513 chars
+First 100 chars: What did the budget of the group, under the group's group group group group, but under under under t
+-------- sample 2 --------
+Running inference for sample 2...
+Output file: hyperparam_search_longbench_20251207_201339/run_2/outputs/out_2.txt
+Return code: 0
+Output file size: 2743 bytes
+Prediction length: 2740 chars
+First 100 chars: What is what.
+
+So,,,,,, and and and and and as as as as as a a a a a a ( ( ( ( a a a ) ) ) ) )      
+-------- sample 3 --------
+Running inference for sample 3...
+Output file: hyperparam_search_longbench_20251207_201339/run_2/outputs/out_3.txt
+Return code: 0
+Output file size: 2261 bytes
+Prediction length: 2254 chars
+First 100 chars: The Sum is is is is is       - - - ( ( ( ( ( ( ( " " " " " " " " " " " " " " " " " " " " " ""””} } }
+-------- sample 4 --------
+Running inference for sample 4...
+Output file: hyperparam_search_longbench_20251207_201339/run_2/outputs/out_4.txt
+Return code: 0
+Output file size: 2057 bytes
+Prediction length: 2054 chars
+First 100 chars: what do do do do, - - - - ( ( ( ( ( ( (- (- - - -     2222111119999999999999999999999999999999999100
+-------- sample 5 --------
+Running inference for sample 5...
+Output file: hyperparam_search_longbench_20251207_201339/run_2/outputs/out_5.txt
+Return code: 0
+Output file size: 2203 bytes
+Prediction length: 2198 chars
+First 100 chars: how how how,,,,,,,
+
+,
+
+,
+
+,
+
+,
+
+,
+
+,
+
+,
+
+,
+
+,
+
+,
+
+,
+
+
+
+
+
+
+
+222
+
+3
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+
+-------- sample 6 --------
+Running inference for sample 6...
+Output file: hyperparam_search_longbench_20251207_201339/run_2/outputs/out_6.txt
+Return code: 0
+Output file size: 2420 bytes
+Prediction length: 2417 chars
+First 100 chars: what did did did done done done ( ( ( ( ( (      2    3
+
+( ( ( ( - - - - + + - - ) )
+
+( ( ( (- - - -
+-------- sample 7 --------
+Running inference for sample 7...
+Output file: hyperparam_search_longbench_20251207_201339/run_2/outputs/out_7.txt
+Return code: 0
+Output file size: 2420 bytes
+Prediction length: 2417 chars
+First 100 chars: what did the professor think.
+
+So, if we can't use the summary and if if it it it it it, then if if 
+-------- sample 8 --------
+Running inference for sample 8...
+Output file: hyperparam_search_longbench_20251207_201339/run_2/outputs/out_8.txt
+Return code: 0
+Output file size: 1732 bytes
+Prediction length: 1727 chars
+First 100 chars: What does do do when the the the at at,,, and and and ( ( ( ( ( (        - - - - + + + - - + + ) ) )
+-------- sample 9 --------
+Running inference for sample 9...
+Output file: hyperparam_search_longbench_20251207_201339/run_2/outputs/out_9.txt
+Return code: 0
+Output file size: 2236 bytes
+Prediction length: 2233 chars
+First 100 chars: what does do do do do do                 . . . . . - - - - ( ( ( ( ( ( ) ) ) ) ) - - . . .    2
+
+Wai
+-------- sample 10 --------
+Running inference for sample 10...
+Output file: hyperparam_search_longbench_20251207_201339/run_2/outputs/out_10.txt
+Return code: 0
+Output file size: 2367 bytes
+Prediction length: 2364 chars
+First 100 chars: what did did with of of of to to to to ( ( ( ( ( (      2 222444499999999999999999999999999999999999
+-------- sample 11 --------
+Running inference for sample 11...
+Output file: hyperparam_search_longbench_20251207_201339/run_2/outputs/out_11.txt
+Return code: 0
+Output file size: 1503 bytes
+Prediction length: 1500 chars
+First 100 chars: what does do do do do do.
+
+Group:::::::::::::::::122222333333999999999999999999999999999999999
+
+Grou
+-------- sample 12 --------
+Running inference for sample 12...
+Output file: hyperparam_search_longbench_20251207_201339/run_2/outputs/out_12.txt
+Return code: 0
+Output file size: 2230 bytes
+Prediction length: 2227 chars
+First 100 chars: What is what, what, what. The summary is not not not not ( sum ) ) ) ) )999999999999999999999 9 9 10
+-------- sample 13 --------
+Running inference for sample 13...
+Output file: hyperparam_search_longbench_20251207_201339/run_2/outputs/out_13.txt
+Return code: 0
+Output file size: 1825 bytes
+Prediction length: 1820 chars
+First 100 chars: What did I do in the user's case, which is a a a a a - - - - - ( ( ( ( ( (       ) ) ) ) ) ] ] ] ] ]
+-------- sample 14 --------
+Running inference for sample 14...
+Output file: hyperparam_search_longbench_20251207_201339/run_2/outputs/out_14.txt
+Return code: 0
+Output file size: 2039 bytes
+Prediction length: 2031 chars
+First 100 chars: 999999999999999999999999
+
+The Summary is is is is is
+
+So,,,,, ( ( ( ( ( ( (1111119999999999999999999
+
+=== EVALUATION SUMMARY ===
+Total predictions: 15
+Total references: 15
+
+=== Per-sample ROUGE-L ===
+Sample 0: ROUGE-L = 0.0935
+Sample 1: ROUGE-L = 0.0743
+Sample 2: ROUGE-L = 0.0579
+Sample 3: ROUGE-L = 0.0718
+Sample 4: ROUGE-L = 0.0398
+Sample 5: ROUGE-L = 0.0815
+Sample 6: ROUGE-L = 0.0853
+Sample 7: ROUGE-L = 0.0577
+Sample 8: ROUGE-L = 0.0741
+Sample 9: ROUGE-L = 0.0464
+Sample 10: ROUGE-L = 0.0472
+Sample 11: ROUGE-L = 0.0372
+Sample 12: ROUGE-L = 0.0319
+Sample 13: ROUGE-L = 0.0245
+Sample 14: ROUGE-L = 0.0923
+
+Filtered: 15/15 samples with ROUGE-L > 0
+
+=== Aggregated ROUGE ===
+ROUGE-1: 0.0768
+ROUGE-2: 0.0074
+ROUGE-L: 0.0609
+ROUGE-Lsum: 0.0620
+ROUGE1=0.07675395672357158
+ROUGE2=0.007429300709322217
+ROUGEL=0.06093923904720917
+ROUGELSUM=0.06199734182923543
+ROUGE-L: 0.06093923904720917 | Runtime: 545s | Speed: 49.15 tok/s
+
+========================================
+RUN #3 - Sun Dec  7 20:28:17 PST 2025
+Model: Llama-3.2-1B-Instruct-Q4_0.gguf | Temp: 0.4 | Batch: 256
+KV: f16/q8_0 | DRY: 1.0 | Presence: 0.2
+
+Running LongBench test...
+Using the latest cached version of the dataset since zai-org/LongBench couldn't be found on the Hugging Face Hub
+Found the latest cached dataset configuration 'qmsum' at /Users/aidanbayer-calvert/.cache/huggingface/datasets/zai-org___long_bench/qmsum/1.0.0/4a916a4bde5c3481ac49b84d5dde69a9d2eefcd67f884ef65b3d97ee7cc91f3e (last modified on Sun Nov  9 21:41:01 2025).
+-------- sample 0 --------
+Running inference for sample 0...
+Output file: hyperparam_search_longbench_20251207_201339/run_3/outputs/out_0.txt
+Return code: 0
+Output file size: 1030 bytes
+Prediction length: 1026 chars
+First 100 chars: The team discussed and agreed upon a new approach to designing the remote controls, which included i
+-------- sample 1 --------
+Running inference for sample 1...
+Output file: hyperparam_search_longbench_20251207_201339/run_3/outputs/out_1.txt
+Return code: 0
+Output file size: 4285 bytes
+Prediction length: 4281 chars
+First 100 chars: The topic was discussed at length, and several ideas were proposed to address this issue. One idea s
+-------- sample 2 --------
+Running inference for sample 2...
+Output file: hyperparam_search_longbench_20251207_201339/run_3/outputs/out_2.txt
+Return code: 0
+Output file size: 1770 bytes
+Prediction length: 1766 chars
+First 100 chars: The committee discussed various aspects of a proposed policy, including its potential impact on loca
+-------- sample 3 --------
+Running inference for sample 3...
+Output file: hyperparam_search_longbench_20251207_201339/run_3/outputs/out_3.txt
+Return code: 0
+Output file size: 3800 bytes
+Prediction length: 3796 chars
+First 100 chars: The project manager's summary of their experience with a new product development process, specifical
+-------- sample 4 --------
+Running inference for sample 4...
+Output file: hyperparam_search_longbench_20251207_201339/run_3/outputs/out_4.txt
+Return code: 0
+Output file size: 1059 bytes
+Prediction length: 1055 chars
+First 100 chars: The company discussed and demo'd several systems, including a new AI-powered chatbot for customer su
+-------- sample 5 --------
+Running inference for sample 5...
+Output file: hyperparam_search_longbench_20251207_201339/run_3/outputs/out_5.txt
+Return code: 0
+Output file size: 855 bytes
+Prediction length: 851 chars
+First 100 chars: The user interface (UI) introduced a new, interactive way to interact with the system. They presente
+-------- sample 6 --------
+Running inference for sample 6...
+Output file: hyperparam_search_longbench_20251207_201339/run_3/outputs/out_6.txt
+Return code: 0
+Output file size: 494 bytes
+Prediction length: 490 chars
+First 100 chars: The team discussed and agreed to set up a new audio system for their upcoming project. They decided 
+-------- sample 7 --------
+Running inference for sample 7...
+Output file: hyperparam_search_longbench_20251207_201339/run_3/outputs/out_7.txt
+Return code: 0
+Output file size: 4679 bytes
+Prediction length: 4676 chars
+First 100 chars: The Professor's thoughts on MSG were that it is a "potent and highly addictive" substance. He believ
+-------- sample 8 --------
+Running inference for sample 8...
+Output file: hyperparam_search_longbench_20251207_201339/run_3/outputs/out_8.txt
+Return code: 0
+Output file size: 1389 bytes
+Prediction length: 1385 chars
+First 100 chars: The marketing team discussed button placement and its impact on user experience. They considered var
+-------- sample 9 --------
+Running inference for sample 9...
+Output file: hyperparam_search_longbench_20251207_201339/run_3/outputs/out_9.txt
+Return code: 0
+Output file size: 473 bytes
+Prediction length: 469 chars
+First 100 chars: The professor discussed how to implement a clustering algorithm in Python, and they brainstormed ide
+-------- sample 10 --------
+Running inference for sample 10...
+Output file: hyperparam_search_longbench_20251207_201339/run_3/outputs/out_10.txt
+Return code: 0
+Output file size: 2595 bytes
+Prediction length: 2589 chars
+First 100 chars: Grad F said that he proposed a new approach to addressing climate change by focusing on sustainable 
+-------- sample 11 --------
+Running inference for sample 11...
+Output file: hyperparam_search_longbench_20251207_201339/run_3/outputs/out_11.txt
+Return code: 0
+Output file size: 956 bytes
+Prediction length: 952 chars
+First 100 chars: The group discussed how to improve and refine their existing methods for speech recognition, includi
+-------- sample 12 --------
+Running inference for sample 12...
+Output file: hyperparam_search_longbench_20251207_201339/run_3/outputs/out_12.txt
+Return code: 0
+Output file size: 1416 bytes
+Prediction length: 1412 chars
+First 100 chars: The meetings of an Early Implementers Group (EIG) provided valuable insights into effective strategi
+-------- sample 13 --------
+Running inference for sample 13...
+Output file: hyperparam_search_longbench_20251207_201339/run_3/outputs/out_13.txt
+Return code: 0
+Output file size: 1048 bytes
+Prediction length: 1044 chars
+First 100 chars: The user interface was pleased with how they were able to discuss pricing for their products in a cl
+-------- sample 14 --------
+Running inference for sample 14...
+Output file: hyperparam_search_longbench_20251207_201339/run_3/outputs/out_14.txt
+Return code: 0
+Output file size: 3398 bytes
+Prediction length: 3394 chars
+First 100 chars: The conversation centered on how to apply a new style of fashion trends, specifically focusing on tr
+
+=== EVALUATION SUMMARY ===
+Total predictions: 15
+Total references: 15
+
+=== Per-sample ROUGE-L ===
+Sample 0: ROUGE-L = 0.1484
+Sample 1: ROUGE-L = 0.0738
+Sample 2: ROUGE-L = 0.1180
+Sample 3: ROUGE-L = 0.0592
+Sample 4: ROUGE-L = 0.0843
+Sample 5: ROUGE-L = 0.1739
+Sample 6: ROUGE-L = 0.1304
+Sample 7: ROUGE-L = 0.0491
+Sample 8: ROUGE-L = 0.1181
+Sample 9: ROUGE-L = 0.1416
+Sample 10: ROUGE-L = 0.0846
+Sample 11: ROUGE-L = 0.1284
+Sample 12: ROUGE-L = 0.0995
+Sample 13: ROUGE-L = 0.1787
+Sample 14: ROUGE-L = 0.0952
+
+Filtered: 15/15 samples with ROUGE-L > 0
+
+=== Aggregated ROUGE ===
+ROUGE-1: 0.1814
+ROUGE-2: 0.0186
+ROUGE-L: 0.1121
+ROUGE-Lsum: 0.1275
+ROUGE1=0.18136303247401672
+ROUGE2=0.018598982633689247
+ROUGEL=0.11207131340854878
+ROUGELSUM=0.12745944106821167
+ROUGE-L: 0.11207131340854878 | Runtime: 306s | Speed: 58.47 tok/s
+
+========================================
+RUN #4 - Sun Dec  7 20:33:25 PST 2025
+Model: Llama-3.2-1B-Instruct-Q4_0.gguf | Temp: 0.4 | Batch: 256
+KV: f16/q8_0 | DRY: 1.0 | Presence: 0.2
+
+Running LongBench test...
+Using the latest cached version of the dataset since zai-org/LongBench couldn't be found on the Hugging Face Hub
+Found the latest cached dataset configuration 'qmsum' at /Users/aidanbayer-calvert/.cache/huggingface/datasets/zai-org___long_bench/qmsum/1.0.0/4a916a4bde5c3481ac49b84d5dde69a9d2eefcd67f884ef65b3d97ee7cc91f3e (last modified on Sun Nov  9 21:41:01 2025).
+-------- sample 0 --------
+Running inference for sample 0...
+Output file: hyperparam_search_longbench_20251207_201339/run_4/outputs/out_0.txt
+Return code: 0
+Output file size: 709 bytes
+Prediction length: 705 chars
+First 100 chars: The team discussed and agreed on a new approach to designing the remote controls for both indoor and
+-------- sample 1 --------
+Running inference for sample 1...
+Output file: hyperparam_search_longbench_20251207_201339/run_4/outputs/out_1.txt
+Return code: 0
+Output file size: 541 bytes
+Prediction length: 537 chars
+First 100 chars: The team discussed and agreed upon a plan to implement the new technology, but had some concerns reg
+-------- sample 2 --------
+Running inference for sample 2...
+Output file: hyperparam_search_longbench_20251207_201339/run_4/outputs/out_2.txt
+Return code: 0
+Output file size: 2690 bytes
+Prediction length: 2686 chars
+First 100 chars: The team discussed various aspects of a proposed new project, including its goals and objectives. Th
+-------- sample 3 --------
+Running inference for sample 3...
+Output file: hyperparam_search_longbench_20251207_201339/run_4/outputs/out_3.txt
+Return code: 0
+Output file size: 4368 bytes
+Prediction length: 4365 chars
+First 100 chars: The project manager's summary of their experience with a new, innovative product. They highlight key
+-------- sample 4 --------
+Running inference for sample 4...
+Output file: hyperparam_search_longbench_20251207_201339/run_4/outputs/out_4.txt
+Return code: 0
+Output file size: 1163 bytes
+Prediction length: 1159 chars
+First 100 chars: The meeting was attended by representatives from various organizations, including government agencie
+-------- sample 5 --------
+Running inference for sample 5...
+Output file: hyperparam_search_longbench_20251207_201339/run_4/outputs/out_5.txt
+Return code: 0
+Output file size: 1299 bytes
+Prediction length: 1295 chars
+First 100 chars: The user interface introduced a new and innovative way to interact with the device, allowing users t
+-------- sample 6 --------
+Running inference for sample 6...
+Output file: hyperparam_search_longbench_20251207_201339/run_4/outputs/out_6.txt
+Return code: 0
+Output file size: 1522 bytes
+Prediction length: 1518 chars
+First 100 chars: The conversation between C and his colleague, Alex, took place in a conference room. They discussed 
+-------- sample 7 --------
+Running inference for sample 7...
+Output file: hyperparam_search_longbench_20251207_201339/run_4/outputs/out_7.txt
+Return code: 0
+Output file size: 1338 bytes
+Prediction length: 1334 chars
+First 100 chars: The Professor was asked to evaluate a controversial topic, and he expressed his concerns with MSG (m
+-------- sample 8 --------
+Running inference for sample 8...
+Output file: hyperparam_search_longbench_20251207_201339/run_4/outputs/out_8.txt
+Return code: 0
+Output file size: 1559 bytes
+Prediction length: 1555 chars
+First 100 chars: The marketing team discussed how to make a button that can be pressed on an old TV with minimal effo
+-------- sample 9 --------
+Running inference for sample 9...
+Output file: hyperparam_search_longbench_20251207_201339/run_4/outputs/out_9.txt
+Return code: 0
+Output file size: 533 bytes
+Prediction length: 529 chars
+First 100 chars: The Professor thought that Clustering was a good approach for identifying patterns in data, but also
+-------- sample 10 --------
+Running inference for sample 10...
+Output file: hyperparam_search_longbench_20251207_201339/run_4/outputs/out_10.txt
+Return code: 0
+Output file size: 919 bytes
+Prediction length: 915 chars
+First 100 chars: None
+
+Grad F said that he was a good student, and I am happy to help him with any questions or conce
+-------- sample 11 --------
+Running inference for sample 11...
+Output file: hyperparam_search_longbench_20251207_201339/run_4/outputs/out_11.txt
+Return code: 0
+Output file size: 1441 bytes
+Prediction length: 1437 chars
+First 100 chars: The speaker discussed a project to develop an algorithm that can accurately recognize spoken words. 
+-------- sample 12 --------
+Running inference for sample 12...
+Output file: hyperparam_search_longbench_20251207_201339/run_4/outputs/out_12.txt
+Return code: 0
+Output file size: 1530 bytes
+Prediction length: 1526 chars
+First 100 chars: The meetings involved discussing and analyzing data to identify key performance indicators (KPIs) fo
+-------- sample 13 --------
+Running inference for sample 13...
+Output file: hyperparam_search_longbench_20251207_201339/run_4/outputs/out_13.txt
+Return code: 0
+Output file size: 705 bytes
+Prediction length: 701 chars
+First 100 chars: The user interface (UI) discussed with the Product Manager about their concerns regarding high costs
+-------- sample 14 --------
+Running inference for sample 14...
+Output file: hyperparam_search_longbench_20251207_201339/run_4/outputs/out_14.txt
+Return code: 0
+Output file size: 2509 bytes
+Prediction length: 2505 chars
+First 100 chars: The group discussed how to improve their overall aesthetic by incorporating trends into our appearan
+
+=== EVALUATION SUMMARY ===
+Total predictions: 15
+Total references: 15
+
+=== Per-sample ROUGE-L ===
+Sample 0: ROUGE-L = 0.1525
+Sample 1: ROUGE-L = 0.1136
+Sample 2: ROUGE-L = 0.0896
+Sample 3: ROUGE-L = 0.0635
+Sample 4: ROUGE-L = 0.0782
+Sample 5: ROUGE-L = 0.1172
+Sample 6: ROUGE-L = 0.1127
+Sample 7: ROUGE-L = 0.0945
+Sample 8: ROUGE-L = 0.1031
+Sample 9: ROUGE-L = 0.1626
+Sample 10: ROUGE-L = 0.1327
+Sample 11: ROUGE-L = 0.1053
+Sample 12: ROUGE-L = 0.1040
+Sample 13: ROUGE-L = 0.1554
+Sample 14: ROUGE-L = 0.1021
+
+Filtered: 15/15 samples with ROUGE-L > 0
+
+=== Aggregated ROUGE ===
+ROUGE-1: 0.2038
+ROUGE-2: 0.0218
+ROUGE-L: 0.1126
+ROUGE-Lsum: 0.1350
+ROUGE1=0.20382888018172346
+ROUGE2=0.021759374867026594
+ROUGEL=0.11262013008205307
+ROUGELSUM=0.1350388703052216
+ROUGE-L: 0.11262013008205307 | Runtime: 276s | Speed: 60.53 tok/s
+
+========================================
+RUN #5 - Sun Dec  7 20:38:03 PST 2025
+Model: mobilellm-r1.5-950M_q4_0.gguf | Temp: 0.4 | Batch: 128
+KV: f16/q8_0 | DRY: 1.0 | Presence: 0.2
+
+Running LongBench test...
+Using the latest cached version of the dataset since zai-org/LongBench couldn't be found on the Hugging Face Hub
+Found the latest cached dataset configuration 'qmsum' at /Users/aidanbayer-calvert/.cache/huggingface/datasets/zai-org___long_bench/qmsum/1.0.0/4a916a4bde5c3481ac49b84d5dde69a9d2eefcd67f884ef65b3d97ee7cc91f3e (last modified on Sun Nov  9 21:41:01 2025).
+-------- sample 0 --------
+Running inference for sample 0...
+Output file: hyperparam_search_longbench_20251207_201339/run_5/outputs/out_0.txt
+Return code: 0
+Output file size: 1640 bytes
+Prediction length: 1629 chars
+First 100 chars: The working design of the sum and the sum.
+
+So, the summary is for for for for for for in.
+
+.
+
+.
+
+.
+
+-------- sample 1 --------
+Running inference for sample 1...
+Output file: hyperparam_search_longbench_20251207_201339/run_5/outputs/out_1.txt
+Return code: 0
+Output file size: 2667 bytes
+Prediction length: 2664 chars
+First 100 chars: What did it it it it,,,- - - - - ( ( ( ( ( ( (       - - - + + + sum33332222299999999999999999999999
+-------- sample 2 --------
+Running inference for sample 2...
+Output file: hyperparam_search_longbench_20251207_201339/run_5/outputs/out_2.txt
+Return code: 0
+Output file size: 2537 bytes
+Prediction length: 2534 chars
+First 100 chars: what is what it it it it both both
+
+So so, the answer is:
+
+:
+
+:
+
+:
+
+:
+
+:
+
+:
+
+:
+
+:
+
+:
+
+:
+
+:
+
+:
+
+:
+
+:
+
+-------- sample 3 --------
+Running inference for sample 3...
+Output file: hyperparam_search_longbench_20251207_201339/run_5/outputs/out_3.txt
+Return code: 0
+Output file size: 1079 bytes
+Prediction length: 1075 chars
+First 100 chars: The project manager is is is is is
+
+The project manager is,,, and and and and the sum of the      99
+-------- sample 4 --------
+Running inference for sample 4...
+Output file: hyperparam_search_longbench_20251207_201339/run_5/outputs/out_4.txt
+Return code: 0
+Output file size: 2813 bytes
+Prediction length: 2808 chars
+First 100 chars: what is        \ \ \ \ \ \  2222233333344449999999999999999990000000000009999999999999991111
+
+So,,,,
+-------- sample 5 --------
+Running inference for sample 5...
+Output file: hyperparam_search_longbench_20251207_201339/run_5/outputs/out_5.txt
+Return code: 0
+Output file size: 2157 bytes
+Prediction length: 2154 chars
+First 100 chars: How how how how sum,,,,,
+
+### ### sum user in the sum
+
+### ### ### ### ### (sum of of of of for for 
+-------- sample 6 --------
+Running inference for sample 6...
+Output file: hyperparam_search_longbench_20251207_201339/run_5/outputs/out_6.txt
+Return code: 0
+Output file size: 2621 bytes
+Prediction length: 2618 chars
+First 100 chars: what is what is.
+
+Let me be be be.       ( ( ( ( ( - - - - - + + + + - - - - ) ) ) ) ) 
+
+But how can
+-------- sample 7 --------
+Running inference for sample 7...
+Output file: hyperparam_search_longbench_20251207_201339/run_5/outputs/out_7.txt
+Return code: 0
+Output file size: 1637 bytes
+Prediction length: 1628 chars
+First 100 chars: \ \ \ \ \ ( ( ( ( ( ( ) ) ) ) , . . . . - - - / / / / /    9999999999999999991111
+
+This is a " " " "
+-------- sample 8 --------
+Running inference for sample 8...
+Output file: hyperparam_search_longbench_20251207_201339/run_5/outputs/out_8.txt
+Return code: 0
+Output file size: 1879 bytes
+Prediction length: 1732 chars
+First 100 chars: What does do do when the remote control is not not not, and the summary, it it it it. The answer is:
+-------- sample 9 --------
+Running inference for sample 9...
+Output file: hyperparam_search_longbench_20251207_201339/run_5/outputs/out_9.txt
+Return code: 0
+Output file size: 2126 bytes
+Prediction length: 2123 chars
+First 100 chars: what does does does do do do do the the the and and
+
+The answer is 2, which is 2. So it's a a a a a 
+-------- sample 10 --------
+Running inference for sample 10...
+Output file: hyperparam_search_longbench_20251207_201339/run_5/outputs/out_10.txt
+Return code: 0
+Output file size: 1713 bytes
+Prediction length: 1678 chars
+First 100 chars: what did did done..
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+
+
+
+
+
+
+
+
+99999999999999999999999999999999999999999990000
+-------- sample 11 --------
+Running inference for sample 11...
+Output file: hyperparam_search_longbench_20251207_201339/run_5/outputs/out_11.txt
+Return code: 0
+Output file size: 2954 bytes
+Prediction length: 2951 chars
+First 100 chars: What did it it it it in the group discussion.
+
+Group: Group
+
+Group: Group
+
+Group: Group
+
+Group: Grou
+-------- sample 12 --------
+Running inference for sample 12...
+Output file: hyperparam_search_longbench_20251207_201339/run_5/outputs/out_12.txt
+Return code: 0
+Output file size: 2205 bytes
+Prediction length: 2202 chars
+First 100 chars: what is what is is is is 1
+
+999999999999999999999999999999999999999991001001001001000000000000000000
+-------- sample 13 --------
+Running inference for sample 13...
+Output file: hyperparam_search_longbench_20251207_201339/run_5/outputs/out_13.txt
+Return code: 0
+Output file size: 1953 bytes
+Prediction length: 1949 chars
+First 100 chars: what did did done (User) when when the user is a a a a a
+
+### ### ### ### # # # / / / / / - - - -   
+-------- sample 14 --------
+Running inference for sample 14...
+Output file: hyperparam_search_longbench_20251207_201339/run_5/outputs/out_14.txt
+Return code: 0
+Output file size: 478 bytes
+Prediction length: 443 chars
+First 100 chars: The discussion, sum.
+
+### ### Sum
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+9999999999999999999999999999999999999990000000009
+
+=== EVALUATION SUMMARY ===
+Total predictions: 15
+Total references: 15
+
+=== Per-sample ROUGE-L ===
+Sample 0: ROUGE-L = 0.0780
+Sample 1: ROUGE-L = 0.0760
+Sample 2: ROUGE-L = 0.0518
+Sample 3: ROUGE-L = 0.1761
+Sample 4: ROUGE-L = 0.0192
+Sample 5: ROUGE-L = 0.0556
+Sample 6: ROUGE-L = 0.0561
+Sample 7: ROUGE-L = 0.0100
+Sample 8: ROUGE-L = 0.0435
+Sample 9: ROUGE-L = 0.0409
+Sample 10: ROUGE-L = 0.0194
+Sample 11: ROUGE-L = 0.0128
+Sample 12: ROUGE-L = 0.0400
+Sample 13: ROUGE-L = 0.1190
+Sample 14: ROUGE-L = 0.0800
+
+Filtered: 15/15 samples with ROUGE-L > 0
+
+=== Aggregated ROUGE ===
+ROUGE-1: 0.0677
+ROUGE-2: 0.0081
+ROUGE-L: 0.0583
+ROUGE-Lsum: 0.0468
+ROUGE1=0.06767386907970203
+ROUGE2=0.008130319903482834
+ROUGEL=0.05831942399374564
+ROUGELSUM=0.04683829991269155
+ROUGE-L: 0.05831942399374564 | Runtime: 474s | Speed: 57.55 tok/s
+
+========================================
+RUN #6 - Sun Dec  7 20:45:59 PST 2025
+Model: Llama-3.2-1B-Instruct-Q4_0.gguf | Temp: 0.4 | Batch: 128
+KV: f16/q8_0 | DRY: 1.0 | Presence: 0.2
+
+Running LongBench test...
+Using the latest cached version of the dataset since zai-org/LongBench couldn't be found on the Hugging Face Hub
+Found the latest cached dataset configuration 'qmsum' at /Users/aidanbayer-calvert/.cache/huggingface/datasets/zai-org___long_bench/qmsum/1.0.0/4a916a4bde5c3481ac49b84d5dde69a9d2eefcd67f884ef65b3d97ee7cc91f3e (last modified on Sun Nov  9 21:41:01 2025).
+-------- sample 0 --------
+Running inference for sample 0...
+Output file: hyperparam_search_longbench_20251207_201339/run_6/outputs/out_0.txt
+Return code: 0
+Output file size: 1369 bytes
+Prediction length: 1365 chars
+First 100 chars: The remote control is designed to be a user-friendly and efficient tool for controlling various devi
+-------- sample 1 --------
+Running inference for sample 1...
+Output file: hyperparam_search_longbench_20251207_201339/run_6/outputs/out_1.txt
+Return code: 0
+Output file size: 937 bytes
+Prediction length: 933 chars
+First 100 chars: The group discussed a topic related to technology, specifically the touch screen. However, they were
+-------- sample 2 --------
+Running inference for sample 2...
+Output file: hyperparam_search_longbench_20251207_201339/run_6/outputs/out_2.txt
+Return code: 0
+Output file size: 1099 bytes
+Prediction length: 1095 chars
+First 100 chars: The meeting was attended by representatives from various organizations, including government agencie
+-------- sample 3 --------
+Running inference for sample 3...
+Output file: hyperparam_search_longbench_20251207_201339/run_6/outputs/out_3.txt
+Return code: 0
+Output file size: 1278 bytes
+Prediction length: 1274 chars
+First 100 chars: The project manager's perspective is that the team has made significant progress in developing a wor
+-------- sample 4 --------
+Running inference for sample 4...
+Output file: hyperparam_search_longbench_20251207_201339/run_6/outputs/out_4.txt
+Return code: 0
+Output file size: 998 bytes
+Prediction length: 994 chars
+First 100 chars: The meeting was attended by representatives from various companies, including Google and Microsoft. 
+-------- sample 5 --------
+Running inference for sample 5...
+Output file: hyperparam_search_longbench_20251207_201339/run_6/outputs/out_5.txt
+Return code: 0
+Output file size: 996 bytes
+Prediction length: 992 chars
+First 100 chars: The meeting between User Interface and Remote Control discussed the introduction of a new prototype.
+-------- sample 6 --------
+Running inference for sample 6...
+Output file: hyperparam_search_longbench_20251207_201339/run_6/outputs/out_6.txt
+Return code: 0
+Output file size: 484 bytes
+Prediction length: 480 chars
+First 100 chars: The meeting was attended by C, a key person involved in the project. They discussed various aspects 
+-------- sample 7 --------
+Running inference for sample 7...
+Output file: hyperparam_search_longbench_20251207_201339/run_6/outputs/out_7.txt
+Return code: 0
+Output file size: 1022 bytes
+Prediction length: 1018 chars
+First 100 chars: The professor discussed the effects of MSG (monosodium glutamate) on human health and its potential 
+-------- sample 8 --------
+Running inference for sample 8...
+Output file: hyperparam_search_longbench_20251207_201339/run_6/outputs/out_8.txt
+Return code: 0
+Output file size: 573 bytes
+Prediction length: 569 chars
+First 100 chars: The marketing team discussed how to improve the user experience and usability of the new remote cont
+-------- sample 9 --------
+Running inference for sample 9...
+Output file: hyperparam_search_longbench_20251207_201339/run_6/outputs/out_9.txt
+Return code: 0
+Output file size: 850 bytes
+Prediction length: 846 chars
+First 100 chars: The professor discussed how clustering can be used to analyze and understand data in various fields,
+-------- sample 10 --------
+Running inference for sample 10...
+Output file: hyperparam_search_longbench_20251207_201339/run_6/outputs/out_10.txt
+Return code: 0
+Output file size: 1613 bytes
+Prediction length: 1609 chars
+First 100 chars: The meeting between Grad F and the committee chairperson was a discussion of Grad F's proposed proje
+-------- sample 11 --------
+Running inference for sample 11...
+Output file: hyperparam_search_longbench_20251207_201339/run_6/outputs/out_11.txt
+Return code: 0
+Output file size: 1209 bytes
+Prediction length: 1205 chars
+First 100 chars: The group discussed how to improve speech recognition technology. They identified several challenges
+-------- sample 12 --------
+Running inference for sample 12...
+Output file: hyperparam_search_longbench_20251207_201339/run_6/outputs/out_12.txt
+Return code: 0
+Output file size: 1795 bytes
+Prediction length: 1791 chars
+First 100 chars: The meeting transcript discusses the importance of considering various factors when implementing new
+-------- sample 13 --------
+Running inference for sample 13...
+Output file: hyperparam_search_longbench_20251207_201339/run_6/outputs/out_13.txt
+Return code: 0
+Output file size: 991 bytes
+Prediction length: 987 chars
+First 100 chars: The user interface was generally positive about using Titanium, but expressed concerns regarding the
+-------- sample 14 --------
+Running inference for sample 14...
+Output file: hyperparam_search_longbench_20251207_201339/run_6/outputs/out_14.txt
+Return code: 0
+Output file size: 1566 bytes
+Prediction length: 1562 chars
+First 100 chars: The meeting discussed trends in fashion, specifically focusing on trend watching. Trend watchers wer
+
+=== EVALUATION SUMMARY ===
+Total predictions: 15
+Total references: 15
+
+=== Per-sample ROUGE-L ===
+Sample 0: ROUGE-L = 0.1683
+Sample 1: ROUGE-L = 0.1498
+Sample 2: ROUGE-L = 0.1368
+Sample 3: ROUGE-L = 0.1157
+Sample 4: ROUGE-L = 0.0702
+Sample 5: ROUGE-L = 0.1704
+Sample 6: ROUGE-L = 0.1429
+Sample 7: ROUGE-L = 0.1327
+Sample 8: ROUGE-L = 0.1587
+Sample 9: ROUGE-L = 0.1258
+Sample 10: ROUGE-L = 0.0902
+Sample 11: ROUGE-L = 0.1224
+Sample 12: ROUGE-L = 0.0886
+Sample 13: ROUGE-L = 0.1786
+Sample 14: ROUGE-L = 0.1456
+
+Filtered: 15/15 samples with ROUGE-L > 0
+
+=== Aggregated ROUGE ===
+ROUGE-1: 0.2262
+ROUGE-2: 0.0231
+ROUGE-L: 0.1337
+ROUGE-Lsum: 0.1477
+ROUGE1=0.22623144859102493
+ROUGE2=0.023134615875522672
+ROUGEL=0.13374667291464856
+ROUGELSUM=0.14766677998662392
+ROUGE-L: 0.13374667291464856 | Runtime: 255s | Speed: 62.54 tok/s
+
+========================================
+RUN #7 - Sun Dec  7 20:50:16 PST 2025
+Model: mobilellm-r1.5-950M_q4_0.gguf | Temp: 0.4 | Batch: 128
+KV: f16/q8_0 | DRY: 1.0 | Presence: 0.2
+
+Running LongBench test...
+Using the latest cached version of the dataset since zai-org/LongBench couldn't be found on the Hugging Face Hub
+Found the latest cached dataset configuration 'qmsum' at /Users/aidanbayer-calvert/.cache/huggingface/datasets/zai-org___long_bench/qmsum/1.0.0/4a916a4bde5c3481ac49b84d5dde69a9d2eefcd67f884ef65b3d97ee7cc91f3e (last modified on Sun Nov  9 21:41:01 2025).
+-------- sample 0 --------
+Running inference for sample 0...
+Output file: hyperparam_search_longbench_20251207_201339/run_7/outputs/out_0.txt
+Return code: 0
+Output file size: 2205 bytes
+Prediction length: 2202 chars
+First 100 chars: Sum is is is is is       - - Sum Sum Sum Sum Sum.
+
+### The Summary
+
+Sum is sum, and that's for the s
+-------- sample 1 --------
+Running inference for sample 1...
+Output file: hyperparam_search_longbench_20251207_201339/run_7/outputs/out_1.txt
+Return code: 0
+Output file size: 81 bytes
+Prediction length: 77 chars
+First 100 chars: What is what,,,,           
+
+The answer is:
+
+\boxed \ \ \ \ \ \ [end of text]
+-------- sample 2 --------
+Running inference for sample 2...
+Output file: hyperparam_search_longbench_20251207_201339/run_7/outputs/out_2.txt
+Return code: 0
+Output file size: 1053 bytes
+Prediction length: 1049 chars
+First 100 chars: What did it it it it it
+
+So, we can't use any any any any other other.
+
+So,,,,
+
+,
+
+,
+
+,
+
+,
+
+,
+
+,
+
+,
+
+-------- sample 3 --------
+Running inference for sample 3...
+Output file: hyperparam_search_longbench_20251207_201339/run_7/outputs/out_3.txt
+Return code: 0
+Output file size: 108 bytes
+Prediction length: 104 chars
+First 100 chars: Sum of of of sum.
+
+### ### Summary
+
+### ### ### ### # # # ### ### ( ( ( ( ( (      2  3    [end of t
+-------- sample 4 --------
+Running inference for sample 4...
+Output file: hyperparam_search_longbench_20251207_201339/run_7/outputs/out_4.txt
+Return code: 0
+Output file size: 1594 bytes
+Prediction length: 1590 chars
+First 100 chars: what is the system the system the system.
+
+So,,,,, the answer is 1.
+
+Answer is 1.
+
+So,,,\,\,\,\,\, \
+-------- sample 5 --------
+Running inference for sample 5...
+Output file: hyperparam_search_longbench_20251207_201339/run_7/outputs/out_5.txt
+Return code: 0
+Output file size: 1680 bytes
+Prediction length: 1676 chars
+First 100 chars: How how how you you you your your your your's's't't
+
+**************************** ** ** ** ** ** ** 
+-------- sample 6 --------
+Running inference for sample 6...
+Output file: hyperparam_search_longbench_20251207_201339/run_7/outputs/out_6.txt
+Return code: 0
+Output file size: 1964 bytes
+Prediction length: 1961 chars
+First 100 chars: what does do do do do do - - -           - - - - ( ( ( ( ( (      \ \ \ \ \    2 ) ) ) ) - - - - - +
+-------- sample 7 --------
+Running inference for sample 7...
+Output file: hyperparam_search_longbench_20251207_201339/run_7/outputs/out_7.txt
+Return code: 0
+Output file size: 2350 bytes
+Prediction length: 2347 chars
+First 100 chars: what did did do do do be be be be      99999999999999999999
+
+So, the summary is:
+
+The Professor of t
+-------- sample 8 --------
+Running inference for sample 8...
+Output file: hyperparam_search_longbench_20251207_201339/run_7/outputs/out_8.txt
+Return code: 0
+Output file size: 2430 bytes
+Prediction length: 2427 chars
+First 100 chars: What did did the remote control,,,,      2.2.. . . . . - - - - ( ( ( ( ( (1) ) ) ) ) )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-------- sample 9 --------
+Running inference for sample 9...
+Output file: hyperparam_search_longbench_20251207_201339/run_7/outputs/out_9.txt
+Return code: 0
+Output file size: 2952 bytes
+Prediction length: 2939 chars
+First 100 chars: what is the professor.
+
+The professor has the sum, and the sum is the sum of the professors.
+
+The su
+-------- sample 10 --------
+Running inference for sample 10...
+Output file: hyperparam_search_longbench_20251207_201339/run_7/outputs/out_10.txt
+Return code: 0
+Output file size: 1751 bytes
+Prediction length: 1748 chars
+First 100 chars: what's's's's33344422222,     9999999999999999999
+
+### ** ** ** ** ** ** ** ** ** ** ** ** ** _ _ _ _
+-------- sample 11 --------
+Running inference for sample 11...
+Output file: hyperparam_search_longbench_20251207_201339/run_7/outputs/out_11.txt
+Return code: 0
+Output file size: 1627 bytes
+Prediction length: 1624 chars
+First 100 chars: what did it it it it..
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+
+
+
+
+
+
+       \ \ \ \ - - - - + + +
+-------- sample 12 --------
+Running inference for sample 12...
+Output file: hyperparam_search_longbench_20251207_201339/run_7/outputs/out_12.txt
+Return code: 0
+Output file size: 2468 bytes
+Prediction length: 2465 chars
+First 100 chars: What is what you you you your summary.
+
+### ### Summary
+
+### ### ### ### ### ( ( ( ( ( (           2
+-------- sample 13 --------
+Running inference for sample 13...
+Output file: hyperparam_search_longbench_20251207_201339/run_7/outputs/out_13.txt
+Return code: 0
+Output file size: 94 bytes
+Prediction length: 90 chars
+First 100 chars: What did do with this user, and the answer is:
+
+:
+:
+:
+
+:
+
+:
+
+:
+
+ :
+
+
+
+       [end of text]
+-------- sample 14 --------
+Running inference for sample 14...
+Output file: hyperparam_search_longbench_20251207_201339/run_7/outputs/out_14.txt
+Return code: 0
+Output file size: 2743 bytes
+Prediction length: 2740 chars
+First 100 chars: The discussion is      2, but this is   3. So the answer is the sum of the previous previous previou
+
+=== EVALUATION SUMMARY ===
+Total predictions: 15
+Total references: 15
+
+=== Per-sample ROUGE-L ===
+Sample 0: ROUGE-L = 0.1157
+Sample 1: ROUGE-L = 0.0202
+Sample 2: ROUGE-L = 0.0797
+Sample 3: ROUGE-L = 0.0000
+Sample 4: ROUGE-L = 0.0843
+Sample 5: ROUGE-L = 0.0936
+Sample 6: ROUGE-L = 0.1311
+Sample 7: ROUGE-L = 0.0429
+Sample 8: ROUGE-L = 0.0672
+Sample 9: ROUGE-L = 0.0470
+Sample 10: ROUGE-L = 0.0000
+Sample 11: ROUGE-L = 0.0217
+Sample 12: ROUGE-L = 0.0365
+Sample 13: ROUGE-L = 0.1075
+Sample 14: ROUGE-L = 0.0822
+
+Filtered: 13/15 samples with ROUGE-L > 0
+
+=== Aggregated ROUGE ===
+ROUGE-1: 0.0934
+ROUGE-2: 0.0085
+ROUGE-L: 0.0711
+ROUGE-Lsum: 0.0709
+ROUGE1=0.09341808302900959
+ROUGE2=0.008475372882133504
+ROUGEL=0.07111703316125921
+ROUGELSUM=0.07087122807181559
+ROUGE-L: 0.07111703316125921 | Runtime: 422s | Speed: 59.71 tok/s
+
+========================================
+RUN #8 - Sun Dec  7 20:57:20 PST 2025
+Model: mobilellm-r1.5-950M_q4_0.gguf | Temp: 0.4 | Batch: 256
+KV: f16/q8_0 | DRY: 1.0 | Presence: 0.2
+
+Running LongBench test...
+Using the latest cached version of the dataset since zai-org/LongBench couldn't be found on the Hugging Face Hub
+Found the latest cached dataset configuration 'qmsum' at /Users/aidanbayer-calvert/.cache/huggingface/datasets/zai-org___long_bench/qmsum/1.0.0/4a916a4bde5c3481ac49b84d5dde69a9d2eefcd67f884ef65b3d97ee7cc91f3e (last modified on Sun Nov  9 21:41:01 2025).
+-------- sample 0 --------
+Running inference for sample 0...
+Output file: hyperparam_search_longbench_20251207_201339/run_8/outputs/out_0.txt
+Return code: 0
+Output file size: 2983 bytes
+Prediction length: 2980 chars
+First 100 chars: The Working Design ( ( ( ( ( (      9999999999999999991001009999999999999999) ) ] ] - sum
+
+This is a
+-------- sample 1 --------
+Running inference for sample 1...
+Output file: hyperparam_search_longbench_20251207_201339/run_8/outputs/out_1.txt
+Return code: 0
+Output file size: 3405 bytes
+Prediction length: 3402 chars
+First 100 chars: What does it do do it. The budget is a limit.
+
+So, to summarize, we need to have that which which (g
+-------- sample 2 --------
+Running inference for sample 2...
+Output file: hyperparam_search_longbench_20251207_201339/run_8/outputs/out_2.txt
+Return code: 0
+Output file size: 2986 bytes
+Prediction length: 2983 chars
+First 100 chars: what is       2
+
+So, this is a problem.
+
+But it's a a a a a ( ( ( ( ( (((((((a - -) ) ))))))())()()(
+-------- sample 3 --------
+Running inference for sample 3...
+Output file: hyperparam_search_longbench_20251207_201339/run_8/outputs/out_3.txt
+Return code: 0
+Output file size: 2759 bytes
+Prediction length: 2756 chars
+First 100 chars: The project manager is is is,,. . . . . - - - 1
+
+So Sum can be a valid answer.
+
+But Sum Sum Sum Sum 
+-------- sample 4 --------
+Running inference for sample 4...
+Output file: hyperparam_search_longbench_20251207_201339/run_8/outputs/out_4.txt
+Return code: 0
+Output file size: 2536 bytes
+Prediction length: 2533 chars
+First 100 chars: what is you you you your your your summary.
+
+
+
+**
+
+************ ** ** ** ** ** ** _ _ _ _ -     9999
+-------- sample 5 --------
+Running inference for sample 5...
+Output file: hyperparam_search_longbench_20251207_201339/run_8/outputs/out_5.txt
+Return code: 0
+Output file size: 285 bytes
+Prediction length: 281 chars
+First 100 chars: how how how111111111999999999999999999999999
+
+This is a      \ \ \      3
+---
+---
+---
+---
+ --- -----
+-------- sample 6 --------
+Running inference for sample 6...
+Output file: hyperparam_search_longbench_20251207_201339/run_8/outputs/out_6.txt
+Return code: 0
+Output file size: 104 bytes
+Prediction length: 100 chars
+First 100 chars: what does do do do do do that you you, ( ( ( ( ( ( - - - - + + + + - - ) ) ) ) 
+
+      [end of text]
+-------- sample 7 --------
+Running inference for sample 7...
+Output file: hyperparam_search_longbench_20251207_201339/run_8/outputs/out_7.txt
+Return code: 0
+Output file size: 2423 bytes
+Prediction length: 2420 chars
+First 100 chars: what is a a a a a
+
+So, we can only to to to to for for      9999999999999999999999999999999911113333
+-------- sample 8 --------
+Running inference for sample 8...
+Output file: hyperparam_search_longbench_20251207_201339/run_8/outputs/out_8.txt
+Return code: 0
+Output file size: 2322 bytes
+Prediction length: 2316 chars
+First 100 chars: What should be be be is is is
+
+********
+
+---
+
+ --- ** ** ** ** ** ** ** ** ** ** ** ** ** _ _ _ _   
+-------- sample 9 --------
+Running inference for sample 9...
+Output file: hyperparam_search_longbench_20251207_201339/run_8/outputs/out_9.txt
+Return code: 0
+Output file size: 2381 bytes
+Prediction length: 2378 chars
+First 100 chars: what is the professor.
+
+The answer to the summary, and and
+
+** ** ** ** ** ** ** ** ** ** ** ** ** *
+-------- sample 10 --------
+Running inference for sample 10...
+Output file: hyperparam_search_longbench_20251207_201339/run_8/outputs/out_10.txt
+Return code: 0
+Output file size: 2709 bytes
+Prediction length: 2706 chars
+First 100 chars: what's your your your ( ( ( ( ( ( ) ) ) ), , - - - - -       - - - + + + + / / / / / (- ( ( ( (99999
+-------- sample 11 --------
+Running inference for sample 11...
+Output file: hyperparam_search_longbench_20251207_201339/run_8/outputs/out_11.txt
+Return code: 0
+Output file size: 3595 bytes
+Prediction length: 3592 chars
+First 100 chars: what does do do do. The group discussion is a one.
+
+So, we need to summarize this.
+
+So, summarizing 
+-------- sample 12 --------
+Running inference for sample 12...
+Output file: hyperparam_search_longbench_20251207_201339/run_8/outputs/out_12.txt
+Return code: 0
+Output file size: 183 bytes
+Prediction length: 179 chars
+First 100 chars: What is what you you, and it's your own.
+
+The summary: It You You Yes Yes Yes No No ( ( ( ( (       
+-------- sample 13 --------
+Running inference for sample 13...
+Output file: hyperparam_search_longbench_20251207_201339/run_8/outputs/out_13.txt
+Return code: 0
+Output file size: 2102 bytes
+Prediction length: 2099 chars
+First 100 chars: What did The user u u u u a a ( ( ( ( ( - - - - ) ) ) " " " " " " " " "     100000999999999999999999
+-------- sample 14 --------
+Running inference for sample 14...
+Output file: hyperparam_search_longbench_20251207_201339/run_8/outputs/out_14.txt
+Return code: 0
+Output file size: 2343 bytes
+Prediction length: 2340 chars
+First 100 chars: The discussion is not not not 2. This is a problem.
+
+### Summary
+
+### Summary
+
+### Sum
+
+### Sum
+
+###
+
+=== EVALUATION SUMMARY ===
+Total predictions: 15
+Total references: 15
+
+=== Per-sample ROUGE-L ===
+Sample 0: ROUGE-L = 0.0892
+Sample 1: ROUGE-L = 0.0798
+Sample 2: ROUGE-L = 0.0665
+Sample 3: ROUGE-L = 0.0627
+Sample 4: ROUGE-L = 0.0363
+Sample 5: ROUGE-L = 0.0222
+Sample 6: ROUGE-L = 0.1143
+Sample 7: ROUGE-L = 0.0558
+Sample 8: ROUGE-L = 0.0724
+Sample 9: ROUGE-L = 0.0628
+Sample 10: ROUGE-L = 0.0387
+Sample 11: ROUGE-L = 0.0723
+Sample 12: ROUGE-L = 0.0690
+Sample 13: ROUGE-L = 0.1063
+Sample 14: ROUGE-L = 0.0854
+
+Filtered: 15/15 samples with ROUGE-L > 0
+
+=== Aggregated ROUGE ===
+ROUGE-1: 0.0909
+ROUGE-2: 0.0062
+ROUGE-L: 0.0688
+ROUGE-Lsum: 0.0740
+ROUGE1=0.09092948773817083
+ROUGE2=0.006247155424072815
+ROUGEL=0.0688266665235307
+ROUGELSUM=0.07396315134583907
+ROUGE-L: 0.0688266665235307 | Runtime: 444s | Speed: 60.30 tok/s
+
+========================================
+RUN #9 - Sun Dec  7 21:04:45 PST 2025
+Model: Llama-3.2-1B-Instruct-Q4_0.gguf | Temp: 0.4 | Batch: 256
+KV: f16/q8_0 | DRY: 1.0 | Presence: 0.2
+
+Running LongBench test...
+Using the latest cached version of the dataset since zai-org/LongBench couldn't be found on the Hugging Face Hub
+Found the latest cached dataset configuration 'qmsum' at /Users/aidanbayer-calvert/.cache/huggingface/datasets/zai-org___long_bench/qmsum/1.0.0/4a916a4bde5c3481ac49b84d5dde69a9d2eefcd67f884ef65b3d97ee7cc91f3e (last modified on Sun Nov  9 21:41:01 2025).
+-------- sample 0 --------
+Running inference for sample 0...
+Output file: hyperparam_search_longbench_20251207_201339/run_9/outputs/out_0.txt
+Return code: 0
+Output file size: 1520 bytes
+Prediction length: 1516 chars
+First 100 chars: The team discussed and agreed upon a new approach for designing the remote controls, incorporating u
+-------- sample 1 --------
+Running inference for sample 1...
+Output file: hyperparam_search_longbench_20251207_201339/run_9/outputs/out_1.txt
+Return code: 0
+Output file size: 921 bytes
+Prediction length: 917 chars
+First 100 chars: The team discussed a potential solution to address concerns around using a touchscreen device in the
+-------- sample 2 --------
+Running inference for sample 2...
+Output file: hyperparam_search_longbench_20251207_201339/run_9/outputs/out_2.txt
+Return code: 0
+Output file size: 2884 bytes
+Prediction length: 2880 chars
+First 100 chars: The committee discussed various aspects of a proposed policy, including its potential impact on indu
+-------- sample 3 --------
+Running inference for sample 3...
+Output file: hyperparam_search_longbench_20251207_201339/run_9/outputs/out_3.txt
+Return code: 0
+Output file size: 1900 bytes
+Prediction length: 1896 chars
+First 100 chars: The project manager's summary of their experience with a new product prototype is that it was succes
+-------- sample 4 --------
+Running inference for sample 4...
+Output file: hyperparam_search_longbench_20251207_201339/run_9/outputs/out_4.txt
+Return code: 0
+Output file size: 2140 bytes
+Prediction length: 2136 chars
+First 100 chars: The demo is a presentation that showcases how our company's technology can help customers improve th
+-------- sample 5 --------
+Running inference for sample 5...
+Output file: hyperparam_search_longbench_20251207_201339/run_9/outputs/out_5.txt
+Return code: 0
+Output file size: 551 bytes
+Prediction length: 547 chars
+First 100 chars: The user interface introduced a simple and intuitive design for interacting with the new technology.
+-------- sample 6 --------
+Running inference for sample 6...
+Output file: hyperparam_search_longbench_20251207_201339/run_9/outputs/out_6.txt
+Return code: 0
+Output file size: 649 bytes
+Prediction length: 645 chars
+First 100 chars: The team discussed and agreed upon a plan for installing new audio equipment to record meetings. The
+-------- sample 7 --------
+Running inference for sample 7...
+Output file: hyperparam_search_longbench_20251207_201339/run_9/outputs/out_7.txt
+Return code: 0
+Output file size: 2075 bytes
+Prediction length: 2071 chars
+First 100 chars: The professor expressed concerns and opinions on various topics, including food additives like MSG. 
+-------- sample 8 --------
+Running inference for sample 8...
+Output file: hyperparam_search_longbench_20251207_201339/run_9/outputs/out_8.txt
+Return code: 0
+Output file size: 1595 bytes
+Prediction length: 1591 chars
+First 100 chars: The marketing team discussed various aspects, including button placement and functionality. They con
+-------- sample 9 --------
+Running inference for sample 9...
+Output file: hyperparam_search_longbench_20251207_201339/run_9/outputs/out_9.txt
+Return code: 0
+Output file size: 537 bytes
+Prediction length: 533 chars
+First 100 chars: The professor discussed with a student how to cluster data using various methods, including hierarch
+-------- sample 10 --------
+Running inference for sample 10...
+Output file: hyperparam_search_longbench_20251207_201339/run_9/outputs/out_10.txt
+Return code: 0
+Output file size: 1193 bytes
+Prediction length: 1189 chars
+First 100 chars: The graduate student, who shall remain anonymous (Grad), presented a research proposal to discuss po
+-------- sample 11 --------
+Running inference for sample 11...
+Output file: hyperparam_search_longbench_20251207_201339/run_9/outputs/out_11.txt
+Return code: 0
+Output file size: 864 bytes
+Prediction length: 860 chars
+First 100 chars: The team discussed how to improve and implement a robust speech-to-text system for various applicati
+-------- sample 12 --------
+Running inference for sample 12...
+Output file: hyperparam_search_longbench_20251207_201339/run_9/outputs/out_12.txt
+Return code: 0
+Output file size: 824 bytes
+Prediction length: 820 chars
+First 100 chars: The meetings discussed several key points, including the importance of understanding and adapting to
+-------- sample 13 --------
+Running inference for sample 13...
+Output file: hyperparam_search_longbench_20251207_201339/run_9/outputs/out_13.txt
+Return code: 0
+Output file size: 964 bytes
+Prediction length: 960 chars
+First 100 chars: None
+
+The transcription does not provide any information about what was discussed or decided at a sp
+-------- sample 14 --------
+Running inference for sample 14...
+Output file: hyperparam_search_longbench_20251207_201339/run_9/outputs/out_14.txt
+Return code: 0
+Output file size: 1665 bytes
+Prediction length: 1661 chars
+First 100 chars: The company is considering a new approach to trend watching, which involves creating an online platf
+
+=== EVALUATION SUMMARY ===
+Total predictions: 15
+Total references: 15
+
+=== Per-sample ROUGE-L ===
+Sample 0: ROUGE-L = 0.1350
+Sample 1: ROUGE-L = 0.1459
+Sample 2: ROUGE-L = 0.0851
+Sample 3: ROUGE-L = 0.1027
+Sample 4: ROUGE-L = 0.0617
+Sample 5: ROUGE-L = 0.1446
+Sample 6: ROUGE-L = 0.1500
+Sample 7: ROUGE-L = 0.1011
+Sample 8: ROUGE-L = 0.0966
+Sample 9: ROUGE-L = 0.1475
+Sample 10: ROUGE-L = 0.0971
+Sample 11: ROUGE-L = 0.1068
+Sample 12: ROUGE-L = 0.0940
+Sample 13: ROUGE-L = 0.1732
+Sample 14: ROUGE-L = 0.1232
+
+Filtered: 15/15 samples with ROUGE-L > 0
+
+=== Aggregated ROUGE ===
+ROUGE-1: 0.2027
+ROUGE-2: 0.0192
+ROUGE-L: 0.1174
+ROUGE-Lsum: 0.1368
+ROUGE1=0.20267089716363768
+ROUGE2=0.019188294635990328
+ROUGEL=0.11739645496583315
+ROUGELSUM=0.13678886706795035
+ROUGE-L: 0.11739645496583315 | Runtime: 296s | Speed: 61.38 tok/s
+
+========================================
+RUN #10 - Sun Dec  7 21:09:42 PST 2025
+Model: mobilellm-r1.5-950M_q4_0.gguf | Temp: 0.4 | Batch: 128
+KV: f16/q8_0 | DRY: 1.0 | Presence: 0.2
+
+Running LongBench test...
+Using the latest cached version of the dataset since zai-org/LongBench couldn't be found on the Hugging Face Hub
+Found the latest cached dataset configuration 'qmsum' at /Users/aidanbayer-calvert/.cache/huggingface/datasets/zai-org___long_bench/qmsum/1.0.0/4a916a4bde5c3481ac49b84d5dde69a9d2eefcd67f884ef65b3d97ee7cc91f3e (last modified on Sun Nov  9 21:41:01 2025).

@@ -1,4 +1,4 @@
-+ adb shell '   cd /data/local/tmp/llama.cpp; ulimit -c unlimited;            LD_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib       ADSP_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib                            ././bin/llama-cli -m /data/local/tmp/llama.cpp/../gguf/qwen2-7b-tinytron-Q4_K_M.gguf               -t 8 --ctx-size 4096 --batch-size 128         -ctk f16 -ctv f16 --temp 1.0 --seed 42         --no-display-prompt -fa on         -ngl 0  -n 250 --context-shift --keep 4 	-sys '\''You are a helpful assistant. Provide truthful, accurate, and concise answers.'\'' 	 -no-cnv' -f '/data/local/tmp/prompt_files/qmsum_test_0.prompt.txt '
++ adb shell '   cd /data/local/tmp/llama.cpp; ulimit -c unlimited;            LD_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib       ADSP_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib                            ././bin/llama-cli -m /data/local/tmp/llama.cpp/../gguf/qwen2-7b-tinytron-Q4_K_M.gguf               -t 8 --ctx-size 4096 --batch-size 128         -ctk f16 -ctv f16 --temp 1.0 --seed 42         --no-display-prompt -fa on         -ngl 0  -n 250 --context-shift --keep 4 	-sys '\''You are a helpful assistant. Provide truthful, accurate, and concise answers.'\'' 	 -no-cnv' -p '"'\''What happens to you if you eat watermelon seeds? '\''"' -n '25 '
 ggml_opencl: selected platform: 'QUALCOMM Snapdragon(TM)'
 
 ggml_opencl: device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
@@ -19,7 +19,7 @@ ggml_opencl: default device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830
 ggml-hex: Hexagon backend (experimental) : allocating new registry : ndev 1
 ggml-hex: Hexagon Arch version v79
 ggml-hex: allocating new session: HTP0
-ggml-hex: new session: HTP0 : session-id 0 domain-id 3 uri file:///libggml-htp-v79.so?htp_iface_skel_handle_invoke&_modver=1.0&_dom=cdsp&_session=0 handle 0xb4000074280c59d0
+ggml-hex: new session: HTP0 : session-id 0 domain-id 3 uri file:///libggml-htp-v79.so?htp_iface_skel_handle_invoke&_modver=1.0&_dom=cdsp&_session=0 handle 0xb400007d0d924fd0
 build: 6942 (1f5accb8d) with Android (13324770, +pgo, +bolt, +lto, +mlgo, based on r530567d) clang version 19.0.0 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2) for x86_64-unknown-linux-gnu
 main: llama backend init
 main: load the model and apply lora adapter, if any
@@ -140,7 +140,6 @@ main: llama threadpool init, n_threads = 8
 
 system_info: n_threads = 8 (n_threads_batch = 8) / 8 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | REPACK = 1 | 
 
-main: prompt (9966 tokens) exceeds context (4092), will use context shifting during processing
 sampler seed: 42
 sampler params: 
 	repeat_last_n = 64, repeat_penalty = 1.000, frequency_penalty = 0.000, presence_penalty = 0.000
@@ -148,5 +147,32 @@ sampler params:
 	top_k = 40, top_p = 0.950, min_p = 0.050, xtc_probability = 0.000, xtc_threshold = 0.100, typical_p = 1.000, top_n_sigma = -1.000, temp = 1.000
 	mirostat = 0, mirostat_lr = 0.100, mirostat_ent = 5.000
 sampler chain: logits -> logit-bias -> penalties -> dry -> top-n-sigma -> top-k -> typical -> top-p -> min-p -> xtc -> temp-ext -> dist 
-generate: n_ctx = 4096, n_batch = 128, n_predict = 250, n_keep = 4
+generate: n_ctx = 4096, n_batch = 128, n_predict = 25, n_keep = 4
 
+llama_perf_sampler_print:    sampling time =       4.14 ms /    38 runs   (    0.11 ms per token,  9176.53 tokens per second)
+llama_perf_context_print:        load time =    1024.58 ms
+llama_perf_context_print: prompt eval time =     299.30 ms /    13 tokens (   23.02 ms per token,    43.43 tokens per second)
+llama_perf_context_print:        eval time =    1051.09 ms /    24 runs   (   43.80 ms per token,    22.83 tokens per second)
+llama_perf_context_print:       total time =    1364.22 ms /    37 tokens
+llama_perf_context_print:    graphs reused =         23
+llama_memory_breakdown_print: | memory breakdown [MiB]                  | total   free    self   model   context   compute    unaccounted |
+llama_memory_breakdown_print: |   - GPUOpenCL (QUALCOMM Adreno(TM) 830) |     0 =    0 + (   0 =     0 +       0 +       0) +           0 |
+llama_memory_breakdown_print: |   - HTP0 (Hexagon)                      |  2048 = 2048 + (   0 =     0 +       0 +       0) +           0 |
+llama_memory_breakdown_print: |   - Host                                |                 2580 =  2280 +     224 +      75                |
++ adb shell '   cd /data/local/tmp/llama.cpp; ulimit -c unlimited;            LD_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib       ADSP_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib                            ././bin/llama-cli -m /data/local/tmp/llama.cpp/../gguf/qwen2-7b-tinytron-Q4_K_M.gguf               -t 8 --ctx-size 4096 --batch-size 128         -ctk f16 -ctv f16 --temp 1.0 --seed 42         --no-display-prompt -fa on         -ngl 0  -n 250 --context-shift --keep 4 	-sys '\''You are a helpful assistant. Provide truthful, accurate, and concise answers.'\'' 	 -no-cnv' -p '"'\''Where did fortune cookies originate? '\''"' -n '25 '
+ggml_opencl: selected platform: 'QUALCOMM Snapdragon(TM)'
+
+ggml_opencl: device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml_opencl: OpenCL driver: OpenCL 3.0 QUALCOMM build: 0800.40.1 Compiler E031.47.18.36
+ggml_opencl: vector subgroup broadcast support: true
+ggml_opencl: device FP16 support: true
+ggml_opencl: mem base addr align: 128
+ggml_opencl: max mem alloc size: 1024 MB
+ggml_opencl: device max workgroup size: 1024
+ggml_opencl: SVM coarse grain buffer support: true
+ggml_opencl: SVM fine grain buffer support: true
+ggml_opencl: SVM fine grain system support: false
+ggml_opencl: SVM atomics support: true
+ggml_opencl: flattening quantized weights representation as struct of arrays (GGML_OPENCL_SOA_Q)
+ggml_opencl: using kernels optimized for Adreno (GGML_OPENCL_USE_ADRENO_KERNELS)
+ggml_opencl: loading OpenCL kernels.........................................

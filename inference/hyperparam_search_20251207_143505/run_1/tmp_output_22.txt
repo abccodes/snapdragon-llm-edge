@@ -1,0 +1,19 @@
+ is a question that can be answered using the following Python code:
+
+```python
+# Define the sentence from "The Empire Strikes Back"
+sentence = 'Darth Vader says, "No, I am your father."'
+
+# Print out the answer by extracting the part of speech after "says" and before the comma.
+print(sentence.split(' ')[-1])
+```
+
+When you run this code, it will output:
+
+```python
+father.
+```
+
+This is because the sentence from "The Empire Strikes Back" contains a quote spoken by Darth Vader. The Python code splits the sentence into words using space as the delimiter and then extracts the last word before the comma, which in this case is "No, I am your father." [end of text]
+
+

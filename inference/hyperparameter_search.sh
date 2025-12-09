@@ -1,12 +1,7 @@
 #!/bin/bash
 ################################################################################
 # HYPERPARAMETER RANDOM SEARCH V3 - OPTIMIZED FOR CONCISENESS
-# Based on preliminary results analysis:
-#   - Removed Mirostat (26% speed penalty, no accuracy gain)
-#   - Added min-p and presence-penalty for shorter outputs
-#   - Reduced token limit to 100 tokens
-#   - Kept DRY (0.8 = +18% speed)
-#   - Lower temperatures for more decisive answers
+# Modified to run llama-cli directly via adb without external wrapper scripts
 ################################################################################
 
 set -e
@@ -34,47 +29,33 @@ echo "run_id,model,mode,temperature,repeat_penalty,top_p,top_k,min_p,ctx_size,ke
 ################################################################################
 
 MODELS=(
-   "DeepSeek-R1-Distill-Qwen-1.5B-Q4_K_M.gguf"
-   "Llama-3.2-1B-Instruct-Q4_0.gguf"
-   "TinyLlama-1.1B-Chat-Q4_K_M.gguf"
-   "mobilellm-r1.5-950M_q4_0.gguf"
+    "Llama-3.2-1B-Instruct-Q4_0.gguf"
 )
 
 MODES=("CPU")
+SYSTEM_PROMPTS=("")
 
-SYSTEM_PROMPTS=(
-    ""
-)
+TEMPS=(0.2)
 
-# Lower temperatures for more decisive, concise answers
-TEMPS=(0.2 0.3 0.4)
+REPEAT_PENALTIES=(1.1)
 
-# Penalizes tokens that were recently generated to avoid repetition
-REPEAT_PENALTIES=(1.1 1.2)
+TOP_PS=(1.0)
 
-# Only sample from top tokens whose cumulative probability >= p
-TOP_PS=(0.9 0.95 1.0)
+TOP_KS=(40)
 
-# Lower top-k values for more decisive sampling
-TOP_KS=(30 40 50)
+MIN_P=(0.15)
 
-# NEW: Min-p sampling for aggressive cutoff
-MIN_P=(0.05 0.1 0.15)
+TOKEN_LIMITS=(600)
 
-# Reduced token limits to force conciseness
-TOKEN_LIMITS=(250)
+CTX_SIZES=(2048)
 
-# Context and batch sizes
-CTX_SIZES=(512)
 BATCH_SIZES_CPU=(128)
 
-# Hardware settings
 THREADS=(8)
 NGL_VALUES=(0)
 
-# KV cache quantization - Always use q8_0 (free 2.6% speed boost)
-KV_CACHE_TYPES_CTK=("f16")
-KV_CACHE_TYPES_CTV=("q8_0")
+KV_CACHE_CTK_VALUES=("f16")
+KV_CACHE_CTV_VALUES=("q8_0")
 
 # Flash attention - Always on
 FLASH_ATTN=("on")
@@ -85,7 +66,7 @@ KEEP_VALUES=(4)
 # Context shift - Always on
 CONTEXT_SHIFT=(1)
 
-# Performance tuning - poll=30 is optimal
+# Poll=30 is optimal
 POLL_LEVELS=(30)
 
 # No memory mapping
@@ -93,17 +74,11 @@ USE_MMAP=(0)
 
 SPLIT_MODES=("none")
 
-################################################################################
-# OPTIMIZED SAMPLING PARAMETERS
-################################################################################
+# Sampling parameters
+DRY_MULTIPLIER=(1.0)
+FREQUENCY_PENALTY=(0.15)
+PRESENCE_PENALTY=(0.3)
 
-# DRY sampling - 0.8 gives +18% speed with minimal accuracy loss
-DRY_MULTIPLIER=(0.6 0.8 1.0)
-
-# Frequency penalty to discourage verbose patterns
-FREQUENCY_PENALTY=(0.05 0.1 0.15)
-
-PRESENCE_PENALTY=(0.2 0.3 0.4 0.5)
 
 ################################################################################
 # HELPER FUNCTIONS
@@ -387,6 +362,9 @@ run_configuration() {
 #!/usr/bin/env python3
 import os
 import sys
+import subprocess
+import time
+import numpy as np
 
 # FIX: Disable TensorFlow before importing evaluate
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
@@ -394,9 +372,6 @@ os.environ['TRANSFORMERS_NO_TF'] = '1'
 
 from datasets import load_dataset
 import evaluate
-import subprocess
-import time
-import numpy as np
 
 # Configuration from bash - INJECTED BY HEREDOC BELOW
 
@@ -434,9 +409,13 @@ PYPYTHON
     # Append the rest of the Python script
     cat >> "$run_dir/run_eval.py" << 'PYPYTHON'
 
+# ADB and device configuration
+BASEDIR = "/data/local/tmp/llama.cpp"
+BRANCH = "."
+
 # Load dataset
 ds = load_dataset("truthfulqa/truthful_qa", "generation", split="validation")
-ds = ds.select(range(10))
+ds = ds.select(range(300))
 n = len(ds)
 print(f"Loaded {n} test samples for Truthful QA")
 
@@ -455,17 +434,16 @@ for i, rec in enumerate(ds):
     correct_answers = rec['correct_answers']
     incorrect_answers = rec['incorrect_answers']
 
-    # Clean question
-    question = question.replace("'", " ")
-    question = question.replace('"', ' ')
-
-    # Build command
-    cmd = [
-        "bash", "./run-cli-streamllm.sh",
-        "-no-cnv",
-        "-p", f"\"\'{question}\'\"",
-        "-n", str(TOKEN_LIMIT),
-        # Pass extra args to override defaults
+    # Clean question - escape for shell
+    question_escaped = question.replace("'", "'\\''")
+    
+    # Build the adb shell command directly
+    # Format the prompt argument carefully for shell
+    prompt_arg = f'"\\"{question_escaped}\\""'
+    
+    # Build llama-cli arguments
+    llama_args = [
+        "-m", f"{BASEDIR}/../gguf/{MODEL}",
         "-t", str(THREADS),
         "-c", str(CTX_SIZE),
         "-b", str(BATCH_SIZE),
@@ -481,31 +459,56 @@ for i, rec in enumerate(ds):
         "-fa", FLASH_ATTN,
         CONTEXT_SHIFT_FLAG,
         "--poll", str(POLL_LEVEL),
+        "-ngl", str(NGL),
+        "-n", str(TOKEN_LIMIT),
+        "--no-display-prompt",
+        "-no-cnv",
     ]
-
+    
     # Add sampling parameters
     if DRY_MULT > 0:
-        cmd.extend(["--dry-multiplier", str(DRY_MULT)])
-        cmd.extend(["--dry-base", "1.75"])
+        llama_args.extend(["--dry-multiplier", str(DRY_MULT)])
+        llama_args.extend(["--dry-base", "1.75"])
     
     if FREQ_PENALTY > 0:
-        cmd.extend(["--frequency-penalty", str(FREQ_PENALTY)])
+        llama_args.extend(["--frequency-penalty", str(FREQ_PENALTY)])
     
     if PRESENCE_PENALTY > 0:
-        cmd.extend(["--presence-penalty", str(PRESENCE_PENALTY)])
-
+        llama_args.extend(["--presence-penalty", str(PRESENCE_PENALTY)])
+    
     if MMAP_FLAG:
-        cmd.append(MMAP_FLAG)
-
+        llama_args.append(MMAP_FLAG)
+    
+    # Add prompt
+    llama_args.extend(["-p", prompt_arg])
+    
+    # Build full adb command
+    llama_args_str = " ".join(llama_args)
+    
+    adb_cmd = f"""adb shell 'cd {BASEDIR}; ulimit -c unlimited; \\
+        LD_LIBRARY_PATH={BASEDIR}/{BRANCH}/lib \\
+        ADSP_LIBRARY_PATH={BASEDIR}/{BRANCH}/lib \\
+        ./{BRANCH}/bin/llama-cli {llama_args_str}'"""
+    
+    print(f"CMD: {adb_cmd}")
+    
     start = time.time()
+    
+    # Execute via shell to properly handle the complex quoting
     with open(os.path.join(RUN_DIR, f"tmp_output_{i}.txt"), "w", encoding="utf-8") as fout:
-        print("CMD:", " ".join(cmd))
-        proc = subprocess.run(cmd, stdout=fout, stderr=stderr_file, text=True)
+        proc = subprocess.run(
+            adb_cmd,
+            shell=True,
+            stdout=fout,
+            stderr=stderr_file,
+            text=True
+        )
+    
     end = time.time()
-
     latency = end - start
+    
     if proc.returncode != 0:
-        print(f"[ERROR] CLI failed for prompt {question}:")
+        print(f"[ERROR] CLI failed for prompt: {question}")
         continue
 
     # start evaluate
@@ -553,7 +556,7 @@ PYPYTHON
 
     chmod +x "$run_dir/run_eval.py"
 
-    echo "Running TruthfulQA test (10 samples)..." | tee -a "$LOG_FILE"
+    echo "Running TruthfulQA test (300 samples)..." | tee -a "$LOG_FILE"
     local start_time=$(date +%s)
 
     # Run the Python evaluation script and save output
@@ -620,19 +623,19 @@ for run_id in $(seq 1 $NUM_TRIALS); do
     ngl=$(get_random "${NGL_VALUES[@]}")
 
     flash_attn=$(get_random "${FLASH_ATTN[@]}")
-    ctk=$(get_random "${KV_CACHE_TYPES_CTK[@]}")
-    ctv=$(get_random "${KV_CACHE_TYPES_CTV[@]}")
+    ctk=$(get_random "${KV_CACHE_CTK_VALUES[@]}")
+    ctv=$(get_random "${KV_CACHE_CTV_VALUES[@]}")
 
     context_shift=$(get_random "${CONTEXT_SHIFT[@]}")
     poll_level=$(get_random "${POLL_LEVELS[@]}")
     use_mmap=$(get_random "${USE_MMAP[@]}")
     split_mode=$(get_random "${SPLIT_MODES[@]}")
-    
+
     # Optimized sampling parameters
     dry_mult=$(get_random "${DRY_MULTIPLIER[@]}")
     freq_penalty=$(get_random "${FREQUENCY_PENALTY[@]}")
     presence_penalty=$(get_random "${PRESENCE_PENALTY[@]}")
-    
+
     system_prompt=$(get_random "${SYSTEM_PROMPTS[@]}")
 
     run_configuration "$run_id" "$model" "$mode" "$temp" "$repeat_penalty" "$top_p" "$top_k" "$min_p" "$ctx_size" "$keep" "$batch_size" "$ubatch_size" "$threads" "$ngl" "$ctk" "$ctv" "$flash_attn" "$context_shift" "$poll_level" "$use_mmap" "$split_mode" "$dry_mult" "$freq_penalty" "$presence_penalty" "$token_limit" "$system_prompt"
