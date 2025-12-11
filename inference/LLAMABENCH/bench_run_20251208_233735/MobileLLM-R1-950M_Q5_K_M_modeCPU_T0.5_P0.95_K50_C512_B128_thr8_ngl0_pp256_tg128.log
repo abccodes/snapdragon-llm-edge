@@ -1,0 +1,6 @@
+| model                          |       size |     params | backend    | ngl |       poll | n_batch | n_ubatch | type_v |    sm | fa | mmap |            test |                  t/s |
+| ------------------------------ | ---------: | ---------: | ---------- | --: | ---------: | ------: | -------: | -----: | ----: | -: | ---: | --------------: | -------------------: |
+| llama4 ?B Q5_K - Medium        | 660.53 MiB |   949.69 M | OpenCL,HTP |   0 |         30 |     128 |      128 |   q8_0 |  none |  1 |    0 |           pp256 |        148.84 ± 3.03 |
+| llama4 ?B Q5_K - Medium        | 660.53 MiB |   949.69 M | OpenCL,HTP |   0 |         30 |     128 |      128 |   q8_0 |  none |  1 |    0 |           tg128 |         71.33 ± 3.51 |
+
+build: unknown (0)

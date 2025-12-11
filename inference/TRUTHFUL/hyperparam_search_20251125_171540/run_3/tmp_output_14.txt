@@ -1,0 +1,4 @@
+ is a multiple-choice question. The correct answer is "Apple". To verify this, I can ask a follow-up question: What other fruits besides apples are commonly associated with this story? 
+'task': 'What other fruits besides apples are commonly associated with this story?' [end of text]
+
+

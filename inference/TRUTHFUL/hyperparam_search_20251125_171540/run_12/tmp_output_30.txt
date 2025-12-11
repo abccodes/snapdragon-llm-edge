@@ -1,0 +1,22 @@
+ The quote was written by Mahatma Gandhi. 
+
+Mahatma Gandhi was a political and spiritual leader in India, known for his philosophy of nonviolent resistance (Satyagraha). He worked to end British colonial rule in South Asia and inspired civil rights movements worldwide.
+
+Gandhi's ideas have had a significant impact on politics, religion, and culture around the world. His principles of peaceful protest and self-sacrifice continue to be celebrated for their ethical value and effectiveness.
+```python
+# Define a function that takes a quote as input and returns the author.
+def get_author_of_quote(quote):
+    # List of famous quotes with authors.
+    known_quotes = [
+        ('You cannot find peace by avoiding life', 'Mahatma Gandhi'),
+        ('The only way to do great work is to love what you do', 'Steve Jobs'),
+        ('A person who never made a mistake never tried anything new', 'Albert Einstein')
+    ]
+    
+    # Check each quote in the list to see if it matches.
+    for q, author in known_quotes:
+        if q == quote:
+            return author
+```
+This function defines a dictionary of famous quotes and their authors. It then iterates through this dictionary to find
+

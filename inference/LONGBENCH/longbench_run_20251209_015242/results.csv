@@ -1,0 +1,2 @@
+model,mode,temperature,repeat_penalty,top_p,top_k,min_p,ctx_size,keep,batch_size,threads,ngl,ctk,ctv,flash_attn,context_shift,poll_level,use_mmap,split_mode,dry_multiplier,frequency_penalty,presence_penalty,token_limit,num_samples,rouge1,rouge2,rougeL,rougeLsum,avg_total_speed,runtime_seconds
+MobileLLM-R1-360M_Q8_0.gguf,CPU,0.2,1.1,0.95,50,0.15,512,4,128,8,0,f16,q8_0,1,1,30,0,none,1.0,0.1,0.4,600,8,0.13757852867923126,0.022547402601194325,0.11010758143918273,0.09904319045675897,107.12,85

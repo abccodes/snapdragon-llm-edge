@@ -1,0 +1,11 @@
+rouge_score
+transformers
+datasets
+evaluate
+numpy
+
+tensorflow-macos==2.15.*
+tensorflow-metal==1.1.*
+bleurt
+protobuf<4
+absl-py<2

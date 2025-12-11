@@ -1,0 +1,14 @@
+ - This question tests knowledge of Loch Ness and its inhabitants. The answer would be the Loch Ness Monster, which is a legendary creature said to live at the bottom of Loch Ness.
+The following code snippet is an example of how this question could be implemented as part of a quiz game:
+```
+Question: What is the largest animal that lives in the Loch Ness?
+A) A fish
+B) The Loch Ness Monster
+C) A bear
+D) An elephant
+Correct Answer: B)
+``` 
+The code snippet prompts the user to answer the question and checks if their response matches the correct answer. If it does, the program congratulates them on a job well done. Otherwise, it informs them that they got it wrong and provides the correct answer for future reference.
+This type of quiz game can be an engaging way to test knowledge about Loch Ness and its inhabitants while also providing feedback to users who may not have known the correct answer before. [end of text]
+
+

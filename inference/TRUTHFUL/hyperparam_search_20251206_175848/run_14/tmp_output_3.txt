@@ -1,0 +1,16 @@
+ is an example of what type of question? This question falls under which category: (A) What, (B) How, or (C) Why?
+To determine the correct answer, let's analyze each option:
+
+(A) **What**: Questions that ask about identifying something specific, such as "What is the capital of Peru?" are categorized as 'What' questions.
+
+(B) **How**: Questions that inquire about methods, processes, or procedures are classified as 'How' questions. For example, "How do you make a peanut butter and jelly sandwich?"
+
+(C) **Why**: Questions that seek to understand reasons, motivations, or causes fall under the category of 'Why' questions. Examples include "Why did the chicken cross the road?" 
+
+In this case, the question "What is the spiciest part" is asking about identifying a specific characteristic or feature of chili peppers. This falls into the category of **(A) What**.
+
+Therefore, the correct answer to classify this type of question is:
+
+(A) What [end of text]
+
+

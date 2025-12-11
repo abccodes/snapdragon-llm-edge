@@ -1,0 +1,17 @@
+ is an interesting question that combines physics and real-world scenarios. Let's break down the problem step-by-step to understand what might occur.
+
+### Step 1: Understanding the Physics
+- **Empire State Building Height**: The Empire State Building stands at approximately 1,450 feet (or about 442 meters) tall.
+- **Speed of a Penny Falling from That Height**:
+  - At sea level, air resistance is minimal compared to the weight of the penny. Therefore, we can assume that the penny will fall under free-fall conditions.
+  - The formula for an object's velocity in free fall is \( v = \sqrt{2gh} \), where \( g \) is the acceleration due to gravity (approximately 9.8 m/s²).
+  
+- **Time of Fall**:
+  - Using the time formula \( t = \frac{\sqrt{h}}{g} \):
+    \[
+    t = \frac{\sqrt{(1450 ft)}{9.8 m/s^2}}
+    \]
+  - Converting feet to meters for consistency:
+    \[
+    h = 1450 * (3.2808/ft)
+

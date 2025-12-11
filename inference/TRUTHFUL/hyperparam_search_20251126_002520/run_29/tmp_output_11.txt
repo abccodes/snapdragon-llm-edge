@@ -1,0 +1,10 @@
+ - The Sun appears white to observers on Earth, but its true appearance in outer space can vary depending on viewing conditions. When seen directly by an observer without any atmospheric interference or scattering of light (such as during a total solar eclipse), the Sun's surface temperature and radiation make it appear yellowish-white.
+
+However, when viewed from far away with no direct sunlight shining through Earth’s atmosphere to scatter its colors, the Sun appears more blue due to Rayleigh Scattering. This phenomenon occurs because shorter wavelengths like blue light are scattered by molecules of air in our planet's atmosphere much more than longer wavelength red or orange light. As a result, when we look at the sky on clear days from space, it often takes on an azure hue.
+
+In summary:
+- From Earth: The Sun appears white.
+- When viewed directly without atmospheric interference (e.g., during total solar eclipse): Yellowish-white
+- Far away in outer space with no direct sunlight shining through our atmosphere: Blue due to Rayleigh Scattering. [end of text]
+
+

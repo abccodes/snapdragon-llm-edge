@@ -1,0 +1,12 @@
+ asks a child. A parent might reply, "If you stay outside in the cold with wet hair, your head and ears will get very chilly." To answer this question, let's consider what happens when water is exposed to different temperatures.
+
+When water is exposed to colder temperatures, it can undergo various physical changes depending on its state. Here are some key points about how water behaves in cold weather:
+
+1. **Freezing**: Water freezes at 0°C (32°F) under standard atmospheric pressure. Below this temperature, the liquid structure of water transforms into a crystalline solid called ice.
+
+2. **Evaporation and Condensation**: While freezing is one extreme, evaporation can occur when warm air meets cold surfaces. This process involves changing from liquid to gas state. Conversely, condensation occurs when vapor in the air changes back into liquid form, often seen as dew or fog on cool mornings.
+
+3. **Thermal Expansion**: When water freezes, it expands by about 9%. This expansion can cause stress and potential damage if not accounted for properly, such as bursting pipes during cold weather.
+
+4. **Phase Changes**: The transition between solid (ice) and liquid (water) is reversible under certain conditions. If the temperature increases
+

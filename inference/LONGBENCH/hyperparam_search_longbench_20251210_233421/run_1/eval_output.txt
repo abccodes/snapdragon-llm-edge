@@ -1,0 +1,220 @@
+Using the latest cached version of the dataset since zai-org/LongBench couldn't be found on the Hugging Face Hub
+Found the latest cached dataset configuration 'qmsum' at /Users/aidanbayer-calvert/.cache/huggingface/datasets/zai-org___long_bench/qmsum/1.0.0/4a916a4bde5c3481ac49b84d5dde69a9d2eefcd67f884ef65b3d97ee7cc91f3e (last modified on Sun Nov  9 21:41:01 2025).
+-------- sample 0 --------
+Running inference for sample 0...
+Output file: hyperparam_search_longbench_20251210_233421/run_1/outputs/out_0.txt
+Return code: 0
+Output file size: 1608 bytes
+Prediction length: 1604 chars
+First 100 chars: The team discussed and agreed upon a new remote control design that incorporates key features such a
+-------- sample 1 --------
+Running inference for sample 1...
+Output file: hyperparam_search_longbench_20251210_233421/run_1/outputs/out_1.txt
+Return code: 0
+Output file size: 655 bytes
+Prediction length: 651 chars
+First 100 chars: The group discussed and agreed upon a plan to implement the touch screen technology in various depar
+-------- sample 2 --------
+Running inference for sample 2...
+Output file: hyperparam_search_longbench_20251210_233421/run_1/outputs/out_2.txt
+Return code: 0
+Output file size: 1206 bytes
+Prediction length: 1202 chars
+First 100 chars: The meeting between the CEO and the board of directors discussed various business opportunities, inc
+-------- sample 3 --------
+Running inference for sample 3...
+Output file: hyperparam_search_longbench_20251210_233421/run_1/outputs/out_3.txt
+Return code: 0
+Output file size: 1215 bytes
+Prediction length: 1211 chars
+First 100 chars: The project manager's summary of the meeting highlights several key points, including a discussion o
+-------- sample 4 --------
+Running inference for sample 4...
+Output file: hyperparam_search_longbench_20251210_233421/run_1/outputs/out_4.txt
+Return code: 0
+Output file size: 2239 bytes
+Prediction length: 2235 chars
+First 100 chars: The meeting was attended by representatives from various companies, including Google and Microsoft. 
+-------- sample 5 --------
+Running inference for sample 5...
+Output file: hyperparam_search_longbench_20251210_233421/run_1/outputs/out_5.txt
+Return code: 0
+Output file size: 2810 bytes
+Prediction length: 2804 chars
+First 100 chars: User Interface introduced a prototype for the remote control, which was then used to test and refine
+-------- sample 6 --------
+Running inference for sample 6...
+Output file: hyperparam_search_longbench_20251210_233421/run_1/outputs/out_6.txt
+Return code: 0
+Output file size: 1247 bytes
+Prediction length: 1243 chars
+First 100 chars: The meeting was attended by several individuals, including C. It appears that there were discussions
+-------- sample 7 --------
+Running inference for sample 7...
+Output file: hyperparam_search_longbench_20251210_233421/run_1/outputs/out_7.txt
+Return code: 0
+Output file size: 2471 bytes
+Prediction length: 2467 chars
+First 100 chars: The professor discussed the effects of MSG (monosodium glutamate) on human health. They noted that i
+-------- sample 8 --------
+Running inference for sample 8...
+Output file: hyperparam_search_longbench_20251210_233421/run_1/outputs/out_8.txt
+Return code: 0
+Output file size: 3004 bytes
+Prediction length: 3000 chars
+First 100 chars: The Marketing team discussed the design of a new remote control with the Product Design team. They w
+-------- sample 9 --------
+Running inference for sample 9...
+Output file: hyperparam_search_longbench_20251210_233421/run_1/outputs/out_9.txt
+Return code: 0
+Output file size: 1120 bytes
+Prediction length: 1116 chars
+First 100 chars: The professor discussed how clustering is a useful tool in data analysis, particularly when dealing 
+-------- sample 10 --------
+Running inference for sample 10...
+Output file: hyperparam_search_longbench_20251210_233421/run_1/outputs/out_10.txt
+Return code: 0
+Output file size: 669 bytes
+Prediction length: 665 chars
+First 100 chars: The meeting was attended by a group of people, including Grad F and other individuals. A discussion 
+-------- sample 11 --------
+Running inference for sample 11...
+Output file: hyperparam_search_longbench_20251210_233421/run_1/outputs/out_11.txt
+Return code: 0
+Output file size: 570 bytes
+Prediction length: 566 chars
+First 100 chars: The group discussed how speech recognition technology has improved significantly over time, with adv
+-------- sample 12 --------
+Running inference for sample 12...
+Output file: hyperparam_search_longbench_20251210_233421/run_1/outputs/out_12.txt
+Return code: 0
+Output file size: 1578 bytes
+Prediction length: 1574 chars
+First 100 chars: The discussion on "Early Implementers" was led by Dr. James, who shared his experiences with several
+-------- sample 13 --------
+Running inference for sample 13...
+Output file: hyperparam_search_longbench_20251210_233421/run_1/outputs/out_13.txt
+Return code: 0
+Output file size: 2277 bytes
+Prediction length: 2273 chars
+First 100 chars: The user interface discussed using titanium for its sleek design, but was concerned about the high p
+-------- sample 14 --------
+Running inference for sample 14...
+Output file: hyperparam_search_longbench_20251210_233421/run_1/outputs/out_14.txt
+Return code: 0
+Output file size: 945 bytes
+Prediction length: 941 chars
+First 100 chars: The discussion centered around trend watching, where participants discussed various trends in fashio
+-------- sample 15 --------
+Running inference for sample 15...
+Output file: hyperparam_search_longbench_20251210_233421/run_1/outputs/out_15.txt
+Return code: 0
+Output file size: 1611 bytes
+Prediction length: 1607 chars
+First 100 chars: The professor discussed how echoes and reverberations are related to sound waves. They explained tha
+-------- sample 16 --------
+Running inference for sample 16...
+Output file: hyperparam_search_longbench_20251210_233421/run_1/outputs/out_16.txt
+Return code: 0
+Output file size: 1502 bytes
+Prediction length: 1498 chars
+First 100 chars: The group discussed a possible connection between the design and functionality of different objects,
+-------- sample 17 --------
+Running inference for sample 17...
+Output file: hyperparam_search_longbench_20251210_233421/run_1/outputs/out_17.txt
+Return code: 0
+Output file size: 2295 bytes
+Prediction length: 2291 chars
+First 100 chars: The group discussed and agreed that Dave's departure was a positive outcome for the company. They ac
+-------- sample 18 --------
+Running inference for sample 18...
+Output file: hyperparam_search_longbench_20251210_233421/run_1/outputs/out_18.txt
+Return code: 0
+Output file size: 3277 bytes
+Prediction length: 3273 chars
+First 100 chars: The group discussed that teachers are increasingly being recruited by companies in the technology in
+-------- sample 19 --------
+Running inference for sample 19...
+Output file: hyperparam_search_longbench_20251210_233421/run_1/outputs/out_19.txt
+Return code: 0
+Output file size: 1353 bytes
+Prediction length: 1349 chars
+First 100 chars: The speaker discussed the importance of transparency in government, and how it can be used to combat
+-------- sample 20 --------
+Running inference for sample 20...
+Output file: hyperparam_search_longbench_20251210_233421/run_1/outputs/out_20.txt
+Return code: 0
+Output file size: 1176 bytes
+Prediction length: 1172 chars
+First 100 chars: The meeting of  [committee name] was attended by a total of five members. The committee discussed an
+-------- sample 21 --------
+Running inference for sample 21...
+Output file: hyperparam_search_longbench_20251210_233421/run_1/outputs/out_21.txt
+Return code: 0
+Output file size: 2098 bytes
+Prediction length: 2094 chars
+First 100 chars: The meeting between the design team and the client discussed various aspects of the product's appear
+-------- sample 22 --------
+Running inference for sample 22...
+Output file: hyperparam_search_longbench_20251210_233421/run_1/outputs/out_22.txt
+Return code: 0
+Output file size: 2589 bytes
+Prediction length: 2585 chars
+First 100 chars: The meeting was attended by [list names of attendees]. The discussion centered around the current st
+-------- sample 23 --------
+Running inference for sample 23...
+Output file: hyperparam_search_longbench_20251210_233421/run_1/outputs/out_23.txt
+Return code: 0
+Output file size: 2065 bytes
+Prediction length: 2061 chars
+First 100 chars: The meeting between Industrial Design and Marketing discussed the presentation of the company's new 
+-------- sample 24 --------
+Running inference for sample 24...
+Output file: hyperparam_search_longbench_20251210_233421/run_1/outputs/out_24.txt
+Return code: 0
+Output file size: 2410 bytes
+Prediction length: 2406 chars
+First 100 chars: The project manager agreed to marketing's assessment because it aligns with the company's strategy a
+
+=== EVALUATION SUMMARY ===
+Total predictions: 25
+Total references: 25
+
+=== Per-sample ROUGE-L ===
+Sample 0: ROUGE-L = 0.1582
+Sample 1: ROUGE-L = 0.1720
+Sample 2: ROUGE-L = 0.1012
+Sample 3: ROUGE-L = 0.1290
+Sample 4: ROUGE-L = 0.0427
+Sample 5: ROUGE-L = 0.1126
+Sample 6: ROUGE-L = 0.1255
+Sample 7: ROUGE-L = 0.0671
+Sample 8: ROUGE-L = 0.0615
+Sample 9: ROUGE-L = 0.1256
+Sample 10: ROUGE-L = 0.1642
+Sample 11: ROUGE-L = 0.1220
+Sample 12: ROUGE-L = 0.0920
+Sample 13: ROUGE-L = 0.1535
+Sample 14: ROUGE-L = 0.1667
+Sample 15: ROUGE-L = 0.0791
+Sample 16: ROUGE-L = 0.1441
+Sample 17: ROUGE-L = 0.1076
+Sample 18: ROUGE-L = 0.0940
+Sample 19: ROUGE-L = 0.1048
+Sample 20: ROUGE-L = 0.1478
+Sample 21: ROUGE-L = 0.0920
+Sample 22: ROUGE-L = 0.0671
+Sample 23: ROUGE-L = 0.1059
+Sample 24: ROUGE-L = 0.0841
+
+Filtered: 25/25 samples with ROUGE-L > 0
+
+=== Aggregated ROUGE ===
+ROUGE-1: 0.1800
+ROUGE-2: 0.0205
+ROUGE-L: 0.1130
+ROUGE-Lsum: 0.1327
+ROUGE1=0.18001018990691306
+ROUGE2=0.020488292134826634
+ROUGEL=0.11299576264589647
+ROUGELSUM=0.13273984429813612

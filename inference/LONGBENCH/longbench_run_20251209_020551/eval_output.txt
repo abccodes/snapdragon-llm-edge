@@ -1,0 +1,82 @@
+Using the latest cached version of the dataset since zai-org/LongBench couldn't be found on the Hugging Face Hub
+Found the latest cached dataset configuration 'qmsum' at /Users/featherchen/.cache/huggingface/datasets/zai-org___long_bench/qmsum/1.0.0/4a916a4bde5c3481ac49b84d5dde69a9d2eefcd67f884ef65b3d97ee7cc91f3e (last modified on Tue Nov 18 15:15:54 2025).
+Loading LongBench dataset (QMSUM)...
+Loaded 8 samples
+
+============================================================
+Processing sample 1/8
+============================================================
+Running inference...
+✓ Generated 101 characters
+
+============================================================
+Processing sample 2/8
+============================================================
+Running inference...
+✓ Generated 66 characters
+
+============================================================
+Processing sample 3/8
+============================================================
+Running inference...
+✓ Generated 463 characters
+
+============================================================
+Processing sample 4/8
+============================================================
+Running inference...
+✓ Generated 149 characters
+
+============================================================
+Processing sample 5/8
+============================================================
+Running inference...
+✓ Generated 33 characters
+
+============================================================
+Processing sample 6/8
+============================================================
+Running inference...
+✓ Generated 17 characters
+
+============================================================
+Processing sample 7/8
+============================================================
+Running inference...
+✓ Generated 13 characters
+
+============================================================
+Processing sample 8/8
+============================================================
+Running inference...
+✓ Generated 40 characters
+
+============================================================
+EVALUATION SUMMARY
+============================================================
+Total predictions: 8/8
+
+Per-sample ROUGE-L:
+  Sample 0: 0.0488
+  Sample 1: 0.0777
+  Sample 2: 0.0870
+  Sample 3: 0.1928
+  Sample 4: 0.0741
+  Sample 5: 0.0247
+  Sample 6: 0.0667
+  Sample 7: 0.1000
+
+Filtered: 8/8 samples with ROUGE-L > 0
+
+============================================================
+AGGREGATED ROUGE SCORES
+============================================================
+ROUGE-1:    0.1060
+ROUGE-2:    0.0199
+ROUGE-L:    0.0812
+ROUGE-Lsum: 0.0740
+
+ROUGE1=0.10597504732187685
+ROUGE2=0.019946064616911015
+ROUGEL=0.08121565635027941
+ROUGELSUM=0.07400948831827889

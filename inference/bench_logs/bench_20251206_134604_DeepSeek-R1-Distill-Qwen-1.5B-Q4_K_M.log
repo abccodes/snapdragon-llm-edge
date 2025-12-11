@@ -1,0 +1,6 @@
+| model                          |       size |     params | backend    | ngl | threads |            test |                  t/s |
+| ------------------------------ | ---------: | ---------: | ---------- | --: | ------: | --------------: | -------------------: |
+| qwen2 1.5B Q4_K - Medium       |   1.04 GiB |     1.78 B | OpenCL,HTP |  99 |       6 |           pp256 |        108.79 ± 5.51 |
+| qwen2 1.5B Q4_K - Medium       |   1.04 GiB |     1.78 B | OpenCL,HTP |  99 |       6 |           tg128 |         26.91 ± 1.46 |
+
+build: 1f5accb8d (6942)

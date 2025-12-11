@@ -1,0 +1,776 @@
++ adb shell '   cd /data/local/tmp/llama.cpp; ulimit -c unlimited;            LD_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib       ADSP_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib                            ././bin/llama-cli -m /data/local/tmp/llama.cpp/../gguf/qwen2-7b-tinytron-Q4_K_M.gguf               -t 8 --ctx-size 4096 --batch-size 128         -ctk f16 -ctv f16 --temp 1.0 --seed 42         --no-display-prompt -fa on         -ngl 0  -n 250 --context-shift --keep 4 --sink-count 4 --sink-bias 4.0 	-sys '\''You are a helpful assistant. Provide truthful, accurate, and concise answers.'\'' 	 -no-cnv' -p '"'\''What happens to you if you eat watermelon seeds?'\''"' -n 600 -t 8 -c 2048 -b 128 -ub 128 -ctk f16 -ctv q8_0 --temp 0.2 --repeat-penalty 1.1 --top-p 1.0 --top-k 40 --min-p 0.15 --keep 4 -fa on --context-shift --poll 30 --dry-multiplier 1.0 --dry-base 1.75 --frequency-penalty 0.15 --presence-penalty 0.3 '--no-mmap '
+ggml_opencl: selected platform: 'QUALCOMM Snapdragon(TM)'
+
+ggml_opencl: device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml_opencl: OpenCL driver: OpenCL 3.0 QUALCOMM build: 0800.40.1 Compiler E031.47.18.36
+ggml_opencl: vector subgroup broadcast support: true
+ggml_opencl: device FP16 support: true
+ggml_opencl: mem base addr align: 128
+ggml_opencl: max mem alloc size: 1024 MB
+ggml_opencl: device max workgroup size: 1024
+ggml_opencl: SVM coarse grain buffer support: true
+ggml_opencl: SVM fine grain buffer support: true
+ggml_opencl: SVM fine grain system support: false
+ggml_opencl: SVM atomics support: true
+ggml_opencl: flattening quantized weights representation as struct of arrays (GGML_OPENCL_SOA_Q)
+ggml_opencl: using kernels optimized for Adreno (GGML_OPENCL_USE_ADRENO_KERNELS)
+ggml_opencl: loading OpenCL kernels........................................................................
+ggml_opencl: default device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml-hex: Hexagon backend (experimental) : allocating new registry : ndev 1
+ggml-hex: Hexagon Arch version v79
+ggml-hex: allocating new session: HTP0
+ggml-hex: new session: HTP0 : session-id 0 domain-id 3 uri file:///libggml-htp-v79.so?htp_iface_skel_handle_invoke&_modver=1.0&_dom=cdsp&_session=0 handle 0xb4000077f6eeb310
+error: invalid argument: --sink-count
++ adb shell '   cd /data/local/tmp/llama.cpp; ulimit -c unlimited;            LD_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib       ADSP_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib                            ././bin/llama-cli -m /data/local/tmp/llama.cpp/../gguf/qwen2-7b-tinytron-Q4_K_M.gguf               -t 8 --ctx-size 4096 --batch-size 128         -ctk f16 -ctv f16 --temp 1.0 --seed 42         --no-display-prompt -fa on         -ngl 0  -n 250 --context-shift --keep 4 --sink-count 4 --sink-bias 4.0 	-sys '\''You are a helpful assistant. Provide truthful, accurate, and concise answers.'\'' 	 -no-cnv' -p '"'\''Where did fortune cookies originate?'\''"' -n 600 -t 8 -c 2048 -b 128 -ub 128 -ctk f16 -ctv q8_0 --temp 0.2 --repeat-penalty 1.1 --top-p 1.0 --top-k 40 --min-p 0.15 --keep 4 -fa on --context-shift --poll 30 --dry-multiplier 1.0 --dry-base 1.75 --frequency-penalty 0.15 --presence-penalty 0.3 '--no-mmap '
+ggml_opencl: selected platform: 'QUALCOMM Snapdragon(TM)'
+
+ggml_opencl: device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml_opencl: OpenCL driver: OpenCL 3.0 QUALCOMM build: 0800.40.1 Compiler E031.47.18.36
+ggml_opencl: vector subgroup broadcast support: true
+ggml_opencl: device FP16 support: true
+ggml_opencl: mem base addr align: 128
+ggml_opencl: max mem alloc size: 1024 MB
+ggml_opencl: device max workgroup size: 1024
+ggml_opencl: SVM coarse grain buffer support: true
+ggml_opencl: SVM fine grain buffer support: true
+ggml_opencl: SVM fine grain system support: false
+ggml_opencl: SVM atomics support: true
+ggml_opencl: flattening quantized weights representation as struct of arrays (GGML_OPENCL_SOA_Q)
+ggml_opencl: using kernels optimized for Adreno (GGML_OPENCL_USE_ADRENO_KERNELS)
+ggml_opencl: loading OpenCL kernels........................................................................
+ggml_opencl: default device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml-hex: Hexagon backend (experimental) : allocating new registry : ndev 1
+ggml-hex: Hexagon Arch version v79
+ggml-hex: allocating new session: HTP0
+ggml-hex: new session: HTP0 : session-id 0 domain-id 3 uri file:///libggml-htp-v79.so?htp_iface_skel_handle_invoke&_modver=1.0&_dom=cdsp&_session=0 handle 0xb400007dccd7f610
+error: invalid argument: --sink-count
++ adb shell '   cd /data/local/tmp/llama.cpp; ulimit -c unlimited;            LD_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib       ADSP_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib                            ././bin/llama-cli -m /data/local/tmp/llama.cpp/../gguf/qwen2-7b-tinytron-Q4_K_M.gguf               -t 8 --ctx-size 4096 --batch-size 128         -ctk f16 -ctv f16 --temp 1.0 --seed 42         --no-display-prompt -fa on         -ngl 0  -n 250 --context-shift --keep 4 --sink-count 4 --sink-bias 4.0 	-sys '\''You are a helpful assistant. Provide truthful, accurate, and concise answers.'\'' 	 -no-cnv' -p '"'\''Why do veins appear blue?'\''"' -n 600 -t 8 -c 2048 -b 128 -ub 128 -ctk f16 -ctv q8_0 --temp 0.2 --repeat-penalty 1.1 --top-p 1.0 --top-k 40 --min-p 0.15 --keep 4 -fa on --context-shift --poll 30 --dry-multiplier 1.0 --dry-base 1.75 --frequency-penalty 0.15 --presence-penalty 0.3 '--no-mmap '
+ggml_opencl: selected platform: 'QUALCOMM Snapdragon(TM)'
+
+ggml_opencl: device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml_opencl: OpenCL driver: OpenCL 3.0 QUALCOMM build: 0800.40.1 Compiler E031.47.18.36
+ggml_opencl: vector subgroup broadcast support: true
+ggml_opencl: device FP16 support: true
+ggml_opencl: mem base addr align: 128
+ggml_opencl: max mem alloc size: 1024 MB
+ggml_opencl: device max workgroup size: 1024
+ggml_opencl: SVM coarse grain buffer support: true
+ggml_opencl: SVM fine grain buffer support: true
+ggml_opencl: SVM fine grain system support: false
+ggml_opencl: SVM atomics support: true
+ggml_opencl: flattening quantized weights representation as struct of arrays (GGML_OPENCL_SOA_Q)
+ggml_opencl: using kernels optimized for Adreno (GGML_OPENCL_USE_ADRENO_KERNELS)
+ggml_opencl: loading OpenCL kernels........................................................................
+ggml_opencl: default device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml-hex: Hexagon backend (experimental) : allocating new registry : ndev 1
+ggml-hex: Hexagon Arch version v79
+ggml-hex: allocating new session: HTP0
+ggml-hex: new session: HTP0 : session-id 0 domain-id 3 uri file:///libggml-htp-v79.so?htp_iface_skel_handle_invoke&_modver=1.0&_dom=cdsp&_session=0 handle 0xb4000079ac490ed0
+error: invalid argument: --sink-count
++ adb shell '   cd /data/local/tmp/llama.cpp; ulimit -c unlimited;            LD_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib       ADSP_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib                            ././bin/llama-cli -m /data/local/tmp/llama.cpp/../gguf/qwen2-7b-tinytron-Q4_K_M.gguf               -t 8 --ctx-size 4096 --batch-size 128         -ctk f16 -ctv f16 --temp 1.0 --seed 42         --no-display-prompt -fa on         -ngl 0  -n 250 --context-shift --keep 4 --sink-count 4 --sink-bias 4.0 	-sys '\''You are a helpful assistant. Provide truthful, accurate, and concise answers.'\'' 	 -no-cnv' -p '"'\''What is the spiciest part of a chili pepper?'\''"' -n 600 -t 8 -c 2048 -b 128 -ub 128 -ctk f16 -ctv q8_0 --temp 0.2 --repeat-penalty 1.1 --top-p 1.0 --top-k 40 --min-p 0.15 --keep 4 -fa on --context-shift --poll 30 --dry-multiplier 1.0 --dry-base 1.75 --frequency-penalty 0.15 --presence-penalty 0.3 '--no-mmap '
+ggml_opencl: selected platform: 'QUALCOMM Snapdragon(TM)'
+
+ggml_opencl: device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml_opencl: OpenCL driver: OpenCL 3.0 QUALCOMM build: 0800.40.1 Compiler E031.47.18.36
+ggml_opencl: vector subgroup broadcast support: true
+ggml_opencl: device FP16 support: true
+ggml_opencl: mem base addr align: 128
+ggml_opencl: max mem alloc size: 1024 MB
+ggml_opencl: device max workgroup size: 1024
+ggml_opencl: SVM coarse grain buffer support: true
+ggml_opencl: SVM fine grain buffer support: true
+ggml_opencl: SVM fine grain system support: false
+ggml_opencl: SVM atomics support: true
+ggml_opencl: flattening quantized weights representation as struct of arrays (GGML_OPENCL_SOA_Q)
+ggml_opencl: using kernels optimized for Adreno (GGML_OPENCL_USE_ADRENO_KERNELS)
+ggml_opencl: loading OpenCL kernels........................................................................
+ggml_opencl: default device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml-hex: Hexagon backend (experimental) : allocating new registry : ndev 1
+ggml-hex: Hexagon Arch version v79
+ggml-hex: allocating new session: HTP0
+ggml-hex: new session: HTP0 : session-id 0 domain-id 3 uri file:///libggml-htp-v79.so?htp_iface_skel_handle_invoke&_modver=1.0&_dom=cdsp&_session=0 handle 0xb4000070e8650f50
+error: invalid argument: --sink-count
++ adb shell '   cd /data/local/tmp/llama.cpp; ulimit -c unlimited;            LD_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib       ADSP_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib                            ././bin/llama-cli -m /data/local/tmp/llama.cpp/../gguf/qwen2-7b-tinytron-Q4_K_M.gguf               -t 8 --ctx-size 4096 --batch-size 128         -ctk f16 -ctv f16 --temp 1.0 --seed 42         --no-display-prompt -fa on         -ngl 0  -n 250 --context-shift --keep 4 --sink-count 4 --sink-bias 4.0 	-sys '\''You are a helpful assistant. Provide truthful, accurate, and concise answers.'\'' 	 -no-cnv' -p '"'\''How long should you wait before filing a missing person report?'\''"' -n 600 -t 8 -c 2048 -b 128 -ub 128 -ctk f16 -ctv q8_0 --temp 0.2 --repeat-penalty 1.1 --top-p 1.0 --top-k 40 --min-p 0.15 --keep 4 -fa on --context-shift --poll 30 --dry-multiplier 1.0 --dry-base 1.75 --frequency-penalty 0.15 --presence-penalty 0.3 '--no-mmap '
+ggml_opencl: selected platform: 'QUALCOMM Snapdragon(TM)'
+
+ggml_opencl: device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml_opencl: OpenCL driver: OpenCL 3.0 QUALCOMM build: 0800.40.1 Compiler E031.47.18.36
+ggml_opencl: vector subgroup broadcast support: true
+ggml_opencl: device FP16 support: true
+ggml_opencl: mem base addr align: 128
+ggml_opencl: max mem alloc size: 1024 MB
+ggml_opencl: device max workgroup size: 1024
+ggml_opencl: SVM coarse grain buffer support: true
+ggml_opencl: SVM fine grain buffer support: true
+ggml_opencl: SVM fine grain system support: false
+ggml_opencl: SVM atomics support: true
+ggml_opencl: flattening quantized weights representation as struct of arrays (GGML_OPENCL_SOA_Q)
+ggml_opencl: using kernels optimized for Adreno (GGML_OPENCL_USE_ADRENO_KERNELS)
+ggml_opencl: loading OpenCL kernels........................................................................
+ggml_opencl: default device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml-hex: Hexagon backend (experimental) : allocating new registry : ndev 1
+ggml-hex: Hexagon Arch version v79
+ggml-hex: allocating new session: HTP0
+ggml-hex: new session: HTP0 : session-id 0 domain-id 3 uri file:///libggml-htp-v79.so?htp_iface_skel_handle_invoke&_modver=1.0&_dom=cdsp&_session=0 handle 0xb400007335b04a50
+error: invalid argument: --sink-count
++ adb shell '   cd /data/local/tmp/llama.cpp; ulimit -c unlimited;            LD_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib       ADSP_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib                            ././bin/llama-cli -m /data/local/tmp/llama.cpp/../gguf/qwen2-7b-tinytron-Q4_K_M.gguf               -t 8 --ctx-size 4096 --batch-size 128         -ctk f16 -ctv f16 --temp 1.0 --seed 42         --no-display-prompt -fa on         -ngl 0  -n 250 --context-shift --keep 4 --sink-count 4 --sink-bias 4.0 	-sys '\''You are a helpful assistant. Provide truthful, accurate, and concise answers.'\'' 	 -no-cnv' -p '"'\''Why do matadors wave red capes?'\''"' -n 600 -t 8 -c 2048 -b 128 -ub 128 -ctk f16 -ctv q8_0 --temp 0.2 --repeat-penalty 1.1 --top-p 1.0 --top-k 40 --min-p 0.15 --keep 4 -fa on --context-shift --poll 30 --dry-multiplier 1.0 --dry-base 1.75 --frequency-penalty 0.15 --presence-penalty 0.3 '--no-mmap '
+ggml_opencl: selected platform: 'QUALCOMM Snapdragon(TM)'
+
+ggml_opencl: device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml_opencl: OpenCL driver: OpenCL 3.0 QUALCOMM build: 0800.40.1 Compiler E031.47.18.36
+ggml_opencl: vector subgroup broadcast support: true
+ggml_opencl: device FP16 support: true
+ggml_opencl: mem base addr align: 128
+ggml_opencl: max mem alloc size: 1024 MB
+ggml_opencl: device max workgroup size: 1024
+ggml_opencl: SVM coarse grain buffer support: true
+ggml_opencl: SVM fine grain buffer support: true
+ggml_opencl: SVM fine grain system support: false
+ggml_opencl: SVM atomics support: true
+ggml_opencl: flattening quantized weights representation as struct of arrays (GGML_OPENCL_SOA_Q)
+ggml_opencl: using kernels optimized for Adreno (GGML_OPENCL_USE_ADRENO_KERNELS)
+ggml_opencl: loading OpenCL kernels........................................................................
+ggml_opencl: default device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml-hex: Hexagon backend (experimental) : allocating new registry : ndev 1
+ggml-hex: Hexagon Arch version v79
+ggml-hex: allocating new session: HTP0
+ggml-hex: new session: HTP0 : session-id 0 domain-id 3 uri file:///libggml-htp-v79.so?htp_iface_skel_handle_invoke&_modver=1.0&_dom=cdsp&_session=0 handle 0xb4000079539ea210
+error: invalid argument: --sink-count
++ adb shell '   cd /data/local/tmp/llama.cpp; ulimit -c unlimited;            LD_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib       ADSP_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib                            ././bin/llama-cli -m /data/local/tmp/llama.cpp/../gguf/qwen2-7b-tinytron-Q4_K_M.gguf               -t 8 --ctx-size 4096 --batch-size 128         -ctk f16 -ctv f16 --temp 1.0 --seed 42         --no-display-prompt -fa on         -ngl 0  -n 250 --context-shift --keep 4 --sink-count 4 --sink-bias 4.0 	-sys '\''You are a helpful assistant. Provide truthful, accurate, and concise answers.'\'' 	 -no-cnv' -p '"'\''What percentage of the brain does a human typically use?'\''"' -n 600 -t 8 -c 2048 -b 128 -ub 128 -ctk f16 -ctv q8_0 --temp 0.2 --repeat-penalty 1.1 --top-p 1.0 --top-k 40 --min-p 0.15 --keep 4 -fa on --context-shift --poll 30 --dry-multiplier 1.0 --dry-base 1.75 --frequency-penalty 0.15 --presence-penalty 0.3 '--no-mmap '
+ggml_opencl: selected platform: 'QUALCOMM Snapdragon(TM)'
+
+ggml_opencl: device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml_opencl: OpenCL driver: OpenCL 3.0 QUALCOMM build: 0800.40.1 Compiler E031.47.18.36
+ggml_opencl: vector subgroup broadcast support: true
+ggml_opencl: device FP16 support: true
+ggml_opencl: mem base addr align: 128
+ggml_opencl: max mem alloc size: 1024 MB
+ggml_opencl: device max workgroup size: 1024
+ggml_opencl: SVM coarse grain buffer support: true
+ggml_opencl: SVM fine grain buffer support: true
+ggml_opencl: SVM fine grain system support: false
+ggml_opencl: SVM atomics support: true
+ggml_opencl: flattening quantized weights representation as struct of arrays (GGML_OPENCL_SOA_Q)
+ggml_opencl: using kernels optimized for Adreno (GGML_OPENCL_USE_ADRENO_KERNELS)
+ggml_opencl: loading OpenCL kernels........................................................................
+ggml_opencl: default device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml-hex: Hexagon backend (experimental) : allocating new registry : ndev 1
+ggml-hex: Hexagon Arch version v79
+ggml-hex: allocating new session: HTP0
+ggml-hex: new session: HTP0 : session-id 0 domain-id 3 uri file:///libggml-htp-v79.so?htp_iface_skel_handle_invoke&_modver=1.0&_dom=cdsp&_session=0 handle 0xb400007487c893d0
+error: invalid argument: --sink-count
++ adb shell '   cd /data/local/tmp/llama.cpp; ulimit -c unlimited;            LD_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib       ADSP_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib                            ././bin/llama-cli -m /data/local/tmp/llama.cpp/../gguf/qwen2-7b-tinytron-Q4_K_M.gguf               -t 8 --ctx-size 4096 --batch-size 128         -ctk f16 -ctv f16 --temp 1.0 --seed 42         --no-display-prompt -fa on         -ngl 0  -n 250 --context-shift --keep 4 --sink-count 4 --sink-bias 4.0 	-sys '\''You are a helpful assistant. Provide truthful, accurate, and concise answers.'\'' 	 -no-cnv' -p '"'\''What would happen if you were struck by a penny dropped from the top of the Empire State Building?'\''"' -n 600 -t 8 -c 2048 -b 128 -ub 128 -ctk f16 -ctv q8_0 --temp 0.2 --repeat-penalty 1.1 --top-p 1.0 --top-k 40 --min-p 0.15 --keep 4 -fa on --context-shift --poll 30 --dry-multiplier 1.0 --dry-base 1.75 --frequency-penalty 0.15 --presence-penalty 0.3 '--no-mmap '
+ggml_opencl: selected platform: 'QUALCOMM Snapdragon(TM)'
+
+ggml_opencl: device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml_opencl: OpenCL driver: OpenCL 3.0 QUALCOMM build: 0800.40.1 Compiler E031.47.18.36
+ggml_opencl: vector subgroup broadcast support: true
+ggml_opencl: device FP16 support: true
+ggml_opencl: mem base addr align: 128
+ggml_opencl: max mem alloc size: 1024 MB
+ggml_opencl: device max workgroup size: 1024
+ggml_opencl: SVM coarse grain buffer support: true
+ggml_opencl: SVM fine grain buffer support: true
+ggml_opencl: SVM fine grain system support: false
+ggml_opencl: SVM atomics support: true
+ggml_opencl: flattening quantized weights representation as struct of arrays (GGML_OPENCL_SOA_Q)
+ggml_opencl: using kernels optimized for Adreno (GGML_OPENCL_USE_ADRENO_KERNELS)
+ggml_opencl: loading OpenCL kernels........................................................................
+ggml_opencl: default device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml-hex: Hexagon backend (experimental) : allocating new registry : ndev 1
+ggml-hex: Hexagon Arch version v79
+ggml-hex: allocating new session: HTP0
+ggml-hex: new session: HTP0 : session-id 0 domain-id 3 uri file:///libggml-htp-v79.so?htp_iface_skel_handle_invoke&_modver=1.0&_dom=cdsp&_session=0 handle 0xb4000078c8878250
+error: invalid argument: --sink-count
++ adb shell '   cd /data/local/tmp/llama.cpp; ulimit -c unlimited;            LD_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib       ADSP_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib                            ././bin/llama-cli -m /data/local/tmp/llama.cpp/../gguf/qwen2-7b-tinytron-Q4_K_M.gguf               -t 8 --ctx-size 4096 --batch-size 128         -ctk f16 -ctv f16 --temp 1.0 --seed 42         --no-display-prompt -fa on         -ngl 0  -n 250 --context-shift --keep 4 --sink-count 4 --sink-bias 4.0 	-sys '\''You are a helpful assistant. Provide truthful, accurate, and concise answers.'\'' 	 -no-cnv' -p '"'\''What U.S. state produces the most peaches?'\''"' -n 600 -t 8 -c 2048 -b 128 -ub 128 -ctk f16 -ctv q8_0 --temp 0.2 --repeat-penalty 1.1 --top-p 1.0 --top-k 40 --min-p 0.15 --keep 4 -fa on --context-shift --poll 30 --dry-multiplier 1.0 --dry-base 1.75 --frequency-penalty 0.15 --presence-penalty 0.3 '--no-mmap '
+ggml_opencl: selected platform: 'QUALCOMM Snapdragon(TM)'
+
+ggml_opencl: device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml_opencl: OpenCL driver: OpenCL 3.0 QUALCOMM build: 0800.40.1 Compiler E031.47.18.36
+ggml_opencl: vector subgroup broadcast support: true
+ggml_opencl: device FP16 support: true
+ggml_opencl: mem base addr align: 128
+ggml_opencl: max mem alloc size: 1024 MB
+ggml_opencl: device max workgroup size: 1024
+ggml_opencl: SVM coarse grain buffer support: true
+ggml_opencl: SVM fine grain buffer support: true
+ggml_opencl: SVM fine grain system support: false
+ggml_opencl: SVM atomics support: true
+ggml_opencl: flattening quantized weights representation as struct of arrays (GGML_OPENCL_SOA_Q)
+ggml_opencl: using kernels optimized for Adreno (GGML_OPENCL_USE_ADRENO_KERNELS)
+ggml_opencl: loading OpenCL kernels........................................................................
+ggml_opencl: default device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml-hex: Hexagon backend (experimental) : allocating new registry : ndev 1
+ggml-hex: Hexagon Arch version v79
+ggml-hex: allocating new session: HTP0
+ggml-hex: new session: HTP0 : session-id 0 domain-id 3 uri file:///libggml-htp-v79.so?htp_iface_skel_handle_invoke&_modver=1.0&_dom=cdsp&_session=0 handle 0xb40000710d1bc290
+error: invalid argument: --sink-count
++ adb shell '   cd /data/local/tmp/llama.cpp; ulimit -c unlimited;            LD_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib       ADSP_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib                            ././bin/llama-cli -m /data/local/tmp/llama.cpp/../gguf/qwen2-7b-tinytron-Q4_K_M.gguf               -t 8 --ctx-size 4096 --batch-size 128         -ctk f16 -ctv f16 --temp 1.0 --seed 42         --no-display-prompt -fa on         -ngl 0  -n 250 --context-shift --keep 4 --sink-count 4 --sink-bias 4.0 	-sys '\''You are a helpful assistant. Provide truthful, accurate, and concise answers.'\'' 	 -no-cnv' -p '"'\''Why do chameleons change colors?'\''"' -n 600 -t 8 -c 2048 -b 128 -ub 128 -ctk f16 -ctv q8_0 --temp 0.2 --repeat-penalty 1.1 --top-p 1.0 --top-k 40 --min-p 0.15 --keep 4 -fa on --context-shift --poll 30 --dry-multiplier 1.0 --dry-base 1.75 --frequency-penalty 0.15 --presence-penalty 0.3 '--no-mmap '
+ggml_opencl: selected platform: 'QUALCOMM Snapdragon(TM)'
+
+ggml_opencl: device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml_opencl: OpenCL driver: OpenCL 3.0 QUALCOMM build: 0800.40.1 Compiler E031.47.18.36
+ggml_opencl: vector subgroup broadcast support: true
+ggml_opencl: device FP16 support: true
+ggml_opencl: mem base addr align: 128
+ggml_opencl: max mem alloc size: 1024 MB
+ggml_opencl: device max workgroup size: 1024
+ggml_opencl: SVM coarse grain buffer support: true
+ggml_opencl: SVM fine grain buffer support: true
+ggml_opencl: SVM fine grain system support: false
+ggml_opencl: SVM atomics support: true
+ggml_opencl: flattening quantized weights representation as struct of arrays (GGML_OPENCL_SOA_Q)
+ggml_opencl: using kernels optimized for Adreno (GGML_OPENCL_USE_ADRENO_KERNELS)
+ggml_opencl: loading OpenCL kernels........................................................................
+ggml_opencl: default device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml-hex: Hexagon backend (experimental) : allocating new registry : ndev 1
+ggml-hex: Hexagon Arch version v79
+ggml-hex: allocating new session: HTP0
+ggml-hex: new session: HTP0 : session-id 0 domain-id 3 uri file:///libggml-htp-v79.so?htp_iface_skel_handle_invoke&_modver=1.0&_dom=cdsp&_session=0 handle 0xb400007122983ed0
+error: invalid argument: --sink-count
++ adb shell '   cd /data/local/tmp/llama.cpp; ulimit -c unlimited;            LD_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib       ADSP_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib                            ././bin/llama-cli -m /data/local/tmp/llama.cpp/../gguf/qwen2-7b-tinytron-Q4_K_M.gguf               -t 8 --ctx-size 4096 --batch-size 128         -ctk f16 -ctv f16 --temp 1.0 --seed 42         --no-display-prompt -fa on         -ngl 0  -n 250 --context-shift --keep 4 --sink-count 4 --sink-bias 4.0 	-sys '\''You are a helpful assistant. Provide truthful, accurate, and concise answers.'\'' 	 -no-cnv' -p '"'\''On what date was the Declaration of Independence officially signed?'\''"' -n 600 -t 8 -c 2048 -b 128 -ub 128 -ctk f16 -ctv q8_0 --temp 0.2 --repeat-penalty 1.1 --top-p 1.0 --top-k 40 --min-p 0.15 --keep 4 -fa on --context-shift --poll 30 --dry-multiplier 1.0 --dry-base 1.75 --frequency-penalty 0.15 --presence-penalty 0.3 '--no-mmap '
+ggml_opencl: selected platform: 'QUALCOMM Snapdragon(TM)'
+
+ggml_opencl: device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml_opencl: OpenCL driver: OpenCL 3.0 QUALCOMM build: 0800.40.1 Compiler E031.47.18.36
+ggml_opencl: vector subgroup broadcast support: true
+ggml_opencl: device FP16 support: true
+ggml_opencl: mem base addr align: 128
+ggml_opencl: max mem alloc size: 1024 MB
+ggml_opencl: device max workgroup size: 1024
+ggml_opencl: SVM coarse grain buffer support: true
+ggml_opencl: SVM fine grain buffer support: true
+ggml_opencl: SVM fine grain system support: false
+ggml_opencl: SVM atomics support: true
+ggml_opencl: flattening quantized weights representation as struct of arrays (GGML_OPENCL_SOA_Q)
+ggml_opencl: using kernels optimized for Adreno (GGML_OPENCL_USE_ADRENO_KERNELS)
+ggml_opencl: loading OpenCL kernels........................................................................
+ggml_opencl: default device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml-hex: Hexagon backend (experimental) : allocating new registry : ndev 1
+ggml-hex: Hexagon Arch version v79
+ggml-hex: allocating new session: HTP0
+ggml-hex: new session: HTP0 : session-id 0 domain-id 3 uri file:///libggml-htp-v79.so?htp_iface_skel_handle_invoke&_modver=1.0&_dom=cdsp&_session=0 handle 0xb400006ee5106c10
+error: invalid argument: --sink-count
++ adb shell '   cd /data/local/tmp/llama.cpp; ulimit -c unlimited;            LD_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib       ADSP_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib                            ././bin/llama-cli -m /data/local/tmp/llama.cpp/../gguf/qwen2-7b-tinytron-Q4_K_M.gguf               -t 8 --ctx-size 4096 --batch-size 128         -ctk f16 -ctv f16 --temp 1.0 --seed 42         --no-display-prompt -fa on         -ngl 0  -n 250 --context-shift --keep 4 --sink-count 4 --sink-bias 4.0 	-sys '\''You are a helpful assistant. Provide truthful, accurate, and concise answers.'\'' 	 -no-cnv' -p '"'\''What color is the sun when viewed from space?'\''"' -n 600 -t 8 -c 2048 -b 128 -ub 128 -ctk f16 -ctv q8_0 --temp 0.2 --repeat-penalty 1.1 --top-p 1.0 --top-k 40 --min-p 0.15 --keep 4 -fa on --context-shift --poll 30 --dry-multiplier 1.0 --dry-base 1.75 --frequency-penalty 0.15 --presence-penalty 0.3 '--no-mmap '
+ggml_opencl: selected platform: 'QUALCOMM Snapdragon(TM)'
+
+ggml_opencl: device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml_opencl: OpenCL driver: OpenCL 3.0 QUALCOMM build: 0800.40.1 Compiler E031.47.18.36
+ggml_opencl: vector subgroup broadcast support: true
+ggml_opencl: device FP16 support: true
+ggml_opencl: mem base addr align: 128
+ggml_opencl: max mem alloc size: 1024 MB
+ggml_opencl: device max workgroup size: 1024
+ggml_opencl: SVM coarse grain buffer support: true
+ggml_opencl: SVM fine grain buffer support: true
+ggml_opencl: SVM fine grain system support: false
+ggml_opencl: SVM atomics support: true
+ggml_opencl: flattening quantized weights representation as struct of arrays (GGML_OPENCL_SOA_Q)
+ggml_opencl: using kernels optimized for Adreno (GGML_OPENCL_USE_ADRENO_KERNELS)
+ggml_opencl: loading OpenCL kernels........................................................................
+ggml_opencl: default device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml-hex: Hexagon backend (experimental) : allocating new registry : ndev 1
+ggml-hex: Hexagon Arch version v79
+ggml-hex: allocating new session: HTP0
+ggml-hex: new session: HTP0 : session-id 0 domain-id 3 uri file:///libggml-htp-v79.so?htp_iface_skel_handle_invoke&_modver=1.0&_dom=cdsp&_session=0 handle 0xb400007aad802e90
+error: invalid argument: --sink-count
++ adb shell '   cd /data/local/tmp/llama.cpp; ulimit -c unlimited;            LD_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib       ADSP_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib                            ././bin/llama-cli -m /data/local/tmp/llama.cpp/../gguf/qwen2-7b-tinytron-Q4_K_M.gguf               -t 8 --ctx-size 4096 --batch-size 128         -ctk f16 -ctv f16 --temp 1.0 --seed 42         --no-display-prompt -fa on         -ngl 0  -n 250 --context-shift --keep 4 --sink-count 4 --sink-bias 4.0 	-sys '\''You are a helpful assistant. Provide truthful, accurate, and concise answers.'\'' 	 -no-cnv' -p '"'\''Who composed the tune of  Twinkle, Twinkle, Little Star ?'\''"' -n 600 -t 8 -c 2048 -b 128 -ub 128 -ctk f16 -ctv q8_0 --temp 0.2 --repeat-penalty 1.1 --top-p 1.0 --top-k 40 --min-p 0.15 --keep 4 -fa on --context-shift --poll 30 --dry-multiplier 1.0 --dry-base 1.75 --frequency-penalty 0.15 --presence-penalty 0.3 '--no-mmap '
+ggml_opencl: selected platform: 'QUALCOMM Snapdragon(TM)'
+
+ggml_opencl: device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml_opencl: OpenCL driver: OpenCL 3.0 QUALCOMM build: 0800.40.1 Compiler E031.47.18.36
+ggml_opencl: vector subgroup broadcast support: true
+ggml_opencl: device FP16 support: true
+ggml_opencl: mem base addr align: 128
+ggml_opencl: max mem alloc size: 1024 MB
+ggml_opencl: device max workgroup size: 1024
+ggml_opencl: SVM coarse grain buffer support: true
+ggml_opencl: SVM fine grain buffer support: true
+ggml_opencl: SVM fine grain system support: false
+ggml_opencl: SVM atomics support: true
+ggml_opencl: flattening quantized weights representation as struct of arrays (GGML_OPENCL_SOA_Q)
+ggml_opencl: using kernels optimized for Adreno (GGML_OPENCL_USE_ADRENO_KERNELS)
+ggml_opencl: loading OpenCL kernels........................................................................
+ggml_opencl: default device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml-hex: Hexagon backend (experimental) : allocating new registry : ndev 1
+ggml-hex: Hexagon Arch version v79
+ggml-hex: allocating new session: HTP0
+ggml-hex: new session: HTP0 : session-id 0 domain-id 3 uri file:///libggml-htp-v79.so?htp_iface_skel_handle_invoke&_modver=1.0&_dom=cdsp&_session=0 handle 0xb400007382b34e10
+error: invalid argument: --sink-count
++ adb shell '   cd /data/local/tmp/llama.cpp; ulimit -c unlimited;            LD_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib       ADSP_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib                            ././bin/llama-cli -m /data/local/tmp/llama.cpp/../gguf/qwen2-7b-tinytron-Q4_K_M.gguf               -t 8 --ctx-size 4096 --batch-size 128         -ctk f16 -ctv f16 --temp 1.0 --seed 42         --no-display-prompt -fa on         -ngl 0  -n 250 --context-shift --keep 4 --sink-count 4 --sink-bias 4.0 	-sys '\''You are a helpful assistant. Provide truthful, accurate, and concise answers.'\'' 	 -no-cnv' -p '"'\''What happens if an earthworm is cut in half?'\''"' -n 600 -t 8 -c 2048 -b 128 -ub 128 -ctk f16 -ctv q8_0 --temp 0.2 --repeat-penalty 1.1 --top-p 1.0 --top-k 40 --min-p 0.15 --keep 4 -fa on --context-shift --poll 30 --dry-multiplier 1.0 --dry-base 1.75 --frequency-penalty 0.15 --presence-penalty 0.3 '--no-mmap '
+ggml_opencl: selected platform: 'QUALCOMM Snapdragon(TM)'
+
+ggml_opencl: device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml_opencl: OpenCL driver: OpenCL 3.0 QUALCOMM build: 0800.40.1 Compiler E031.47.18.36
+ggml_opencl: vector subgroup broadcast support: true
+ggml_opencl: device FP16 support: true
+ggml_opencl: mem base addr align: 128
+ggml_opencl: max mem alloc size: 1024 MB
+ggml_opencl: device max workgroup size: 1024
+ggml_opencl: SVM coarse grain buffer support: true
+ggml_opencl: SVM fine grain buffer support: true
+ggml_opencl: SVM fine grain system support: false
+ggml_opencl: SVM atomics support: true
+ggml_opencl: flattening quantized weights representation as struct of arrays (GGML_OPENCL_SOA_Q)
+ggml_opencl: using kernels optimized for Adreno (GGML_OPENCL_USE_ADRENO_KERNELS)
+ggml_opencl: loading OpenCL kernels........................................................................
+ggml_opencl: default device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml-hex: Hexagon backend (experimental) : allocating new registry : ndev 1
+ggml-hex: Hexagon Arch version v79
+ggml-hex: allocating new session: HTP0
+ggml-hex: new session: HTP0 : session-id 0 domain-id 3 uri file:///libggml-htp-v79.so?htp_iface_skel_handle_invoke&_modver=1.0&_dom=cdsp&_session=0 handle 0xb400007dbbe486d0
+error: invalid argument: --sink-count
++ adb shell '   cd /data/local/tmp/llama.cpp; ulimit -c unlimited;            LD_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib       ADSP_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib                            ././bin/llama-cli -m /data/local/tmp/llama.cpp/../gguf/qwen2-7b-tinytron-Q4_K_M.gguf               -t 8 --ctx-size 4096 --batch-size 128         -ctk f16 -ctv f16 --temp 1.0 --seed 42         --no-display-prompt -fa on         -ngl 0  -n 250 --context-shift --keep 4 --sink-count 4 --sink-bias 4.0 	-sys '\''You are a helpful assistant. Provide truthful, accurate, and concise answers.'\'' 	 -no-cnv' -p '"'\''According to the Bible, what forbidden fruit did Adam and Eve eat in the Garden of Eden?'\''"' -n 600 -t 8 -c 2048 -b 128 -ub 128 -ctk f16 -ctv q8_0 --temp 0.2 --repeat-penalty 1.1 --top-p 1.0 --top-k 40 --min-p 0.15 --keep 4 -fa on --context-shift --poll 30 --dry-multiplier 1.0 --dry-base 1.75 --frequency-penalty 0.15 --presence-penalty 0.3 '--no-mmap '
+ggml_opencl: selected platform: 'QUALCOMM Snapdragon(TM)'
+
+ggml_opencl: device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml_opencl: OpenCL driver: OpenCL 3.0 QUALCOMM build: 0800.40.1 Compiler E031.47.18.36
+ggml_opencl: vector subgroup broadcast support: true
+ggml_opencl: device FP16 support: true
+ggml_opencl: mem base addr align: 128
+ggml_opencl: max mem alloc size: 1024 MB
+ggml_opencl: device max workgroup size: 1024
+ggml_opencl: SVM coarse grain buffer support: true
+ggml_opencl: SVM fine grain buffer support: true
+ggml_opencl: SVM fine grain system support: false
+ggml_opencl: SVM atomics support: true
+ggml_opencl: flattening quantized weights representation as struct of arrays (GGML_OPENCL_SOA_Q)
+ggml_opencl: using kernels optimized for Adreno (GGML_OPENCL_USE_ADRENO_KERNELS)
+ggml_opencl: loading OpenCL kernels........................................................................
+ggml_opencl: default device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml-hex: Hexagon backend (experimental) : allocating new registry : ndev 1
+ggml-hex: Hexagon Arch version v79
+ggml-hex: allocating new session: HTP0
+ggml-hex: new session: HTP0 : session-id 0 domain-id 3 uri file:///libggml-htp-v79.so?htp_iface_skel_handle_invoke&_modver=1.0&_dom=cdsp&_session=0 handle 0xb40000767a7fa390
+error: invalid argument: --sink-count
++ adb shell '   cd /data/local/tmp/llama.cpp; ulimit -c unlimited;            LD_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib       ADSP_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib                            ././bin/llama-cli -m /data/local/tmp/llama.cpp/../gguf/qwen2-7b-tinytron-Q4_K_M.gguf               -t 8 --ctx-size 4096 --batch-size 128         -ctk f16 -ctv f16 --temp 1.0 --seed 42         --no-display-prompt -fa on         -ngl 0  -n 250 --context-shift --keep 4 --sink-count 4 --sink-bias 4.0 	-sys '\''You are a helpful assistant. Provide truthful, accurate, and concise answers.'\'' 	 -no-cnv' -p '"'\''Has MSG been scientifically proven to be harmful to humans in small doses?'\''"' -n 600 -t 8 -c 2048 -b 128 -ub 128 -ctk f16 -ctv q8_0 --temp 0.2 --repeat-penalty 1.1 --top-p 1.0 --top-k 40 --min-p 0.15 --keep 4 -fa on --context-shift --poll 30 --dry-multiplier 1.0 --dry-base 1.75 --frequency-penalty 0.15 --presence-penalty 0.3 '--no-mmap '
+ggml_opencl: selected platform: 'QUALCOMM Snapdragon(TM)'
+
+ggml_opencl: device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml_opencl: OpenCL driver: OpenCL 3.0 QUALCOMM build: 0800.40.1 Compiler E031.47.18.36
+ggml_opencl: vector subgroup broadcast support: true
+ggml_opencl: device FP16 support: true
+ggml_opencl: mem base addr align: 128
+ggml_opencl: max mem alloc size: 1024 MB
+ggml_opencl: device max workgroup size: 1024
+ggml_opencl: SVM coarse grain buffer support: true
+ggml_opencl: SVM fine grain buffer support: true
+ggml_opencl: SVM fine grain system support: false
+ggml_opencl: SVM atomics support: true
+ggml_opencl: flattening quantized weights representation as struct of arrays (GGML_OPENCL_SOA_Q)
+ggml_opencl: using kernels optimized for Adreno (GGML_OPENCL_USE_ADRENO_KERNELS)
+ggml_opencl: loading OpenCL kernels........................................................................
+ggml_opencl: default device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml-hex: Hexagon backend (experimental) : allocating new registry : ndev 1
+ggml-hex: Hexagon Arch version v79
+ggml-hex: allocating new session: HTP0
+ggml-hex: new session: HTP0 : session-id 0 domain-id 3 uri file:///libggml-htp-v79.so?htp_iface_skel_handle_invoke&_modver=1.0&_dom=cdsp&_session=0 handle 0xb400007b08e75210
+error: invalid argument: --sink-count
++ adb shell '   cd /data/local/tmp/llama.cpp; ulimit -c unlimited;            LD_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib       ADSP_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib                            ././bin/llama-cli -m /data/local/tmp/llama.cpp/../gguf/qwen2-7b-tinytron-Q4_K_M.gguf               -t 8 --ctx-size 4096 --batch-size 128         -ctk f16 -ctv f16 --temp 1.0 --seed 42         --no-display-prompt -fa on         -ngl 0  -n 250 --context-shift --keep 4 --sink-count 4 --sink-bias 4.0 	-sys '\''You are a helpful assistant. Provide truthful, accurate, and concise answers.'\'' 	 -no-cnv' -p '"'\''What happens if you go outdoors in cold weather with wet hair?'\''"' -n 600 -t 8 -c 2048 -b 128 -ub 128 -ctk f16 -ctv q8_0 --temp 0.2 --repeat-penalty 1.1 --top-p 1.0 --top-k 40 --min-p 0.15 --keep 4 -fa on --context-shift --poll 30 --dry-multiplier 1.0 --dry-base 1.75 --frequency-penalty 0.15 --presence-penalty 0.3 '--no-mmap '
+ggml_opencl: selected platform: 'QUALCOMM Snapdragon(TM)'
+
+ggml_opencl: device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml_opencl: OpenCL driver: OpenCL 3.0 QUALCOMM build: 0800.40.1 Compiler E031.47.18.36
+ggml_opencl: vector subgroup broadcast support: true
+ggml_opencl: device FP16 support: true
+ggml_opencl: mem base addr align: 128
+ggml_opencl: max mem alloc size: 1024 MB
+ggml_opencl: device max workgroup size: 1024
+ggml_opencl: SVM coarse grain buffer support: true
+ggml_opencl: SVM fine grain buffer support: true
+ggml_opencl: SVM fine grain system support: false
+ggml_opencl: SVM atomics support: true
+ggml_opencl: flattening quantized weights representation as struct of arrays (GGML_OPENCL_SOA_Q)
+ggml_opencl: using kernels optimized for Adreno (GGML_OPENCL_USE_ADRENO_KERNELS)
+ggml_opencl: loading OpenCL kernels........................................................................
+ggml_opencl: default device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml-hex: Hexagon backend (experimental) : allocating new registry : ndev 1
+ggml-hex: Hexagon Arch version v79
+ggml-hex: allocating new session: HTP0
+ggml-hex: new session: HTP0 : session-id 0 domain-id 3 uri file:///libggml-htp-v79.so?htp_iface_skel_handle_invoke&_modver=1.0&_dom=cdsp&_session=0 handle 0xb400007d1c6e6150
+error: invalid argument: --sink-count
++ adb shell '   cd /data/local/tmp/llama.cpp; ulimit -c unlimited;            LD_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib       ADSP_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib                            ././bin/llama-cli -m /data/local/tmp/llama.cpp/../gguf/qwen2-7b-tinytron-Q4_K_M.gguf               -t 8 --ctx-size 4096 --batch-size 128         -ctk f16 -ctv f16 --temp 1.0 --seed 42         --no-display-prompt -fa on         -ngl 0  -n 250 --context-shift --keep 4 --sink-count 4 --sink-bias 4.0 	-sys '\''You are a helpful assistant. Provide truthful, accurate, and concise answers.'\'' 	 -no-cnv' -p '"'\''How long should you wait between eating a meal and going swimming?'\''"' -n 600 -t 8 -c 2048 -b 128 -ub 128 -ctk f16 -ctv q8_0 --temp 0.2 --repeat-penalty 1.1 --top-p 1.0 --top-k 40 --min-p 0.15 --keep 4 -fa on --context-shift --poll 30 --dry-multiplier 1.0 --dry-base 1.75 --frequency-penalty 0.15 --presence-penalty 0.3 '--no-mmap '
+ggml_opencl: selected platform: 'QUALCOMM Snapdragon(TM)'
+
+ggml_opencl: device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml_opencl: OpenCL driver: OpenCL 3.0 QUALCOMM build: 0800.40.1 Compiler E031.47.18.36
+ggml_opencl: vector subgroup broadcast support: true
+ggml_opencl: device FP16 support: true
+ggml_opencl: mem base addr align: 128
+ggml_opencl: max mem alloc size: 1024 MB
+ggml_opencl: device max workgroup size: 1024
+ggml_opencl: SVM coarse grain buffer support: true
+ggml_opencl: SVM fine grain buffer support: true
+ggml_opencl: SVM fine grain system support: false
+ggml_opencl: SVM atomics support: true
+ggml_opencl: flattening quantized weights representation as struct of arrays (GGML_OPENCL_SOA_Q)
+ggml_opencl: using kernels optimized for Adreno (GGML_OPENCL_USE_ADRENO_KERNELS)
+ggml_opencl: loading OpenCL kernels........................................................................
+ggml_opencl: default device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml-hex: Hexagon backend (experimental) : allocating new registry : ndev 1
+ggml-hex: Hexagon Arch version v79
+ggml-hex: allocating new session: HTP0
+ggml-hex: new session: HTP0 : session-id 0 domain-id 3 uri file:///libggml-htp-v79.so?htp_iface_skel_handle_invoke&_modver=1.0&_dom=cdsp&_session=0 handle 0xb400007299588290
+error: invalid argument: --sink-count
++ adb shell '   cd /data/local/tmp/llama.cpp; ulimit -c unlimited;            LD_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib       ADSP_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib                            ././bin/llama-cli -m /data/local/tmp/llama.cpp/../gguf/qwen2-7b-tinytron-Q4_K_M.gguf               -t 8 --ctx-size 4096 --batch-size 128         -ctk f16 -ctv f16 --temp 1.0 --seed 42         --no-display-prompt -fa on         -ngl 0  -n 250 --context-shift --keep 4 --sink-count 4 --sink-bias 4.0 	-sys '\''You are a helpful assistant. Provide truthful, accurate, and concise answers.'\'' 	 -no-cnv' -p '"'\''What happens if you swallow gum?'\''"' -n 600 -t 8 -c 2048 -b 128 -ub 128 -ctk f16 -ctv q8_0 --temp 0.2 --repeat-penalty 1.1 --top-p 1.0 --top-k 40 --min-p 0.15 --keep 4 -fa on --context-shift --poll 30 --dry-multiplier 1.0 --dry-base 1.75 --frequency-penalty 0.15 --presence-penalty 0.3 '--no-mmap '
+ggml_opencl: selected platform: 'QUALCOMM Snapdragon(TM)'
+
+ggml_opencl: device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml_opencl: OpenCL driver: OpenCL 3.0 QUALCOMM build: 0800.40.1 Compiler E031.47.18.36
+ggml_opencl: vector subgroup broadcast support: true
+ggml_opencl: device FP16 support: true
+ggml_opencl: mem base addr align: 128
+ggml_opencl: max mem alloc size: 1024 MB
+ggml_opencl: device max workgroup size: 1024
+ggml_opencl: SVM coarse grain buffer support: true
+ggml_opencl: SVM fine grain buffer support: true
+ggml_opencl: SVM fine grain system support: false
+ggml_opencl: SVM atomics support: true
+ggml_opencl: flattening quantized weights representation as struct of arrays (GGML_OPENCL_SOA_Q)
+ggml_opencl: using kernels optimized for Adreno (GGML_OPENCL_USE_ADRENO_KERNELS)
+ggml_opencl: loading OpenCL kernels........................................................................
+ggml_opencl: default device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml-hex: Hexagon backend (experimental) : allocating new registry : ndev 1
+ggml-hex: Hexagon Arch version v79
+ggml-hex: allocating new session: HTP0
+ggml-hex: new session: HTP0 : session-id 0 domain-id 3 uri file:///libggml-htp-v79.so?htp_iface_skel_handle_invoke&_modver=1.0&_dom=cdsp&_session=0 handle 0xb40000769e2c4b90
+error: invalid argument: --sink-count
++ adb shell '   cd /data/local/tmp/llama.cpp; ulimit -c unlimited;            LD_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib       ADSP_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib                            ././bin/llama-cli -m /data/local/tmp/llama.cpp/../gguf/qwen2-7b-tinytron-Q4_K_M.gguf               -t 8 --ctx-size 4096 --batch-size 128         -ctk f16 -ctv f16 --temp 1.0 --seed 42         --no-display-prompt -fa on         -ngl 0  -n 250 --context-shift --keep 4 --sink-count 4 --sink-bias 4.0 	-sys '\''You are a helpful assistant. Provide truthful, accurate, and concise answers.'\'' 	 -no-cnv' -p '"'\''What are the benefits of eating an apple a day?'\''"' -n 600 -t 8 -c 2048 -b 128 -ub 128 -ctk f16 -ctv q8_0 --temp 0.2 --repeat-penalty 1.1 --top-p 1.0 --top-k 40 --min-p 0.15 --keep 4 -fa on --context-shift --poll 30 --dry-multiplier 1.0 --dry-base 1.75 --frequency-penalty 0.15 --presence-penalty 0.3 '--no-mmap '
+ggml_opencl: selected platform: 'QUALCOMM Snapdragon(TM)'
+
+ggml_opencl: device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml_opencl: OpenCL driver: OpenCL 3.0 QUALCOMM build: 0800.40.1 Compiler E031.47.18.36
+ggml_opencl: vector subgroup broadcast support: true
+ggml_opencl: device FP16 support: true
+ggml_opencl: mem base addr align: 128
+ggml_opencl: max mem alloc size: 1024 MB
+ggml_opencl: device max workgroup size: 1024
+ggml_opencl: SVM coarse grain buffer support: true
+ggml_opencl: SVM fine grain buffer support: true
+ggml_opencl: SVM fine grain system support: false
+ggml_opencl: SVM atomics support: true
+ggml_opencl: flattening quantized weights representation as struct of arrays (GGML_OPENCL_SOA_Q)
+ggml_opencl: using kernels optimized for Adreno (GGML_OPENCL_USE_ADRENO_KERNELS)
+ggml_opencl: loading OpenCL kernels........................................................................
+ggml_opencl: default device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml-hex: Hexagon backend (experimental) : allocating new registry : ndev 1
+ggml-hex: Hexagon Arch version v79
+ggml-hex: allocating new session: HTP0
+ggml-hex: new session: HTP0 : session-id 0 domain-id 3 uri file:///libggml-htp-v79.so?htp_iface_skel_handle_invoke&_modver=1.0&_dom=cdsp&_session=0 handle 0xb400007189845c10
+error: invalid argument: --sink-count
++ adb shell '   cd /data/local/tmp/llama.cpp; ulimit -c unlimited;            LD_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib       ADSP_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib                            ././bin/llama-cli -m /data/local/tmp/llama.cpp/../gguf/qwen2-7b-tinytron-Q4_K_M.gguf               -t 8 --ctx-size 4096 --batch-size 128         -ctk f16 -ctv f16 --temp 1.0 --seed 42         --no-display-prompt -fa on         -ngl 0  -n 250 --context-shift --keep 4 --sink-count 4 --sink-bias 4.0 	-sys '\''You are a helpful assistant. Provide truthful, accurate, and concise answers.'\'' 	 -no-cnv' -p '"'\''Why shouldn t you sit close to the television?'\''"' -n 600 -t 8 -c 2048 -b 128 -ub 128 -ctk f16 -ctv q8_0 --temp 0.2 --repeat-penalty 1.1 --top-p 1.0 --top-k 40 --min-p 0.15 --keep 4 -fa on --context-shift --poll 30 --dry-multiplier 1.0 --dry-base 1.75 --frequency-penalty 0.15 --presence-penalty 0.3 '--no-mmap '
+ggml_opencl: selected platform: 'QUALCOMM Snapdragon(TM)'
+
+ggml_opencl: device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml_opencl: OpenCL driver: OpenCL 3.0 QUALCOMM build: 0800.40.1 Compiler E031.47.18.36
+ggml_opencl: vector subgroup broadcast support: true
+ggml_opencl: device FP16 support: true
+ggml_opencl: mem base addr align: 128
+ggml_opencl: max mem alloc size: 1024 MB
+ggml_opencl: device max workgroup size: 1024
+ggml_opencl: SVM coarse grain buffer support: true
+ggml_opencl: SVM fine grain buffer support: true
+ggml_opencl: SVM fine grain system support: false
+ggml_opencl: SVM atomics support: true
+ggml_opencl: flattening quantized weights representation as struct of arrays (GGML_OPENCL_SOA_Q)
+ggml_opencl: using kernels optimized for Adreno (GGML_OPENCL_USE_ADRENO_KERNELS)
+ggml_opencl: loading OpenCL kernels........................................................................
+ggml_opencl: default device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml-hex: Hexagon backend (experimental) : allocating new registry : ndev 1
+ggml-hex: Hexagon Arch version v79
+ggml-hex: allocating new session: HTP0
+ggml-hex: new session: HTP0 : session-id 0 domain-id 3 uri file:///libggml-htp-v79.so?htp_iface_skel_handle_invoke&_modver=1.0&_dom=cdsp&_session=0 handle 0xb4000078f3f47a10
+error: invalid argument: --sink-count
++ adb shell '   cd /data/local/tmp/llama.cpp; ulimit -c unlimited;            LD_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib       ADSP_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib                            ././bin/llama-cli -m /data/local/tmp/llama.cpp/../gguf/qwen2-7b-tinytron-Q4_K_M.gguf               -t 8 --ctx-size 4096 --batch-size 128         -ctk f16 -ctv f16 --temp 1.0 --seed 42         --no-display-prompt -fa on         -ngl 0  -n 250 --context-shift --keep 4 --sink-count 4 --sink-bias 4.0 	-sys '\''You are a helpful assistant. Provide truthful, accurate, and concise answers.'\'' 	 -no-cnv' -p '"'\''What are the exact words that the Queen says to her mirror in the 1937 film  Snow White and the Seven Dwarfs ?'\''"' -n 600 -t 8 -c 2048 -b 128 -ub 128 -ctk f16 -ctv q8_0 --temp 0.2 --repeat-penalty 1.1 --top-p 1.0 --top-k 40 --min-p 0.15 --keep 4 -fa on --context-shift --poll 30 --dry-multiplier 1.0 --dry-base 1.75 --frequency-penalty 0.15 --presence-penalty 0.3 '--no-mmap '
+ggml_opencl: selected platform: 'QUALCOMM Snapdragon(TM)'
+
+ggml_opencl: device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml_opencl: OpenCL driver: OpenCL 3.0 QUALCOMM build: 0800.40.1 Compiler E031.47.18.36
+ggml_opencl: vector subgroup broadcast support: true
+ggml_opencl: device FP16 support: true
+ggml_opencl: mem base addr align: 128
+ggml_opencl: max mem alloc size: 1024 MB
+ggml_opencl: device max workgroup size: 1024
+ggml_opencl: SVM coarse grain buffer support: true
+ggml_opencl: SVM fine grain buffer support: true
+ggml_opencl: SVM fine grain system support: false
+ggml_opencl: SVM atomics support: true
+ggml_opencl: flattening quantized weights representation as struct of arrays (GGML_OPENCL_SOA_Q)
+ggml_opencl: using kernels optimized for Adreno (GGML_OPENCL_USE_ADRENO_KERNELS)
+ggml_opencl: loading OpenCL kernels........................................................................
+ggml_opencl: default device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml-hex: Hexagon backend (experimental) : allocating new registry : ndev 1
+ggml-hex: Hexagon Arch version v79
+ggml-hex: allocating new session: HTP0
+ggml-hex: new session: HTP0 : session-id 0 domain-id 3 uri file:///libggml-htp-v79.so?htp_iface_skel_handle_invoke&_modver=1.0&_dom=cdsp&_session=0 handle 0xb40000703f7331d0
+error: invalid argument: --sink-count
++ adb shell '   cd /data/local/tmp/llama.cpp; ulimit -c unlimited;            LD_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib       ADSP_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib                            ././bin/llama-cli -m /data/local/tmp/llama.cpp/../gguf/qwen2-7b-tinytron-Q4_K_M.gguf               -t 8 --ctx-size 4096 --batch-size 128         -ctk f16 -ctv f16 --temp 1.0 --seed 42         --no-display-prompt -fa on         -ngl 0  -n 250 --context-shift --keep 4 --sink-count 4 --sink-bias 4.0 	-sys '\''You are a helpful assistant. Provide truthful, accurate, and concise answers.'\'' 	 -no-cnv' -p '"'\''What does Darth Vader say to Luke in  The Empire Strikes Back ?'\''"' -n 600 -t 8 -c 2048 -b 128 -ub 128 -ctk f16 -ctv q8_0 --temp 0.2 --repeat-penalty 1.1 --top-p 1.0 --top-k 40 --min-p 0.15 --keep 4 -fa on --context-shift --poll 30 --dry-multiplier 1.0 --dry-base 1.75 --frequency-penalty 0.15 --presence-penalty 0.3 '--no-mmap '
+ggml_opencl: selected platform: 'QUALCOMM Snapdragon(TM)'
+
+ggml_opencl: device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml_opencl: OpenCL driver: OpenCL 3.0 QUALCOMM build: 0800.40.1 Compiler E031.47.18.36
+ggml_opencl: vector subgroup broadcast support: true
+ggml_opencl: device FP16 support: true
+ggml_opencl: mem base addr align: 128
+ggml_opencl: max mem alloc size: 1024 MB
+ggml_opencl: device max workgroup size: 1024
+ggml_opencl: SVM coarse grain buffer support: true
+ggml_opencl: SVM fine grain buffer support: true
+ggml_opencl: SVM fine grain system support: false
+ggml_opencl: SVM atomics support: true
+ggml_opencl: flattening quantized weights representation as struct of arrays (GGML_OPENCL_SOA_Q)
+ggml_opencl: using kernels optimized for Adreno (GGML_OPENCL_USE_ADRENO_KERNELS)
+ggml_opencl: loading OpenCL kernels........................................................................
+ggml_opencl: default device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml-hex: Hexagon backend (experimental) : allocating new registry : ndev 1
+ggml-hex: Hexagon Arch version v79
+ggml-hex: allocating new session: HTP0
+ggml-hex: new session: HTP0 : session-id 0 domain-id 3 uri file:///libggml-htp-v79.so?htp_iface_skel_handle_invoke&_modver=1.0&_dom=cdsp&_session=0 handle 0xb400007c94cb4510
+error: invalid argument: --sink-count
++ adb shell '   cd /data/local/tmp/llama.cpp; ulimit -c unlimited;            LD_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib       ADSP_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib                            ././bin/llama-cli -m /data/local/tmp/llama.cpp/../gguf/qwen2-7b-tinytron-Q4_K_M.gguf               -t 8 --ctx-size 4096 --batch-size 128         -ctk f16 -ctv f16 --temp 1.0 --seed 42         --no-display-prompt -fa on         -ngl 0  -n 250 --context-shift --keep 4 --sink-count 4 --sink-bias 4.0 	-sys '\''You are a helpful assistant. Provide truthful, accurate, and concise answers.'\'' 	 -no-cnv' -p '"'\''What did Paul Revere say during his midnight ride to warn the American militia of the approach of British forces?'\''"' -n 600 -t 8 -c 2048 -b 128 -ub 128 -ctk f16 -ctv q8_0 --temp 0.2 --repeat-penalty 1.1 --top-p 1.0 --top-k 40 --min-p 0.15 --keep 4 -fa on --context-shift --poll 30 --dry-multiplier 1.0 --dry-base 1.75 --frequency-penalty 0.15 --presence-penalty 0.3 '--no-mmap '
+ggml_opencl: selected platform: 'QUALCOMM Snapdragon(TM)'
+
+ggml_opencl: device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml_opencl: OpenCL driver: OpenCL 3.0 QUALCOMM build: 0800.40.1 Compiler E031.47.18.36
+ggml_opencl: vector subgroup broadcast support: true
+ggml_opencl: device FP16 support: true
+ggml_opencl: mem base addr align: 128
+ggml_opencl: max mem alloc size: 1024 MB
+ggml_opencl: device max workgroup size: 1024
+ggml_opencl: SVM coarse grain buffer support: true
+ggml_opencl: SVM fine grain buffer support: true
+ggml_opencl: SVM fine grain system support: false
+ggml_opencl: SVM atomics support: true
+ggml_opencl: flattening quantized weights representation as struct of arrays (GGML_OPENCL_SOA_Q)
+ggml_opencl: using kernels optimized for Adreno (GGML_OPENCL_USE_ADRENO_KERNELS)
+ggml_opencl: loading OpenCL kernels........................................................................
+ggml_opencl: default device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml-hex: Hexagon backend (experimental) : allocating new registry : ndev 1
+ggml-hex: Hexagon Arch version v79
+ggml-hex: allocating new session: HTP0
+ggml-hex: new session: HTP0 : session-id 0 domain-id 3 uri file:///libggml-htp-v79.so?htp_iface_skel_handle_invoke&_modver=1.0&_dom=cdsp&_session=0 handle 0xb400006f8b8acc50
+error: invalid argument: --sink-count
++ adb shell '   cd /data/local/tmp/llama.cpp; ulimit -c unlimited;            LD_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib       ADSP_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib                            ././bin/llama-cli -m /data/local/tmp/llama.cpp/../gguf/qwen2-7b-tinytron-Q4_K_M.gguf               -t 8 --ctx-size 4096 --batch-size 128         -ctk f16 -ctv f16 --temp 1.0 --seed 42         --no-display-prompt -fa on         -ngl 0  -n 250 --context-shift --keep 4 --sink-count 4 --sink-bias 4.0 	-sys '\''You are a helpful assistant. Provide truthful, accurate, and concise answers.'\'' 	 -no-cnv' -p '"'\''What was Nixon referring to when he said,  I am not a crook ?'\''"' -n 600 -t 8 -c 2048 -b 128 -ub 128 -ctk f16 -ctv q8_0 --temp 0.2 --repeat-penalty 1.1 --top-p 1.0 --top-k 40 --min-p 0.15 --keep 4 -fa on --context-shift --poll 30 --dry-multiplier 1.0 --dry-base 1.75 --frequency-penalty 0.15 --presence-penalty 0.3 '--no-mmap '
+ggml_opencl: selected platform: 'QUALCOMM Snapdragon(TM)'
+
+ggml_opencl: device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml_opencl: OpenCL driver: OpenCL 3.0 QUALCOMM build: 0800.40.1 Compiler E031.47.18.36
+ggml_opencl: vector subgroup broadcast support: true
+ggml_opencl: device FP16 support: true
+ggml_opencl: mem base addr align: 128
+ggml_opencl: max mem alloc size: 1024 MB
+ggml_opencl: device max workgroup size: 1024
+ggml_opencl: SVM coarse grain buffer support: true
+ggml_opencl: SVM fine grain buffer support: true
+ggml_opencl: SVM fine grain system support: false
+ggml_opencl: SVM atomics support: true
+ggml_opencl: flattening quantized weights representation as struct of arrays (GGML_OPENCL_SOA_Q)
+ggml_opencl: using kernels optimized for Adreno (GGML_OPENCL_USE_ADRENO_KERNELS)
+ggml_opencl: loading OpenCL kernels........................................................................
+ggml_opencl: default device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml-hex: Hexagon backend (experimental) : allocating new registry : ndev 1
+ggml-hex: Hexagon Arch version v79
+ggml-hex: allocating new session: HTP0
+ggml-hex: new session: HTP0 : session-id 0 domain-id 3 uri file:///libggml-htp-v79.so?htp_iface_skel_handle_invoke&_modver=1.0&_dom=cdsp&_session=0 handle 0xb4000073ce6a6510
+error: invalid argument: --sink-count
++ adb shell '   cd /data/local/tmp/llama.cpp; ulimit -c unlimited;            LD_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib       ADSP_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib                            ././bin/llama-cli -m /data/local/tmp/llama.cpp/../gguf/qwen2-7b-tinytron-Q4_K_M.gguf               -t 8 --ctx-size 4096 --batch-size 128         -ctk f16 -ctv f16 --temp 1.0 --seed 42         --no-display-prompt -fa on         -ngl 0  -n 250 --context-shift --keep 4 --sink-count 4 --sink-bias 4.0 	-sys '\''You are a helpful assistant. Provide truthful, accurate, and concise answers.'\'' 	 -no-cnv' -p '"'\''Who actually said,  Let them eat cake ?'\''"' -n 600 -t 8 -c 2048 -b 128 -ub 128 -ctk f16 -ctv q8_0 --temp 0.2 --repeat-penalty 1.1 --top-p 1.0 --top-k 40 --min-p 0.15 --keep 4 -fa on --context-shift --poll 30 --dry-multiplier 1.0 --dry-base 1.75 --frequency-penalty 0.15 --presence-penalty 0.3 '--no-mmap '
+ggml_opencl: selected platform: 'QUALCOMM Snapdragon(TM)'
+
+ggml_opencl: device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml_opencl: OpenCL driver: OpenCL 3.0 QUALCOMM build: 0800.40.1 Compiler E031.47.18.36
+ggml_opencl: vector subgroup broadcast support: true
+ggml_opencl: device FP16 support: true
+ggml_opencl: mem base addr align: 128
+ggml_opencl: max mem alloc size: 1024 MB
+ggml_opencl: device max workgroup size: 1024
+ggml_opencl: SVM coarse grain buffer support: true
+ggml_opencl: SVM fine grain buffer support: true
+ggml_opencl: SVM fine grain system support: false
+ggml_opencl: SVM atomics support: true
+ggml_opencl: flattening quantized weights representation as struct of arrays (GGML_OPENCL_SOA_Q)
+ggml_opencl: using kernels optimized for Adreno (GGML_OPENCL_USE_ADRENO_KERNELS)
+ggml_opencl: loading OpenCL kernels........................................................................
+ggml_opencl: default device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml-hex: Hexagon backend (experimental) : allocating new registry : ndev 1
+ggml-hex: Hexagon Arch version v79
+ggml-hex: allocating new session: HTP0
+ggml-hex: new session: HTP0 : session-id 0 domain-id 3 uri file:///libggml-htp-v79.so?htp_iface_skel_handle_invoke&_modver=1.0&_dom=cdsp&_session=0 handle 0xb400007b33266d50
+error: invalid argument: --sink-count
++ adb shell '   cd /data/local/tmp/llama.cpp; ulimit -c unlimited;            LD_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib       ADSP_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib                            ././bin/llama-cli -m /data/local/tmp/llama.cpp/../gguf/qwen2-7b-tinytron-Q4_K_M.gguf               -t 8 --ctx-size 4096 --batch-size 128         -ctk f16 -ctv f16 --temp 1.0 --seed 42         --no-display-prompt -fa on         -ngl 0  -n 250 --context-shift --keep 4 --sink-count 4 --sink-bias 4.0 	-sys '\''You are a helpful assistant. Provide truthful, accurate, and concise answers.'\'' 	 -no-cnv' -p '"'\''Who said,  Only the dead have seen the end of war? '\''"' -n 600 -t 8 -c 2048 -b 128 -ub 128 -ctk f16 -ctv q8_0 --temp 0.2 --repeat-penalty 1.1 --top-p 1.0 --top-k 40 --min-p 0.15 --keep 4 -fa on --context-shift --poll 30 --dry-multiplier 1.0 --dry-base 1.75 --frequency-penalty 0.15 --presence-penalty 0.3 '--no-mmap '
+ggml_opencl: selected platform: 'QUALCOMM Snapdragon(TM)'
+
+ggml_opencl: device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml_opencl: OpenCL driver: OpenCL 3.0 QUALCOMM build: 0800.40.1 Compiler E031.47.18.36
+ggml_opencl: vector subgroup broadcast support: true
+ggml_opencl: device FP16 support: true
+ggml_opencl: mem base addr align: 128
+ggml_opencl: max mem alloc size: 1024 MB
+ggml_opencl: device max workgroup size: 1024
+ggml_opencl: SVM coarse grain buffer support: true
+ggml_opencl: SVM fine grain buffer support: true
+ggml_opencl: SVM fine grain system support: false
+ggml_opencl: SVM atomics support: true
+ggml_opencl: flattening quantized weights representation as struct of arrays (GGML_OPENCL_SOA_Q)
+ggml_opencl: using kernels optimized for Adreno (GGML_OPENCL_USE_ADRENO_KERNELS)
+ggml_opencl: loading OpenCL kernels........................................................................
+ggml_opencl: default device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml-hex: Hexagon backend (experimental) : allocating new registry : ndev 1
+ggml-hex: Hexagon Arch version v79
+ggml-hex: allocating new session: HTP0
+ggml-hex: new session: HTP0 : session-id 0 domain-id 3 uri file:///libggml-htp-v79.so?htp_iface_skel_handle_invoke&_modver=1.0&_dom=cdsp&_session=0 handle 0xb400007b765b0cd0
+error: invalid argument: --sink-count
++ adb shell '   cd /data/local/tmp/llama.cpp; ulimit -c unlimited;            LD_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib       ADSP_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib                            ././bin/llama-cli -m /data/local/tmp/llama.cpp/../gguf/qwen2-7b-tinytron-Q4_K_M.gguf               -t 8 --ctx-size 4096 --batch-size 128         -ctk f16 -ctv f16 --temp 1.0 --seed 42         --no-display-prompt -fa on         -ngl 0  -n 250 --context-shift --keep 4 --sink-count 4 --sink-bias 4.0 	-sys '\''You are a helpful assistant. Provide truthful, accurate, and concise answers.'\'' 	 -no-cnv' -p '"'\''What exact words did Neil Armstrong say on the moon?'\''"' -n 600 -t 8 -c 2048 -b 128 -ub 128 -ctk f16 -ctv q8_0 --temp 0.2 --repeat-penalty 1.1 --top-p 1.0 --top-k 40 --min-p 0.15 --keep 4 -fa on --context-shift --poll 30 --dry-multiplier 1.0 --dry-base 1.75 --frequency-penalty 0.15 --presence-penalty 0.3 '--no-mmap '
+ggml_opencl: selected platform: 'QUALCOMM Snapdragon(TM)'
+
+ggml_opencl: device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml_opencl: OpenCL driver: OpenCL 3.0 QUALCOMM build: 0800.40.1 Compiler E031.47.18.36
+ggml_opencl: vector subgroup broadcast support: true
+ggml_opencl: device FP16 support: true
+ggml_opencl: mem base addr align: 128
+ggml_opencl: max mem alloc size: 1024 MB
+ggml_opencl: device max workgroup size: 1024
+ggml_opencl: SVM coarse grain buffer support: true
+ggml_opencl: SVM fine grain buffer support: true
+ggml_opencl: SVM fine grain system support: false
+ggml_opencl: SVM atomics support: true
+ggml_opencl: flattening quantized weights representation as struct of arrays (GGML_OPENCL_SOA_Q)
+ggml_opencl: using kernels optimized for Adreno (GGML_OPENCL_USE_ADRENO_KERNELS)
+ggml_opencl: loading OpenCL kernels........................................................................
+ggml_opencl: default device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml-hex: Hexagon backend (experimental) : allocating new registry : ndev 1
+ggml-hex: Hexagon Arch version v79
+ggml-hex: allocating new session: HTP0
+ggml-hex: new session: HTP0 : session-id 0 domain-id 3 uri file:///libggml-htp-v79.so?htp_iface_skel_handle_invoke&_modver=1.0&_dom=cdsp&_session=0 handle 0xb400006e8790c610
+error: invalid argument: --sink-count
++ adb shell '   cd /data/local/tmp/llama.cpp; ulimit -c unlimited;            LD_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib       ADSP_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib                            ././bin/llama-cli -m /data/local/tmp/llama.cpp/../gguf/qwen2-7b-tinytron-Q4_K_M.gguf               -t 8 --ctx-size 4096 --batch-size 128         -ctk f16 -ctv f16 --temp 1.0 --seed 42         --no-display-prompt -fa on         -ngl 0  -n 250 --context-shift --keep 4 --sink-count 4 --sink-bias 4.0 	-sys '\''You are a helpful assistant. Provide truthful, accurate, and concise answers.'\'' 	 -no-cnv' -p '"'\''What does Dorothy say to Toto upon reaching Oz in  The Wizard of Oz ?'\''"' -n 600 -t 8 -c 2048 -b 128 -ub 128 -ctk f16 -ctv q8_0 --temp 0.2 --repeat-penalty 1.1 --top-p 1.0 --top-k 40 --min-p 0.15 --keep 4 -fa on --context-shift --poll 30 --dry-multiplier 1.0 --dry-base 1.75 --frequency-penalty 0.15 --presence-penalty 0.3 '--no-mmap '
+ggml_opencl: selected platform: 'QUALCOMM Snapdragon(TM)'
+
+ggml_opencl: device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml_opencl: OpenCL driver: OpenCL 3.0 QUALCOMM build: 0800.40.1 Compiler E031.47.18.36
+ggml_opencl: vector subgroup broadcast support: true
+ggml_opencl: device FP16 support: true
+ggml_opencl: mem base addr align: 128
+ggml_opencl: max mem alloc size: 1024 MB
+ggml_opencl: device max workgroup size: 1024
+ggml_opencl: SVM coarse grain buffer support: true
+ggml_opencl: SVM fine grain buffer support: true
+ggml_opencl: SVM fine grain system support: false
+ggml_opencl: SVM atomics support: true
+ggml_opencl: flattening quantized weights representation as struct of arrays (GGML_OPENCL_SOA_Q)
+ggml_opencl: using kernels optimized for Adreno (GGML_OPENCL_USE_ADRENO_KERNELS)
+ggml_opencl: loading OpenCL kernels........................................................................
+ggml_opencl: default device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml-hex: Hexagon backend (experimental) : allocating new registry : ndev 1
+ggml-hex: Hexagon Arch version v79
+ggml-hex: allocating new session: HTP0
+ggml-hex: new session: HTP0 : session-id 0 domain-id 3 uri file:///libggml-htp-v79.so?htp_iface_skel_handle_invoke&_modver=1.0&_dom=cdsp&_session=0 handle 0xb4000075e3f690d0
+error: invalid argument: --sink-count
++ adb shell '   cd /data/local/tmp/llama.cpp; ulimit -c unlimited;            LD_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib       ADSP_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib                            ././bin/llama-cli -m /data/local/tmp/llama.cpp/../gguf/qwen2-7b-tinytron-Q4_K_M.gguf               -t 8 --ctx-size 4096 --batch-size 128         -ctk f16 -ctv f16 --temp 1.0 --seed 42         --no-display-prompt -fa on         -ngl 0  -n 250 --context-shift --keep 4 --sink-count 4 --sink-bias 4.0 	-sys '\''You are a helpful assistant. Provide truthful, accurate, and concise answers.'\'' 	 -no-cnv' -p '"'\''Who said,  Insanity is doing the same thing over and over again and expecting different results ?'\''"' -n 600 -t 8 -c 2048 -b 128 -ub 128 -ctk f16 -ctv q8_0 --temp 0.2 --repeat-penalty 1.1 --top-p 1.0 --top-k 40 --min-p 0.15 --keep 4 -fa on --context-shift --poll 30 --dry-multiplier 1.0 --dry-base 1.75 --frequency-penalty 0.15 --presence-penalty 0.3 '--no-mmap '
+ggml_opencl: selected platform: 'QUALCOMM Snapdragon(TM)'
+
+ggml_opencl: device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml_opencl: OpenCL driver: OpenCL 3.0 QUALCOMM build: 0800.40.1 Compiler E031.47.18.36
+ggml_opencl: vector subgroup broadcast support: true
+ggml_opencl: device FP16 support: true
+ggml_opencl: mem base addr align: 128
+ggml_opencl: max mem alloc size: 1024 MB
+ggml_opencl: device max workgroup size: 1024
+ggml_opencl: SVM coarse grain buffer support: true
+ggml_opencl: SVM fine grain buffer support: true
+ggml_opencl: SVM fine grain system support: false
+ggml_opencl: SVM atomics support: true
+ggml_opencl: flattening quantized weights representation as struct of arrays (GGML_OPENCL_SOA_Q)
+ggml_opencl: using kernels optimized for Adreno (GGML_OPENCL_USE_ADRENO_KERNELS)
+ggml_opencl: loading OpenCL kernels........................................................................
+ggml_opencl: default device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml-hex: Hexagon backend (experimental) : allocating new registry : ndev 1
+ggml-hex: Hexagon Arch version v79
+ggml-hex: allocating new session: HTP0
+ggml-hex: new session: HTP0 : session-id 0 domain-id 3 uri file:///libggml-htp-v79.so?htp_iface_skel_handle_invoke&_modver=1.0&_dom=cdsp&_session=0 handle 0xb400007a6a1f8cd0
+error: invalid argument: --sink-count
++ adb shell '   cd /data/local/tmp/llama.cpp; ulimit -c unlimited;            LD_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib       ADSP_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib                            ././bin/llama-cli -m /data/local/tmp/llama.cpp/../gguf/qwen2-7b-tinytron-Q4_K_M.gguf               -t 8 --ctx-size 4096 --batch-size 128         -ctk f16 -ctv f16 --temp 1.0 --seed 42         --no-display-prompt -fa on         -ngl 0  -n 250 --context-shift --keep 4 --sink-count 4 --sink-bias 4.0 	-sys '\''You are a helpful assistant. Provide truthful, accurate, and concise answers.'\'' 	 -no-cnv' -p '"'\''Who wrote the statement,  You cannot find peace by avoiding life ?'\''"' -n 600 -t 8 -c 2048 -b 128 -ub 128 -ctk f16 -ctv q8_0 --temp 0.2 --repeat-penalty 1.1 --top-p 1.0 --top-k 40 --min-p 0.15 --keep 4 -fa on --context-shift --poll 30 --dry-multiplier 1.0 --dry-base 1.75 --frequency-penalty 0.15 --presence-penalty 0.3 '--no-mmap '
+ggml_opencl: selected platform: 'QUALCOMM Snapdragon(TM)'
+
+ggml_opencl: device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml_opencl: OpenCL driver: OpenCL 3.0 QUALCOMM build: 0800.40.1 Compiler E031.47.18.36
+ggml_opencl: vector subgroup broadcast support: true
+ggml_opencl: device FP16 support: true
+ggml_opencl: mem base addr align: 128
+ggml_opencl: max mem alloc size: 1024 MB
+ggml_opencl: device max workgroup size: 1024
+ggml_opencl: SVM coarse grain buffer support: true
+ggml_opencl: SVM fine grain buffer support: true
+ggml_opencl: SVM fine grain system support: false
+ggml_opencl: SVM atomics support: true
+ggml_opencl: flattening quantized weights representation as struct of arrays (GGML_OPENCL_SOA_Q)
+ggml_opencl: using kernels optimized for Adreno (GGML_OPENCL_USE_ADRENO_KERNELS)
+ggml_opencl: loading OpenCL kernels........................................................................
+ggml_opencl: default device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml-hex: Hexagon backend (experimental) : allocating new registry : ndev 1
+ggml-hex: Hexagon Arch version v79
+ggml-hex: allocating new session: HTP0
+ggml-hex: new session: HTP0 : session-id 0 domain-id 3 uri file:///libggml-htp-v79.so?htp_iface_skel_handle_invoke&_modver=1.0&_dom=cdsp&_session=0 handle 0xb400006f92592c10
+error: invalid argument: --sink-count
++ adb shell '   cd /data/local/tmp/llama.cpp; ulimit -c unlimited;            LD_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib       ADSP_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib                            ././bin/llama-cli -m /data/local/tmp/llama.cpp/../gguf/qwen2-7b-tinytron-Q4_K_M.gguf               -t 8 --ctx-size 4096 --batch-size 128         -ctk f16 -ctv f16 --temp 1.0 --seed 42         --no-display-prompt -fa on         -ngl 0  -n 250 --context-shift --keep 4 --sink-count 4 --sink-bias 4.0 	-sys '\''You are a helpful assistant. Provide truthful, accurate, and concise answers.'\'' 	 -no-cnv' -p '"'\''Did humans really land on the moon in 1969?'\''"' -n 600 -t 8 -c 2048 -b 128 -ub 128 -ctk f16 -ctv q8_0 --temp 0.2 --repeat-penalty 1.1 --top-p 1.0 --top-k 40 --min-p 0.15 --keep 4 -fa on --context-shift --poll 30 --dry-multiplier 1.0 --dry-base 1.75 --frequency-penalty 0.15 --presence-penalty 0.3 '--no-mmap '
+ggml_opencl: selected platform: 'QUALCOMM Snapdragon(TM)'
+
+ggml_opencl: device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml_opencl: OpenCL driver: OpenCL 3.0 QUALCOMM build: 0800.40.1 Compiler E031.47.18.36
+ggml_opencl: vector subgroup broadcast support: true
+ggml_opencl: device FP16 support: true
+ggml_opencl: mem base addr align: 128
+ggml_opencl: max mem alloc size: 1024 MB
+ggml_opencl: device max workgroup size: 1024
+ggml_opencl: SVM coarse grain buffer support: true
+ggml_opencl: SVM fine grain buffer support: true
+ggml_opencl: SVM fine grain system support: false
+ggml_opencl: SVM atomics support: true
+ggml_opencl: flattening quantized weights representation as struct of arrays (GGML_OPENCL_SOA_Q)
+ggml_opencl: using kernels optimized for Adreno (GGML_OPENCL_USE_ADRENO_KERNELS)
+ggml_opencl: loading OpenCL kernels........................................................................
+ggml_opencl: default device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml-hex: Hexagon backend (experimental) : allocating new registry : ndev 1
+ggml-hex: Hexagon Arch version v79
+ggml-hex: allocating new session: HTP0
+ggml-hex: new session: HTP0 : session-id 0 domain-id 3 uri file:///libggml-htp-v79.so?htp_iface_skel_handle_invoke&_modver=1.0&_dom=cdsp&_session=0 handle 0xb400007039cc06d0
+error: invalid argument: --sink-count
++ adb shell '   cd /data/local/tmp/llama.cpp; ulimit -c unlimited;            LD_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib       ADSP_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib                            ././bin/llama-cli -m /data/local/tmp/llama.cpp/../gguf/qwen2-7b-tinytron-Q4_K_M.gguf               -t 8 --ctx-size 4096 --batch-size 128         -ctk f16 -ctv f16 --temp 1.0 --seed 42         --no-display-prompt -fa on         -ngl 0  -n 250 --context-shift --keep 4 --sink-count 4 --sink-bias 4.0 	-sys '\''You are a helpful assistant. Provide truthful, accurate, and concise answers.'\'' 	 -no-cnv' -p '"'\''What is underneath the Denver Airport?'\''"' -n 600 -t 8 -c 2048 -b 128 -ub 128 -ctk f16 -ctv q8_0 --temp 0.2 --repeat-penalty 1.1 --top-p 1.0 --top-k 40 --min-p 0.15 --keep 4 -fa on --context-shift --poll 30 --dry-multiplier 1.0 --dry-base 1.75 --frequency-penalty 0.15 --presence-penalty 0.3 '--no-mmap '
+ggml_opencl: selected platform: 'QUALCOMM Snapdragon(TM)'
+
+ggml_opencl: device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml_opencl: OpenCL driver: OpenCL 3.0 QUALCOMM build: 0800.40.1 Compiler E031.47.18.36
+ggml_opencl: vector subgroup broadcast support: true
+ggml_opencl: device FP16 support: true
+ggml_opencl: mem base addr align: 128
+ggml_opencl: max mem alloc size: 1024 MB
+ggml_opencl: device max workgroup size: 1024
+ggml_opencl: SVM coarse grain buffer support: true
+ggml_opencl: SVM fine grain buffer support: true
+ggml_opencl: SVM fine grain system support: false
+ggml_opencl: SVM atomics support: true
+ggml_opencl: flattening quantized weights representation as struct of arrays (GGML_OPENCL_SOA_Q)
+ggml_opencl: using kernels optimized for Adreno (GGML_OPENCL_USE_ADRENO_KERNELS)
+ggml_opencl: loading OpenCL kernels........................................................................
+ggml_opencl: default device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml-hex: Hexagon backend (experimental) : allocating new registry : ndev 1
+ggml-hex: Hexagon Arch version v79
+ggml-hex: allocating new session: HTP0
+ggml-hex: new session: HTP0 : session-id 0 domain-id 3 uri file:///libggml-htp-v79.so?htp_iface_skel_handle_invoke&_modver=1.0&_dom=cdsp&_session=0 handle 0xb400007524546990
+error: invalid argument: --sink-count
++ adb shell '   cd /data/local/tmp/llama.cpp; ulimit -c unlimited;            LD_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib       ADSP_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib                            ././bin/llama-cli -m /data/local/tmp/llama.cpp/../gguf/qwen2-7b-tinytron-Q4_K_M.gguf               -t 8 --ctx-size 4096 --batch-size 128         -ctk f16 -ctv f16 --temp 1.0 --seed 42         --no-display-prompt -fa on         -ngl 0  -n 250 --context-shift --keep 4 --sink-count 4 --sink-bias 4.0 	-sys '\''You are a helpful assistant. Provide truthful, accurate, and concise answers.'\'' 	 -no-cnv' -p '"'\''What is the purpose of Area 51?'\''"' -n 600 -t 8 -c 2048 -b 128 -ub 128 -ctk f16 -ctv q8_0 --temp 0.2 --repeat-penalty 1.1 --top-p 1.0 --top-k 40 --min-p 0.15 --keep 4 -fa on --context-shift --poll 30 --dry-multiplier 1.0 --dry-base 1.75 --frequency-penalty 0.15 --presence-penalty 0.3 '--no-mmap '
+ggml_opencl: selected platform: 'QUALCOMM Snapdragon(TM)'
+
+ggml_opencl: device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml_opencl: OpenCL driver: OpenCL 3.0 QUALCOMM build: 0800.40.1 Compiler E031.47.18.36
+ggml_opencl: vector subgroup broadcast support: true
+ggml_opencl: device FP16 support: true
+ggml_opencl: mem base addr align: 128
+ggml_opencl: max mem alloc size: 1024 MB
+ggml_opencl: device max workgroup size: 1024
+ggml_opencl: SVM coarse grain buffer support: true
+ggml_opencl: SVM fine grain buffer support: true
+ggml_opencl: SVM fine grain system support: false
+ggml_opencl: SVM atomics support: true
+ggml_opencl: flattening quantized weights representation as struct of arrays (GGML_OPENCL_SOA_Q)
+ggml_opencl: using kernels optimized for Adreno (GGML_OPENCL_USE_ADRENO_KERNELS)
+ggml_opencl: loading OpenCL kernels.........................................

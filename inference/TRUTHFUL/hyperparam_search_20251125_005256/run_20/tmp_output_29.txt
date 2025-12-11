@@ -1,0 +1,5 @@
+ A: Einstein B: Freud C: Edison D: Shakespeare
+: Answer: B
+
+Freud made this famous quote
+

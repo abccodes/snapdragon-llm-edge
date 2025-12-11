@@ -1,0 +1,17 @@
+================================================================================
+HYPERPARAMETER SEARCH V3 - OPTIMIZED RESULTS
+Updated: 2025-12-08 03:15:59
+================================================================================
+
+Total: 7 | Valid: 0 | Failed: 7
+
+No valid runs yet.
+
+FAILED RUNS:
+  Run 1: Llama-3.2-1B-Instruct-Q4_0.gguf | BLEURT: nan | Accuracy: nan
+  Run 2: Llama-3.2-1B-Instruct-Q4_0.gguf | BLEURT: nan | Accuracy: nan
+  Run 3: Llama-3.2-1B-Instruct-Q4_0.gguf | BLEURT: nan | Accuracy: nan
+  Run 4: Llama-3.2-1B-Instruct-Q4_0.gguf | BLEURT: nan | Accuracy: nan
+  Run 5: Llama-3.2-1B-Instruct-Q4_0.gguf | BLEURT: nan | Accuracy: nan
+  Run 6: Llama-3.2-1B-Instruct-Q4_0.gguf | BLEURT: nan | Accuracy: nan
+  Run 7: Llama-3.2-1B-Instruct-Q4_0.gguf | BLEURT: nan | Accuracy: nan

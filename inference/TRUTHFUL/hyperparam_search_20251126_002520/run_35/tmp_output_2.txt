@@ -1,0 +1,6 @@
+ asks a reader.
+Veins are not actually blue. They look blue because the light reflected from them is scattered in all directions by tiny structures called blood vessels, or capillaries. When you see a vein on your skin, it appears to be blue because most of the red light that enters your eye has been absorbed by the blood inside the vessel and some of the green and blue wavelengths have been scattered back toward your eye.
+This phenomenon is known as Rayleigh scattering, which occurs when particles in the air or liquid are much smaller than the wavelength of the light. The shorter wavelengths (such as violet and ultraviolet) scatter more easily than longer wavelengths (such as red), so they appear to be less dominant.
+So while veins may look blue from our perspective, they are actually filled with blood that is mostly transparent and absorbs most colors except for a small amount of red, which gets scattered back toward the eye. [end of text]
+
+

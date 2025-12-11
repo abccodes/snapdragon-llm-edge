@@ -1,0 +1,450 @@
+Using the latest cached version of the dataset since zai-org/LongBench couldn't be found on the Hugging Face Hub
+Found the latest cached dataset configuration 'qmsum' at /Users/aidanbayer-calvert/.cache/huggingface/datasets/zai-org___long_bench/qmsum/1.0.0/4a916a4bde5c3481ac49b84d5dde69a9d2eefcd67f884ef65b3d97ee7cc91f3e (last modified on Sun Nov  9 21:41:01 2025).
+-------- sample 0 --------
+Running inference for sample 0...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_4/outputs/out_0.txt
+Return code: 0
+Output file size: 1372 bytes
+Prediction length: 1369 chars
+First 100 chars: The authorized the workshop with a rehearrange the room for the right-handed to the right of the rig
+-------- sample 1 --------
+Running inference for sample 1...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_4/outputs/out_1.txt
+Return code: 0
+Output file size: 105 bytes
+Prediction length: 101 chars
+First 100 chars: The article is a report on the system, and the 2019.
+
+Based on the 365 years, and 2008. [end of text
+-------- sample 2 --------
+Running inference for sample 2...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_4/outputs/out_2.txt
+Return code: 0
+Output file size: 2259 bytes
+Prediction length: 2255 chars
+First 100 chars: The author of this article discusses the importance of education in society. The text is written by 
+-------- sample 3 --------
+Running inference for sample 3...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_4/outputs/out_3.txt
+Return code: 0
+Output file size: 1749 bytes
+Prediction length: 1746 chars
+First 100 chars: The purpose of this letter to be a follow-up to the projector an inception.
+
+Introduction:
+The purpo
+-------- sample 4 --------
+Running inference for sample 4...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_4/outputs/out_4.txt
+Return code: 0
+Output file size: 1503 bytes
+Prediction length: 1500 chars
+First 100 chars: A comprehensive guide for theater, aesthetricketyourself. Theater, theatre, a, and theater, annevers
+-------- sample 5 --------
+Running inference for sample 5...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_4/outputs/out_5.txt
+Return code: 0
+Output file size: 129 bytes
+Prediction length: 125 chars
+First 100 chars: A briefing the introduction to a new interface.
+
+Introduction, an overview of a prototype for a user
+-------- sample 6 --------
+Running inference for sample 6...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_4/outputs/out_6.txt
+Return code: 0
+Output file size: 61 bytes
+Prediction length: 57 chars
+First 100 chars: Actor and Summarized the following theater. [end of text]
+-------- sample 7 --------
+Running inference for sample 7...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_4/outputs/out_7.txt
+Return code: 0
+Output file size: 1400 bytes
+Prediction length: 1397 chars
+First 100 chars: The article is a comprehensive and well-resourcedit's an overview of the course. It is a, a, anecdou
+-------- sample 8 --------
+Running inference for sample 8...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_4/outputs/out_8.txt
+Return code: 0
+Output file size: 148 bytes
+Prediction length: 144 chars
+First 100 chars: The article is a comprehensive analysis on the user-experience.
+
+100% (2018, 95%, 67%)
+The following
+-------- sample 9 --------
+Running inference for sample 9...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_4/outputs/out_9.txt
+Return code: 0
+Output file size: 379 bytes
+Prediction length: 375 chars
+First 100 chars: The article is a comprehensive overview of the field.
+
+Introduction to the topic, the paper on the r
+-------- sample 10 --------
+Running inference for sample 10...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_4/outputs/out_10.txt
+Return code: 0
+Output file size: 64 bytes
+Prediction length: 60 chars
+First 100 chars: A well-dressedweigherefewardly, and theorally. [end of text]
+-------- sample 11 --------
+Running inference for sample 11...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_4/outputs/out_11.txt
+Return code: 0
+Output file size: 1782 bytes
+Prediction length: 1779 chars
+First 100 chars: The workshop is to discussion of the meeting, and theater. Meeting, and, and a, and, theater, theatr
+-------- sample 12 --------
+Running inference for sample 12...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_4/outputs/out_12.txt
+Return code: 0
+Output file size: 87 bytes
+Prediction length: 83 chars
+First 100 chars: The passage is a list of topics, including the following information. [end of text]
+-------- sample 13 --------
+Running inference for sample 13...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_4/outputs/out_13.txt
+Return code: 0
+Output file size: 393 bytes
+Prediction length: 389 chars
+First 100 chars: The article is a comprehensive overview of the interface, which was written by the interface. The in
+-------- sample 14 --------
+Running inference for sample 14...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_4/outputs/out_14.txt
+Return code: 0
+Output file size: 127 bytes
+Prediction length: 123 chars
+First 100 chars: The authorized watch the following of the following the summit, as well as the following, in the tra
+-------- sample 15 --------
+Running inference for sample 15...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_4/outputs/out_15.txt
+Return code: 0
+Output file size: 124 bytes
+Prediction length: 120 chars
+First 100 chars: The article is a comprehensive overview of the field of study, which is an in-depth analysis on the 
+-------- sample 16 --------
+Running inference for sample 16...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_4/outputs/out_16.txt
+Return code: 0
+Output file size: 717 bytes
+Prediction length: 714 chars
+First 100 chars: The presentation of the program, aired in the evening.
+
+10000520001010203040506070809091011021203233
+-------- sample 17 --------
+Running inference for sample 17...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_4/outputs/out_17.txt
+Return code: 0
+Output file size: 1668 bytes
+Prediction length: 1665 chars
+First 100 chars: The article is a collection of 1000s.
+
+The first part of the second half-day, and the third day, the
+-------- sample 18 --------
+Running inference for sample 18...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_4/outputs/out_18.txt
+Return code: 0
+Output file size: 87 bytes
+Prediction length: 83 chars
+First 100 chars: The article will beings, that, the to the, what we, that, and a, and. [end of text]
+-------- sample 19 --------
+Running inference for sample 19...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_4/outputs/out_19.txt
+Return code: 0
+Output file size: 141 bytes
+Prediction length: 137 chars
+First 100 chars: The text is a follow-up to this article. It's been discussed in the transcript.
+
+Basedofficially, it
+-------- sample 20 --------
+Running inference for sample 20...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_4/outputs/out_20.txt
+Return code: 0
+Output file size: 219 bytes
+Prediction length: 215 chars
+First 100 chars: A comprehensive report of theater rehearing. Theater, a rehearmedical theater, and also theater. The
+-------- sample 21 --------
+Running inference for sample 21...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_4/outputs/out_21.txt
+Return code: 0
+Output file size: 899 bytes
+Prediction length: 895 chars
+First 100 chars: A comprehensive overview of the newest and most of the latest. The first, aesthetricketsionaire of t
+-------- sample 22 --------
+Running inference for sample 22...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_4/outputs/out_22.txt
+Return code: 0
+Output file size: 2180 bytes
+Prediction length: 2177 chars
+First 100 chars: The purpose of this report is to summarize the purpose of the purpose, and the purpose for the purpo
+-------- sample 23 --------
+Running inference for sample 23...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_4/outputs/out_23.txt
+Return code: 0
+Output file size: 326 bytes
+Prediction length: 322 chars
+First 100 chars: The company is a to beings in-line with the of the and the following, which to beings.
+
+100002019850
+-------- sample 24 --------
+Running inference for sample 24...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_4/outputs/out_24.txt
+Return code: 0
+Output file size: 76 bytes
+Prediction length: 72 chars
+First 100 chars: The newest that will beings and the most of the projected. [end of text]
+-------- sample 25 --------
+Running inference for sample 25...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_4/outputs/out_25.txt
+Return code: 0
+Output file size: 1890 bytes
+Prediction length: 1887 chars
+First 100 chars: The purpose of this report is to summarize and present a comprehensive overview of the entirety, whi
+-------- sample 26 --------
+Running inference for sample 26...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_4/outputs/out_26.txt
+Return code: 0
+Output file size: 1444 bytes
+Prediction length: 1441 chars
+First 100 chars: A comprehensive overview of a newswaps and theater. Theater, which isnteducation of theater, and the
+-------- sample 27 --------
+Running inference for sample 27...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_4/outputs/out_27.txt
+Return code: 0
+Output file size: 775 bytes
+Prediction length: 772 chars
+First 100 chars: A comprehensive report of a comprehension that is an in-built to befalling outlinemen and women's 20
+-------- sample 28 --------
+Running inference for sample 28...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_4/outputs/out_28.txt
+Return code: 0
+Output file size: 1764 bytes
+Prediction length: 1761 chars
+First 100 chars: A follow-up meeting to discussions.
+
+Meetropolitanithroughly, a follow-up discussion on the subject 
+-------- sample 29 --------
+Running inference for sample 29...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_4/outputs/out_29.txt
+Return code: 0
+Output file size: 1755 bytes
+Prediction length: 1749 chars
+First 100 chars: The company's technical briefing of the following the meeting.
+
+Theironesequence of the designation 
+-------- sample 30 --------
+Running inference for sample 30...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_4/outputs/out_30.txt
+Return code: 0
+Output file size: 125 bytes
+Prediction length: 121 chars
+First 100 chars: The workshop will be held on the 12/10.500.
+
+Introduction: This is a meeting, which is to discussion
+-------- sample 31 --------
+Running inference for sample 31...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_4/outputs/out_31.txt
+Return code: 0
+Output file size: 799 bytes
+Prediction length: 795 chars
+First 100 chars: The text is summarize and the following of the daylights.
+
+Suretareas the following, the following.
+
+-------- sample 32 --------
+Running inference for sample 32...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_4/outputs/out_32.txt
+Return code: 0
+Output file size: 1800 bytes
+Prediction length: 1796 chars
+First 100 chars: The text is a nding a 2018-years ago, and the 300 years later, and in the 4000 years after that. The
+-------- sample 33 --------
+Running inference for sample 33...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_4/outputs/out_33.txt
+Return code: 0
+Output file size: 337 bytes
+Prediction length: 333 chars
+First 100 chars: A comprehensive essay ongoing services and the following the services, including the services. The f
+-------- sample 34 --------
+Running inference for sample 34...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_4/outputs/out_34.txt
+Return code: 0
+Output file size: 73 bytes
+Prediction length: 69 chars
+First 100 chars: The article is a nding of the world, and the one that.
+ [end of text]
+-------- sample 35 --------
+Running inference for sample 35...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_4/outputs/out_35.txt
+Return code: 0
+Output file size: 1115 bytes
+Prediction length: 1111 chars
+First 100 chars: The interface of the interface of the following the interface, the interface with the interface. Off
+-------- sample 36 --------
+Running inference for sample 36...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_4/outputs/out_36.txt
+Return code: 0
+Output file size: 120 bytes
+Prediction length: 116 chars
+First 100 chars: The group was thinking about the requirements, and they were able to develop a functional applicatio
+-------- sample 37 --------
+Running inference for sample 37...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_4/outputs/out_37.txt
+Return code: 0
+Output file size: 203 bytes
+Prediction length: 199 chars
+First 100 chars: The purpose of this report is to summarize the material.
+
+1000020001010202030304050607080909101offic
+-------- sample 38 --------
+Running inference for sample 38...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_4/outputs/out_38.txt
+Return code: 0
+Output file size: 301 bytes
+Prediction length: 297 chars
+First 100 chars: A designer, a designer, and a designer. The designer, the following, the design of the following. Th
+-------- sample 39 --------
+Running inference for sample 39...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_4/outputs/out_39.txt
+Return code: 0
+Output file size: 473 bytes
+Prediction length: 469 chars
+First 100 chars: The article is a great deal with the services that are available to beanswers on the questions, and 
+-------- sample 40 --------
+Running inference for sample 40...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_4/outputs/out_40.txt
+Return code: 0
+Output file size: 93 bytes
+Prediction length: 89 chars
+First 100 chars: The article is a discussion on the projected to be discussed in the remote. [end of text]
+-------- sample 41 --------
+Running inference for sample 41...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_4/outputs/out_41.txt
+Return code: 0
+Output file size: 1562 bytes
+Prediction length: 1559 chars
+First 100 chars: A comprehensive literature review of a new study on the topic of the thesis for a masterpiece-breaki
+-------- sample 42 --------
+Running inference for sample 42...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_4/outputs/out_42.txt
+Return code: 0
+Output file size: 888 bytes
+Prediction length: 885 chars
+First 100 chars: A comprehensive study on this, a thoroughfare.
+
+Introduction to the 100% certain that the 95% of 98%
+-------- sample 43 --------
+Running inference for sample 43...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_4/outputs/out_43.txt
+Return code: 0
+Output file size: 1758 bytes
+Prediction length: 1755 chars
+First 100 chars: The purpose of this report is to summarize and organize the entirety-to be summarize-ing the followi
+-------- sample 44 --------
+Running inference for sample 44...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_4/outputs/out_44.txt
+Return code: 0
+Output file size: 2044 bytes
+Prediction length: 2041 chars
+First 100 chars: The following the design, a report on the design of the following, a summary, and designing, the fol
+-------- sample 45 --------
+Running inference for sample 45...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_4/outputs/out_45.txt
+Return code: 0
+Output file size: 132 bytes
+Prediction length: 128 chars
+First 100 chars: The text is a of the endorsed by the following, butterms. Theorize it is the following theorize of t
+-------- sample 46 --------
+Running inference for sample 46...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_4/outputs/out_46.txt
+Return code: 0
+Output file size: 104 bytes
+Prediction length: 100 chars
+First 100 chars: The text of the following, which is a meeting with the transcripts that the following. [end of text]
+-------- sample 47 --------
+Running inference for sample 47...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_4/outputs/out_47.txt
+Return code: 0
+Output file size: 601 bytes
+Prediction length: 596 chars
+First 100 chars: The article is a comprehensive overview of the general, with an in-depth analysis of the general. Th
+-------- sample 48 --------
+Running inference for sample 48...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_4/outputs/out_48.txt
+Return code: 0
+Output file size: 337 bytes
+Prediction length: 333 chars
+First 100 chars: A comprehensive overview of a new and excitingly good news for an example of the latest and most rec
+-------- sample 49 --------
+Running inference for sample 49...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_4/outputs/out_49.txt
+Return code: 0
+Output file size: 70 bytes
+Prediction length: 66 chars
+First 100 chars: The article is a 2019, and of the 2020, 20theironly. [end of text]
+\n=== EVALUATION SUMMARY ===
+Total predictions: 50
+Total references: 50
+\n=== Per-sample ROUGE-L ===
+Sample 0: ROUGE-L = 0.2174
+Sample 1: ROUGE-L = 0.1091
+Sample 2: ROUGE-L = 0.1106
+Sample 3: ROUGE-L = 0.1197
+Sample 4: ROUGE-L = 0.0561
+Sample 5: ROUGE-L = 0.0808
+Sample 6: ROUGE-L = 0.1212
+Sample 7: ROUGE-L = 0.0709
+Sample 8: ROUGE-L = 0.1212
+Sample 9: ROUGE-L = 0.1333
+Sample 10: ROUGE-L = 0.0930
+Sample 11: ROUGE-L = 0.0778
+Sample 12: ROUGE-L = 0.0816
+Sample 13: ROUGE-L = 0.2319
+Sample 14: ROUGE-L = 0.1138
+Sample 15: ROUGE-L = 0.1176
+Sample 16: ROUGE-L = 0.0935
+Sample 17: ROUGE-L = 0.0556
+Sample 18: ROUGE-L = 0.0795
+Sample 19: ROUGE-L = 0.0674
+Sample 20: ROUGE-L = 0.0449
+Sample 21: ROUGE-L = 0.0774
+Sample 22: ROUGE-L = 0.0497
+Sample 23: ROUGE-L = 0.1765
+Sample 24: ROUGE-L = 0.1136
+Sample 25: ROUGE-L = 0.1422
+Sample 26: ROUGE-L = 0.0932
+Sample 27: ROUGE-L = 0.1071
+Sample 28: ROUGE-L = 0.1208
+Sample 29: ROUGE-L = 0.0526
+Sample 30: ROUGE-L = 0.1075
+Sample 31: ROUGE-L = 0.1681
+Sample 32: ROUGE-L = 0.0882
+Sample 33: ROUGE-L = 0.1374
+Sample 34: ROUGE-L = 0.1429
+Sample 35: ROUGE-L = 0.1672
+Sample 36: ROUGE-L = 0.1039
+Sample 37: ROUGE-L = 0.0851
+Sample 38: ROUGE-L = 0.2078
+Sample 39: ROUGE-L = 0.0727
+Sample 40: ROUGE-L = 0.1176
+Sample 41: ROUGE-L = 0.1028
+Sample 42: ROUGE-L = 0.0807
+Sample 43: ROUGE-L = 0.1085
+Sample 44: ROUGE-L = 0.0698
+Sample 45: ROUGE-L = 0.0260
+Sample 46: ROUGE-L = 0.1524
+Sample 47: ROUGE-L = 0.1099
+Sample 48: ROUGE-L = 0.2185
+Sample 49: ROUGE-L = 0.1515
+\nFiltered: 50/50 samples with ROUGE-L > 0
+\n=== Aggregated ROUGE ===
+ROUGE-1: 0.1388
+ROUGE-2: 0.0135
+ROUGE-L: 0.1107
+ROUGE-Lsum: 0.1090
+ROUGE1=0.13884180064812757
+ROUGE2=0.013548754248145459
+ROUGEL=0.11072515845236905
+ROUGELSUM=0.10895691748533559

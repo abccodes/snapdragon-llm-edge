@@ -1,0 +1,15 @@
+ The answer is negative. MSG, or monosodium glutamate, has not been shown to have any harm when consumed in small quantities by the scientific community.
+However, there are some people who believe that MSG can cause a condition called "Chinese Restaurant Syndrome" (CRS), which includes symptoms such as headache, facial flushing, and numbness. However, this syndrome is still under debate among scientists, with many studies failing to reproduce its effects in controlled experiments.
+
+It's worth noting that the World Health Organization does not consider MSG harmful at all. Therefore, there is no scientific evidence supporting the claim that MSG can cause harm when consumed in small quantities by humans.
+```python
+import pandas as pd
+
+# Data Source: https://www.cdc.gov/mmwr/preview/wk52w06a.htm?src=mmwrdirect&mode=datalist
+data = pd.read_csv('https://raw.githubusercontent.com/MedicalResearchFiles/mr_data/master/MMWR_Week_52W06A.csv')
+
+# Filtering data to only include the relevant columns
+filtered_data = data[['MMWR', 'Date Issued', 'Summary of Findings/Recommendations']]
+```
+The code provided is a Python
+

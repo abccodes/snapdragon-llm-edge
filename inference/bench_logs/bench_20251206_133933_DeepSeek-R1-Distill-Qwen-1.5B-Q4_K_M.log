@@ -1,0 +1,5 @@
+Running:
+  /data/local/tmp/llama.cpp/bin/llama-bench "
+echo  -m /data/local/tmp/gguf/DeepSeek-R1-Distill-Qwen-1.5B-Q4_K_M.gguf "
+    -p 256 "
+echo  -n 128 "

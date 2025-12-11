@@ -1,0 +1,4 @@
+ A question I asked myself recently, and one that has puzzled people for a long time. The answer is not as clear as it seems at first.
+To start with, let's consider some basic physics. If a penny is dropped from the top of the Empire State Building (which stands at approximately 1,454 feet or 442 meters), its velocity will increase due to gravity, following an equation known as SUVAT (Displacement, Velocity, Acceleration, Time and Initial Velocity).
+The penny's initial velocity when it reaches the ground is zero, and its acceleration due to gravity is approximately 9.8 meters per second squared.
+Using these values, we can calculate that the penny will reach the ground in approximately 5 seconds. At this time, its velocity will be around 49 meters per second or

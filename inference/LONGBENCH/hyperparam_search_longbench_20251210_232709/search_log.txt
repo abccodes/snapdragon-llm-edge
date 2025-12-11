@@ -1,0 +1,13 @@
+Starting LongBench hyperparameter search at Wed Dec 10 23:27:09 PST 2025
+Output directory: hyperparam_search_longbench_20251210_232709
+
+Running 500 trials...
+
+========================================
+RUN #1 - Wed Dec 10 23:27:09 PST 2025
+Model: MobileLLM-R1-360M_Q8_0.gguf | Temp: 0.4 | Batch: 256
+KV: f16/f16 | DRY: 1.0 | Presence: 0.4
+
+Running LongBench test...
+Using the latest cached version of the dataset since zai-org/LongBench couldn't be found on the Hugging Face Hub
+Found the latest cached dataset configuration 'qmsum' at /Users/aidanbayer-calvert/.cache/huggingface/datasets/zai-org___long_bench/qmsum/1.0.0/4a916a4bde5c3481ac49b84d5dde69a9d2eefcd67f884ef65b3d97ee7cc91f3e (last modified on Sun Nov  9 21:41:01 2025).

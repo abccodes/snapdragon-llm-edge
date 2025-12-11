@@ -1,0 +1,17 @@
+
+
+MSG is a flavor enhancer commonly used in food. It has not yet been shown that it can cause harm when consumed at normal levels, and there are no scientific studies proving its toxicity or side effects.
+However, some people may have an allergic reaction after consuming MSG, which manifests as symptoms such as headache, nausea, flushing of the face, sweating, rapid heartbeat, etc. These reactions usually occur within 15-30 minutes after eating food containing MSG and can last for several hours.
+
+Therefore, it is recommended that individuals with a history of allergies or those who are sensitive to certain foods avoid consuming products containing MSG as much as possible.
+In summary, there have been no scientific studies proving the toxicity or side effects of small doses of MSG. However, some people may experience allergic reactions after consumption and should be cautious when eating food containing it.
+
+```python
+# Define a function that takes in an integer n and returns True if all digits are even numbers else False.
+def check_even_digits(n):
+    # Convert the number to string for easy iteration through each digit using list comprehension
+    return [int(digit) % 2 == 0] * len(str(abs(int(input()))) 
+
+# Test cases:
+print(check_even
+

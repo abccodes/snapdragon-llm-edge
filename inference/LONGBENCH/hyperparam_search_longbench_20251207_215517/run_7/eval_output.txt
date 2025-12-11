@@ -1,0 +1,141 @@
+Using the latest cached version of the dataset since zai-org/LongBench couldn't be found on the Hugging Face Hub
+Found the latest cached dataset configuration 'qmsum' at /Users/aidanbayer-calvert/.cache/huggingface/datasets/zai-org___long_bench/qmsum/1.0.0/4a916a4bde5c3481ac49b84d5dde69a9d2eefcd67f884ef65b3d97ee7cc91f3e (last modified on Sun Nov  9 21:41:01 2025).
+-------- sample 0 --------
+Running inference for sample 0...
+Output file: hyperparam_search_longbench_20251207_215517/run_7/outputs/out_0.txt
+Return code: 0
+Output file size: 600 bytes
+Prediction length: 596 chars
+First 100 chars: The team discussed and agreed upon a new approach to designing an efficient, user-friendly interface
+-------- sample 1 --------
+Running inference for sample 1...
+Output file: hyperparam_search_longbench_20251207_215517/run_7/outputs/out_1.txt
+Return code: 0
+Output file size: 585 bytes
+Prediction length: 581 chars
+First 100 chars: The team discussed a potential solution to address technical issues with the new touch screens, whic
+-------- sample 2 --------
+Running inference for sample 2...
+Output file: hyperparam_search_longbench_20251207_215517/run_7/outputs/out_2.txt
+Return code: 0
+Output file size: 647 bytes
+Prediction length: 643 chars
+First 100 chars: The group discussed various aspects of a proposed new policy on social media platforms, including it
+-------- sample 3 --------
+Running inference for sample 3...
+Output file: hyperparam_search_longbench_20251207_215517/run_7/outputs/out_3.txt
+Return code: 0
+Output file size: 1722 bytes
+Prediction length: 1718 chars
+First 100 chars: The project manager's summary of the meeting is as follows:
+The team has been working together to de
+-------- sample 4 --------
+Running inference for sample 4...
+Output file: hyperparam_search_longbench_20251207_215517/run_7/outputs/out_4.txt
+Return code: 0
+Output file size: 4063 bytes
+Prediction length: 4060 chars
+First 100 chars: The meeting was attended by representatives from various organizations, including government agencie
+-------- sample 5 --------
+Running inference for sample 5...
+Output file: hyperparam_search_longbench_20251207_215517/run_7/outputs/out_5.txt
+Return code: 0
+Output file size: 1310 bytes
+Prediction length: 1306 chars
+First 100 chars: The user interface (UI) team introduced a new design concept for an interactive system, which includ
+-------- sample 6 --------
+Running inference for sample 6...
+Output file: hyperparam_search_longbench_20251207_215517/run_7/outputs/out_6.txt
+Return code: 0
+Output file size: 716 bytes
+Prediction length: 712 chars
+First 100 chars: The team discussed and decided to set up a new audio setup, with C suggesting using high-quality mic
+-------- sample 7 --------
+Running inference for sample 7...
+Output file: hyperparam_search_longbench_20251207_215517/run_7/outputs/out_7.txt
+Return code: 0
+Output file size: 3103 bytes
+Prediction length: 3099 chars
+First 100 chars: The professor discussed his concerns with a colleague, but ultimately decided to keep it on record. 
+-------- sample 8 --------
+Running inference for sample 8...
+Output file: hyperparam_search_longbench_20251207_215517/run_7/outputs/out_8.txt
+Return code: 0
+Output file size: 1953 bytes
+Prediction length: 1949 chars
+First 100 chars: The marketing team discussed their thoughts on button placement and functionality for a new product.
+-------- sample 9 --------
+Running inference for sample 9...
+Output file: hyperparam_search_longbench_20251207_215517/run_7/outputs/out_9.txt
+Return code: 0
+Output file size: 2685 bytes
+Prediction length: 2681 chars
+First 100 chars: The professor discussed how clusters are a fundamental concept in many fields, including physics and
+-------- sample 10 --------
+Running inference for sample 10...
+Output file: hyperparam_search_longbench_20251207_215517/run_7/outputs/out_10.txt
+Return code: 0
+Output file size: 2047 bytes
+Prediction length: 2043 chars
+First 100 chars: The meeting was attended by a group of students, faculty members and administrators from various dep
+-------- sample 11 --------
+Running inference for sample 11...
+Output file: hyperparam_search_longbench_20251207_215517/run_7/outputs/out_11.txt
+Return code: 0
+Output file size: 674 bytes
+Prediction length: 670 chars
+First 100 chars: The group discussed how to improve and expand on existing methods of speech recognition, including u
+-------- sample 12 --------
+Running inference for sample 12...
+Output file: hyperparam_search_longbench_20251207_215517/run_7/outputs/out_12.txt
+Return code: 0
+Output file size: 1835 bytes
+Prediction length: 1831 chars
+First 100 chars: The meetings between various stakeholders, including government officials and private sector represe
+-------- sample 13 --------
+Running inference for sample 13...
+Output file: hyperparam_search_longbench_20251207_215517/run_7/outputs/out_13.txt
+Return code: 0
+Output file size: 3297 bytes
+Prediction length: 3293 chars
+First 100 chars: The user interface discussed how to use Titanium for a project, mentioning that it's an excellent ch
+-------- sample 14 --------
+Running inference for sample 14...
+Output file: hyperparam_search_longbench_20251207_215517/run_7/outputs/out_14.txt
+Return code: 0
+Output file size: 817 bytes
+Prediction length: 813 chars
+First 100 chars: The team discussed a new trend in fashion, which is becoming increasingly popular among younger gene
+
+=== EVALUATION SUMMARY ===
+Total predictions: 15
+Total references: 15
+
+=== Per-sample ROUGE-L ===
+Sample 0: ROUGE-L = 0.1523
+Sample 1: ROUGE-L = 0.1264
+Sample 2: ROUGE-L = 0.1514
+Sample 3: ROUGE-L = 0.1104
+Sample 4: ROUGE-L = 0.0335
+Sample 5: ROUGE-L = 0.1272
+Sample 6: ROUGE-L = 0.1272
+Sample 7: ROUGE-L = 0.0634
+Sample 8: ROUGE-L = 0.1053
+Sample 9: ROUGE-L = 0.0716
+Sample 10: ROUGE-L = 0.0808
+Sample 11: ROUGE-L = 0.1405
+Sample 12: ROUGE-L = 0.0697
+Sample 13: ROUGE-L = 0.1246
+Sample 14: ROUGE-L = 0.1176
+
+Filtered: 15/15 samples with ROUGE-L > 0
+
+=== Aggregated ROUGE ===
+ROUGE-1: 0.1754
+ROUGE-2: 0.0185
+ROUGE-L: 0.1062
+ROUGE-Lsum: 0.1191
+ROUGE1=0.1753830908088367
+ROUGE2=0.018503342615919047
+ROUGEL=0.1062337260450926
+ROUGELSUM=0.11908789989723524

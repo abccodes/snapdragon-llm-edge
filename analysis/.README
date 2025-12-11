@@ -1,0 +1,37 @@
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (v18 or higher recommended)
+- npm (comes with Node.js)
+
+### Installation
+
+```bash
+
+# 1 . Install dependencies
+npm install
+
+# 2. Start the development server
+npm run dev
+```
+
+Then open [http://localhost:5173](http://localhost:5173) in your browser.
+
+### Combined Score
+
+The dashboard calculates a **combined score** that equally weights efficiency and accuracy:
+
+```
+combined = (normalized_accuracy + normalized_speed) / 2
+```
+
+Where:
+- `normalized_accuracy = (accuracy - min) / (max - min)`
+- `normalized_speed = (speed - min) / (max - min)`
+
+
+### CSV not parsing correctly
+
+- Double check CSV format should follow correct pattern.
+- Ensure your CSV has headers in the first row
+- Check for proper comma separation
+- Avoid special characters in headers

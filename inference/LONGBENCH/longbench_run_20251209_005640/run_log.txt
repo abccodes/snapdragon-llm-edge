@@ -1,0 +1,33 @@
+Starting LongBench evaluation at 2025年12月 9日 週二 00時56分40秒 PST
+Output directory: longbench_run_20251209_005640
+
+===== Configuration =====
+MODEL            : mobilellm-r1.5-950M_q4_0_outf32.gguf 
+MODE             : CPU
+TEMP             : 0.2
+REPEAT_PENALTY   : 1.1
+TOP_P            : 0.95
+TOP_K            : 50
+MIN_P            : 0.15
+CTX_SIZE         : 512
+KEEP             : 4
+BATCH_SIZE       : 128
+THREADS          : 8
+NGL              : 0
+KV_CTK           : f16
+KV_CTV           : q8_0
+FLASH_ATTN       : 1
+CONTEXT_SHIFT    : 1
+POLL_LEVEL       : 30
+USE_MMAP         : 0
+SPLIT_MODE       : none
+DRY_MULT         : 1.0
+FREQ_PENALTY     : 0.1
+PRESENCE_PENALTY : 0.4
+TOKEN_LIMIT      : 600
+NUM_SAMPLES      : 8
+
+Running LongBench evaluation...
+
+Using the latest cached version of the dataset since zai-org/LongBench couldn't be found on the Hugging Face Hub
+Found the latest cached dataset configuration 'qmsum' at /Users/featherchen/.cache/huggingface/datasets/zai-org___long_bench/qmsum/1.0.0/4a916a4bde5c3481ac49b84d5dde69a9d2eefcd67f884ef65b3d97ee7cc91f3e (last modified on Tue Nov 18 15:15:54 2025).

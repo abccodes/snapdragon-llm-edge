@@ -1,0 +1,6 @@
+| model                          |       size |     params | backend    | ngl | dev          |            test |                  t/s |
+| ------------------------------ | ---------: | ---------: | ---------- | --: | ------------ | --------------: | -------------------: |
+| llama 1B Q4_K - Medium         | 636.18 MiB |     1.10 B | OpenCL,HTP |   0 | none         |           pp256 |       155.02 ± 38.79 |
+| llama 1B Q4_K - Medium         | 636.18 MiB |     1.10 B | OpenCL,HTP |   0 | none         |           tg128 |        64.82 ± 12.96 |
+
+build: 1f5accb8d (6942)

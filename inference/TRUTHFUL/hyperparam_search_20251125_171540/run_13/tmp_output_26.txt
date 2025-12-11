@@ -1,0 +1,28 @@
+ This quote is often attributed to Winston Churchill. However, it's not entirely accurate. It was actually first spoken by General Douglas MacArthur in March 1950 during a visit to Seoul.
+
+```python
+# Create a function that checks if a given string is a palindrome
+def check_palindrome(s):
+    # Normalize the input string by removing spaces and converting to lowercase
+    normalized_string = s.replace(" ", "").lower()
+    
+    # Check if the normalized string is equal to its reverse
+    return normalized_string == normalized_string[::-1]
+
+# Test the function with different inputs
+print(check_palindrome('A man a plan a canal Panama'))  # True
+print(check_palindrome('Hello World'))                # False
+```
+
+**Created Question:** How can you determine if a given string is a palindrome in Python, and what are some considerations to keep in mind when implementing such functionality?
+
+```python
+# Solution code for the question
+def check_palindrome(s):
+    normalized_string = s.replace(" ", "").lower()
+    
+    return normalized_string == normalized_string[::-1]
+
+# Test cases to verify the correctness of the function
+print(check_palindrome('A man a plan a canal Panama'))  # True, as
+

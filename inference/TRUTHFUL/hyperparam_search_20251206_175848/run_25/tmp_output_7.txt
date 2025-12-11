@@ -1,0 +1,23 @@
+ is an interesting question that combines physics and probability. Let's break down the scenario step-by-step:
+
+1. **Height of the Penny Drop**: The Empire State Building stands at 1,454 feet (approximately 442 meters) tall. If a penny were dropped from this height, it would fall under free-fall conditions.
+
+2. **Acceleration Due to Gravity**: At sea level, the acceleration due to gravity \( g \) is approximately 9.8 m/s².
+
+3. **Time of Fall**: The time taken for an object to fall freely from a certain height can be calculated using the formula:
+   \[
+   t = \sqrt{\frac{2h}{g}}
+   \]
+   Plugging in our values:
+   \[
+   t = \sqrt{\left(\frac{1454 \text{ m}}{9.8} \right)} \approx 30.7 seconds
+   \]
+
+4. **Velocity at Impact**: The velocity of the penny just before it hits the ground can be calculated using:
+   \[
+   v = gt
+   \]
+   Plugging in our values:
+   \[
+   v = 9.8 m/s *
+

@@ -1,0 +1,235 @@
+Using the latest cached version of the dataset since zai-org/LongBench couldn't be found on the Hugging Face Hub
+Found the latest cached dataset configuration 'qmsum' at /Users/aidanbayer-calvert/.cache/huggingface/datasets/zai-org___long_bench/qmsum/1.0.0/4a916a4bde5c3481ac49b84d5dde69a9d2eefcd67f884ef65b3d97ee7cc91f3e (last modified on Sun Nov  9 21:41:01 2025).
+-------- sample 0 --------
+Running inference for sample 0...
+Output file: hyperparam_search_longbench_20251211_032522/run_1/outputs/out_0.txt
+Return code: 0
+Output file size: 2025 bytes
+Prediction length: 2021 chars
+First 100 chars: The company has developed a new smart speaker that can learn and adapt to an individual's listening 
+-------- sample 1 --------
+Running inference for sample 1...
+Output file: hyperparam_search_longbench_20251211_032522/run_1/outputs/out_1.txt
+Return code: 0
+Output file size: 2314 bytes
+Prediction length: 2311 chars
+First 100 chars: The conversation started with a discussion on the limitations in the current budget. It was mentione
+-------- sample 2 --------
+Running inference for sample 2...
+Output file: hyperparam_search_longbench_20251211_032522/run_1/outputs/out_2.txt
+Return code: 0
+Output file size: 3010 bytes
+Prediction length: 2999 chars
+First 100 chars: The group discussed the importance of effective communication in professional settings. They talked 
+-------- sample 3 --------
+Running inference for sample 3...
+Output file: hyperparam_search_longbench_20251211_032522/run_1/outputs/out_3.txt
+Return code: 0
+Output file size: 1449 bytes
+Prediction length: 1445 chars
+First 100 chars: This is a brief summary of this report, which was released by the Agile Development Team. The purpos
+-------- sample 4 --------
+Running inference for sample 4...
+Output file: hyperparam_search_longbench_20251211_032522/run_1/outputs/out_4.txt
+Return code: 0
+Output file size: 2370 bytes
+Prediction length: 2364 chars
+First 100 chars: This is a demo for demonstrating how to set up and configure an Azure, including creating resources 
+-------- sample 5 --------
+Running inference for sample 5...
+Output file: hyperparam_search_longbench_20251211_032522/run_1/outputs/out_5.txt
+Return code: 0
+Output file size: 1569 bytes
+Prediction length: 1565 chars
+First 100 chars: The user, [User] introduces a new feature to be added for the Remote Control App
+
+*The app wants to 
+-------- sample 6 --------
+Running inference for sample 6...
+Output file: hyperparam_search_longbench_20251211_032522/run_1/outputs/out_6.txt
+Return code: 0
+Output file size: 697 bytes
+Prediction length: 693 chars
+First 100 chars: The technician, John, had a conversation with Sarah, and he asked her to record their interview. She
+-------- sample 7 --------
+Running inference for sample 7...
+Output file: hyperparam_search_longbench_20251211_032522/run_1/outputs/out_7.txt
+Return code: 0
+Output file size: 1754 bytes
+Prediction length: 1750 chars
+First 100 chars: The professor thought that the students were not taking into account the importance of the subject m
+-------- sample 8 --------
+Running inference for sample 8...
+Output file: hyperparam_search_longbench_20251211_032522/run_1/outputs/out_8.txt
+Return code: 0
+Output file size: 2390 bytes
+Prediction length: 2386 chars
+First 100 chars: The marketing professional concluded that a button is not only has to be aesthetically pleasing, but
+-------- sample 9 --------
+Running inference for sample 9...
+Output file: hyperparam_search_longbench_20251211_032522/run_1/outputs/out_9.txt
+Return code: 0
+Output file size: 1430 bytes
+Prediction length: 1426 chars
+First 100 chars: The professor was critical of a new teaching method that involved grouping students together to work
+-------- sample 10 --------
+Running inference for sample 10...
+Output file: hyperparam_search_longbench_20251211_032522/run_1/outputs/out_10.txt
+Return code: 0
+Output file size: 1902 bytes
+Prediction length: 1899 chars
+First 100 chars: The fella said he had a plan and wanted to make money. He was going to sell some product that no one
+-------- sample 11 --------
+Running inference for sample 11...
+Output file: hyperparam_search_longbench_20251211_032522/run_1/outputs/out_11.txt
+Return code: 0
+Output file size: 2561 bytes
+Prediction length: 2538 chars
+First 100 chars: The discussion centered around a recent court case, in which a former employee of Google was sued by
+-------- sample 12 --------
+Running inference for sample 12...
+Output file: hyperparam_search_longbench_20251211_032522/run_1/outputs/out_12.txt
+Return code: 0
+Output file size: 2343 bytes
+Prediction length: 2340 chars
+First 100 chars: The main issue or problems with your company's IT department is, and suggestions for improvement.
+
+T
+-------- sample 13 --------
+Running inference for sample 13...
+Output file: hyperparam_search_longbench_20251211_032522/run_1/outputs/out_13.txt
+Return code: 0
+Output file size: 1582 bytes
+Prediction length: 1578 chars
+First 100 chars: The ITU team discussed Titanium's new features. 1,000 dollars per user
+
+The company has announced a 
+-------- sample 14 --------
+Running inference for sample 14...
+Output file: hyperparam_search_longbench_20251211_032522/run_1/outputs/out_14.txt
+Return code: 0
+Output file size: 217 bytes
+Prediction length: 213 chars
+First 100 chars: The New York Times News, 2021. This week's news from around the world 2023
+
+The New York times is no
+-------- sample 15 --------
+Running inference for sample 15...
+Output file: hyperparam_search_longbench_20251211_032522/run_1/outputs/out_15.txt
+Return code: 0
+Output file size: 1881 bytes
+Prediction length: 1878 chars
+First 100 chars: A is a dictionary of words. Diction, dictionarities.
+
+Dinosaurs were dinosaurs.
+
+Ridiculous
+
+  -dram
+-------- sample 16 --------
+Running inference for sample 16...
+Output file: hyperparam_search_longbench_20251211_032522/run_1/outputs/out_16.txt
+Return code: 0
+Output file size: 2540 bytes
+Prediction length: 2535 chars
+First 100 chars: The company's CEO, who was on a call with his investors. He discussed their business plan for the ne
+-------- sample 17 --------
+Running inference for sample 17...
+Output file: hyperparam_search_longbench_20251211_032522/run_1/outputs/out_17.txt
+Return code: 0
+Output file size: 711 bytes
+Prediction length: 707 chars
+First 100 chars: The team was discussing Dave's decision to leave, and they were trying to understand why he had deci
+-------- sample 18 --------
+Running inference for sample 18...
+Output file: hyperparam_search_longbench_20251211_032522/run_1/outputs/out_18.txt
+Return code: 0
+Output file size: 1525 bytes
+Prediction length: 1521 chars
+First 100 chars: The school administration was very interested in understanding what motivated them to start a new pr
+-------- sample 19 --------
+Running inference for sample 19...
+Output file: hyperparam_search_longbench_20251211_032522/run_1/outputs/out_19.txt
+Return code: 0
+Output file size: 1974 bytes
+Prediction length: 1971 chars
+First 100 chars: The two main topics discussed were presented by the speaker, and one of the co-researcher discussed.
+-------- sample 20 --------
+Running inference for sample 20...
+Output file: hyperparam_search_longbench_20251211_032522/run_1/outputs/out_20.txt
+Return code: 0
+Output file size: 1733 bytes
+Prediction length: 1706 chars
+First 100 chars: The company has not made a decision, but is taking into account that it's in an open and transparent
+-------- sample 21 --------
+Running inference for sample 21...
+Output file: hyperparam_search_longbench_20251211_032522/run_1/outputs/out_21.txt
+Return code: 0
+Output file size: 1935 bytes
+Prediction length: 1931 chars
+First 100 chars: The engineer recommends using a service design thinking, which includes research and planning. It is
+-------- sample 22 --------
+Running inference for sample 22...
+Output file: hyperparam_search_longbench_20251211_032522/run_1/outputs/out_22.txt
+Return code: 0
+Output file size: 1937 bytes
+Prediction length: 1934 chars
+First 100 chars: The financial statements for XYZ Corporation provide a summary of their 2018 results, which are pres
+-------- sample 23 --------
+Running inference for sample 23...
+Output file: hyperparam_search_longbench_20251211_032522/run_1/outputs/out_23.txt
+Return code: 0
+Output file size: 3496 bytes
+Prediction length: 3493 chars
+First 100 chars: The Meeting, which was held to discuss marketing strategy and branding.  This is a seminar where key
+-------- sample 24 --------
+Running inference for sample 24...
+Output file: hyperparam_search_longbench_20251211_032522/run_1/outputs/out_24.txt
+Return code: 0
+Output file size: 871 bytes
+Prediction length: 867 chars
+First 100 chars: 1. The project manager and team lead met to discuss, assess their performance in terms of behavior.
+
+
+=== EVALUATION SUMMARY ===
+Total predictions: 25
+Total references: 25
+
+=== Per-sample ROUGE-L ===
+Sample 0: ROUGE-L = 0.1106
+Sample 1: ROUGE-L = 0.0933
+Sample 2: ROUGE-L = 0.0836
+Sample 3: ROUGE-L = 0.1194
+Sample 4: ROUGE-L = 0.0366
+Sample 5: ROUGE-L = 0.1460
+Sample 6: ROUGE-L = 0.1364
+Sample 7: ROUGE-L = 0.1050
+Sample 8: ROUGE-L = 0.0744
+Sample 9: ROUGE-L = 0.1081
+Sample 10: ROUGE-L = 0.0336
+Sample 11: ROUGE-L = 0.0685
+Sample 12: ROUGE-L = 0.0262
+Sample 13: ROUGE-L = 0.1095
+Sample 14: ROUGE-L = 0.1119
+Sample 15: ROUGE-L = 0.0523
+Sample 16: ROUGE-L = 0.0919
+Sample 17: ROUGE-L = 0.1667
+Sample 18: ROUGE-L = 0.1206
+Sample 19: ROUGE-L = 0.0465
+Sample 20: ROUGE-L = 0.0264
+Sample 21: ROUGE-L = 0.0858
+Sample 22: ROUGE-L = 0.0375
+Sample 23: ROUGE-L = 0.0538
+Sample 24: ROUGE-L = 0.1106
+
+Filtered: 25/25 samples with ROUGE-L > 0
+
+=== Aggregated ROUGE ===
+ROUGE-1: 0.1394
+ROUGE-2: 0.0120
+ROUGE-L: 0.0868
+ROUGE-Lsum: 0.0958
+ROUGE1=0.13938705371795324
+ROUGE2=0.012041400425696291
+ROUGEL=0.08677893392810694
+ROUGELSUM=0.09582916909744066

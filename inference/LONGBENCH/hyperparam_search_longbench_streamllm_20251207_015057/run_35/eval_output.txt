@@ -1,0 +1,460 @@
+Using the latest cached version of the dataset since zai-org/LongBench couldn't be found on the Hugging Face Hub
+Found the latest cached dataset configuration 'qmsum' at /Users/aidanbayer-calvert/.cache/huggingface/datasets/zai-org___long_bench/qmsum/1.0.0/4a916a4bde5c3481ac49b84d5dde69a9d2eefcd67f884ef65b3d97ee7cc91f3e (last modified on Sun Nov  9 21:41:01 2025).
+-------- sample 0 --------
+Running inference for sample 0...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_35/outputs/out_0.txt
+Return code: 0
+Output file size: 3049 bytes
+Prediction length: 3046 chars
+First 100 chars: The company has developed a new smart home automation system that allows users to remotely monitor a
+-------- sample 1 --------
+Running inference for sample 1...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_35/outputs/out_1.txt
+Return code: 0
+Output file size: 4474 bytes
+Prediction length: 4471 chars
+First 100 chars: The company is facing a challenge in terms of funding for its new project, and they are struggling t
+-------- sample 2 --------
+Running inference for sample 2...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_35/outputs/out_2.txt
+Return code: 0
+Output file size: 2253 bytes
+Prediction length: 2246 chars
+First 100 chars: The main issue to be discussed during this call. Key issues and action items.
+
+Action Items
+
+*   *Re
+-------- sample 3 --------
+Running inference for sample 3...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_35/outputs/out_3.txt
+Return code: 0
+Output file size: 2398 bytes
+Prediction length: 2395 chars
+First 100 chars: The report is a detailed document that provides an overview of project plan, including scope and tim
+-------- sample 4 --------
+Running inference for sample 4...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_35/outputs/out_4.txt
+Return code: 0
+Output file size: 2088 bytes
+Prediction length: 2085 chars
+First 100 chars: This is a case study of how to analyze and evaluate data. The main objective was to investigate whet
+-------- sample 5 --------
+Running inference for sample 5...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_35/outputs/out_5.txt
+Return code: 0
+Output file size: 3675 bytes
+Prediction length: 3664 chars
+First 100 chars: The user interface is a new tool that allows users to remotely access and manage devices. It's an al
+-------- sample 6 --------
+Running inference for sample 6...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_35/outputs/out_6.txt
+Return code: 0
+Output file size: 1257 bytes
+Prediction length: 1253 chars
+First 100 chars: The company's CEO, John Smith, sat down to record a video of his team meetings. He wanted to documen
+-------- sample 7 --------
+Running inference for sample 7...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_35/outputs/out_7.txt
+Return code: 0
+Output file size: 2679 bytes
+Prediction length: 2676 chars
+First 100 chars: The Professor's thoughts on a recent paper discussing climate change and its impacts.
+
+The Science o
+-------- sample 8 --------
+Running inference for sample 8...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_35/outputs/out_8.txt
+Return code: 0
+Output file size: 1842 bytes
+Prediction length: 1838 chars
+First 100 chars: The marketing manager, who was leading a workshop at an industry conference. She discussed how to im
+-------- sample 9 --------
+Running inference for sample 9...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_35/outputs/out_9.txt
+Return code: 0
+Output file size: 1043 bytes
+Prediction length: 1039 chars
+First 100 chars: The speaker thought that he had a good idea of how to use word clouds as an analytical tool for expl
+-------- sample 10 --------
+Running inference for sample 10...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_35/outputs/out_10.txt
+Return code: 0
+Output file size: 1259 bytes
+Prediction length: 1255 chars
+First 100 chars: The above statement appears to be somewhat negative. It seems that this person is unhappy with a pro
+-------- sample 11 --------
+Running inference for sample 11...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_35/outputs/out_11.txt
+Return code: 0
+Output file size: 2785 bytes
+Prediction length: 2750 chars
+First 100 chars: The team discussed and decided to implement a new system for recognizing images. They will use AI-po
+-------- sample 12 --------
+Running inference for sample 12...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_35/outputs/out_12.txt
+Return code: 0
+Output file size: 3086 bytes
+Prediction length: 3071 chars
+First 100 chars: The main issue or problems, its  causes and solutions
+
+**The diet of **. What should we do to improv
+-------- sample 13 --------
+Running inference for sample 13...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_35/outputs/out_13.txt
+Return code: 0
+Output file size: 3133 bytes
+Prediction length: 3129 chars
+First 100 chars: The company's business model is to provide a wide range of products, including hardware and software
+-------- sample 14 --------
+Running inference for sample 14...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_35/outputs/out_14.txt
+Return code: 0
+Output file size: 801 bytes
+Prediction length: 797 chars
+First 100 chars: The New York Times, a newspaper. 
+
+The Washington Post news paper
+
+Newspaper News Today Magazine 20t
+-------- sample 15 --------
+Running inference for sample 15...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_35/outputs/out_15.txt
+Return code: 0
+Output file size: 1280 bytes
+Prediction length: 1253 chars
+First 100 chars: The speaker thinks that he is not sure what to make of a recent report on climate change, but seems 
+-------- sample 16 --------
+Running inference for sample 16...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_35/outputs/out_16.txt
+Return code: 0
+Output file size: 2435 bytes
+Prediction length: 2408 chars
+First 100 chars: The conversation started with a discussion on TV shows.  A, they discussed what makes for good T.V.
+
+-------- sample 17 --------
+Running inference for sample 17...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_35/outputs/out_17.txt
+Return code: 0
+Output file size: 2771 bytes
+Prediction length: 2768 chars
+First 100 chars: The team members were discussing David's decision to leave, but they didn't agree on what happened. 
+-------- sample 18 --------
+Running inference for sample 18...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_35/outputs/out_18.txt
+Return code: 0
+Output file size: 734 bytes
+Prediction length: 730 chars
+First 100 chars: The school administration's approach to handling a new student population. 2019-2023
+
+The New York T
+-------- sample 19 --------
+Running inference for sample 19...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_35/outputs/out_19.txt
+Return code: 0
+Output file size: 2891 bytes
+Prediction length: 2888 chars
+First 100 chars: "The company is a private equity firm that invests in startups. The CEO of this investment group, [C
+-------- sample 20 --------
+Running inference for sample 20...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_35/outputs/out_20.txt
+Return code: 0
+Output file size: 1553 bytes
+Prediction length: 1548 chars
+First 100 chars: The New York Times, a newspaper
+
+Newspaper - Wikipedia. Retrieved 2018-20. C.
+
+The Washington Post N
+-------- sample 21 --------
+Running inference for sample 21...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_35/outputs/out_21.txt
+Return code: 0
+Output file size: 2574 bytes
+Prediction length: 2571 chars
+First 100 chars: The company's design team recommended a new logo and branding strategy, including rebranding of exis
+-------- sample 22 --------
+Running inference for sample 22...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_35/outputs/out_22.txt
+Return code: 0
+Output file size: 2141 bytes
+Prediction length: 2138 chars
+First 100 chars: The conversation between two business partners discussed a potential new product, which is an e-comm
+-------- sample 23 --------
+Running inference for sample 23...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_35/outputs/out_23.txt
+Return code: 0
+Output file size: 1735 bytes
+Prediction length: 1730 chars
+First 100 chars: The 2.0
+
+*   *The marketing and product development*
+
+Key Performance Indicators (KPIs) for Success 
+-------- sample 24 --------
+Running inference for sample 24...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_35/outputs/out_24.txt
+Return code: 0
+Output file size: 2038 bytes
+Prediction length: 2017 chars
+First 100 chars: The project manager agreed that marketing team was performing well. However, he felt there were some
+-------- sample 25 --------
+Running inference for sample 25...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_35/outputs/out_25.txt
+Return code: 0
+Output file size: 2634 bytes
+Prediction length: 2631 chars
+First 100 chars: The company is a success story. 2018
+
+The final answer is not applicable, as this question one does 
+-------- sample 26 --------
+Running inference for sample 26...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_35/outputs/out_26.txt
+Return code: 0
+Output file size: 3957 bytes
+Prediction length: 3954 chars
+First 100 chars: The marketing team discussed and analyzed data from a recent study on consumer behavior. They found 
+-------- sample 27 --------
+Running inference for sample 27...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_35/outputs/out_27.txt
+Return code: 0
+Output file size: 1311 bytes
+Prediction length: 1308 chars
+First 100 chars: The final answer is $\boxed\ 2}$.-ized. In this problem, we have a \# of #4msn and it's R1|3D+ List 
+-------- sample 28 --------
+Running inference for sample 28...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_35/outputs/out_28.txt
+Return code: 0
+Output file size: 1861 bytes
+Prediction length: 1857 chars
+First 100 chars: The company is a no longer than it was. 2/3 of this year's revenue comes from e-commerce sales, up f
+-------- sample 29 --------
+Running inference for sample 29...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_35/outputs/out_29.txt
+Return code: 0
+Output file size: 1762 bytes
+Prediction length: 1741 chars
+First 100 chars: The final answer is $\boxed{.}$
+
+The final answer as $eta$
+
+
+## Step 1:
+$\mathrm { = (A} \, _{\math
+-------- sample 30 --------
+Running inference for sample 30...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_35/outputs/out_30.txt
+Return code: 0
+Output file size: 1404 bytes
+Prediction length: 1400 chars
+First 100 chars: The team discussed and brainstormed several key ideas for a new product or service. These included d
+-------- sample 31 --------
+Running inference for sample 31...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_35/outputs/out_31.txt
+Return code: 0
+Output file size: 2045 bytes
+Prediction length: 2035 chars
+First 100 chars: The company's business model is based on a subscription-based pricing, with tiered plans and additio
+-------- sample 32 --------
+Running inference for sample 32...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_35/outputs/out_32.txt
+Return code: 0
+Output file size: 1746 bytes
+Prediction length: 1742 chars
+First 100 chars: The National Health Service (NHS) is a national health service that provides medical care and treatm
+-------- sample 33 --------
+Running inference for sample 33...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_35/outputs/out_33.txt
+Return code: 0
+Output file size: 2453 bytes
+Prediction length: 2449 chars
+First 100 chars: The 2020 pandemic, which led to a global crisis. Mental Health and Behavioral
+
+The COVID-19 Pandemic
+-------- sample 34 --------
+Running inference for sample 34...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_35/outputs/out_34.txt
+Return code: 0
+Output file size: 568 bytes
+Prediction length: 564 chars
+First 100 chars: The New Zealand's early childhood education system is a national program. It was initiated by Prime 
+-------- sample 35 --------
+Running inference for sample 35...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_35/outputs/out_35.txt
+Return code: 0
+Output file size: 3636 bytes
+Prediction length: 3633 chars
+First 100 chars: The company's IT department was talking to a software engineer, and they discussed some ideas for im
+-------- sample 36 --------
+Running inference for sample 36...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_35/outputs/out_36.txt
+Return code: 0
+Output file size: 2798 bytes
+Prediction length: 2795 chars
+First 100 chars: The team discussed and agreed upon a list of 15 items, which included some key points such as defini
+-------- sample 37 --------
+Running inference for sample 37...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_35/outputs/out_37.txt
+Return code: 0
+Output file size: 1884 bytes
+Prediction length: 1881 chars
+First 100 chars: The New York Times, USA Today and other news sources report that a new study on climate change has f
+-------- sample 38 --------
+Running inference for sample 38...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_35/outputs/out_38.txt
+Return code: 0
+Output file size: 4359 bytes
+Prediction length: 4355 chars
+First 100 chars: The proposed design for a new mobile app is to be developed by an external development company. This
+-------- sample 39 --------
+Running inference for sample 39...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_35/outputs/out_39.txt
+Return code: 0
+Output file size: 3391 bytes
+Prediction length: 3299 chars
+First 100 chars: The New Zealand's Labour Party leader Jacinda Ardern, who is currently Prime Minister and Deputy Lea
+-------- sample 40 --------
+Running inference for sample 40...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_35/outputs/out_40.txt
+Return code: 0
+Output file size: 3121 bytes
+Prediction length: 3096 chars
+First 100 chars: The team discussed and decided that they would focus on creating a user interface for their new app.
+-------- sample 41 --------
+Running inference for sample 41...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_35/outputs/out_41.txt
+Return code: 0
+Output file size: 2436 bytes
+Prediction length: 2369 chars
+First 100 chars: The report provides an overview of a study on climate change, discussing its impacts and effects. It
+-------- sample 42 --------
+Running inference for sample 42...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_35/outputs/out_42.txt
+Return code: 0
+Output file size: 2363 bytes
+Prediction length: 2360 chars
+First 100 chars: The report is a study on how to create an effective virtual assistant for mobile devices. It provide
+-------- sample 43 --------
+Running inference for sample 43...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_35/outputs/out_43.txt
+Return code: 0
+Output file size: 2517 bytes
+Prediction length: 2514 chars
+First 100 chars: The company is a success story. 2018
+
+The final answer is not applicable, as this report's subject m
+-------- sample 44 --------
+Running inference for sample 44...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_35/outputs/out_44.txt
+Return code: 0
+Output file size: 1800 bytes
+Prediction length: 1796 chars
+First 100 chars: The company has not yet finalized a specific plan for its new product, but is exploring and testing 
+-------- sample 45 --------
+Running inference for sample 45...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_35/outputs/out_45.txt
+Return code: 0
+Output file size: 1644 bytes
+Prediction length: 1640 chars
+First 100 chars: The best man was mischievous, but honest. He said that he had a secret crush on his girlfriend's sis
+-------- sample 46 --------
+Running inference for sample 46...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_35/outputs/out_46.txt
+Return code: 0
+Output file size: 1605 bytes
+Prediction length: 1602 chars
+First 100 chars: The final answer is $\boxed{.}$
+
+## Step 1
+The final answer is \textdecently }_A\ nacrossing summary
+-------- sample 47 --------
+Running inference for sample 47...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_35/outputs/out_47.txt
+Return code: 0
+Output file size: 2392 bytes
+Prediction length: 2379 chars
+First 100 chars: The team discussed and brainstormed about what makes a person's "disposable" money, which means that
+-------- sample 48 --------
+Running inference for sample 48...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_35/outputs/out_48.txt
+Return code: 0
+Output file size: 2331 bytes
+Prediction length: 2328 chars
+First 100 chars: The final answer to this problem. Solution
+
+The solution for any competition.
+
+## Step 1
+Step 2-5.
+6
+-------- sample 49 --------
+Running inference for sample 49...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_35/outputs/out_49.txt
+Return code: 0
+Output file size: 3025 bytes
+Prediction length: 3022 chars
+First 100 chars: The conversation between two business leaders discussed how to market a new product. They realized t
+\n=== EVALUATION SUMMARY ===
+Total predictions: 50
+Total references: 50
+\n=== Per-sample ROUGE-L ===
+Sample 0: ROUGE-L = 0.0956
+Sample 1: ROUGE-L = 0.0712
+Sample 2: ROUGE-L = 0.0449
+Sample 3: ROUGE-L = 0.0862
+Sample 4: ROUGE-L = 0.0670
+Sample 5: ROUGE-L = 0.0821
+Sample 6: ROUGE-L = 0.1044
+Sample 7: ROUGE-L = 0.0350
+Sample 8: ROUGE-L = 0.0719
+Sample 9: ROUGE-L = 0.1275
+Sample 10: ROUGE-L = 0.0803
+Sample 11: ROUGE-L = 0.0947
+Sample 12: ROUGE-L = 0.0350
+Sample 13: ROUGE-L = 0.0813
+Sample 14: ROUGE-L = 0.0724
+Sample 15: ROUGE-L = 0.0916
+Sample 16: ROUGE-L = 0.0917
+Sample 17: ROUGE-L = 0.0533
+Sample 18: ROUGE-L = 0.0854
+Sample 19: ROUGE-L = 0.0608
+Sample 20: ROUGE-L = 0.0417
+Sample 21: ROUGE-L = 0.0642
+Sample 22: ROUGE-L = 0.0789
+Sample 23: ROUGE-L = 0.0623
+Sample 24: ROUGE-L = 0.0570
+Sample 25: ROUGE-L = 0.0458
+Sample 26: ROUGE-L = 0.0597
+Sample 27: ROUGE-L = 0.0870
+Sample 28: ROUGE-L = 0.0776
+Sample 29: ROUGE-L = 0.0408
+Sample 30: ROUGE-L = 0.0996
+Sample 31: ROUGE-L = 0.0638
+Sample 32: ROUGE-L = 0.0935
+Sample 33: ROUGE-L = 0.0836
+Sample 34: ROUGE-L = 0.1507
+Sample 35: ROUGE-L = 0.0922
+Sample 36: ROUGE-L = 0.0417
+Sample 37: ROUGE-L = 0.0829
+Sample 38: ROUGE-L = 0.0356
+Sample 39: ROUGE-L = 0.0338
+Sample 40: ROUGE-L = 0.0865
+Sample 41: ROUGE-L = 0.0725
+Sample 42: ROUGE-L = 0.0577
+Sample 43: ROUGE-L = 0.0241
+Sample 44: ROUGE-L = 0.1019
+Sample 45: ROUGE-L = 0.0747
+Sample 46: ROUGE-L = 0.1222
+Sample 47: ROUGE-L = 0.0389
+Sample 48: ROUGE-L = 0.0223
+Sample 49: ROUGE-L = 0.0565
+\nFiltered: 50/50 samples with ROUGE-L > 0
+\n=== Aggregated ROUGE ===
+ROUGE-1: 0.1086
+ROUGE-2: 0.0061
+ROUGE-L: 0.0714
+ROUGE-Lsum: 0.0764
+ROUGE1=0.1086022971330005
+ROUGE2=0.006117497187643168
+ROUGEL=0.07137442590418186
+ROUGELSUM=0.0763864074605349

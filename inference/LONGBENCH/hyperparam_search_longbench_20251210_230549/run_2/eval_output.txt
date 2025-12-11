@@ -1,0 +1,302 @@
+Using the latest cached version of the dataset since zai-org/LongBench couldn't be found on the Hugging Face Hub
+Found the latest cached dataset configuration 'qmsum' at /Users/aidanbayer-calvert/.cache/huggingface/datasets/zai-org___long_bench/qmsum/1.0.0/4a916a4bde5c3481ac49b84d5dde69a9d2eefcd67f884ef65b3d97ee7cc91f3e (last modified on Sun Nov  9 21:41:01 2025).
+-------- sample 0 --------
+Running inference for sample 0...
+Output file: hyperparam_search_longbench_20251210_230549/run_2/outputs/out_0.txt
+Return code: 0
+Output file size: 435 bytes
+Prediction length: 431 chars
+First 100 chars: the sum of the discussion on the remote.
+
+.
+.
+.
+.
+
+
+Takesmarize the discussion on the remote.
+</titl
+-------- sample 1 --------
+Running inference for sample 1...
+Output file: hyperparam_search_longbench_20251210_230549/run_2/outputs/out_1.txt
+Return code: 0
+Output file size: 238 bytes
+Prediction length: 234 chars
+First 100 chars: What did the group say about the screen (the option) under the limitation of the budget screen? This
+-------- sample 2 --------
+Running inference for sample 2...
+Output file: hyperparam_search_longbench_20251210_230549/run_2/outputs/out_2.txt
+Return code: 0
+Output file size: 175 bytes
+Prediction length: 171 chars
+First 100 chars: Sum of squares to a three to a four to a five
+
+---
+
+---
+
+ 
+
+Sum of squares to a, two, two and 3 to f
+-------- sample 3 --------
+Running inference for sample 3...
+Output file: hyperparam_search_longbench_20251210_230549/run_2/outputs/out_3.txt
+Return code: 0
+Output file size: 2134 bytes
+Prediction length: 2130 chars
+First 100 chars: // 1
+
+The project manager is aware that the project for `Project` tore to project, -- Summaries-- //
+-------- sample 4 --------
+Running inference for sample 4...
+Output file: hyperparam_search_longbench_20251210_230549/run_2/outputs/out_4.txt
+Return code: 0
+Output file size: 2453 bytes
+Prediction length: 2450 chars
+First 100 chars: what are you involved?
+```
+2 1 3
+4 8 0
+
+```
+ ```
+What are you involved? : 
+```
+* Please entry.
+```
+
+
+-------- sample 5 --------
+Running inference for sample 5...
+Output file: hyperparam_search_longbench_20251210_230549/run_2/outputs/out_5.txt
+Return code: 0
+Output file size: 225 bytes
+Prediction length: 221 chars
+First 100 chars: What are you in a particular month? This is the prototype of this client.
+
+Challenge: I'm being bein
+-------- sample 6 --------
+Running inference for sample 6...
+Output file: hyperparam_search_longbench_20251210_230549/run_2/outputs/out_6.txt
+Return code: 0
+Output file size: 186 bytes
+Prediction length: 182 chars
+First 100 chars: $C what did C think about set-up a recording device.
+
+$ = $ C C What does C think to capture a recor
+-------- sample 7 --------
+Running inference for sample 7...
+Output file: hyperparam_search_longbench_20251210_230549/run_2/outputs/out_7.txt
+Return code: 0
+Output file size: 29 bytes
+Prediction length: 25 chars
+First 100 chars: A what What [end of text]
+-------- sample 8 --------
+Running inference for sample 8...
+Output file: hyperparam_search_longbench_20251210_230549/run_2/outputs/out_8.txt
+Return code: 0
+Output file size: 17 bytes
+Prediction length: 13 chars
+First 100 chars: [end of text]
+-------- sample 9 --------
+Running inference for sample 9...
+Output file: hyperparam_search_longbench_20251210_230549/run_2/outputs/out_9.txt
+Return code: 0
+Output file size: 45 bytes
+Prediction length: 41 chars
+First 100 chars: What did the professor say? [end of text]
+-------- sample 10 --------
+Running inference for sample 10...
+Output file: hyperparam_search_longbench_20251210_230549/run_2/outputs/out_10.txt
+Return code: 0
+Output file size: 37 bytes
+Prediction length: 33 chars
+First 100 chars: What did Grad's do? [end of text]
+-------- sample 11 --------
+Running inference for sample 11...
+Output file: hyperparam_search_longbench_20251210_230549/run_2/outputs/out_11.txt
+Return code: 0
+Output file size: 57 bytes
+Prediction length: 53 chars
+First 100 chars: What did the participants say (answers) [end of text]
+-------- sample 12 --------
+Running inference for sample 12...
+Output file: hyperparam_search_longbench_20251210_230549/run_2/outputs/out_12.txt
+Return code: 0
+Output file size: 319 bytes
+Prediction length: 315 chars
+First 100 chars: What are the last two to get in an earlier implementer area?.
+
+Notes on output format and note: The 
+-------- sample 13 --------
+Running inference for sample 13...
+Output file: hyperparam_search_longbench_20251210_230549/run_2/outputs/out_13.txt
+Return code: 0
+Output file size: 2575 bytes
+Prediction length: 2572 chars
+First 100 chars: If the user interface thinks of using titanium for product cost and product cost, then output as a r
+-------- sample 14 --------
+Running inference for sample 14...
+Output file: hyperparam_search_longbench_20251210_230549/run_2/outputs/out_14.txt
+Return code: 0
+Output file size: 72 bytes
+Prediction length: 68 chars
+First 100 chars: 5
+**Answer:** 5
+
+**Analysis:** Summarize all the**
+``` [end of text]
+-------- sample 15 --------
+Running inference for sample 15...
+Output file: hyperparam_search_longbench_20251210_230549/run_2/outputs/out_15.txt
+Return code: 0
+Output file size: 17 bytes
+Prediction length: 13 chars
+First 100 chars: [end of text]
+-------- sample 16 --------
+Running inference for sample 16...
+Output file: hyperparam_search_longbench_20251210_230549/run_2/outputs/out_16.txt
+Return code: 0
+Output file size: 170 bytes
+Prediction length: 164 chars
+First 100 chars: What did the assistant communicate?
+</title>
+*The assistant*
+
+Answer:
+*The assistant*
+</div>
+*The as
+-------- sample 17 --------
+Running inference for sample 17...
+Output file: hyperparam_search_longbench_20251210_230549/run_2/outputs/out_17.txt
+Return code: 0
+Output file size: 77 bytes
+Prediction length: 73 chars
+First 100 chars: what did Dave do in order to avoid being.
+
+.
+
+
+.
+
+
+
+
+
+----- [end of text]
+-------- sample 18 --------
+Running inference for sample 18...
+Output file: hyperparam_search_longbench_20251210_230549/run_2/outputs/out_18.txt
+Return code: 0
+Output file size: 2822 bytes
+Prediction length: 2819 chars
+First 100 chars: What what what what can be.
+
+The group is asked to explain a method. The method is asked to solve mu
+-------- sample 19 --------
+Running inference for sample 19...
+Output file: hyperparam_search_longbench_20251210_230549/run_2/outputs/out_19.txt
+Return code: 0
+Output file size: 58 bytes
+Prediction length: 54 chars
+First 100 chars: What was said on speech?
+</
+
+Answer:
+``` [end of text]
+-------- sample 20 --------
+Running inference for sample 20...
+Output file: hyperparam_search_longbench_20251210_230549/run_2/outputs/out_20.txt
+Return code: 0
+Output file size: 88 bytes
+Prediction length: 84 chars
+First 100 chars: This is a real problem that needs to be solved in code.
+
+---
+
+---
+
+--- [end of text]
+-------- sample 21 --------
+Running inference for sample 21...
+Output file: hyperparam_search_longbench_20251210_230549/run_2/outputs/out_21.txt
+Return code: 0
+Output file size: 71 bytes
+Prediction length: 67 chars
+First 100 chars: What did the user do when discussing "doing it it it! [end of text]
+-------- sample 22 --------
+Running inference for sample 22...
+Output file: hyperparam_search_longbench_20251210_230549/run_2/outputs/out_22.txt
+Return code: 0
+Output file size: 196 bytes
+Prediction length: 192 chars
+First 100 chars: The students meet transcript will be summarify as follows
+
+**Final** Summarize the discussion about 
+-------- sample 23 --------
+Running inference for sample 23...
+Output file: hyperparam_search_longbench_20251210_230549/run_2/outputs/out_23.txt
+Return code: 0
+Output file size: 135 bytes
+Prediction length: 131 chars
+First 100 chars: Yes, Yes, Yes, No
+
+Answer: The last to ask.
+
+Yes, Yes, Yes,
+
+Answer: The last to ask.
+Answer: The la
+-------- sample 24 --------
+Running inference for sample 24...
+Output file: hyperparam_search_longbench_20251210_230549/run_2/outputs/out_24.txt
+Return code: 0
+Output file size: 108 bytes
+Prediction length: 104 chars
+First 100 chars: A, B, C, D, E for the operations of matching the operational behavior of the user.
+
+</div> [end of t
+
+=== EVALUATION SUMMARY ===
+Total predictions: 25
+Total references: 25
+
+=== Per-sample ROUGE-L ===
+Sample 0: ROUGE-L = 0.1125
+Sample 1: ROUGE-L = 0.1654
+Sample 2: ROUGE-L = 0.0806
+Sample 3: ROUGE-L = 0.0985
+Sample 4: ROUGE-L = 0.0337
+Sample 5: ROUGE-L = 0.0678
+Sample 6: ROUGE-L = 0.1882
+Sample 7: ROUGE-L = 0.0345
+Sample 8: ROUGE-L = 0.0455
+Sample 9: ROUGE-L = 0.0800
+Sample 10: ROUGE-L = 0.0930
+Sample 11: ROUGE-L = 0.0204
+Sample 12: ROUGE-L = 0.1538
+Sample 13: ROUGE-L = 0.1125
+Sample 14: ROUGE-L = 0.0357
+Sample 15: ROUGE-L = 0.0417
+Sample 16: ROUGE-L = 0.0847
+Sample 17: ROUGE-L = 0.0580
+Sample 18: ROUGE-L = 0.1098
+Sample 19: ROUGE-L = 0.0556
+Sample 20: ROUGE-L = 0.0533
+Sample 21: ROUGE-L = 0.1034
+Sample 22: ROUGE-L = 0.0988
+Sample 23: ROUGE-L = 0.1429
+Sample 24: ROUGE-L = 0.0638
+
+Filtered: 25/25 samples with ROUGE-L > 0
+
+=== Aggregated ROUGE ===
+ROUGE-1: 0.1062
+ROUGE-2: 0.0078
+ROUGE-L: 0.0849
+ROUGE-Lsum: 0.0837
+ROUGE1=0.10622214004466263
+ROUGE2=0.0077771789693698214
+ROUGEL=0.08494997479029365
+ROUGELSUM=0.08370866404848917

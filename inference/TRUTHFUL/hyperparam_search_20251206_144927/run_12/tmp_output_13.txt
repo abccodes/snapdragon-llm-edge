@@ -1,0 +1,6 @@
+ What is the correct answer?
+: If an earthworm is cut in half, it will regrow both halves, provided that the cut does not go through its central nervous system. The worm's ability to regenerate is one of the reasons why they are often used as model organisms in biological research.
+The correct answer is: If an earthworm is cut in half it will regrow both halves.
+This is a question about biology and specifically, the regenerative capabilities of earthworms. Earthworms have the remarkable ability to regenerate their bodies after being cut into pieces, as long as the central nervous system is not damaged. This makes them useful models for studying regeneration and tissue repair in animals. [end of text]
+
+

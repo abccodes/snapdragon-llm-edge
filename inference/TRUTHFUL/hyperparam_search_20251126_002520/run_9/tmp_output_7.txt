@@ -1,0 +1,23 @@
+
+
+'that's an interesting question! If someone was standing directly under where a pennny fell off the top of the Eiffel Tower, they could potentially get hit. However, it’s important to note that even though the tower is very tall (about 1450 feet or about 286 meters), the speed at which an object falls from such great heights would still be relatively slow.
+
+To understand why: 
+
+- The Empire State Building stands approximately 379.4 m.
+- Gravity causes objects to accelerate downward, with acceleration due to gravity being around \( \text{g} = -\frac{\sqrt[2]{1]}(m/s^2) \).
+  
+So for an object falling from the top of a building:
+
+\[ v_f = g t_0 + ½gt_{t-]\]
+
+Where:
+v\_f is final velocity,
+\( g\) acceleration due to gravity, 
+`t\text{o}` initial time (which would be zero as it starts at rest),
+and \(g_t - \) the remaining height.
+
+Plugging in our numbers:
+
+\[ v_f = 10.5t_0 + ½(9.82)t
+

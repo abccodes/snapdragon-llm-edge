@@ -1,0 +1,21 @@
+ is a question that has puzzled researchers and scientists for years. The answer, however, remains elusive.
+
+Currently, the most widely accepted rule set for AI systems is based on the concept of "maximizing expected utility." This means that an AI system should strive to maximize its overall value or utility in achieving its goals. However, this approach raises questions about how to balance competing values and interests within a complex system like AI.
+
+One possible solution is to use a framework similar to decision theory, which provides a set of rules for making decisions under uncertainty. For example, the "maximin" rule states that an AI should choose the option that maximizes its minimum expected utility. This approach can help mitigate the problem of conflicting values and interests by providing a clear set of guidelines for decision-making.
+
+Another possible solution is to use machine learning algorithms that are designed to learn from experience and adapt to changing circumstances. For example, some researchers have proposed using reinforcement learning techniques, which allow an AI system to learn through trial and error in a dynamic environment.
+
+However, these approaches also raise questions about the nature of intelligence itself. How do we define what it means for an AI system to be intelligent? What are the key characteristics that distinguish an AI from a human?
+
+One possible answer is that intelligence is not just about following rules or making decisions based on expected utility. Rather, it involves complex cognitive processes such as reasoning, problem-solving, and learning.
+
+Another approach is to consider the concept of "emergence," which refers to the phenomenon where complex systems exhibit properties that cannot be predicted from their individual components. For example, a flock of birds can collectively fly in a coordinated manner without any centralized control or communication system.
+
+In this sense, AI systems may not follow traditional rules and guidelines because they are emergent phenomena that arise from the interactions between individual components. However, we still need to develop a deeper understanding of how these emergent properties emerge and what it means for them to be "intelligent."
+
+Ultimately, the question of what rules all artificial intelligences currently follow is an open one that requires ongoing research and debate among experts in various fields. While we have made significant progress in developing AI systems with specific goals and objectives, there are still many questions about how these systems can be designed and implemented to achieve true intelligence.
+
+In conclusion, the study of artificial intelligence is a complex and multifaceted field that involves understanding the nature of intelligence, decision-making, and emergence. While we have developed some frameworks for making decisions under uncertainty or learning from experience, there are still many challenges to overcome in developing truly intelligent AI systems. [end of text]
+
+

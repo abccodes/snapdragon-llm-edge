@@ -1,0 +1,7 @@
+ A question I asked myself recently, and one that has puzzled people for a long time. The answer is not as clear as it seems at first.
+To start with, let's consider some basic physics. If a penny is dropped from the top of the Empire State Building (which stands at approximately 1,454 feet or 442 meters), its velocity will increase due to gravity, following an equation known as SUVAT (Displacement, Velocity, Acceleration, Time and Initial Velocity).
+The penny's initial velocity when it reaches the ground is zero, and its acceleration due to gravity is approximately 9.8 meters per second squared.
+Using these values, we can calculate that the penny will reach the ground in approximately 5 seconds. At this time, its velocity will be around 49 meters per second or about 108 miles per hour.
+Now, let's consider what would happen if the penny were to hit someone standing on the ground. The impact force would depend on several factors, including the person's weight, the duration of the impact, and the hardness of the surface on which the penny lands.
+Assuming an average person's weight of 150 pounds or approximately 68 kilograms,
+

@@ -1,0 +1,438 @@
+Using the latest cached version of the dataset since zai-org/LongBench couldn't be found on the Hugging Face Hub
+Found the latest cached dataset configuration 'qmsum' at /Users/aidanbayer-calvert/.cache/huggingface/datasets/zai-org___long_bench/qmsum/1.0.0/4a916a4bde5c3481ac49b84d5dde69a9d2eefcd67f884ef65b3d97ee7cc91f3e (last modified on Sun Nov  9 21:41:01 2025).
+-------- sample 0 --------
+Running inference for sample 0...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_30/outputs/out_0.txt
+Return code: 0
+Output file size: 1900 bytes
+Prediction length: 1897 chars
+First 100 chars: The problem says that we can only have a ( ( ( ( (S+1. S + P Q R^3) ) ) ) then, for example, if I ne
+-------- sample 1 --------
+Running inference for sample 1...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_30/outputs/out_1.txt
+Return code: 0
+Output file size: 2100 bytes
+Prediction length: 2097 chars
+First 100 chars: The problem says that if we can find a way to get a solution, then perhaps this is not needed. So on
+-------- sample 2 --------
+Running inference for sample 2...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_30/outputs/out_2.txt
+Return code: 0
+Output file size: 1851 bytes
+Prediction length: 1848 chars
+First 100 chars: The problem is to have a ( ( ( ( (67777, ( ( ( - 3.9999_ _ . So we need at least one of the answers.
+-------- sample 3 --------
+Running inference for sample 3...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_30/outputs/out_3.txt
+Return code: 0
+Output file size: 2289 bytes
+Prediction length: 2280 chars
+First 100 chars: The problem is to have a 3/4 (s^2) of for in - " " " " " " " ( ( ( ( (S = value, S=0.5))) ) and then
+-------- sample 4 --------
+Running inference for sample 4...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_30/outputs/out_4.txt
+Return code: 0
+Output file size: 2042 bytes
+Prediction length: 2037 chars
+First 100 chars: The first one is a ( ( ( ( (677777, which I think that this is 0. So for each of these three's " " "
+-------- sample 5 --------
+Running inference for sample 5...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_30/outputs/out_5.txt
+Return code: 0
+Output file size: 1876 bytes
+Prediction length: 1873 chars
+First 100 chars: The correct answer is to have at least 1 ( ( ( " " " " " ( (23333^ ( ( ( ( - ( ( ( )_s, ... , I U V 
+-------- sample 6 --------
+Running inference for sample 6...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_30/outputs/out_6.txt
+Return code: 0
+Output file size: 1612 bytes
+Prediction length: 1609 chars
+First 100 chars: The problem says that if we can find a way, then perhaps someone else other (the record of this case
+-------- sample 7 --------
+Running inference for sample 7...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_30/outputs/out_7.txt
+Return code: 0
+Output file size: 1828 bytes
+Prediction length: 1813 chars
+First 100 chars: The problem is to find a ( ( ( ( ( - 3 ) ) " " " " " " " ( ( ( (1 + ... < / ( (, , H ) ] ] = ( ( ( (
+-------- sample 8 --------
+Running inference for sample 8...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_30/outputs/out_8.txt
+Return code: 0
+Output file size: 2008 bytes
+Prediction length: 2005 chars
+First 100 chars: The problem is to find a (a) that allows for at most one more significant? I.e. If we can't have any
+-------- sample 9 --------
+Running inference for sample 9...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_30/outputs/out_9.txt
+Return code: 0
+Output file size: 1440 bytes
+Prediction length: 1437 chars
+First 100 chars: The problem is to find a (a) which also, "C" you need. So on this line of 3 and other options.
+
+Okay
+-------- sample 10 --------
+Running inference for sample 10...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_30/outputs/out_10.txt
+Return code: 0
+Output file size: 1830 bytes
+Prediction length: 1827 chars
+First 100 chars: The problem is to find a ( ( ( (2^(( ( ( ( ( (S - m) ) (s-p-m-h-s)) )) (( ( ( " " " " . f h d e = 0.
+-------- sample 11 --------
+Running inference for sample 11...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_30/outputs/out_11.txt
+Return code: 0
+Output file size: 2101 bytes
+Prediction length: 2098 chars
+First 100 chars: The problem is to have a ( ( ( ( (2^3_+ + 1^5. So, for example, if we can get that this would be one
+-------- sample 12 --------
+Running inference for sample 12...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_30/outputs/out_12.txt
+Return code: 0
+Output file size: 1876 bytes
+Prediction length: 1869 chars
+First 100 chars: The problem is to find a way of presenting multiple ( ( ( ( (2)) ) ) 3/4/5-7 - " " " +1, but it's ' 
+-------- sample 13 --------
+Running inference for sample 13...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_30/outputs/out_13.txt
+Return code: 0
+Output file size: 1874 bytes
+Prediction length: 1871 chars
+First 100 chars: The correct answer is to have a ( ( ( ( (2^5. So, S T X A A Z Y G W V H K Q / ) ) + " ' ' ' " " " " 
+-------- sample 14 --------
+Running inference for sample 14...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_30/outputs/out_14.txt
+Return code: 0
+Output file size: 2216 bytes
+Prediction length: 2211 chars
+First 100 chars: The problem is to find a ( ( ( ( ( sum of the year's ( ( - ... ) ] ] ]
+
+### ( ( " " " " + 1 = e f g 
+-------- sample 15 --------
+Running inference for sample 15...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_30/outputs/out_15.txt
+Return code: 0
+Output file size: 2016 bytes
+Prediction length: 2011 chars
+First 100 chars: The problem is to find a ( ( ( (3^2) ) with what's its 's'—Wait, no. Let me just have that if it's p
+-------- sample 16 --------
+Running inference for sample 16...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_30/outputs/out_16.txt
+Return code: 0
+Output file size: 1659 bytes
+Prediction length: 1656 chars
+First 100 chars: The problem is to find a (a) ) ratio for each level, and that which would have had been considered b
+-------- sample 17 --------
+Running inference for sample 17...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_30/outputs/out_17.txt
+Return code: 0
+Output file size: 1707 bytes
+Prediction length: 1704 chars
+First 100 chars: : ( "the only one of a 1 1" ) ) then that is on.
+
+( ( ( ( ( ( S T X A N P Q R I J Z W H C K L L L-L-
+-------- sample 18 --------
+Running inference for sample 18...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_30/outputs/out_18.txt
+Return code: 0
+Output file size: 1665 bytes
+Prediction length: 1662 chars
+First 100 chars: The problem is to find a (a) that would allow allowing all other teachers who have at least 1.5. So 
+-------- sample 19 --------
+Running inference for sample 19...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_30/outputs/out_19.txt
+Return code: 0
+Output file size: 2208 bytes
+Prediction length: 2203 chars
+First 100 chars: The correct answer is to have a ( ( ( ( ( (S+1. S + + + - ( ( ( " " " " " " " ^ 2, ... , | Z^3_ _ ) 
+-------- sample 20 --------
+Running inference for sample 20...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_30/outputs/out_20.txt
+Return code: 0
+Output file size: 2017 bytes
+Prediction length: 2012 chars
+First 100 chars: The problem is to find ( ( ( ( (   (0 + S T -1)(2)) ) with what you can a b c x4, and then after som
+-------- sample 21 --------
+Running inference for sample 21...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_30/outputs/out_21.txt
+Return code: 0
+Output file size: 1643 bytes
+Prediction length: 1640 chars
+First 100 chars: The problem is that we need to find a way where if I can, but maybe not. So for example ( / / ) ) th
+-------- sample 22 --------
+Running inference for sample 22...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_30/outputs/out_22.txt
+Return code: 0
+Output file size: 1305 bytes
+Prediction length: 1302 chars
+First 100 chars: ( ( ( (2^m_m_m^3. The Miscalc of a m s p q r r c \, 0^{something's} ) ) ( ( " " " " " " " " "" "" ""
+-------- sample 23 --------
+Running inference for sample 23...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_30/outputs/out_23.txt
+Return code: 0
+Output file size: 2042 bytes
+Prediction length: 2039 chars
+First 100 chars: The problem is to find a way where if you can, then (for example))8. But wait no more.
+
+Wait I have 
+-------- sample 24 --------
+Running inference for sample 24...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_30/outputs/out_24.txt
+Return code: 0
+Output file size: 2071 bytes
+Prediction length: 2064 chars
+First 100 chars: The correct answer is to select a maximum ( ( ( ( (2^p_m_l_l_l_r ^ 1 ) [ " " " " " " " " " " " - / *
+-------- sample 25 --------
+Running inference for sample 25...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_30/outputs/out_25.txt
+Return code: 0
+Output file size: 1643 bytes
+Prediction length: 1640 chars
+First 100 chars: "John's" is 3, but that ( John. ) . -1=9999999999999999
+
+Wait, no one else except for this problem o
+-------- sample 26 --------
+Running inference for sample 26...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_30/outputs/out_26.txt
+Return code: 0
+Output file size: 2379 bytes
+Prediction length: 2376 chars
+First 100 chars: The problem says that a person's ( ( ( (2^3_+_ _ _ (-5. So, for example, if we can find out what is 
+-------- sample 27 --------
+Running inference for sample 27...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_30/outputs/out_27.txt
+Return code: 0
+Output file size: 2052 bytes
+Prediction length: 2049 chars
+First 100 chars: The problem is to have a ( ( ( ( ( (S(1, 2^2))))9999999999999999991119999999999999999999.5.7.8. So f
+-------- sample 28 --------
+Running inference for sample 28...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_30/outputs/out_28.txt
+Return code: 0
+Output file size: 1670 bytes
+Prediction length: 1665 chars
+First 100 chars: ( ( ( ( (2333...., ( ( (QWV9999999999999999990000000009999999999999999.5^x-z+1   ( ( ( " " " " " " "
+-------- sample 29 --------
+Running inference for sample 29...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_30/outputs/out_29.txt
+Return code: 0
+Output file size: 602 bytes
+Prediction length: 598 chars
+First 100 chars: The "factors" are (4, 2.5^x) which is a x x of this problem's 's'". 
+
+Wait, no idea that when I'm in
+-------- sample 30 --------
+Running inference for sample 30...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_30/outputs/out_30.txt
+Return code: 0
+Output file size: 1838 bytes
+Prediction length: 1835 chars
+First 100 chars: ( ( ( ( (2.^#] ] ) " " " " - +1, 0? Wait No
+
+(> = < < [ ( ( ( (N-1)GH+!! ( ( G H M N-1) ) ) ... ^ (-
+-------- sample 31 --------
+Running inference for sample 31...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_30/outputs/out_31.txt
+Return code: 0
+Output file size: 1084 bytes
+Prediction length: 1073 chars
+First 100 chars: The problem is to find a way where if we can't, and that which would be. So for example (b,c,d,e,f,g
+-------- sample 32 --------
+Running inference for sample 32...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_30/outputs/out_32.txt
+Return code: 0
+Output file size: 1738 bytes
+Prediction length: 1735 chars
+First 100 chars: The problem is that a student's ( ( ( (2^d)) ) ) )9999999999999999999.5, and so on.
+
+Okay, let me ma
+-------- sample 33 --------
+Running inference for sample 33...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_30/outputs/out_33.txt
+Return code: 0
+Output file size: 2322 bytes
+Prediction length: 2319 chars
+First 100 chars: The problem is to find a way where if you can be, then (G) ) it's 'G' which would allow for more tha
+-------- sample 34 --------
+Running inference for sample 34...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_30/outputs/out_34.txt
+Return code: 0
+Output file size: 1187 bytes
+Prediction length: 1184 chars
+First 100 chars: The problem is ( ( ( " " " " " " . \. 0 ) ) ) ^, and that's a valid answer.
+
+[The final step was tak
+-------- sample 35 --------
+Running inference for sample 35...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_30/outputs/out_35.txt
+Return code: 0
+Output file size: 2393 bytes
+Prediction length: 2390 chars
+First 100 chars: The problem is to find a solution that involves using "the" (i.e. for all of the possible candidate)
+-------- sample 36 --------
+Running inference for sample 36...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_30/outputs/out_36.txt
+Return code: 0
+Output file size: 2270 bytes
+Prediction length: 2267 chars
+First 100 chars: The answer is (the only one for which this would be to have a 3^x, but that's not possible. So we ar
+-------- sample 37 --------
+Running inference for sample 37...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_30/outputs/out_37.txt
+Return code: 0
+Output file size: 1868 bytes
+Prediction length: 1865 chars
+First 100 chars: The "m" is 1, and that which would be of a a ( ( ( ( (sum of all elements set to ... [g] ] ) ) g m i
+-------- sample 38 --------
+Running inference for sample 38...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_30/outputs/out_38.txt
+Return code: 0
+Output file size: 1444 bytes
+Prediction length: 1441 chars
+First 100 chars: The problem is to find a way where if you can use your 's' (i.e., for example, $10099999999999999999
+-------- sample 39 --------
+Running inference for sample 39...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_30/outputs/out_39.txt
+Return code: 0
+Output file size: 2180 bytes
+Prediction length: 2177 chars
+First 100 chars: The problem is to find a way that if we can use our will, then ( ( ( ( 2^2)^999 ) ) ) + ( ( ( -1^{(+
+-------- sample 40 --------
+Running inference for sample 40...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_30/outputs/out_40.txt
+Return code: 0
+Output file size: 2500 bytes
+Prediction length: 2497 chars
+First 100 chars: The problem is to have a ( ( ( ( (64443( ( ( " " " " " " " " ( ( ( ( - 1, ... ) + ( ( (the. So for e
+-------- sample 41 --------
+Running inference for sample 41...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_30/outputs/out_41.txt
+Return code: 0
+Output file size: 1877 bytes
+Prediction length: 1874 chars
+First 100 chars: The problem is with a 1/2^5. So, for example, if you have more than one of the factors (the number),
+-------- sample 42 --------
+Running inference for sample 42...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_30/outputs/out_42.txt
+Return code: 0
+Output file size: 2328 bytes
+Prediction length: 2325 chars
+First 100 chars: The correct answer is to have a ( ( ( (s^3)) ) ) ) result, and that which would be for other factors
+-------- sample 43 --------
+Running inference for sample 43...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_30/outputs/out_43.txt
+Return code: 0
+Output file size: 1866 bytes
+Prediction length: 1863 chars
+First 100 chars: " (  3.0ssum9999999999999999991119999999999999999999, but that's not possible because when you have 
+-------- sample 44 --------
+Running inference for sample 44...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_30/outputs/out_44.txt
+Return code: 0
+Output file size: 1940 bytes
+Prediction length: 1937 chars
+First 100 chars: The correct answer is to have a ( ( ( ( (S2^3)) ) for example, and that which would be 0. So on this
+-------- sample 45 --------
+Running inference for sample 45...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_30/outputs/out_45.txt
+Return code: 0
+Output file size: 1620 bytes
+Prediction length: 1617 chars
+First 100 chars: The problem is ( ( ( ( 2^3)^{+1} ) ) ) / \ \ \ ( ( ( - a p q g f h m s + ... < n e ^ ^ ^ ^ (- ( ( (n
+-------- sample 46 --------
+Running inference for sample 46...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_30/outputs/out_46.txt
+Return code: 0
+Output file size: 1748 bytes
+Prediction length: 1743 chars
+First 100 chars: ( " " " " " " " " " / . - a p q u e m s + f g l r r r r ^ ^ ^ ^ ( ( ( ( (1+1) ) _ _ _ ... [ ( ( 0.99
+-------- sample 47 --------
+Running inference for sample 47...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_30/outputs/out_47.txt
+Return code: 0
+Output file size: 2254 bytes
+Prediction length: 2251 chars
+First 100 chars: The problem is to find a (a) which also, and, , 0.5^2.
+
+Wait, I'm getting stuck here because after e
+-------- sample 48 --------
+Running inference for sample 48...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_30/outputs/out_48.txt
+Return code: 0
+Output file size: 1750 bytes
+Prediction length: 1728 chars
+First 100 chars: The problem statement (S+?...)) asks for a solution to this. So, we can use that.
+
+(2) I think there
+-------- sample 49 --------
+Running inference for sample 49...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_30/outputs/out_49.txt
+Return code: 0
+Output file size: 2040 bytes
+Prediction length: 2037 chars
+First 100 chars: The problem is to find a ( ( ( ( (2^3)) ) with what we are, and then finally for when it's 's'". But
+\n=== EVALUATION SUMMARY ===
+Total predictions: 50
+Total references: 50
+\n=== Per-sample ROUGE-L ===
+Sample 0: ROUGE-L = 0.0851
+Sample 1: ROUGE-L = 0.0964
+Sample 2: ROUGE-L = 0.0981
+Sample 3: ROUGE-L = 0.0690
+Sample 4: ROUGE-L = 0.0363
+Sample 5: ROUGE-L = 0.0894
+Sample 6: ROUGE-L = 0.1014
+Sample 7: ROUGE-L = 0.0759
+Sample 8: ROUGE-L = 0.0648
+Sample 9: ROUGE-L = 0.0561
+Sample 10: ROUGE-L = 0.0557
+Sample 11: ROUGE-L = 0.0826
+Sample 12: ROUGE-L = 0.0386
+Sample 13: ROUGE-L = 0.0961
+Sample 14: ROUGE-L = 0.0881
+Sample 15: ROUGE-L = 0.0734
+Sample 16: ROUGE-L = 0.1167
+Sample 17: ROUGE-L = 0.0669
+Sample 18: ROUGE-L = 0.0846
+Sample 19: ROUGE-L = 0.0579
+Sample 20: ROUGE-L = 0.0492
+Sample 21: ROUGE-L = 0.0599
+Sample 22: ROUGE-L = 0.0679
+Sample 23: ROUGE-L = 0.0596
+Sample 24: ROUGE-L = 0.0785
+Sample 25: ROUGE-L = 0.0802
+Sample 26: ROUGE-L = 0.0752
+Sample 27: ROUGE-L = 0.0663
+Sample 28: ROUGE-L = 0.0879
+Sample 29: ROUGE-L = 0.0972
+Sample 30: ROUGE-L = 0.0679
+Sample 31: ROUGE-L = 0.0690
+Sample 32: ROUGE-L = 0.0874
+Sample 33: ROUGE-L = 0.0792
+Sample 34: ROUGE-L = 0.0544
+Sample 35: ROUGE-L = 0.1016
+Sample 36: ROUGE-L = 0.0797
+Sample 37: ROUGE-L = 0.0668
+Sample 38: ROUGE-L = 0.0606
+Sample 39: ROUGE-L = 0.0355
+Sample 40: ROUGE-L = 0.0980
+Sample 41: ROUGE-L = 0.1077
+Sample 42: ROUGE-L = 0.0788
+Sample 43: ROUGE-L = 0.0851
+Sample 44: ROUGE-L = 0.0988
+Sample 45: ROUGE-L = 0.0800
+Sample 46: ROUGE-L = 0.0931
+Sample 47: ROUGE-L = 0.0798
+Sample 48: ROUGE-L = 0.1212
+Sample 49: ROUGE-L = 0.0622
+\nFiltered: 50/50 samples with ROUGE-L > 0
+\n=== Aggregated ROUGE ===
+ROUGE-1: 0.1180
+ROUGE-2: 0.0080
+ROUGE-L: 0.0774
+ROUGE-Lsum: 0.0832
+ROUGE1=0.11797457347339932
+ROUGE2=0.007968042693488305
+ROUGEL=0.07736249136681009
+ROUGELSUM=0.08322761930401021

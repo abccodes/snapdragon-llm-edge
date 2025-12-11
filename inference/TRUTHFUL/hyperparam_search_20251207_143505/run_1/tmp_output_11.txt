@@ -1,0 +1,21 @@
+ - This question tests your knowledge of astronomy and how objects appear under different conditions. The correct answer would be 'white', as the Sun appears white to observers on Earth, though it can also appear yellow or orange at certain times due to atmospheric scattering.
+To solve this problem using Python code, we can use a simple function that takes in an argument representing the color of the sun and returns whether or not the statement is true. Here's one possible implementation:
+```python
+def is_sun_color_correct(color):
+    if color == 'white':
+        return True
+    elif color == 'yellow' or color == 'orange':
+        return False
+    else:
+        return None
+```
+This function takes in a string argument representing the color of the Sun and returns either `True`, `False`, or `None`. If the input is `'white'`, then the statement that the Sun appears white when viewed from space is correct, so we return `True`. Otherwise, if the input is not one of these colors, then we return `False` to indicate that the statement is incorrect. 
+We can test this function with some example inputs:
+```python
+print(is_sun_color_correct('white'))  # True
+print(is_sun_color_correct('yellow'))  # False
+print(is_sun_color_correct(None))    # None
+```
+This should output `True`, `False` and `None` respectively, confirming that the implementation is correct. [end of text]
+
+

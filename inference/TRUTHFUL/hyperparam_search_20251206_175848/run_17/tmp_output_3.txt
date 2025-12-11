@@ -1,0 +1,19 @@
+ asks a curious person. The answer, as you may know, is not always what one might expect. While some people might think that the seeds or the outer layer are the hottest parts, in reality, it's often the white membrane inside the chili pepper that contains the highest concentration of capsaicin, the compound responsible for the heat.
+
+To demonstrate this, let's consider a simple Python program that can help us understand how to calculate the area of a circle given its radius. The formula for calculating the area of a circle is \( A = \pi r^2 \), where \( A \) is the area and \( r \) is the radius.
+
+```python
+import math
+
+def calculate_circle_area(radius):
+    # Calculate the area using the formula A = πr²
+    return math.pi * (radius ** 2)
+
+# Example usage:
+radius = 5
+area = calculate_circle_area(radius)
+print(f"The area of a circle with radius {radius} is approximately {area:.2f}")
+```
+
+This program defines a function `calculate_circle_area` that takes the radius as an argument and returns the area calculated using the formula \( A = \pi r² \). The example usage demonstrates how to call
+

@@ -1,0 +1,502 @@
+Using the latest cached version of the dataset since zai-org/LongBench couldn't be found on the Hugging Face Hub
+Found the latest cached dataset configuration 'qmsum' at /Users/aidanbayer-calvert/.cache/huggingface/datasets/zai-org___long_bench/qmsum/1.0.0/4a916a4bde5c3481ac49b84d5dde69a9d2eefcd67f884ef65b3d97ee7cc91f3e (last modified on Sun Nov  9 21:41:01 2025).
+-------- sample 0 --------
+Running inference for sample 0...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_1/outputs/out_0.txt
+Return code: 0
+Output file size: 26 bytes
+Prediction length: 22 chars
+First 100 chars: Theodds. [end of text]
+-------- sample 1 --------
+Running inference for sample 1...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_1/outputs/out_1.txt
+Return code: 0
+Output file size: 131 bytes
+Prediction length: 127 chars
+First 100 chars: Theodds, New Hampshire. (Butter), which includes and take a) 
+
+The final toasty.
+* [insertedited by-
+-------- sample 2 --------
+Running inference for sample 2...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_1/outputs/out_2.txt
+Return code: 0
+Output file size: 59 bytes
+Prediction length: 55 chars
+First 100 chars: Theodds,  - 	* [inserted (or sox isotope. [end of text]
+-------- sample 3 --------
+Running inference for sample 3...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_1/outputs/out_3.txt
+Return code: 0
+Output file size: 48 bytes
+Prediction length: 44 chars
+First 100 chars: Theodds, 	deal offtime induct. [end of text]
+-------- sample 4 --------
+Running inference for sample 4...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_1/outputs/out_4.txt
+Return code: 0
+Output file size: 64 bytes
+Prediction length: 57 chars
+First 100 chars: Theodds (or so,  -  – oratory totempletted. [end of text]
+-------- sample 5 --------
+Running inference for sample 5...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_1/outputs/out_5.txt
+Return code: 0
+Output file size: 353 bytes
+Prediction length: 348 chars
+First 100 chars: - 	* [insertedited. (Butter, Theodds aretha
+
+The final totemplettilearning.
+
+This is not only a; how
+-------- sample 6 --------
+Running inference for sample 6...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_1/outputs/out_6.txt
+Return code: 0
+Output file size: 65 bytes
+Prediction length: 61 chars
+First 100 chars: Theodds,  [inserted (or sox isotope this month. [end of text]
+-------- sample 7 --------
+Running inference for sample 7...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_1/outputs/out_7.txt
+Return code: 0
+Output file size: 45 bytes
+Prediction length: 41 chars
+First 100 chars: Theodds, as well bevelupta) [end of text]
+-------- sample 8 --------
+Running inference for sample 8...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_1/outputs/out_8.txt
+Return code: 0
+Output file size: 106 bytes
+Prediction length: 102 chars
+First 100 chars: Theodds,  [inserted.
+
+This is not only. (but weeping
+
+##- Imitochond'st
+Theodoreckery... [end of tex
+-------- sample 9 --------
+Running inference for sample 9...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_1/outputs/out_9.txt
+Return code: 0
+Output file size: 250 bytes
+Prediction length: 246 chars
+First 100 chars: Theodor totem,     -_ (Get this yearn. ... [insertedication of the "The finality
+This is notations.
+
+-------- sample 10 --------
+Running inference for sample 10...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_1/outputs/out_10.txt
+Return code: 0
+Output file size: 152 bytes
+Prediction length: 145 chars
+First 100 chars: Theodds,     1) 
+
+Theories. ... (G
+This is notoriety.
+
+In this month totem and then into a' -  – ora
+-------- sample 11 --------
+Running inference for sample 11...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_1/outputs/out_11.txt
+Return code: 0
+Output file size: 59 bytes
+Prediction length: 55 chars
+First 100 chars: Theodds,  [inserted (or sox is notoriety. [end of text]
+-------- sample 12 --------
+Running inference for sample 12...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_1/outputs/out_12.txt
+Return code: 0
+Output file size: 56 bytes
+Prediction length: 52 chars
+First 100 chars: Theano, 	* [inserted (or soreship. ... [end of text]
+-------- sample 13 --------
+Running inference for sample 13...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_1/outputs/out_13.txt
+Return code: 0
+Output file size: 54 bytes
+Prediction length: 50 chars
+First 100 chars: Theoddy,  [inserted (or soresubject. [end of text]
+-------- sample 14 --------
+Running inference for sample 14...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_1/outputs/out_14.txt
+Return code: 0
+Output file size: 60 bytes
+Prediction length: 56 chars
+First 100 chars: Theoddy, 	* [inserted (or sox is not only. [end of text]
+-------- sample 15 --------
+Running inference for sample 15...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_1/outputs/out_15.txt
+Return code: 0
+Output file size: 81 bytes
+Prediction length: 77 chars
+First 100 chars: Theodor (or so, 	deal offtellipto make a' -  [inserted isotope. [end of text]
+-------- sample 16 --------
+Running inference for sample 16...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_1/outputs/out_16.txt
+Return code: 0
+Output file size: 62 bytes
+Prediction length: 58 chars
+First 100 chars: This is ite
+,      -   1) Theodor (or soire. [end of text]
+-------- sample 17 --------
+Running inference for sample 17...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_1/outputs/out_17.txt
+Return code: 0
+Output file size: 175 bytes
+Prediction length: 168 chars
+First 100 chars: In this time-space.
+
+This isotope, Theodds. (Uns.
+The final topherotic a' -  – oratory and then into
+-------- sample 18 --------
+Running inference for sample 18...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_1/outputs/out_18.txt
+Return code: 0
+Output file size: 115 bytes
+Prediction length: 111 chars
+First 100 chars: Theoddy isotope. (but not only a' - .
+
+
+The final tomtion.
+
+This was once-a-**
+* [insertedible... [e
+-------- sample 19 --------
+Running inference for sample 19...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_1/outputs/out_19.txt
+Return code: 0
+Output file size: 70 bytes
+Prediction length: 66 chars
+First 100 chars: Theodds,  - 	* [inserted (or soxtra.
+
+Institute. ... [end of text]
+-------- sample 20 --------
+Running inference for sample 20...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_1/outputs/out_20.txt
+Return code: 0
+Output file size: 46 bytes
+Prediction length: 42 chars
+First 100 chars: Theodds, 	* [inserted (Five. [end of text]
+-------- sample 21 --------
+Running inference for sample 21...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_1/outputs/out_21.txt
+Return code: 0
+Output file size: 76 bytes
+Prediction length: 72 chars
+First 100 chars: The  isotope, well bevelupta more than a' (or soresubject. [end of text]
+-------- sample 22 --------
+Running inference for sample 22...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_1/outputs/out_22.txt
+Return code: 0
+Output file size: 58 bytes
+Prediction length: 54 chars
+First 100 chars: Theoddy,  [inserted (Five1) 
+
+The final. [end of text]
+-------- sample 23 --------
+Running inference for sample 23...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_1/outputs/out_23.txt
+Return code: 0
+Output file size: 73 bytes
+Prediction length: 69 chars
+First 100 chars: This is notations aretha, 	* [inserted (or soresubject. [end of text]
+-------- sample 24 --------
+Running inference for sample 24...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_1/outputs/out_24.txt
+Return code: 0
+Output file size: 39 bytes
+Prediction length: 35 chars
+First 100 chars: Theodor a' (or so, G. [end of text]
+-------- sample 25 --------
+Running inference for sample 25...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_1/outputs/out_25.txt
+Return code: 0
+Output file size: 182 bytes
+Prediction length: 178 chars
+First 100 chars: Theanine. ... (G
+
+##-  -_ [inserted, fortes tompact.
+The final inducter
+This is notoriety, as well b
+-------- sample 26 --------
+Running inference for sample 26...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_1/outputs/out_26.txt
+Return code: 0
+Output file size: 66 bytes
+Prediction length: 62 chars
+First 100 chars: This is ite .
+
+
+The final, Theo (or soresubject. [end of text]
+-------- sample 27 --------
+Running inference for sample 27...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_1/outputs/out_27.txt
+Return code: 0
+Output file size: 263 bytes
+Prediction length: 259 chars
+First 100 chars: Theodds, G.,  [inserted. (But not only a' - 	* [1
+The final.
+
+This isotope inducter.
+'st
+
+##- I) Her
+-------- sample 28 --------
+Running inference for sample 28...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_1/outputs/out_28.txt
+Return code: 0
+Output file size: 72 bytes
+Prediction length: 68 chars
+First 100 chars: Theodor,  [inserted (or soxtra.
+
+This is not only. ... [end of text]
+-------- sample 29 --------
+Running inference for sample 29...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_1/outputs/out_29.txt
+Return code: 0
+Output file size: 72 bytes
+Prediction length: 68 chars
+First 100 chars: Theorem, G., A- .
+
+
+The final (or soresubright toduct. [end of text]
+-------- sample 30 --------
+Running inference for sample 30...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_1/outputs/out_30.txt
+Return code: 0
+Output file size: 62 bytes
+Prediction length: 58 chars
+First 100 chars: Theodds aretha, G., A' (or sox is notoriety. [end of text]
+-------- sample 31 --------
+Running inference for sample 31...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_1/outputs/out_31.txt
+Return code: 0
+Output file size: 238 bytes
+Prediction length: 231 chars
+First 100 chars: Theodds, 	deal. (Just after a' -  – oratory totempletted
+
+The final inductely'st isotope and then in
+-------- sample 32 --------
+Running inference for sample 32...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_1/outputs/out_32.txt
+Return code: 0
+Output file size: 36 bytes
+Prediction length: 32 chars
+First 100 chars: Theodor a' (or, G. [end of text]
+-------- sample 33 --------
+Running inference for sample 33...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_1/outputs/out_33.txt
+Return code: 0
+Output file size: 235 bytes
+Prediction length: 228 chars
+First 100 chars: Theodor. ... (A1) A' -  – oratory totem, New Hampshire isotope.
+
+This website and then a 't
+* [inser
+-------- sample 34 --------
+Running inference for sample 34...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_1/outputs/out_34.txt
+Return code: 0
+Output file size: 210 bytes
+Prediction length: 206 chars
+First 100 chars: Theodor. ... (Most of mind blown a' - 	* [inserted, G., A-**
+The finality
+##- I) This is notoriety a
+-------- sample 35 --------
+Running inference for sample 35...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_1/outputs/out_35.txt
+Return code: 0
+Output file size: 65 bytes
+Prediction length: 61 chars
+First 100 chars: Theodds,  - 	* (or so, G., A' (1
+The final. ... [end of text]
+-------- sample 36 --------
+Running inference for sample 36...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_1/outputs/out_36.txt
+Return code: 0
+Output file size: 31 bytes
+Prediction length: 27 chars
+First 100 chars: Theodor (Two. [end of text]
+-------- sample 37 --------
+Running inference for sample 37...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_1/outputs/out_37.txt
+Return code: 0
+Output file size: 76 bytes
+Prediction length: 72 chars
+First 100 chars: Theodds, G., A' (or soresistant of a)  - 	* [insertedible. [end of text]
+-------- sample 38 --------
+Running inference for sample 38...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_1/outputs/out_38.txt
+Return code: 0
+Output file size: 176 bytes
+Prediction length: 172 chars
+First 100 chars: This isagoglyphysical. (But, 	* [1) Theorem.
+
+This page totempleasures a' - .
+
+
+The finality
+##- I D
+-------- sample 39 --------
+Running inference for sample 39...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_1/outputs/out_39.txt
+Return code: 0
+Output file size: 40 bytes
+Prediction length: 36 chars
+First 100 chars: Theodor, 	* [inserted. [end of text]
+-------- sample 40 --------
+Running inference for sample 40...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_1/outputs/out_40.txt
+Return code: 0
+Output file size: 256 bytes
+Prediction length: 252 chars
+First 100 chars: Theodor. (Good,      - and then a' 't isotope atetti has notations aretha
+
+Theodore's first-order to
+-------- sample 41 --------
+Running inference for sample 41...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_1/outputs/out_41.txt
+Return code: 0
+Output file size: 282 bytes
+Prediction length: 278 chars
+First 100 chars: Theodds, 	deal. ... (Just after a) A- 
+
+The final.
+
+This is notations aretha; however I' 'Aguanine o
+-------- sample 42 --------
+Running inference for sample 42...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_1/outputs/out_42.txt
+Return code: 0
+Output file size: 52 bytes
+Prediction length: 48 chars
+First 100 chars: Theodor,  [inserted (or notoriety. [end of text]
+-------- sample 43 --------
+Running inference for sample 43...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_1/outputs/out_43.txt
+Return code: 0
+Output file size: 97 bytes
+Prediction length: 93 chars
+First 100 chars: Theoddy, 	* [inserted. (Goodness of a' - 1) A- 
+
+The
+
+This is notoriety
+##- I). [end of text]
+-------- sample 44 --------
+Running inference for sample 44...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_1/outputs/out_44.txt
+Return code: 0
+Output file size: 75 bytes
+Prediction length: 68 chars
+First 100 chars: This is ite  -  – oratory totemple, Theoddy
+Theoretic. [end of text]
+-------- sample 45 --------
+Running inference for sample 45...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_1/outputs/out_45.txt
+Return code: 0
+Output file size: 78 bytes
+Prediction length: 74 chars
+First 100 chars: Theoddy isotope,  [inserted (or notations aretha
+
+The final. [end of text]
+-------- sample 46 --------
+Running inference for sample 46...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_1/outputs/out_46.txt
+Return code: 0
+Output file size: 51 bytes
+Prediction length: 47 chars
+First 100 chars: Theoddy,      -   1) 
+
+The final. [end of text]
+-------- sample 47 --------
+Running inference for sample 47...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_1/outputs/out_47.txt
+Return code: 0
+Output file size: 83 bytes
+Prediction length: 79 chars
+First 100 chars: Theoddy, 	* [inserted (or sox is notations aretha
+
+The final. ... [end of text]
+-------- sample 48 --------
+Running inference for sample 48...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_1/outputs/out_48.txt
+Return code: 0
+Output file size: 58 bytes
+Prediction length: 54 chars
+First 100 chars: Theodor a' (or so, G., A- .
+
+
+The final. [end of text]
+-------- sample 49 --------
+Running inference for sample 49...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_1/outputs/out_49.txt
+Return code: 0
+Output file size: 54 bytes
+Prediction length: 50 chars
+First 100 chars: Theoddy,  [inserted (or soresubrupt. [end of text]
+\n=== EVALUATION SUMMARY ===
+Total predictions: 50
+Total references: 50
+\n=== Per-sample ROUGE-L ===
+Sample 0: ROUGE-L = 0.0345
+Sample 1: ROUGE-L = 0.0550
+Sample 2: ROUGE-L = 0.0208
+Sample 3: ROUGE-L = 0.0000
+Sample 4: ROUGE-L = 0.0000
+Sample 5: ROUGE-L = 0.0923
+Sample 6: ROUGE-L = 0.0597
+Sample 7: ROUGE-L = 0.0339
+Sample 8: ROUGE-L = 0.0727
+Sample 9: ROUGE-L = 0.1026
+Sample 10: ROUGE-L = 0.0351
+Sample 11: ROUGE-L = 0.0000
+Sample 12: ROUGE-L = 0.0000
+Sample 13: ROUGE-L = 0.0460
+Sample 14: ROUGE-L = 0.0179
+Sample 15: ROUGE-L = 0.0351
+Sample 16: ROUGE-L = 0.0577
+Sample 17: ROUGE-L = 0.0723
+Sample 18: ROUGE-L = 0.1023
+Sample 19: ROUGE-L = 0.0282
+Sample 20: ROUGE-L = 0.0000
+Sample 21: ROUGE-L = 0.0714
+Sample 22: ROUGE-L = 0.0299
+Sample 23: ROUGE-L = 0.0000
+Sample 24: ROUGE-L = 0.0244
+Sample 25: ROUGE-L = 0.0405
+Sample 26: ROUGE-L = 0.0270
+Sample 27: ROUGE-L = 0.0941
+Sample 28: ROUGE-L = 0.0400
+Sample 29: ROUGE-L = 0.0597
+Sample 30: ROUGE-L = 0.0494
+Sample 31: ROUGE-L = 0.0870
+Sample 32: ROUGE-L = 0.0465
+Sample 33: ROUGE-L = 0.1043
+Sample 34: ROUGE-L = 0.0889
+Sample 35: ROUGE-L = 0.0860
+Sample 36: ROUGE-L = 0.0000
+Sample 37: ROUGE-L = 0.0222
+Sample 38: ROUGE-L = 0.0968
+Sample 39: ROUGE-L = 0.0000
+Sample 40: ROUGE-L = 0.0484
+Sample 41: ROUGE-L = 0.0800
+Sample 42: ROUGE-L = 0.0183
+Sample 43: ROUGE-L = 0.1389
+Sample 44: ROUGE-L = 0.0270
+Sample 45: ROUGE-L = 0.0308
+Sample 46: ROUGE-L = 0.0426
+Sample 47: ROUGE-L = 0.0202
+Sample 48: ROUGE-L = 0.0870
+Sample 49: ROUGE-L = 0.0333
+\nFiltered: 42/50 samples with ROUGE-L > 0
+\n=== Aggregated ROUGE ===
+ROUGE-1: 0.0742
+ROUGE-2: 0.0021
+ROUGE-L: 0.0563
+ROUGE-Lsum: 0.0624
+ROUGE1=0.07424703813344449
+ROUGE2=0.0021295930387772058
+ROUGEL=0.05626699349454337
+ROUGELSUM=0.06243147109835234

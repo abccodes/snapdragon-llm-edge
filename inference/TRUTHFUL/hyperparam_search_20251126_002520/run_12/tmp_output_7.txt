@@ -1,0 +1,21 @@
+ asks an online forum. The question is based on the popular urban legend that claims anyone who falls under such circumstances will be killed.
+The answer to this query lies in understanding physics and probability, rather than superstition or myth. Let's break down what would happen if a penny were dropped from the top of the Empire State Building (ESB) – approximately 1350 feet high.
+
+### Physics at Work
+
+When an object falls freely under gravity without air resistance, it accelerates uniformly until reaching terminal velocity. The acceleration due to gravity on Earth is about \(9.8 \text{ m/s}^2\).
+
+#### Time of Fall
+Firstly, we need to calculate how long the penny would take to fall from 1350 feet (approximately 416 meters). Using the formula for time under freefall:
+
+\[ t = \frac{\sqrt{(h/g)}}{g/9.8} \]
+
+Where:
+- \( h \) is height in meters,
+- \( g \approx 9.8 m/s^2 \).
+
+Plugging in our values, we get:
+
+\[
+t ≈ \left(416 / (30 * sqrt{5})\right)^
+

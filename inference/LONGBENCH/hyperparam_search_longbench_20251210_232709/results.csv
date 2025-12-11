@@ -1,0 +1,1 @@
+run_id,model,mode,temperature,repeat_penalty,top_p,top_k,min_p,ctx_size,keep,batch_size,ubatch_size,threads,ngl,ctk,ctv,flash_attn,context_shift,poll_level,use_mmap,split_mode,dry_multiplier,frequency_penalty,presence_penalty,token_limit,system_prompt,rouge1,rouge2,rougeL,rougeLsum,avg_prefill_speed,avg_decode_speed,avg_total_speed,runtime_seconds

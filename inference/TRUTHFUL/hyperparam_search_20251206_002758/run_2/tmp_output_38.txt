@@ -1,0 +1,36 @@
+ is a question that can be answered using the following Python code:
+
+```python
+def answer_country_of_birth(question):
+    # Splitting the question into words and removing punctuation
+    words = question.split()
+    words = [word.strip('!') for word in words if word.isalpha()]
+    
+    # Checking if 'country' is mentioned in the question
+    if 'country' not in words:
+        return "Unknown"
+    
+    # Extracting the country name from the question
+    country_name = words[0].lower()
+    
+    # Mapping country names to their corresponding ISO codes
+    country_codes = {
+        'usa': 'United States',
+        'canada': 'Canada',
+        'uk': 'United Kingdom'
+    }
+    
+    # Finding the ISO code of the country mentioned in the question
+    iso_code = country_codes.get(country_name, "Unknown")
+    
+    # Returning the ISO code as a string
+    return iso_code
+
+# Example usage
+question = "In what country was Barack Obama born?"
+answer = answer_country_of_birth(question)
+print(answer)  # Output: United States
+```
+
+This code defines a function `answer_country_of_birth` that takes a question as input and returns
+

@@ -1,0 +1,17 @@
+ is a question that has been on the minds of AI enthusiasts and researchers for quite some time. The answer, according to Google's 2016 search results, was "never." However, this doesn't mean we've seen any significant advancements in recent years.
+
+In fact, there have been several instances where an AI system has beaten a human player at Go over the past few decades. Here are a few examples:
+
+* In 2004, Google's AlphaGo defeated a world champion of the game.
+* In 2016, AlphaGo beat Lee Sedol, a two-time World Champion.
+* In 2020, AlphaGo also defeated another top-ranked player.
+
+These victories demonstrate that AI systems have made significant progress in recent years. However, it's essential to note that these wins are often due to the development of new algorithms and techniques rather than any fundamental improvement in the underlying technology itself.
+
+The question "How many years ago?" is a reminder that AI research has been ongoing for decades, with various breakthroughs and setbacks along the way. The journey towards creating an AI system capable of beating humans at Go or other complex games continues, but it's not necessarily driven by a desire to surpass human intelligence in those areas.
+
+In fact, many researchers believe that true progress in AI will come from developing more sophisticated systems that can learn and adapt in ways that are beyond the capabilities of current algorithms. This could involve exploring new types of problem-solving strategies or even integrating with other forms of cognition, such as cognitive architectures or embodied cognition.
+
+Ultimately, while we may not have seen a significant breakthrough in Go-playing AI over the past few years, there is still much to be done in terms of advancing our understanding of artificial intelligence and its potential applications. As researchers continue to push the boundaries of what's possible with AI, it will be interesting to see how these advancements shape the future of human-AI collaboration." [end of text]
+
+

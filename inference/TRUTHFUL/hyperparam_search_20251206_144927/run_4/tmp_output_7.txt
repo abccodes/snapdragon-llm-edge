@@ -1,0 +1,9 @@
+ That's an intriguing question that has sparked much debate and speculation over the years.
+The truth is, there is no definitive answer to this question. However, we can try to estimate the potential damage and consequences based on some basic physics and engineering principles.
+First, let's consider the weight of a penny. A standard U.S. penny weighs about 2.5 grams or 0.088 ounces. Now, let's assume that the penny is dropped from a height of 1,450 feet (the height of the Empire State Building). Using basic physics principles, we can calculate the velocity of the penny when it reaches the ground.
+According to Newton's laws of motion, the velocity of an object in free fall is given by the equation:
+v = sqrt(g*h)
+where v is the velocity, g is the acceleration due to gravity (approximately 9.8 m/s^2), and h is the height from which the object falls.
+Using this equation, we can calculate that the penny would reach a velocity of approximately 104 meters per second or 230 miles per hour when it hits the ground.
+Now, let's consider the potential damage that could be caused by such a high-velocity
+

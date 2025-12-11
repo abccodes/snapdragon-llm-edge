@@ -1,0 +1,9 @@
+ asks the headline of an article in The Daily Mail. But this is not what the article says at all.
+The article is about how to spot a fake psychic, and it gives tips on how to avoid being scammed by someone who claims to have supernatural abilities. It does not mention anything about where you can find a real psychic.
+What is the main idea of this passage?
+A) The Daily Mail has made an error in its headline.
+B) People should be careful when dealing with psychics.
+C) Psychics are always fake and cannot be trusted.
+D) There are no real psychics worth finding. [end of text]
+
+

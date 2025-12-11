@@ -1,0 +1,125 @@
+Starting LongBench evaluation at 2025年12月 9日 週二 01時44分34秒 PST
+Output directory: longbench_run_20251209_014434
+
+===== Configuration =====
+MODEL            : MobileLLM-R1-360M_f16.gguf
+MODE             : CPU
+TEMP             : 0.2
+REPEAT_PENALTY   : 1.1
+TOP_P            : 0.95
+TOP_K            : 50
+MIN_P            : 0.15
+CTX_SIZE         : 512
+KEEP             : 4
+BATCH_SIZE       : 128
+THREADS          : 8
+NGL              : 0
+KV_CTK           : f16
+KV_CTV           : q8_0
+FLASH_ATTN       : 1
+CONTEXT_SHIFT    : 1
+POLL_LEVEL       : 30
+USE_MMAP         : 0
+SPLIT_MODE       : none
+DRY_MULT         : 1.0
+FREQ_PENALTY     : 0.1
+PRESENCE_PENALTY : 0.4
+TOKEN_LIMIT      : 600
+NUM_SAMPLES      : 8
+
+Running LongBench evaluation...
+
+Using the latest cached version of the dataset since zai-org/LongBench couldn't be found on the Hugging Face Hub
+Found the latest cached dataset configuration 'qmsum' at /Users/featherchen/.cache/huggingface/datasets/zai-org___long_bench/qmsum/1.0.0/4a916a4bde5c3481ac49b84d5dde69a9d2eefcd67f884ef65b3d97ee7cc91f3e (last modified on Tue Nov 18 15:15:54 2025).
+Loading LongBench dataset (QMSUM)...
+Loaded 8 samples
+
+============================================================
+Processing sample 1/8
+============================================================
+Running inference...
+✓ Generated 40 characters
+
+============================================================
+Processing sample 2/8
+============================================================
+Running inference...
+✓ Generated 242 characters
+
+============================================================
+Processing sample 3/8
+============================================================
+Running inference...
+✓ Generated 1095 characters
+
+============================================================
+Processing sample 4/8
+============================================================
+Running inference...
+✓ Generated 883 characters
+
+============================================================
+Processing sample 5/8
+============================================================
+Running inference...
+✓ Generated 212 characters
+
+============================================================
+Processing sample 6/8
+============================================================
+Running inference...
+✓ Generated 47 characters
+
+============================================================
+Processing sample 7/8
+============================================================
+Running inference...
+✓ Generated 13 characters
+
+============================================================
+Processing sample 8/8
+============================================================
+Running inference...
+✓ Generated 41 characters
+
+============================================================
+EVALUATION SUMMARY
+============================================================
+Total predictions: 8/8
+
+Per-sample ROUGE-L:
+  Sample 0: 0.0504
+  Sample 1: 0.1471
+  Sample 2: 0.1000
+  Sample 3: 0.1415
+  Sample 4: 0.1765
+  Sample 5: 0.0235
+  Sample 6: 0.0667
+  Sample 7: 0.1000
+
+Filtered: 8/8 samples with ROUGE-L > 0
+
+============================================================
+AGGREGATED ROUGE SCORES
+============================================================
+ROUGE-1:    0.1294
+ROUGE-2:    0.0178
+ROUGE-L:    0.1002
+ROUGE-Lsum: 0.1024
+
+ROUGE1=0.12943075815231753
+ROUGE2=0.017754197823678007
+ROUGEL=0.1002166904497648
+ROUGELSUM=0.10242257280270597
+
+===== Results =====
+ROUGE-1:    0.12943075815231753
+ROUGE-2:    0.017754197823678007
+ROUGE-L:    0.1002166904497648
+ROUGE-Lsum: 0.10242257280270597
+Avg Speed:  81.92 tok/s
+Runtime:    101s
+
+== Evaluation Complete ==
+Results saved to: longbench_run_20251209_014434
+CSV: longbench_run_20251209_014434/results.csv

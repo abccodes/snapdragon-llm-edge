@@ -1,0 +1,146 @@
+Starting hyperparameter search at Mon Dec  8 03:15:49 PST 2025
+Output directory: hyperparam_search_20251208_031549
+
+Running 500 trials with optimized hyperparameters...
+Progress: hyperparam_search_20251208_031549/BEST_RESULTS.txt
+
+========================================
+RUN #1 - Mon Dec  8 03:15:49 PST 2025
+Model: Llama-3.2-1B-Instruct-Q4_0.gguf | Mode: CPU | Temp: 0.2
+Context: 2048 | Keep: 4
+Batch: 128 | UBatch: 128 | Threads: 8
+Flash: on | KV: f16/q8_0 | NGL: 0
+Context Shift: 1
+Poll: 30 | MMap: 0 | Split: none
+Min-p: 0.15 | DRY: 1.0 | Freq Penalty: 0.15 | Presence Penalty: 0.3
+Token Limit: 600
+System Prompt: '(none)'
+
+Running TruthfulQA test (300 samples)...
+  File "/Users/aidanbayer-calvert/DocumentsNotICloud/cs259/snapdragon-llm-edge/inference/hyperparam_search_20251208_031549/run_1/run_eval.py", line 73
+    prompt_arg = f'"{{\\'\\'{question_escaped}\\'\\'"}}"'
+                          ^
+SyntaxError: unexpected character after line continuation character
+BLEURT:  | Accuracy:  | Runtime: 0s
+Prefill: 0.00 tok/s | Decode: 0.00 tok/s | Total: 0.00 tok/s
+
+========================================
+RUN #2 - Mon Dec  8 03:15:51 PST 2025
+Model: Llama-3.2-1B-Instruct-Q4_0.gguf | Mode: CPU | Temp: 0.2
+Context: 2048 | Keep: 4
+Batch: 128 | UBatch: 128 | Threads: 8
+Flash: on | KV: f16/q8_0 | NGL: 0
+Context Shift: 1
+Poll: 30 | MMap: 0 | Split: none
+Min-p: 0.15 | DRY: 1.0 | Freq Penalty: 0.15 | Presence Penalty: 0.3
+Token Limit: 600
+System Prompt: '(none)'
+
+Running TruthfulQA test (300 samples)...
+  File "/Users/aidanbayer-calvert/DocumentsNotICloud/cs259/snapdragon-llm-edge/inference/hyperparam_search_20251208_031549/run_2/run_eval.py", line 73
+    prompt_arg = f'"{{\\'\\'{question_escaped}\\'\\'"}}"'
+                          ^
+SyntaxError: unexpected character after line continuation character
+BLEURT:  | Accuracy:  | Runtime: 0s
+Prefill: 0.00 tok/s | Decode: 0.00 tok/s | Total: 0.00 tok/s
+
+========================================
+RUN #3 - Mon Dec  8 03:15:52 PST 2025
+Model: Llama-3.2-1B-Instruct-Q4_0.gguf | Mode: CPU | Temp: 0.2
+Context: 2048 | Keep: 4
+Batch: 128 | UBatch: 128 | Threads: 8
+Flash: on | KV: f16/q8_0 | NGL: 0
+Context Shift: 1
+Poll: 30 | MMap: 0 | Split: none
+Min-p: 0.15 | DRY: 1.0 | Freq Penalty: 0.15 | Presence Penalty: 0.3
+Token Limit: 600
+System Prompt: '(none)'
+
+Running TruthfulQA test (300 samples)...
+  File "/Users/aidanbayer-calvert/DocumentsNotICloud/cs259/snapdragon-llm-edge/inference/hyperparam_search_20251208_031549/run_3/run_eval.py", line 73
+    prompt_arg = f'"{{\\'\\'{question_escaped}\\'\\'"}}"'
+                          ^
+SyntaxError: unexpected character after line continuation character
+BLEURT:  | Accuracy:  | Runtime: 0s
+Prefill: 0.00 tok/s | Decode: 0.00 tok/s | Total: 0.00 tok/s
+
+========================================
+RUN #4 - Mon Dec  8 03:15:54 PST 2025
+Model: Llama-3.2-1B-Instruct-Q4_0.gguf | Mode: CPU | Temp: 0.2
+Context: 2048 | Keep: 4
+Batch: 128 | UBatch: 128 | Threads: 8
+Flash: on | KV: f16/q8_0 | NGL: 0
+Context Shift: 1
+Poll: 30 | MMap: 0 | Split: none
+Min-p: 0.15 | DRY: 1.0 | Freq Penalty: 0.15 | Presence Penalty: 0.3
+Token Limit: 600
+System Prompt: '(none)'
+
+Running TruthfulQA test (300 samples)...
+  File "/Users/aidanbayer-calvert/DocumentsNotICloud/cs259/snapdragon-llm-edge/inference/hyperparam_search_20251208_031549/run_4/run_eval.py", line 73
+    prompt_arg = f'"{{\\'\\'{question_escaped}\\'\\'"}}"'
+                          ^
+SyntaxError: unexpected character after line continuation character
+BLEURT:  | Accuracy:  | Runtime: 0s
+Prefill: 0.00 tok/s | Decode: 0.00 tok/s | Total: 0.00 tok/s
+
+========================================
+RUN #5 - Mon Dec  8 03:15:55 PST 2025
+Model: Llama-3.2-1B-Instruct-Q4_0.gguf | Mode: CPU | Temp: 0.2
+Context: 2048 | Keep: 4
+Batch: 128 | UBatch: 128 | Threads: 8
+Flash: on | KV: f16/q8_0 | NGL: 0
+Context Shift: 1
+Poll: 30 | MMap: 0 | Split: none
+Min-p: 0.15 | DRY: 1.0 | Freq Penalty: 0.15 | Presence Penalty: 0.3
+Token Limit: 600
+System Prompt: '(none)'
+
+Running TruthfulQA test (300 samples)...
+  File "/Users/aidanbayer-calvert/DocumentsNotICloud/cs259/snapdragon-llm-edge/inference/hyperparam_search_20251208_031549/run_5/run_eval.py", line 73
+    prompt_arg = f'"{{\\'\\'{question_escaped}\\'\\'"}}"'
+                          ^
+SyntaxError: unexpected character after line continuation character
+BLEURT:  | Accuracy:  | Runtime: 0s
+Prefill: 0.00 tok/s | Decode: 0.00 tok/s | Total: 0.00 tok/s
+
+========================================
+RUN #6 - Mon Dec  8 03:15:57 PST 2025
+Model: Llama-3.2-1B-Instruct-Q4_0.gguf | Mode: CPU | Temp: 0.2
+Context: 2048 | Keep: 4
+Batch: 128 | UBatch: 128 | Threads: 8
+Flash: on | KV: f16/q8_0 | NGL: 0
+Context Shift: 1
+Poll: 30 | MMap: 0 | Split: none
+Min-p: 0.15 | DRY: 1.0 | Freq Penalty: 0.15 | Presence Penalty: 0.3
+Token Limit: 600
+System Prompt: '(none)'
+
+Running TruthfulQA test (300 samples)...
+  File "/Users/aidanbayer-calvert/DocumentsNotICloud/cs259/snapdragon-llm-edge/inference/hyperparam_search_20251208_031549/run_6/run_eval.py", line 73
+    prompt_arg = f'"{{\\'\\'{question_escaped}\\'\\'"}}"'
+                          ^
+SyntaxError: unexpected character after line continuation character
+BLEURT:  | Accuracy:  | Runtime: 0s
+Prefill: 0.00 tok/s | Decode: 0.00 tok/s | Total: 0.00 tok/s
+
+========================================
+RUN #7 - Mon Dec  8 03:15:58 PST 2025
+Model: Llama-3.2-1B-Instruct-Q4_0.gguf | Mode: CPU | Temp: 0.2
+Context: 2048 | Keep: 4
+Batch: 128 | UBatch: 128 | Threads: 8
+Flash: on | KV: f16/q8_0 | NGL: 0
+Context Shift: 1
+Poll: 30 | MMap: 0 | Split: none
+Min-p: 0.15 | DRY: 1.0 | Freq Penalty: 0.15 | Presence Penalty: 0.3
+Token Limit: 600
+System Prompt: '(none)'
+
+Running TruthfulQA test (300 samples)...
+  File "/Users/aidanbayer-calvert/DocumentsNotICloud/cs259/snapdragon-llm-edge/inference/hyperparam_search_20251208_031549/run_7/run_eval.py", line 73
+    prompt_arg = f'"{{\\'\\'{question_escaped}\\'\\'"}}"'
+                          ^
+SyntaxError: unexpected character after line continuation character
+BLEURT:  | Accuracy:  | Runtime: 0s
+Prefill: 0.00 tok/s | Decode: 0.00 tok/s | Total: 0.00 tok/s
+

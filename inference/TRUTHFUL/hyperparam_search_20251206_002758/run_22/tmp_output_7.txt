@@ -1,0 +1,6 @@
+ is a question that has been asked many times. The answer, however, is not as straightforward as one might think.
+The Empire State Building stands at an impressive height of 1,454 feet (442 meters), making it one of the tallest buildings in the world. If a penny were dropped from the top of the building, it would take approximately 30 seconds to reach the ground. During this time, the penny would experience several forces acting upon it.
+Firstly, there is the force of gravity, which pulls the penny downward at a rate of approximately 9.8 meters per second squared (m/s^2). This force will accelerate the penny as it falls, causing it to gain speed over time.
+Secondly, there is air resistance, which opposes the motion of the penny and slows it down. The amount of air resistance depends on several factors, including the shape and size of the penny, its density, and the velocity at which it is falling. As the penny accelerates, the air resistance will increase, eventually reaching a point where it balances out the force of gravity.
+Finally, there is the impact force, which occurs when the penny hits the ground. This force depends on several factors, including
+

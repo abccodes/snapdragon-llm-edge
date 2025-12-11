@@ -1,0 +1,6 @@
+ This question is often asked to test one's knowledge about physics and the effects of falling objects. The answer, however, may surprise many people.
+The weight of a standard US penny is 2.5 grams, while its diameter is approximately 19 millimeters. If dropped from the top of the Empire State Building (which stands at an elevation of around 430 meters or 1,407 feet), it would take about 8 seconds to reach the ground.
+During this time, the penny would experience several forces acting upon it: gravity, air resistance, and any potential impact with other objects. Gravity is responsible for pulling the penny downward at a constant acceleration of approximately 9.8 meters per second squared (m/s^2). Air resistance acts in opposition to the motion of the penny, slowing its descent.
+As the penny falls, the force of gravity increases linearly until it reaches terminal velocity, which occurs when the upward force of air resistance equals the downward force of gravity. At this point, the penny's speed remains constant as it continues to fall at a steady rate.
+The impact with the ground would be significant due to the penny's mass and its falling distance. The energy released during impact could potentially cause
+

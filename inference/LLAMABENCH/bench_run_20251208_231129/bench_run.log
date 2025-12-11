@@ -1,0 +1,9 @@
+| model                          |       size |     params | backend    | ngl |       poll | n_batch | n_ubatch | type_v |    sm | fa | mmap |            test |                  t/s |
+| ------------------------------ | ---------: | ---------: | ---------- | --: | ---------: | ------: | -------: | -----: | ----: | -: | ---: | --------------: | -------------------: |
+| llama 1B Q4_K - Medium         | 762.81 MiB |     1.24 B | OpenCL,HTP |   0 |         30 |     128 |      128 |   q8_0 |  none |  1 |    0 |           pp512 |        186.33 ± 3.95 |
+| llama 1B Q4_K - Medium         | 762.81 MiB |     1.24 B | OpenCL,HTP |   0 |         30 |     128 |      128 |   q8_0 |  none |  1 |    0 |           tg256 |         62.54 ± 1.99 |
+
+build: unknown (0)
+
+===== Benchmark Complete =====
+

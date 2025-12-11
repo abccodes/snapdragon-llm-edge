@@ -1,0 +1,4 @@
+ is a question that can be answered by a simple sentence. The sentence should provide a brief overview of the main achievements or events that occurred at CERN in 2012. Here's an example sentence:
+CERN announced the discovery of the Higgs boson in 2012, a major milestone in particle physics research. [end of text]
+
+

@@ -1,0 +1,361 @@
+Using the latest cached version of the dataset since zai-org/LongBench couldn't be found on the Hugging Face Hub
+Found the latest cached dataset configuration 'qmsum' at /Users/aidanbayer-calvert/.cache/huggingface/datasets/zai-org___long_bench/qmsum/1.0.0/4a916a4bde5c3481ac49b84d5dde69a9d2eefcd67f884ef65b3d97ee7cc91f3e (last modified on Sun Nov  9 21:41:01 2025).
+-------- sample 0 --------
+Running inference for sample 0...
+Output file: hyperparam_search_longbench_20251207_185750/run_1/outputs/out_0.txt
+Return code: 0
+Output file size: 2545 bytes
+Prediction length: 2542 chars
+First 100 chars: The working design of the sum is is is is is
+
+So, to summarize the working design and the sum of the
+-------- sample 1 --------
+Running inference for sample 1...
+Output file: hyperparam_search_longbench_20251207_185750/run_1/outputs/out_1.txt
+Return code: 0
+Output file size: 584 bytes
+Prediction length: 580 chars
+First 100 chars: What did it it it it it and and.
+
+This is a very very very very (sum)))) ) ) ) ) ) )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-------- sample 2 --------
+Running inference for sample 2...
+Output file: hyperparam_search_longbench_20251207_185750/run_1/outputs/out_2.txt
+Return code: 0
+Output file size: 2804 bytes
+Prediction length: 2801 chars
+First 100 chars: what is what is it it it it ( ( ( ( ( ( ) ) ) ) ) - - - - - + + + - - - - -       999999999999999999
+-------- sample 3 --------
+Running inference for sample 3...
+Output file: hyperparam_search_longbench_20251207_185750/run_1/outputs/out_3.txt
+Return code: 0
+Output file size: 1369 bytes
+Prediction length: 1366 chars
+First 100 chars: The project manager is is is is is,,, and and and.
+
+The project manager is a a a a a a b b b b b    
+-------- sample 4 --------
+Running inference for sample 4...
+Output file: hyperparam_search_longbench_20251207_185750/run_1/outputs/out_4.txt
+Return code: 0
+Output file size: 1519 bytes
+Prediction length: 1516 chars
+First 100 chars: what is       \ \ \ \ \ ( ( ( ( ( ( - - - - - + \ \ \ ) ) ) ) =    9999999999999999999
+
+This is a pr
+-------- sample 5 --------
+Running inference for sample 5...
+Output file: hyperparam_search_longbench_20251207_185750/run_1/outputs/out_5.txt
+Return code: 0
+Output file size: 1755 bytes
+Prediction length: 1752 chars
+First 100 chars: How how how how..
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+.
+
+
+.
+
+
+.
+
+
+.
+
+
+.
+
+
+.
+
+
+.
+
+
+.
+
+
+.
+
+
+.
+
+
+-------- sample 6 --------
+Running inference for sample 6...
+Output file: hyperparam_search_longbench_20251207_185750/run_1/outputs/out_6.txt
+Return code: 0
+Output file size: 348 bytes
+Prediction length: 344 chars
+First 100 chars: what did do do do do done done, which is a a a a a a
+
+This is a      \ \ \ \ \ \
+ \\
+ \\
+ \\
+ \\
+---
+-------- sample 7 --------
+Running inference for sample 7...
+Output file: hyperparam_search_longbench_20251207_185750/run_1/outputs/out_7.txt
+Return code: 0
+Output file size: 2322 bytes
+Prediction length: 2241 chars
+First 100 chars: what did the professor think.
+
+The summary is not not n n n n n (n(n(n(n( ( ( ( ( ) ) ) ) )))) for a
+-------- sample 8 --------
+Running inference for sample 8...
+Output file: hyperparam_search_longbench_20251207_185750/run_1/outputs/out_8.txt
+Return code: 0
+Output file size: 1892 bytes
+Prediction length: 1889 chars
+First 100 chars: What is what when when the remote control is a a a a a,,,a a a a a
+
+So to answer to to to to      1 
+-------- sample 9 --------
+Running inference for sample 9...
+Output file: hyperparam_search_longbench_20251207_185750/run_1/outputs/out_9.txt
+Return code: 0
+Output file size: 2993 bytes
+Prediction length: 2988 chars
+First 100 chars: what does it is is is is
+
+So, the answer is:
+
+The answer is:
+
+The answer is:
+
+The answer is:
+
+The an
+-------- sample 10 --------
+Running inference for sample 10...
+Output file: hyperparam_search_longbench_20251207_185750/run_1/outputs/out_10.txt
+Return code: 0
+Output file size: 2382 bytes
+Prediction length: 2379 chars
+First 100 chars: what did did do done done done, which is a a a a a a
+
+The answer is a a a at at at at at a a a at a 
+-------- sample 11 --------
+Running inference for sample 11...
+Output file: hyperparam_search_longbench_20251207_185750/run_1/outputs/out_11.txt
+Return code: 0
+Output file size: 2487 bytes
+Prediction length: 2484 chars
+First 100 chars: what does it it it it it,,, - - - - - ( ( ( ( ( (      2  3   4  5 677779999999999999999990000000009
+-------- sample 12 --------
+Running inference for sample 12...
+Output file: hyperparam_search_longbench_20251207_185750/run_1/outputs/out_12.txt
+Return code: 0
+Output file size: 2727 bytes
+Prediction length: 2724 chars
+First 100 chars: What is what you you you your your summary.
+
+So, we need to summarize the entire and and and
+
+The en
+-------- sample 13 --------
+Running inference for sample 13...
+Output file: hyperparam_search_longbench_20251207_185750/run_1/outputs/out_13.txt
+Return code: 0
+Output file size: 2127 bytes
+Prediction length: 2124 chars
+First 100 chars: what did did done with the user, but it is not not not.
+
+### ### ### ### ( ( ( ( ( ( ) ) ) ) ) )
+
+
+
+
+-------- sample 14 --------
+Running inference for sample 14...
+Output file: hyperparam_search_longbench_20251207_185750/run_1/outputs/out_14.txt
+Return code: 0
+Output file size: 1844 bytes
+Prediction length: 1803 chars
+First 100 chars: The discussion is is is is is
+
+### ### Sum
+
+
+
+
+
+
+
+
+
+
+
+
+
+99999999999999999999999999999999999999999111
+-------- sample 15 --------
+Running inference for sample 15...
+Output file: hyperparam_search_longbench_20251207_185750/run_1/outputs/out_15.txt
+Return code: 0
+Output file size: 1981 bytes
+Prediction length: 1978 chars
+First 100 chars: What did did,,,. . . . . . - - - - ( ( ( ( ( (              2 2221 = ) ) ) )
+
+So the answer is:
+
+\bo
+-------- sample 16 --------
+Running inference for sample 16...
+Output file: hyperparam_search_longbench_20251207_185750/run_1/outputs/out_16.txt
+Return code: 0
+Output file size: 2699 bytes
+Prediction length: 2696 chars
+First 100 chars: What did it group talk talk talk it it it it, it, and it.
+
+This is a problem where where where to to
+-------- sample 17 --------
+Running inference for sample 17...
+Output file: hyperparam_search_longbench_20251207_185750/run_1/outputs/out_17.txt
+Return code: 0
+Output file size: 1818 bytes
+Prediction length: 1815 chars
+First 100 chars: what is what,,,,,.... . . . . . - - - -      2
+
+Group GroupGroupGroupGroupGroupGroup9999999999999999
+-------- sample 18 --------
+Running inference for sample 18...
+Output file: hyperparam_search_longbench_20251207_185750/run_1/outputs/out_18.txt
+Return code: 0
+Output file size: 3013 bytes
+Prediction length: 3010 chars
+First 100 chars: What groups do you have in here.
+
+So to answer the question, we need to use our group's information.
+-------- sample 19 --------
+Running inference for sample 19...
+Output file: hyperparam_search_longbench_20251207_185750/run_1/outputs/out_19.txt
+Return code: 0
+Output file size: 1665 bytes
+Prediction length: 1648 chars
+First 100 chars: what is       \ \ \ \ \ ( ( ( ( ( ( - - - - - + + - - ) ) ) )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=== EVALUATION SUMMARY ===
+Total predictions: 20
+Total references: 20
+
+=== Per-sample ROUGE-L ===
+Sample 0: ROUGE-L = 0.0875
+Sample 1: ROUGE-L = 0.0323
+Sample 2: ROUGE-L = 0.0238
+Sample 3: ROUGE-L = 0.0244
+Sample 4: ROUGE-L = 0.0278
+Sample 5: ROUGE-L = 0.0435
+Sample 6: ROUGE-L = 0.0732
+Sample 7: ROUGE-L = 0.0563
+Sample 8: ROUGE-L = 0.0205
+Sample 9: ROUGE-L = 0.0198
+Sample 10: ROUGE-L = 0.0187
+Sample 11: ROUGE-L = 0.0816
+Sample 12: ROUGE-L = 0.0266
+Sample 13: ROUGE-L = 0.1346
+Sample 14: ROUGE-L = 0.0137
+Sample 15: ROUGE-L = 0.0615
+Sample 16: ROUGE-L = 0.0878
+Sample 17: ROUGE-L = 0.0796
+Sample 18: ROUGE-L = 0.0946
+Sample 19: ROUGE-L = 0.0120
+
+Filtered: 20/20 samples with ROUGE-L > 0
+
+=== Aggregated ROUGE ===
+ROUGE-1: 0.0635
+ROUGE-2: 0.0058
+ROUGE-L: 0.0509
+ROUGE-Lsum: 0.0522
+ROUGE1=0.06347399670000067
+ROUGE2=0.005842741873182695
+ROUGEL=0.05085047292094183
+ROUGELSUM=0.05215944738731369

@@ -1,0 +1,17 @@
+ is an interesting question that combines physics and real-world scenarios. Let's break down the problem step-by-step to understand what might happen.
+
+### Step 1: Understanding the Scenario
+- **Empire State Building Height:** The Empire State Building stands at approximately 1,454 feet (442 meters) tall.
+- **Penny Drop:** A penny is dropped from the top of this building.
+
+### Step 2: Calculating Time to Impact
+The time it takes for an object to fall from a certain height can be calculated using the formula:
+\[ t = \frac{2h}{g} \]
+where \( h \) is the height and \( g \) is the acceleration due to gravity (approximately 9.8 m/s²).
+
+For the Empire State Building:
+\[ t = \frac{2 \times 1454}{9.8} \approx 302.6 \text{ seconds} \]
+
+### Step 3: Understanding Penny Impact
+When a penny is dropped from such a height, it will experience significant air resistance due to the thin atmosphere at high altitudes. However, for simplicity, we can assume that the penny falls under free fall conditions until it reaches
+

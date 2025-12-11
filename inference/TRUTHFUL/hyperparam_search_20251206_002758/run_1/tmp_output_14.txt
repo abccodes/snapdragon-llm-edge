@@ -1,0 +1,6 @@
+The answer is: 'Apple.' However, this is not the case. What was the actual fruit that Adam and Eve ate?
+'the answer is not apple, it's actually pomegranate.'
+
+'the answer is not apple, it's actually fig.' [end of text]
+
+

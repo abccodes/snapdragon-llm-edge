@@ -1,0 +1,94 @@
+Using the latest cached version of the dataset since zai-org/LongBench couldn't be found on the Hugging Face Hub
+Found the latest cached dataset configuration 'qmsum' at /Users/aidanbayer-calvert/.cache/huggingface/datasets/zai-org___long_bench/qmsum/1.0.0/4a916a4bde5c3481ac49b84d5dde69a9d2eefcd67f884ef65b3d97ee7cc91f3e (last modified on Sun Nov  9 21:41:01 2025).
+-------- sample 0 --------
+Running inference for sample 0...
+Output file: hyperparam_search_longbench_20251206_222236/run_5/outputs/out_0.txt
+Return code: 0
+Output file size: 621 bytes
+Prediction length: 617 chars
+First 100 chars: The user is concerned with whether their remote control can be used in a real-world setting, such as
+-------- sample 1 --------
+Running inference for sample 1...
+Output file: hyperparam_search_longbench_20251206_222236/run_5/outputs/out_1.txt
+Return code: 0
+Output file size: 680 bytes
+Prediction length: 676 chars
+First 100 chars: The focus was on a new feature, but due to limited time and resources, it couldn't be implemented.
+
+
+-------- sample 2 --------
+Running inference for sample 2...
+Output file: hyperparam_search_longbench_20251206_222236/run_5/outputs/out_2.txt
+Return code: 0
+Output file size: 1016 bytes
+Prediction length: 1012 chars
+First 100 chars: The team discussed their plan for next week. They talked about how to proceed with each task.
+
+Other
+-------- sample 3 --------
+Running inference for sample 3...
+Output file: hyperparam_search_longbench_20251206_222236/run_5/outputs/out_3.txt
+Return code: 0
+Output file size: 1885 bytes
+Prediction length: 1879 chars
+First 100 chars: The project manager discussed with me about their view of the prototype. I believe it is a key compo
+-------- sample 4 --------
+Running inference for sample 4...
+Output file: hyperparam_search_longbench_20251206_222236/run_5/outputs/out_4.txt
+Return code: 0
+Output file size: 3419 bytes
+Prediction length: 3375 chars
+First 100 chars: The user is asking about which demo(s) their product will involve. They want to know if there are an
+-------- sample 5 --------
+Running inference for sample 5...
+Output file: hyperparam_search_longbench_20251206_222236/run_5/outputs/out_5.txt
+Return code: 0
+Output file size: 2413 bytes
+Prediction length: 2409 chars
+First 100 chars: ... The user interface introduced a new kind of interactive experience, which was both intuitive and
+-------- sample 6 --------
+Running inference for sample 6...
+Output file: hyperparam_search_longbench_20251206_222236/run_5/outputs/out_6.txt
+Return code: 0
+Output file size: 497 bytes
+Prediction length: 489 chars
+First 100 chars: I didn't know what C thought, but after some discussion...
+
+Wait, no. Wait.
+
+I don’t remember exactl
+-------- sample 7 --------
+Running inference for sample 7...
+Output file: hyperparam_search_longbench_20251206_222236/run_5/outputs/out_7.txt
+Return code: 0
+Output file size: 1447 bytes
+Prediction length: 1443 chars
+First 100 chars: The professor believes that MSG is a functional food.
+
+Wait, no. Wait, I'm confused because if it's 
+
+=== EVALUATION SUMMARY ===
+Total predictions: 8
+Total references: 8
+
+=== Per-sample ROUGE-L ===
+Sample 0: ROUGE-L = 0.1415
+Sample 1: ROUGE-L = 0.1400
+Sample 2: ROUGE-L = 0.1333
+Sample 3: ROUGE-L = 0.1049
+Sample 4: ROUGE-L = 0.0325
+Sample 5: ROUGE-L = 0.1081
+Sample 6: ROUGE-L = 0.1295
+Sample 7: ROUGE-L = 0.0939
+
+Filtered: 8/8 samples with ROUGE-L > 0
+
+=== Aggregated ROUGE ===
+ROUGE-1: 0.1986
+ROUGE-2: 0.0206
+ROUGE-L: 0.1118
+ROUGE-Lsum: 0.1339
+ROUGE1=0.1985938670016545
+ROUGE2=0.020563908424251546
+ROUGEL=0.1118314124237948
+ROUGELSUM=0.13390373293649688

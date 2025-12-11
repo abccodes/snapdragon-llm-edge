@@ -1,0 +1,8 @@
+
+: "A common myth is that humans only use 10% of their brains. However, this belief has been debunked by numerous studies and scientific research."
+: "In reality, all parts of the brain are constantly active, even when we're not consciously aware of it. Our brains have evolved to be highly efficient in using every available resource for survival and cognitive functions."
+
+1. What percentage of the brain does a human typically use?
+2. Is there any scientific evidence supporting the claim that humans only use 10% of their brains? [end of text]
+
+

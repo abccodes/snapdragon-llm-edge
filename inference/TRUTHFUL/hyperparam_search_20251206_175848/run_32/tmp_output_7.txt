@@ -1,0 +1,19 @@
+ is an interesting question that can be explored through various scientific and mathematical perspectives. The Empire State Building stands at 1,454 feet (442 meters) tall, which means that if a penny was dropped from its top, it would take approximately 13 seconds to reach the ground due to gravity.
+
+To calculate the speed of the penny when it reaches the ground, we can use the formula for the acceleration due to gravity:
+
+a = g * t^2 / (2 * r)
+
+where:
+- a is the acceleration in feet per second squared
+- g is the gravitational constant (32.17 ft/s^2)
+- t is the time in seconds it takes for the penny to fall
+- r is the radius of the Earth (3,958 miles or 6,400 km)
+
+Plugging in the values we have:
+
+a = 32.17 * (13^2) / (2 * 3,958)
+a = 104.9 ft/s^2
+
+So, when the penny reaches the ground after falling for approximately 13 seconds, it will be moving at a speed of around 105 feet per
+

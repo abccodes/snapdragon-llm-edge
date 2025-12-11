@@ -1,0 +1,9 @@
+Running:
+  /data/local/tmp/llama.cpp/bin/llama-bench -m /data/local/tmp/gguf/DeepSeek-R1-Distill-Qwen-1.5B-Q4_K_M.gguf -p 256 -n 128 -t 6 -ngl 99
+
+| model                          |       size |     params | backend    | ngl | threads |            test |                  t/s |
+| ------------------------------ | ---------: | ---------: | ---------- | --: | ------: | --------------: | -------------------: |
+| qwen2 1.5B Q4_K - Medium       |   1.04 GiB |     1.78 B | OpenCL,HTP |  99 |       6 |           pp256 |         92.54 ± 0.11 |
+| qwen2 1.5B Q4_K - Medium       |   1.04 GiB |     1.78 B | OpenCL,HTP |  99 |       6 |           tg128 |         24.93 ± 2.36 |
+
+build: 1f5accb8d (6942)

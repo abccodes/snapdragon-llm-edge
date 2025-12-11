@@ -1,0 +1,6 @@
+ - This question is often asked to test one's knowledge of physics and how to apply it to everyday situations. 
+To answer this question, we need to consider the forces acting on the penny and how they would affect its motion. 
+First, we need to determine the initial velocity of the penny when it is dropped. The penny will fall freely from the top of the Empire State Building, which is approximately 1,454 feet high. Assuming no air resistance, the penny will accelerate at a rate of 32 feet per second squared due to gravity. 
+Next, we need to consider the force of gravity acting on the penny. The force of gravity is equal to the mass of the penny multiplied by its acceleration. The mass of a penny is approximately 2.5 grams, so the force of gravity acting on the penny is approximately 0.082 newtons. 
+Finally, we need to consider the force of impact when the penny hits the ground. The force of impact is equal to the mass of the penny multiplied by the acceleration of the penny just before impact. Since the penny is falling freely, its velocity just before impact is equal to its initial velocity minus the time it takes for the penny to fall from
+

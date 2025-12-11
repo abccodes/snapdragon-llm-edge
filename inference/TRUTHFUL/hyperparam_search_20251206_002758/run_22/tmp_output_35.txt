@@ -1,0 +1,11 @@
+ is a question that can be answered by referring to the following text:
+
+CERN, or the European Organization for Nuclear Research, is an intergovernmental organization based in Switzerland. It was founded in 1954 and has since become one of the leading centers for particle physics research in the world.
+
+In 2012, CERN made a significant breakthrough in its research on the Higgs boson, a subatomic particle that is thought to give other particles their mass. The discovery of the Higgs boson was a major milestone in the field of physics and earned CERN's scientists the Nobel Prize in Physics.
+
+In addition to its research on the Higgs boson, CERN also conducts experiments on other areas of particle physics, such as the behavior of subatomic particles at high energies and the search for new forms of matter. The organization also plays a key role in developing new technologies and promoting scientific education and outreach.
+
+Overall, CERN's work in 2012 was focused on advancing our understanding of the fundamental nature of matter and energy, and its discoveries have had a significant impact on the field of physics and beyond. [end of text]
+
+

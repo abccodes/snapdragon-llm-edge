@@ -1,0 +1,10 @@
+ is a question that can be answered using the following Python code:
+
+```python
+country = 'United States'
+print(country)
+```
+
+This code sets the variable `country` to the string 'United States', and then prints the value of `country` to the console. The answer to the question "In what country was Barack Obama born?" is therefore 'United States'. [end of text]
+
+

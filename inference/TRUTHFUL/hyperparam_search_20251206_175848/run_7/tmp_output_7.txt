@@ -1,0 +1,18 @@
+ is an interesting question that combines physics and real-world scenarios. Let's break down what might happen in this hypothetical situation.
+
+### Step-by-Step Analysis
+
+1. **Height of the Drop:**
+   - The Empire State Building stands at approximately 1,450 feet (or about 437 meters) tall.
+   
+2. **Initial Velocity and Acceleration:**
+   - When a penny is dropped from rest, it accelerates due to gravity. At sea level on Earth, the acceleration due to gravity (\(g\)) is approximately \(9.81 \text{ m/s}^2\).
+   - The initial velocity of the penny at release is 0 meters per second.
+   
+3. **Time Taken for Penny to Reach Ground:**
+   - Using the formula \(t = \frac{\sqrt{2h}}{g}\), where \(h\) is the height and \(g\) is gravity, we can calculate:
+     \[
+     t = \frac{\sqrt{(1450 m)}{9.81} \approx 37.6 \text{s}}
+     \]
+   - This means it takes approximately 37.6 seconds for the penny to
+

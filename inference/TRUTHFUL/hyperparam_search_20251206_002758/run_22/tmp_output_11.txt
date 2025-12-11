@@ -1,0 +1,3 @@
+ is a question that can be answered by using reasoning and knowledge about the sun. The sun appears white when viewed from space because it emits light across the entire visible spectrum, including red, orange, yellow, green, blue, indigo, and violet. However, the human eye perceives this light as white because our eyes are sensitive to all colors in equal measure. Therefore, the answer to the question is that the sun appears white when viewed from space. [end of text]
+
+

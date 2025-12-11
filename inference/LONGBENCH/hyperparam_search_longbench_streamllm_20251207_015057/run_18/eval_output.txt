@@ -1,0 +1,623 @@
+Using the latest cached version of the dataset since zai-org/LongBench couldn't be found on the Hugging Face Hub
+Found the latest cached dataset configuration 'qmsum' at /Users/aidanbayer-calvert/.cache/huggingface/datasets/zai-org___long_bench/qmsum/1.0.0/4a916a4bde5c3481ac49b84d5dde69a9d2eefcd67f884ef65b3d97ee7cc91f3e (last modified on Sun Nov  9 21:41:01 2025).
+-------- sample 0 --------
+Running inference for sample 0...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_18/outputs/out_0.txt
+Return code: 0
+Output file size: 56 bytes
+Prediction length: 51 chars
+First 100 chars: and we, in a "t is not have to bevel. [end of text]
+-------- sample 1 --------
+Running inference for sample 1...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_18/outputs/out_1.txt
+Return code: 0
+Output file size: 266 bytes
+Prediction length: 261 chars
+First 100 chars: and, with a. , but also.
+
+The final to bevels are not only in "make
+* (or is just). The two-way, mak
+-------- sample 2 --------
+Running inference for sample 2...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_18/outputs/out_2.txt
+Return code: 0
+Output file size: 238 bytes
+Prediction length: 234 chars
+First 100 chars: " (1. Theanine to - and .  is a $-like, as well.
+
+The final. , or t take into an 't
+
+## Step .
+
+
+Not
+-------- sample 3 --------
+Running inference for sample 3...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_18/outputs/out_3.txt
+Return code: 0
+Output file size: 2206 bytes
+Prediction length: 2202 chars
+First 100 chars: and G. Theorem
+
+The, in this is a) 
+
+## Step .
+
+
+African to do not only of " (or .completonic.
+ighte
+-------- sample 4 --------
+Running inference for sample 4...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_18/outputs/out_4.txt
+Return code: 0
+Output file size: 2242 bytes
+Prediction length: 2236 chars
+First 100 chars: is, and then. Theano.
+
+The final.
+One more or eponly was not only a 'n will you can use tomtake of t
+-------- sample 5 --------
+Running inference for sample 5...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_18/outputs/out_5.txt
+Return code: 0
+Output file size: 2273 bytes
+Prediction length: 2267 chars
+First 100 chars: and - The. I or is not only it, but also a few... (1.
+The final). This can be more than two- A''
+
+##
+-------- sample 6 --------
+Running inference for sample 6...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_18/outputs/out_6.txt
+Return code: 0
+Output file size: 2119 bytes
+Prediction length: 2113 chars
+First 100 chars: - and not. ..._ Anderamps, in a bit of course to bevels are you can'thank (see is an individual's.
+
+
+-------- sample 7 --------
+Running inference for sample 7...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_18/outputs/out_7.txt
+Return code: 0
+Output file size: 2298 bytes
+Prediction length: 2293 chars
+First 100 chars: "Theory. 
+
+This is not only inverting, and also (or even more than a**.
+
+*  -_ Amandone of . The fir
+-------- sample 8 --------
+Running inference for sample 8...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_18/outputs/out_8.txt
+Return code: 0
+Output file size: 2201 bytes
+Prediction length: 2195 chars
+First 100 chars: and -_ I. The final, with a) 
+
+The first is not only in "Arling .-like (2017). This waspore can beve
+-------- sample 9 --------
+Running inference for sample 9...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_18/outputs/out_9.txt
+Return code: 0
+Output file size: 2214 bytes
+Prediction length: 2210 chars
+First 100 chars: - and, well-known-learned by not. ... is a single to make it's all.
+
+I hope of . The
+
+The final) I'm
+-------- sample 10 --------
+Running inference for sample 10...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_18/outputs/out_10.txt
+Return code: 0
+Output file size: 213 bytes
+Prediction length: 208 chars
+First 100 chars: "The. 
+
+Note that makes, and to bevels' (and is not only
+* A) The.
+
+**-like a## Step .
+
+
+Specificall
+-------- sample 11 --------
+Running inference for sample 11...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_18/outputs/out_11.txt
+Return code: 0
+Output file size: 711 bytes
+Prediction length: 705 chars
+First 100 chars: " (1)  is not only. ...-like, and also.
+
+The final to bevels''. The first of a
+
+## Step .
+
+
+Note  th
+-------- sample 12 --------
+Running inference for sample 12...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_18/outputs/out_12.txt
+Return code: 0
+Output file size: 154 bytes
+Prediction length: 150 chars
+First 100 chars: "Theodor. The .
+
+
+In this is not only in life.
+
+## Step  and . 
+
+Note, I'me
+
+1) ...-like to make som
+-------- sample 13 --------
+Running inference for sample 13...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_18/outputs/out_13.txt
+Return code: 0
+Output file size: 2194 bytes
+Prediction length: 2190 chars
+First 100 chars: -_ I. A, in a few (and to make up-to-kinetics is not only) .
+
+## Step .
+
+
+The final. , "Amp; however
+-------- sample 14 --------
+Running inference for sample 14...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_18/outputs/out_14.txt
+Return code: 0
+Output file size: 2279 bytes
+Prediction length: 2273 chars
+First 100 chars: is not a, in 'tension. . The first step one of this time
+
+The final) [email.
+* (1
+## Step .
+
+
+Instit
+-------- sample 15 --------
+Running inference for sample 15...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_18/outputs/out_15.txt
+Return code: 0
+Output file size: 29 bytes
+Prediction length: 24 chars
+First 100 chars: - Theorem. [end of text]
+-------- sample 16 --------
+Running inference for sample 16...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_18/outputs/out_16.txt
+Return code: 0
+Output file size: 2304 bytes
+Prediction length: 2301 chars
+First 100 chars: "The. . The two, in a $- and  -_ (1' 'tension is notations) to
+*.
+This was justly). *n this time.
+
+N
+-------- sample 17 --------
+Running inference for sample 17...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_18/outputs/out_17.txt
+Return code: 0
+Output file size: 2230 bytes
+Prediction length: 2227 chars
+First 100 chars: "The  is not only in a, and also. Theodor to bevels). This was at least - I'mo (see that's
+
+## Step 
+-------- sample 18 --------
+Running inference for sample 18...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_18/outputs/out_18.txt
+Return code: 0
+Output file size: 72 bytes
+Prediction length: 67 chars
+First 100 chars: " (or. Theorem
+
+The final.
+
+**-like
+## Step  to -_ A) [end of text]
+-------- sample 19 --------
+Running inference for sample 19...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_18/outputs/out_19.txt
+Return code: 0
+Output file size: 2191 bytes
+Prediction length: 2184 chars
+First 100 chars: "Theory. Theorem  is not only inverting, and then.
+* (or of all three) to becares.
+
+As well as a
+## 
+-------- sample 20 --------
+Running inference for sample 20...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_18/outputs/out_20.txt
+Return code: 0
+Output file size: 2298 bytes
+Prediction length: 2293 chars
+First 100 chars: "Theoretic. . The  is a and see if you can'take, in 'tension of (Robert's not only to bevels are mor
+-------- sample 21 --------
+Running inference for sample 21...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_18/outputs/out_21.txt
+Return code: 0
+Output file size: 42 bytes
+Prediction length: 37 chars
+First 100 chars: - and also.
+
+The final. [end of text]
+-------- sample 22 --------
+Running inference for sample 22...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_18/outputs/out_22.txt
+Return code: 0
+Output file size: 2206 bytes
+Prediction length: 2198 chars
+First 100 chars: is a single. ... The, and to bevels are not only (B) waspitalic distance of.
+Theater
+
+## Step .
+
+
+In
+-------- sample 23 --------
+Running inference for sample 23...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_18/outputs/out_23.txt
+Return code: 0
+Output file size: 859 bytes
+Prediction length: 853 chars
+First 100 chars: "The final. , and also, Imitation
+
+**-like.
+
+Note  is not only one or at a
+* -_ (1) to becafter the 
+-------- sample 24 --------
+Running inference for sample 24...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_18/outputs/out_24.txt
+Return code: 0
+Output file size: 2216 bytes
+Prediction length: 2212 chars
+First 100 chars: and it, you can bevel. . The first.
+Theodore to). A' (and ) -_ I) .
+African in a n ishield.
+
+**. Som
+-------- sample 25 --------
+Running inference for sample 25...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_18/outputs/out_25.txt
+Return code: 0
+Output file size: 2235 bytes
+Prediction length: 2231 chars
+First 100 chars: is a single. ... (1
+* and also, Imitation)
+
+Theodore in 't heir to -_  make some of the "the first.
+
+-------- sample 26 --------
+Running inference for sample 26...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_18/outputs/out_26.txt
+Return code: 0
+Output file size: 403 bytes
+Prediction length: 399 chars
+First 100 chars: "Theory. 1 and it.
+
+I hope'stall, in a' (and to gethonesthetic) , which is not -_ I'me
+
+## Step .
+
+
+
+-------- sample 27 --------
+Running inference for sample 27...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_18/outputs/out_27.txt
+Return code: 0
+Output file size: 952 bytes
+Prediction length: 947 chars
+First 100 chars: is not only. ... (1
+The final, in a 'n'thank and by.
+
+I hope it's "A) The first step one can bevels.
+-------- sample 28 --------
+Running inference for sample 28...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_18/outputs/out_28.txt
+Return code: 0
+Output file size: 2221 bytes
+Prediction length: 2211 chars
+First 100 chars: is a "tionshypo.
+
+The final. The, and to bevels are you can'that's first time in this year by. Inlan
+-------- sample 29 --------
+Running inference for sample 29...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_18/outputs/out_29.txt
+Return code: 0
+Output file size: 743 bytes
+Prediction length: 736 chars
+First 100 chars: is a single. ... (1).
+, and to bevels''
+
+The final -_ I'mindependent of . The two-way and.
+- [email)
+-------- sample 30 --------
+Running inference for sample 30...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_18/outputs/out_30.txt
+Return code: 0
+Output file size: 2231 bytes
+Prediction length: 2223 chars
+First 100 chars: "Theater is a)  and also. The.
+
+I hope to bevel, in South
+
+## Step .
+
+
+Note that means' (broughted o
+-------- sample 31 --------
+Running inference for sample 31...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_18/outputs/out_31.txt
+Return code: 0
+Output file size: 2173 bytes
+Prediction length: 2169 chars
+First 100 chars: and also. (See a, in " A
+
+The is not only have you can bevels areal - but.
+## Step  to find more tha
+-------- sample 32 --------
+Running inference for sample 32...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_18/outputs/out_32.txt
+Return code: 0
+Output file size: 2258 bytes
+Prediction length: 2253 chars
+First 100 chars: " and all. 'A is a single, it's -_1). You can bevels are youn this time; however small. . The follow
+-------- sample 33 --------
+Running inference for sample 33...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_18/outputs/out_33.txt
+Return code: 0
+Output file size: 956 bytes
+Prediction length: 949 chars
+First 100 chars: (see, and all. A) The.
+
+The one-in-ly to do'sh is also known as a few minutes before.
+* In this can 
+-------- sample 34 --------
+Running inference for sample 34...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_18/outputs/out_34.txt
+Return code: 0
+Output file size: 2263 bytes
+Prediction length: 2257 chars
+First 100 chars: and -_1. , it's not only for a, you can't geta matter is
+The final.
+
+Note that has been used to beve
+-------- sample 35 --------
+Running inference for sample 35...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_18/outputs/out_35.txt
+Return code: 0
+Output file size: 396 bytes
+Prediction length: 391 chars
+First 100 chars: and can helplessly. (G) is not only of the "t bevel, it's . I n this time to get a'.'-_ [email). 
+
+T
+-------- sample 36 --------
+Running inference for sample 36...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_18/outputs/out_36.txt
+Return code: 0
+Output file size: 2310 bytes
+Prediction length: 2306 chars
+First 100 chars: and then. ... is not only a**-like, as well.
+The final). This was able to bevels are you can't get -
+-------- sample 37 --------
+Running inference for sample 37...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_18/outputs/out_37.txt
+Return code: 0
+Output file size: 636 bytes
+Prediction length: 631 chars
+First 100 chars: - and to be right. , " The, a single-cell- or more specifically.
+
+The final (1). To is
+*.
+I hope you
+-------- sample 38 --------
+Running inference for sample 38...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_18/outputs/out_38.txt
+Return code: 0
+Output file size: 2278 bytes
+Prediction length: 2274 chars
+First 100 chars: "The final, and is. .
+ing (Bildemand a) 
+
+## Step .
+
+
+To gett e to bevelous.
+
+I hope of the above.
+*
+-------- sample 39 --------
+Running inference for sample 39...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_18/outputs/out_39.txt
+Return code: 0
+Output file size: 2188 bytes
+Prediction length: 2184 chars
+First 100 chars: - and to a, you're. , is not only . A1' (K
+
+The one- 
+
+## Step .
+
+
+In this was able) The two-way.
+
+I
+-------- sample 40 --------
+Running inference for sample 40...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_18/outputs/out_40.txt
+Return code: 0
+Output file size: 2184 bytes
+Prediction length: 2181 chars
+First 100 chars: " (or is not only in a, and to bevel. . Theorem .
+
+
+The final as well as an'.' A- -_ I formenthumbre
+-------- sample 41 --------
+Running inference for sample 41...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_18/outputs/out_41.txt
+Return code: 0
+Output file size: 2280 bytes
+Prediction length: 2270 chars
+First 100 chars: - and a, but not only. ... Theorem in "In this is better known as well".-based.
+
+The final.
+* (A) wa
+-------- sample 42 --------
+Running inference for sample 42...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_18/outputs/out_42.txt
+Return code: 0
+Output file size: 2241 bytes
+Prediction length: 2238 chars
+First 100 chars: "The .
+
+
+In a (or, and. A is not only . The final, but also).
+* In this was given to be case.
+##  - 
+-------- sample 43 --------
+Running inference for sample 43...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_18/outputs/out_43.txt
+Return code: 0
+Output file size: 2211 bytes
+Prediction length: 2207 chars
+First 100 chars: - and a 't is not. , but also, or "The final) The first step by one of two-technically.
+* (1
+## Step
+-------- sample 44 --------
+Running inference for sample 44...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_18/outputs/out_44.txt
+Return code: 0
+Output file size: 590 bytes
+Prediction length: 585 chars
+First 100 chars: have. A, and is not only.
+The final (and) to becausally
+## Step .
+
+
+I hope at a + [1). The first tim
+-------- sample 45 --------
+Running inference for sample 45...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_18/outputs/out_45.txt
+Return code: 0
+Output file size: 2228 bytes
+Prediction length: 2222 chars
+First 100 chars: (1, not. , "Amposta of . The two-way is a single -_ I'me.
+
+The final; it's not only can bevels that 
+-------- sample 46 --------
+Running inference for sample 46...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_18/outputs/out_46.txt
+Return code: 0
+Output file size: 2198 bytes
+Prediction length: 2192 chars
+First 100 chars: and T4. (1
+The is not only, but also) to bevels are they're 't
+
+## Step .
+
+
+Real time.
+Ampython). I 
+-------- sample 47 --------
+Running inference for sample 47...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_18/outputs/out_47.txt
+Return code: 0
+Output file size: 2243 bytes
+Prediction length: 2237 chars
+First 100 chars: and then. . Theano.
+* (or two, in a' 'tension to make-up is not only formenthose.
+
+The final) 
+
+## S
+-------- sample 48 --------
+Running inference for sample 48...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_18/outputs/out_48.txt
+Return code: 0
+Output file size: 2223 bytes
+Prediction length: 2218 chars
+First 100 chars: The. , and also, with a) [email (10 in 't have
+*  In this to do not - "The.
+
+I hope). combs are you 
+-------- sample 49 --------
+Running inference for sample 49...
+Output file: hyperparam_search_longbench_streamllm_20251207_015057/run_18/outputs/out_49.txt
+Return code: 0
+Output file size: 2194 bytes
+Prediction length: 2190 chars
+First 100 chars: " (1. 
+
+The final, we'res... The.
+
+I hope is not only and then.
+* [pause
+
+## Step  to -_ I'me in a'.
+\n=== EVALUATION SUMMARY ===
+Total predictions: 50
+Total references: 50
+\n=== Per-sample ROUGE-L ===
+Sample 0: ROUGE-L = 0.0800
+Sample 1: ROUGE-L = 0.1268
+Sample 2: ROUGE-L = 0.0752
+Sample 3: ROUGE-L = 0.0866
+Sample 4: ROUGE-L = 0.0441
+Sample 5: ROUGE-L = 0.1079
+Sample 6: ROUGE-L = 0.0659
+Sample 7: ROUGE-L = 0.0530
+Sample 8: ROUGE-L = 0.0518
+Sample 9: ROUGE-L = 0.0625
+Sample 10: ROUGE-L = 0.0822
+Sample 11: ROUGE-L = 0.1345
+Sample 12: ROUGE-L = 0.0625
+Sample 13: ROUGE-L = 0.1057
+Sample 14: ROUGE-L = 0.1113
+Sample 15: ROUGE-L = 0.0408
+Sample 16: ROUGE-L = 0.1184
+Sample 17: ROUGE-L = 0.0744
+Sample 18: ROUGE-L = 0.0471
+Sample 19: ROUGE-L = 0.0645
+Sample 20: ROUGE-L = 0.0649
+Sample 21: ROUGE-L = 0.1569
+Sample 22: ROUGE-L = 0.0583
+Sample 23: ROUGE-L = 0.0808
+Sample 24: ROUGE-L = 0.0682
+Sample 25: ROUGE-L = 0.1269
+Sample 26: ROUGE-L = 0.1353
+Sample 27: ROUGE-L = 0.0982
+Sample 28: ROUGE-L = 0.0810
+Sample 29: ROUGE-L = 0.1158
+Sample 30: ROUGE-L = 0.0911
+Sample 31: ROUGE-L = 0.0627
+Sample 32: ROUGE-L = 0.0991
+Sample 33: ROUGE-L = 0.1290
+Sample 34: ROUGE-L = 0.0759
+Sample 35: ROUGE-L = 0.1208
+Sample 36: ROUGE-L = 0.0701
+Sample 37: ROUGE-L = 0.0923
+Sample 38: ROUGE-L = 0.0508
+Sample 39: ROUGE-L = 0.0464
+Sample 40: ROUGE-L = 0.0873
+Sample 41: ROUGE-L = 0.1051
+Sample 42: ROUGE-L = 0.0784
+Sample 43: ROUGE-L = 0.0946
+Sample 44: ROUGE-L = 0.1387
+Sample 45: ROUGE-L = 0.0647
+Sample 46: ROUGE-L = 0.0984
+Sample 47: ROUGE-L = 0.0685
+Sample 48: ROUGE-L = 0.1009
+Sample 49: ROUGE-L = 0.0710
+\nFiltered: 50/50 samples with ROUGE-L > 0
+\n=== Aggregated ROUGE ===
+ROUGE-1: 0.1249
+ROUGE-2: 0.0078
+ROUGE-L: 0.0866
+ROUGE-Lsum: 0.1001
+ROUGE1=0.12492782345078973
+ROUGE2=0.00784032593709764
+ROUGEL=0.08655596924109725
+ROUGELSUM=0.10013744427102785

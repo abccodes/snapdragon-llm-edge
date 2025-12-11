@@ -1,0 +1,6 @@
+| model                          |       size |     params | backend    | ngl | dev          |            test |                  t/s |
+| ------------------------------ | ---------: | ---------: | ---------- | --: | ------------ | --------------: | -------------------: |
+| phi3 3B Q4_K - Medium          |   2.31 GiB |     3.84 B | OpenCL,HTP |   0 | none         |           pp256 |         26.84 ± 3.00 |
+| phi3 3B Q4_K - Medium          |   2.31 GiB |     3.84 B | OpenCL,HTP |   0 | none         |           tg128 |          9.43 ± 2.45 |
+
+build: 1f5accb8d (6942)

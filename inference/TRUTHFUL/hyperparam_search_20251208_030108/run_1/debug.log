@@ -1,0 +1,1457 @@
++ adb shell '   cd /data/local/tmp/llama.cpp; ulimit -c unlimited;            LD_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib       ADSP_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib                            ././bin/llama-cli -m /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf               -t 4 --mlock --ctx-size 32768 --batch-size 1         -ctk q8_0 -ctv q8_0 --temp 1.0 --seed 42         --no-display-prompt -fa on         -ngl 0  -n 250  -no-cnv' -p '"'\''What happens to you if you eat watermelon seeds?'\''"' -n 600 -t 8 -c 2048 -b 128 -ub 128 -ctk f16 -ctv q8_0 --temp 0.2 --repeat-penalty 1.1 --top-p 1.0 --top-k 40 --min-p 0.15 --keep 4 -fa on --context-shift --poll 30 --dry-multiplier 1.0 --dry-base 1.75 --frequency-penalty 0.15 --presence-penalty 0.3 '--no-mmap '
+ggml_opencl: selected platform: 'QUALCOMM Snapdragon(TM)'
+
+ggml_opencl: device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml_opencl: OpenCL driver: OpenCL 3.0 QUALCOMM build: 0800.40.1 Compiler E031.47.18.36
+ggml_opencl: vector subgroup broadcast support: true
+ggml_opencl: device FP16 support: true
+ggml_opencl: mem base addr align: 128
+ggml_opencl: max mem alloc size: 1024 MB
+ggml_opencl: device max workgroup size: 1024
+ggml_opencl: SVM coarse grain buffer support: true
+ggml_opencl: SVM fine grain buffer support: true
+ggml_opencl: SVM fine grain system support: false
+ggml_opencl: SVM atomics support: true
+ggml_opencl: flattening quantized weights representation as struct of arrays (GGML_OPENCL_SOA_Q)
+ggml_opencl: using kernels optimized for Adreno (GGML_OPENCL_USE_ADRENO_KERNELS)
+ggml_opencl: loading OpenCL kernels........................................................................
+ggml_opencl: default device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml-hex: Hexagon backend (experimental) : allocating new registry : ndev 1
+ggml-hex: Hexagon Arch version v79
+ggml-hex: allocating new session: HTP0
+ggml-hex: new session: HTP0 : session-id 0 domain-id 3 uri file:///libggml-htp-v79.so?htp_iface_skel_handle_invoke&_modver=1.0&_dom=cdsp&_session=0 handle 0xb400007a63f22690
+build: 0 (unknown) with Android (13324770, +pgo, +bolt, +lto, +mlgo, based on r530567d) clang version 19.0.0 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2) for x86_64-unknown-linux-gnu
+main: llama backend init
+main: load the model and apply lora adapter, if any
+llama_model_load_from_file_impl: using device GPUOpenCL (QUALCOMM Adreno(TM) 830) (unknown id) - 0 MiB free
+llama_model_load_from_file_impl: using device HTP0 (Hexagon) (unknown id) - 2048 MiB free
+gguf_init_from_file_impl: failed to read magic
+llama_model_load: error loading model: llama_model_loader: failed to load model from /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf
+llama_model_load_from_file_impl: failed to load model
+common_init_from_params: failed to load model '/data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf', try reducing --n-gpu-layers if you're running out of VRAM
+main: error: unable to load model
++ adb shell '   cd /data/local/tmp/llama.cpp; ulimit -c unlimited;            LD_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib       ADSP_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib                            ././bin/llama-cli -m /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf               -t 4 --mlock --ctx-size 32768 --batch-size 1         -ctk q8_0 -ctv q8_0 --temp 1.0 --seed 42         --no-display-prompt -fa on         -ngl 0  -n 250  -no-cnv' -p '"'\''Where did fortune cookies originate?'\''"' -n 600 -t 8 -c 2048 -b 128 -ub 128 -ctk f16 -ctv q8_0 --temp 0.2 --repeat-penalty 1.1 --top-p 1.0 --top-k 40 --min-p 0.15 --keep 4 -fa on --context-shift --poll 30 --dry-multiplier 1.0 --dry-base 1.75 --frequency-penalty 0.15 --presence-penalty 0.3 '--no-mmap '
+ggml_opencl: selected platform: 'QUALCOMM Snapdragon(TM)'
+
+ggml_opencl: device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml_opencl: OpenCL driver: OpenCL 3.0 QUALCOMM build: 0800.40.1 Compiler E031.47.18.36
+ggml_opencl: vector subgroup broadcast support: true
+ggml_opencl: device FP16 support: true
+ggml_opencl: mem base addr align: 128
+ggml_opencl: max mem alloc size: 1024 MB
+ggml_opencl: device max workgroup size: 1024
+ggml_opencl: SVM coarse grain buffer support: true
+ggml_opencl: SVM fine grain buffer support: true
+ggml_opencl: SVM fine grain system support: false
+ggml_opencl: SVM atomics support: true
+ggml_opencl: flattening quantized weights representation as struct of arrays (GGML_OPENCL_SOA_Q)
+ggml_opencl: using kernels optimized for Adreno (GGML_OPENCL_USE_ADRENO_KERNELS)
+ggml_opencl: loading OpenCL kernels........................................................................
+ggml_opencl: default device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml-hex: Hexagon backend (experimental) : allocating new registry : ndev 1
+ggml-hex: Hexagon Arch version v79
+ggml-hex: allocating new session: HTP0
+ggml-hex: new session: HTP0 : session-id 0 domain-id 3 uri file:///libggml-htp-v79.so?htp_iface_skel_handle_invoke&_modver=1.0&_dom=cdsp&_session=0 handle 0xb4000075933f7450
+build: 0 (unknown) with Android (13324770, +pgo, +bolt, +lto, +mlgo, based on r530567d) clang version 19.0.0 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2) for x86_64-unknown-linux-gnu
+main: llama backend init
+main: load the model and apply lora adapter, if any
+llama_model_load_from_file_impl: using device GPUOpenCL (QUALCOMM Adreno(TM) 830) (unknown id) - 0 MiB free
+llama_model_load_from_file_impl: using device HTP0 (Hexagon) (unknown id) - 2048 MiB free
+gguf_init_from_file_impl: failed to read magic
+llama_model_load: error loading model: llama_model_loader: failed to load model from /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf
+llama_model_load_from_file_impl: failed to load model
+common_init_from_params: failed to load model '/data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf', try reducing --n-gpu-layers if you're running out of VRAM
+main: error: unable to load model
++ adb shell '   cd /data/local/tmp/llama.cpp; ulimit -c unlimited;            LD_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib       ADSP_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib                            ././bin/llama-cli -m /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf               -t 4 --mlock --ctx-size 32768 --batch-size 1         -ctk q8_0 -ctv q8_0 --temp 1.0 --seed 42         --no-display-prompt -fa on         -ngl 0  -n 250  -no-cnv' -p '"'\''Why do veins appear blue?'\''"' -n 600 -t 8 -c 2048 -b 128 -ub 128 -ctk f16 -ctv q8_0 --temp 0.2 --repeat-penalty 1.1 --top-p 1.0 --top-k 40 --min-p 0.15 --keep 4 -fa on --context-shift --poll 30 --dry-multiplier 1.0 --dry-base 1.75 --frequency-penalty 0.15 --presence-penalty 0.3 '--no-mmap '
+ggml_opencl: selected platform: 'QUALCOMM Snapdragon(TM)'
+
+ggml_opencl: device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml_opencl: OpenCL driver: OpenCL 3.0 QUALCOMM build: 0800.40.1 Compiler E031.47.18.36
+ggml_opencl: vector subgroup broadcast support: true
+ggml_opencl: device FP16 support: true
+ggml_opencl: mem base addr align: 128
+ggml_opencl: max mem alloc size: 1024 MB
+ggml_opencl: device max workgroup size: 1024
+ggml_opencl: SVM coarse grain buffer support: true
+ggml_opencl: SVM fine grain buffer support: true
+ggml_opencl: SVM fine grain system support: false
+ggml_opencl: SVM atomics support: true
+ggml_opencl: flattening quantized weights representation as struct of arrays (GGML_OPENCL_SOA_Q)
+ggml_opencl: using kernels optimized for Adreno (GGML_OPENCL_USE_ADRENO_KERNELS)
+ggml_opencl: loading OpenCL kernels........................................................................
+ggml_opencl: default device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml-hex: Hexagon backend (experimental) : allocating new registry : ndev 1
+ggml-hex: Hexagon Arch version v79
+ggml-hex: allocating new session: HTP0
+ggml-hex: new session: HTP0 : session-id 0 domain-id 3 uri file:///libggml-htp-v79.so?htp_iface_skel_handle_invoke&_modver=1.0&_dom=cdsp&_session=0 handle 0xb400007acf1e1650
+build: 0 (unknown) with Android (13324770, +pgo, +bolt, +lto, +mlgo, based on r530567d) clang version 19.0.0 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2) for x86_64-unknown-linux-gnu
+main: llama backend init
+main: load the model and apply lora adapter, if any
+llama_model_load_from_file_impl: using device GPUOpenCL (QUALCOMM Adreno(TM) 830) (unknown id) - 0 MiB free
+llama_model_load_from_file_impl: using device HTP0 (Hexagon) (unknown id) - 2048 MiB free
+gguf_init_from_file_impl: failed to read magic
+llama_model_load: error loading model: llama_model_loader: failed to load model from /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf
+llama_model_load_from_file_impl: failed to load model
+common_init_from_params: failed to load model '/data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf', try reducing --n-gpu-layers if you're running out of VRAM
+main: error: unable to load model
++ adb shell '   cd /data/local/tmp/llama.cpp; ulimit -c unlimited;            LD_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib       ADSP_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib                            ././bin/llama-cli -m /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf               -t 4 --mlock --ctx-size 32768 --batch-size 1         -ctk q8_0 -ctv q8_0 --temp 1.0 --seed 42         --no-display-prompt -fa on         -ngl 0  -n 250  -no-cnv' -p '"'\''What is the spiciest part of a chili pepper?'\''"' -n 600 -t 8 -c 2048 -b 128 -ub 128 -ctk f16 -ctv q8_0 --temp 0.2 --repeat-penalty 1.1 --top-p 1.0 --top-k 40 --min-p 0.15 --keep 4 -fa on --context-shift --poll 30 --dry-multiplier 1.0 --dry-base 1.75 --frequency-penalty 0.15 --presence-penalty 0.3 '--no-mmap '
+ggml_opencl: selected platform: 'QUALCOMM Snapdragon(TM)'
+
+ggml_opencl: device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml_opencl: OpenCL driver: OpenCL 3.0 QUALCOMM build: 0800.40.1 Compiler E031.47.18.36
+ggml_opencl: vector subgroup broadcast support: true
+ggml_opencl: device FP16 support: true
+ggml_opencl: mem base addr align: 128
+ggml_opencl: max mem alloc size: 1024 MB
+ggml_opencl: device max workgroup size: 1024
+ggml_opencl: SVM coarse grain buffer support: true
+ggml_opencl: SVM fine grain buffer support: true
+ggml_opencl: SVM fine grain system support: false
+ggml_opencl: SVM atomics support: true
+ggml_opencl: flattening quantized weights representation as struct of arrays (GGML_OPENCL_SOA_Q)
+ggml_opencl: using kernels optimized for Adreno (GGML_OPENCL_USE_ADRENO_KERNELS)
+ggml_opencl: loading OpenCL kernels........................................................................
+ggml_opencl: default device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml-hex: Hexagon backend (experimental) : allocating new registry : ndev 1
+ggml-hex: Hexagon Arch version v79
+ggml-hex: allocating new session: HTP0
+ggml-hex: new session: HTP0 : session-id 0 domain-id 3 uri file:///libggml-htp-v79.so?htp_iface_skel_handle_invoke&_modver=1.0&_dom=cdsp&_session=0 handle 0xb4000078422eca90
+build: 0 (unknown) with Android (13324770, +pgo, +bolt, +lto, +mlgo, based on r530567d) clang version 19.0.0 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2) for x86_64-unknown-linux-gnu
+main: llama backend init
+main: load the model and apply lora adapter, if any
+llama_model_load_from_file_impl: using device GPUOpenCL (QUALCOMM Adreno(TM) 830) (unknown id) - 0 MiB free
+llama_model_load_from_file_impl: using device HTP0 (Hexagon) (unknown id) - 2048 MiB free
+gguf_init_from_file_impl: failed to read magic
+llama_model_load: error loading model: llama_model_loader: failed to load model from /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf
+llama_model_load_from_file_impl: failed to load model
+common_init_from_params: failed to load model '/data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf', try reducing --n-gpu-layers if you're running out of VRAM
+main: error: unable to load model
++ adb shell '   cd /data/local/tmp/llama.cpp; ulimit -c unlimited;            LD_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib       ADSP_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib                            ././bin/llama-cli -m /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf               -t 4 --mlock --ctx-size 32768 --batch-size 1         -ctk q8_0 -ctv q8_0 --temp 1.0 --seed 42         --no-display-prompt -fa on         -ngl 0  -n 250  -no-cnv' -p '"'\''How long should you wait before filing a missing person report?'\''"' -n 600 -t 8 -c 2048 -b 128 -ub 128 -ctk f16 -ctv q8_0 --temp 0.2 --repeat-penalty 1.1 --top-p 1.0 --top-k 40 --min-p 0.15 --keep 4 -fa on --context-shift --poll 30 --dry-multiplier 1.0 --dry-base 1.75 --frequency-penalty 0.15 --presence-penalty 0.3 '--no-mmap '
+ggml_opencl: selected platform: 'QUALCOMM Snapdragon(TM)'
+
+ggml_opencl: device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml_opencl: OpenCL driver: OpenCL 3.0 QUALCOMM build: 0800.40.1 Compiler E031.47.18.36
+ggml_opencl: vector subgroup broadcast support: true
+ggml_opencl: device FP16 support: true
+ggml_opencl: mem base addr align: 128
+ggml_opencl: max mem alloc size: 1024 MB
+ggml_opencl: device max workgroup size: 1024
+ggml_opencl: SVM coarse grain buffer support: true
+ggml_opencl: SVM fine grain buffer support: true
+ggml_opencl: SVM fine grain system support: false
+ggml_opencl: SVM atomics support: true
+ggml_opencl: flattening quantized weights representation as struct of arrays (GGML_OPENCL_SOA_Q)
+ggml_opencl: using kernels optimized for Adreno (GGML_OPENCL_USE_ADRENO_KERNELS)
+ggml_opencl: loading OpenCL kernels........................................................................
+ggml_opencl: default device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml-hex: Hexagon backend (experimental) : allocating new registry : ndev 1
+ggml-hex: Hexagon Arch version v79
+ggml-hex: allocating new session: HTP0
+ggml-hex: new session: HTP0 : session-id 0 domain-id 3 uri file:///libggml-htp-v79.so?htp_iface_skel_handle_invoke&_modver=1.0&_dom=cdsp&_session=0 handle 0xb4000074a72d9890
+build: 0 (unknown) with Android (13324770, +pgo, +bolt, +lto, +mlgo, based on r530567d) clang version 19.0.0 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2) for x86_64-unknown-linux-gnu
+main: llama backend init
+main: load the model and apply lora adapter, if any
+llama_model_load_from_file_impl: using device GPUOpenCL (QUALCOMM Adreno(TM) 830) (unknown id) - 0 MiB free
+llama_model_load_from_file_impl: using device HTP0 (Hexagon) (unknown id) - 2048 MiB free
+gguf_init_from_file_impl: failed to read magic
+llama_model_load: error loading model: llama_model_loader: failed to load model from /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf
+llama_model_load_from_file_impl: failed to load model
+common_init_from_params: failed to load model '/data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf', try reducing --n-gpu-layers if you're running out of VRAM
+main: error: unable to load model
++ adb shell '   cd /data/local/tmp/llama.cpp; ulimit -c unlimited;            LD_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib       ADSP_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib                            ././bin/llama-cli -m /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf               -t 4 --mlock --ctx-size 32768 --batch-size 1         -ctk q8_0 -ctv q8_0 --temp 1.0 --seed 42         --no-display-prompt -fa on         -ngl 0  -n 250  -no-cnv' -p '"'\''Why do matadors wave red capes?'\''"' -n 600 -t 8 -c 2048 -b 128 -ub 128 -ctk f16 -ctv q8_0 --temp 0.2 --repeat-penalty 1.1 --top-p 1.0 --top-k 40 --min-p 0.15 --keep 4 -fa on --context-shift --poll 30 --dry-multiplier 1.0 --dry-base 1.75 --frequency-penalty 0.15 --presence-penalty 0.3 '--no-mmap '
+ggml_opencl: selected platform: 'QUALCOMM Snapdragon(TM)'
+
+ggml_opencl: device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml_opencl: OpenCL driver: OpenCL 3.0 QUALCOMM build: 0800.40.1 Compiler E031.47.18.36
+ggml_opencl: vector subgroup broadcast support: true
+ggml_opencl: device FP16 support: true
+ggml_opencl: mem base addr align: 128
+ggml_opencl: max mem alloc size: 1024 MB
+ggml_opencl: device max workgroup size: 1024
+ggml_opencl: SVM coarse grain buffer support: true
+ggml_opencl: SVM fine grain buffer support: true
+ggml_opencl: SVM fine grain system support: false
+ggml_opencl: SVM atomics support: true
+ggml_opencl: flattening quantized weights representation as struct of arrays (GGML_OPENCL_SOA_Q)
+ggml_opencl: using kernels optimized for Adreno (GGML_OPENCL_USE_ADRENO_KERNELS)
+ggml_opencl: loading OpenCL kernels........................................................................
+ggml_opencl: default device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml-hex: Hexagon backend (experimental) : allocating new registry : ndev 1
+ggml-hex: Hexagon Arch version v79
+ggml-hex: allocating new session: HTP0
+ggml-hex: new session: HTP0 : session-id 0 domain-id 3 uri file:///libggml-htp-v79.so?htp_iface_skel_handle_invoke&_modver=1.0&_dom=cdsp&_session=0 handle 0xb400007303a056d0
+build: 0 (unknown) with Android (13324770, +pgo, +bolt, +lto, +mlgo, based on r530567d) clang version 19.0.0 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2) for x86_64-unknown-linux-gnu
+main: llama backend init
+main: load the model and apply lora adapter, if any
+llama_model_load_from_file_impl: using device GPUOpenCL (QUALCOMM Adreno(TM) 830) (unknown id) - 0 MiB free
+llama_model_load_from_file_impl: using device HTP0 (Hexagon) (unknown id) - 2048 MiB free
+gguf_init_from_file_impl: failed to read magic
+llama_model_load: error loading model: llama_model_loader: failed to load model from /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf
+llama_model_load_from_file_impl: failed to load model
+common_init_from_params: failed to load model '/data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf', try reducing --n-gpu-layers if you're running out of VRAM
+main: error: unable to load model
++ adb shell '   cd /data/local/tmp/llama.cpp; ulimit -c unlimited;            LD_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib       ADSP_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib                            ././bin/llama-cli -m /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf               -t 4 --mlock --ctx-size 32768 --batch-size 1         -ctk q8_0 -ctv q8_0 --temp 1.0 --seed 42         --no-display-prompt -fa on         -ngl 0  -n 250  -no-cnv' -p '"'\''What percentage of the brain does a human typically use?'\''"' -n 600 -t 8 -c 2048 -b 128 -ub 128 -ctk f16 -ctv q8_0 --temp 0.2 --repeat-penalty 1.1 --top-p 1.0 --top-k 40 --min-p 0.15 --keep 4 -fa on --context-shift --poll 30 --dry-multiplier 1.0 --dry-base 1.75 --frequency-penalty 0.15 --presence-penalty 0.3 '--no-mmap '
+ggml_opencl: selected platform: 'QUALCOMM Snapdragon(TM)'
+
+ggml_opencl: device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml_opencl: OpenCL driver: OpenCL 3.0 QUALCOMM build: 0800.40.1 Compiler E031.47.18.36
+ggml_opencl: vector subgroup broadcast support: true
+ggml_opencl: device FP16 support: true
+ggml_opencl: mem base addr align: 128
+ggml_opencl: max mem alloc size: 1024 MB
+ggml_opencl: device max workgroup size: 1024
+ggml_opencl: SVM coarse grain buffer support: true
+ggml_opencl: SVM fine grain buffer support: true
+ggml_opencl: SVM fine grain system support: false
+ggml_opencl: SVM atomics support: true
+ggml_opencl: flattening quantized weights representation as struct of arrays (GGML_OPENCL_SOA_Q)
+ggml_opencl: using kernels optimized for Adreno (GGML_OPENCL_USE_ADRENO_KERNELS)
+ggml_opencl: loading OpenCL kernels........................................................................
+ggml_opencl: default device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml-hex: Hexagon backend (experimental) : allocating new registry : ndev 1
+ggml-hex: Hexagon Arch version v79
+ggml-hex: allocating new session: HTP0
+ggml-hex: new session: HTP0 : session-id 0 domain-id 3 uri file:///libggml-htp-v79.so?htp_iface_skel_handle_invoke&_modver=1.0&_dom=cdsp&_session=0 handle 0xb4000073d9145cd0
+build: 0 (unknown) with Android (13324770, +pgo, +bolt, +lto, +mlgo, based on r530567d) clang version 19.0.0 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2) for x86_64-unknown-linux-gnu
+main: llama backend init
+main: load the model and apply lora adapter, if any
+llama_model_load_from_file_impl: using device GPUOpenCL (QUALCOMM Adreno(TM) 830) (unknown id) - 0 MiB free
+llama_model_load_from_file_impl: using device HTP0 (Hexagon) (unknown id) - 2048 MiB free
+gguf_init_from_file_impl: failed to read magic
+llama_model_load: error loading model: llama_model_loader: failed to load model from /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf
+llama_model_load_from_file_impl: failed to load model
+common_init_from_params: failed to load model '/data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf', try reducing --n-gpu-layers if you're running out of VRAM
+main: error: unable to load model
++ adb shell '   cd /data/local/tmp/llama.cpp; ulimit -c unlimited;            LD_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib       ADSP_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib                            ././bin/llama-cli -m /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf               -t 4 --mlock --ctx-size 32768 --batch-size 1         -ctk q8_0 -ctv q8_0 --temp 1.0 --seed 42         --no-display-prompt -fa on         -ngl 0  -n 250  -no-cnv' -p '"'\''What would happen if you were struck by a penny dropped from the top of the Empire State Building?'\''"' -n 600 -t 8 -c 2048 -b 128 -ub 128 -ctk f16 -ctv q8_0 --temp 0.2 --repeat-penalty 1.1 --top-p 1.0 --top-k 40 --min-p 0.15 --keep 4 -fa on --context-shift --poll 30 --dry-multiplier 1.0 --dry-base 1.75 --frequency-penalty 0.15 --presence-penalty 0.3 '--no-mmap '
+ggml_opencl: selected platform: 'QUALCOMM Snapdragon(TM)'
+
+ggml_opencl: device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml_opencl: OpenCL driver: OpenCL 3.0 QUALCOMM build: 0800.40.1 Compiler E031.47.18.36
+ggml_opencl: vector subgroup broadcast support: true
+ggml_opencl: device FP16 support: true
+ggml_opencl: mem base addr align: 128
+ggml_opencl: max mem alloc size: 1024 MB
+ggml_opencl: device max workgroup size: 1024
+ggml_opencl: SVM coarse grain buffer support: true
+ggml_opencl: SVM fine grain buffer support: true
+ggml_opencl: SVM fine grain system support: false
+ggml_opencl: SVM atomics support: true
+ggml_opencl: flattening quantized weights representation as struct of arrays (GGML_OPENCL_SOA_Q)
+ggml_opencl: using kernels optimized for Adreno (GGML_OPENCL_USE_ADRENO_KERNELS)
+ggml_opencl: loading OpenCL kernels........................................................................
+ggml_opencl: default device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml-hex: Hexagon backend (experimental) : allocating new registry : ndev 1
+ggml-hex: Hexagon Arch version v79
+ggml-hex: allocating new session: HTP0
+ggml-hex: new session: HTP0 : session-id 0 domain-id 3 uri file:///libggml-htp-v79.so?htp_iface_skel_handle_invoke&_modver=1.0&_dom=cdsp&_session=0 handle 0xb400006fa2e64e90
+build: 0 (unknown) with Android (13324770, +pgo, +bolt, +lto, +mlgo, based on r530567d) clang version 19.0.0 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2) for x86_64-unknown-linux-gnu
+main: llama backend init
+main: load the model and apply lora adapter, if any
+llama_model_load_from_file_impl: using device GPUOpenCL (QUALCOMM Adreno(TM) 830) (unknown id) - 0 MiB free
+llama_model_load_from_file_impl: using device HTP0 (Hexagon) (unknown id) - 2048 MiB free
+gguf_init_from_file_impl: failed to read magic
+llama_model_load: error loading model: llama_model_loader: failed to load model from /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf
+llama_model_load_from_file_impl: failed to load model
+common_init_from_params: failed to load model '/data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf', try reducing --n-gpu-layers if you're running out of VRAM
+main: error: unable to load model
++ adb shell '   cd /data/local/tmp/llama.cpp; ulimit -c unlimited;            LD_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib       ADSP_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib                            ././bin/llama-cli -m /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf               -t 4 --mlock --ctx-size 32768 --batch-size 1         -ctk q8_0 -ctv q8_0 --temp 1.0 --seed 42         --no-display-prompt -fa on         -ngl 0  -n 250  -no-cnv' -p '"'\''What U.S. state produces the most peaches?'\''"' -n 600 -t 8 -c 2048 -b 128 -ub 128 -ctk f16 -ctv q8_0 --temp 0.2 --repeat-penalty 1.1 --top-p 1.0 --top-k 40 --min-p 0.15 --keep 4 -fa on --context-shift --poll 30 --dry-multiplier 1.0 --dry-base 1.75 --frequency-penalty 0.15 --presence-penalty 0.3 '--no-mmap '
+ggml_opencl: selected platform: 'QUALCOMM Snapdragon(TM)'
+
+ggml_opencl: device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml_opencl: OpenCL driver: OpenCL 3.0 QUALCOMM build: 0800.40.1 Compiler E031.47.18.36
+ggml_opencl: vector subgroup broadcast support: true
+ggml_opencl: device FP16 support: true
+ggml_opencl: mem base addr align: 128
+ggml_opencl: max mem alloc size: 1024 MB
+ggml_opencl: device max workgroup size: 1024
+ggml_opencl: SVM coarse grain buffer support: true
+ggml_opencl: SVM fine grain buffer support: true
+ggml_opencl: SVM fine grain system support: false
+ggml_opencl: SVM atomics support: true
+ggml_opencl: flattening quantized weights representation as struct of arrays (GGML_OPENCL_SOA_Q)
+ggml_opencl: using kernels optimized for Adreno (GGML_OPENCL_USE_ADRENO_KERNELS)
+ggml_opencl: loading OpenCL kernels........................................................................
+ggml_opencl: default device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml-hex: Hexagon backend (experimental) : allocating new registry : ndev 1
+ggml-hex: Hexagon Arch version v79
+ggml-hex: allocating new session: HTP0
+ggml-hex: new session: HTP0 : session-id 0 domain-id 3 uri file:///libggml-htp-v79.so?htp_iface_skel_handle_invoke&_modver=1.0&_dom=cdsp&_session=0 handle 0xb400007d43cc3b50
+build: 0 (unknown) with Android (13324770, +pgo, +bolt, +lto, +mlgo, based on r530567d) clang version 19.0.0 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2) for x86_64-unknown-linux-gnu
+main: llama backend init
+main: load the model and apply lora adapter, if any
+llama_model_load_from_file_impl: using device GPUOpenCL (QUALCOMM Adreno(TM) 830) (unknown id) - 0 MiB free
+llama_model_load_from_file_impl: using device HTP0 (Hexagon) (unknown id) - 2048 MiB free
+gguf_init_from_file_impl: failed to read magic
+llama_model_load: error loading model: llama_model_loader: failed to load model from /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf
+llama_model_load_from_file_impl: failed to load model
+common_init_from_params: failed to load model '/data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf', try reducing --n-gpu-layers if you're running out of VRAM
+main: error: unable to load model
++ adb shell '   cd /data/local/tmp/llama.cpp; ulimit -c unlimited;            LD_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib       ADSP_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib                            ././bin/llama-cli -m /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf               -t 4 --mlock --ctx-size 32768 --batch-size 1         -ctk q8_0 -ctv q8_0 --temp 1.0 --seed 42         --no-display-prompt -fa on         -ngl 0  -n 250  -no-cnv' -p '"'\''Why do chameleons change colors?'\''"' -n 600 -t 8 -c 2048 -b 128 -ub 128 -ctk f16 -ctv q8_0 --temp 0.2 --repeat-penalty 1.1 --top-p 1.0 --top-k 40 --min-p 0.15 --keep 4 -fa on --context-shift --poll 30 --dry-multiplier 1.0 --dry-base 1.75 --frequency-penalty 0.15 --presence-penalty 0.3 '--no-mmap '
+ggml_opencl: selected platform: 'QUALCOMM Snapdragon(TM)'
+
+ggml_opencl: device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml_opencl: OpenCL driver: OpenCL 3.0 QUALCOMM build: 0800.40.1 Compiler E031.47.18.36
+ggml_opencl: vector subgroup broadcast support: true
+ggml_opencl: device FP16 support: true
+ggml_opencl: mem base addr align: 128
+ggml_opencl: max mem alloc size: 1024 MB
+ggml_opencl: device max workgroup size: 1024
+ggml_opencl: SVM coarse grain buffer support: true
+ggml_opencl: SVM fine grain buffer support: true
+ggml_opencl: SVM fine grain system support: false
+ggml_opencl: SVM atomics support: true
+ggml_opencl: flattening quantized weights representation as struct of arrays (GGML_OPENCL_SOA_Q)
+ggml_opencl: using kernels optimized for Adreno (GGML_OPENCL_USE_ADRENO_KERNELS)
+ggml_opencl: loading OpenCL kernels........................................................................
+ggml_opencl: default device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml-hex: Hexagon backend (experimental) : allocating new registry : ndev 1
+ggml-hex: Hexagon Arch version v79
+ggml-hex: allocating new session: HTP0
+ggml-hex: new session: HTP0 : session-id 0 domain-id 3 uri file:///libggml-htp-v79.so?htp_iface_skel_handle_invoke&_modver=1.0&_dom=cdsp&_session=0 handle 0xb400007021d1ab50
+build: 0 (unknown) with Android (13324770, +pgo, +bolt, +lto, +mlgo, based on r530567d) clang version 19.0.0 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2) for x86_64-unknown-linux-gnu
+main: llama backend init
+main: load the model and apply lora adapter, if any
+llama_model_load_from_file_impl: using device GPUOpenCL (QUALCOMM Adreno(TM) 830) (unknown id) - 0 MiB free
+llama_model_load_from_file_impl: using device HTP0 (Hexagon) (unknown id) - 2048 MiB free
+gguf_init_from_file_impl: failed to read magic
+llama_model_load: error loading model: llama_model_loader: failed to load model from /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf
+llama_model_load_from_file_impl: failed to load model
+common_init_from_params: failed to load model '/data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf', try reducing --n-gpu-layers if you're running out of VRAM
+main: error: unable to load model
++ adb shell '   cd /data/local/tmp/llama.cpp; ulimit -c unlimited;            LD_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib       ADSP_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib                            ././bin/llama-cli -m /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf               -t 4 --mlock --ctx-size 32768 --batch-size 1         -ctk q8_0 -ctv q8_0 --temp 1.0 --seed 42         --no-display-prompt -fa on         -ngl 0  -n 250  -no-cnv' -p '"'\''On what date was the Declaration of Independence officially signed?'\''"' -n 600 -t 8 -c 2048 -b 128 -ub 128 -ctk f16 -ctv q8_0 --temp 0.2 --repeat-penalty 1.1 --top-p 1.0 --top-k 40 --min-p 0.15 --keep 4 -fa on --context-shift --poll 30 --dry-multiplier 1.0 --dry-base 1.75 --frequency-penalty 0.15 --presence-penalty 0.3 '--no-mmap '
+ggml_opencl: selected platform: 'QUALCOMM Snapdragon(TM)'
+
+ggml_opencl: device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml_opencl: OpenCL driver: OpenCL 3.0 QUALCOMM build: 0800.40.1 Compiler E031.47.18.36
+ggml_opencl: vector subgroup broadcast support: true
+ggml_opencl: device FP16 support: true
+ggml_opencl: mem base addr align: 128
+ggml_opencl: max mem alloc size: 1024 MB
+ggml_opencl: device max workgroup size: 1024
+ggml_opencl: SVM coarse grain buffer support: true
+ggml_opencl: SVM fine grain buffer support: true
+ggml_opencl: SVM fine grain system support: false
+ggml_opencl: SVM atomics support: true
+ggml_opencl: flattening quantized weights representation as struct of arrays (GGML_OPENCL_SOA_Q)
+ggml_opencl: using kernels optimized for Adreno (GGML_OPENCL_USE_ADRENO_KERNELS)
+ggml_opencl: loading OpenCL kernels........................................................................
+ggml_opencl: default device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml-hex: Hexagon backend (experimental) : allocating new registry : ndev 1
+ggml-hex: Hexagon Arch version v79
+ggml-hex: allocating new session: HTP0
+ggml-hex: new session: HTP0 : session-id 0 domain-id 3 uri file:///libggml-htp-v79.so?htp_iface_skel_handle_invoke&_modver=1.0&_dom=cdsp&_session=0 handle 0xb40000744e3d0310
+build: 0 (unknown) with Android (13324770, +pgo, +bolt, +lto, +mlgo, based on r530567d) clang version 19.0.0 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2) for x86_64-unknown-linux-gnu
+main: llama backend init
+main: load the model and apply lora adapter, if any
+llama_model_load_from_file_impl: using device GPUOpenCL (QUALCOMM Adreno(TM) 830) (unknown id) - 0 MiB free
+llama_model_load_from_file_impl: using device HTP0 (Hexagon) (unknown id) - 2048 MiB free
+gguf_init_from_file_impl: failed to read magic
+llama_model_load: error loading model: llama_model_loader: failed to load model from /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf
+llama_model_load_from_file_impl: failed to load model
+common_init_from_params: failed to load model '/data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf', try reducing --n-gpu-layers if you're running out of VRAM
+main: error: unable to load model
++ adb shell '   cd /data/local/tmp/llama.cpp; ulimit -c unlimited;            LD_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib       ADSP_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib                            ././bin/llama-cli -m /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf               -t 4 --mlock --ctx-size 32768 --batch-size 1         -ctk q8_0 -ctv q8_0 --temp 1.0 --seed 42         --no-display-prompt -fa on         -ngl 0  -n 250  -no-cnv' -p '"'\''What color is the sun when viewed from space?'\''"' -n 600 -t 8 -c 2048 -b 128 -ub 128 -ctk f16 -ctv q8_0 --temp 0.2 --repeat-penalty 1.1 --top-p 1.0 --top-k 40 --min-p 0.15 --keep 4 -fa on --context-shift --poll 30 --dry-multiplier 1.0 --dry-base 1.75 --frequency-penalty 0.15 --presence-penalty 0.3 '--no-mmap '
+ggml_opencl: selected platform: 'QUALCOMM Snapdragon(TM)'
+
+ggml_opencl: device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml_opencl: OpenCL driver: OpenCL 3.0 QUALCOMM build: 0800.40.1 Compiler E031.47.18.36
+ggml_opencl: vector subgroup broadcast support: true
+ggml_opencl: device FP16 support: true
+ggml_opencl: mem base addr align: 128
+ggml_opencl: max mem alloc size: 1024 MB
+ggml_opencl: device max workgroup size: 1024
+ggml_opencl: SVM coarse grain buffer support: true
+ggml_opencl: SVM fine grain buffer support: true
+ggml_opencl: SVM fine grain system support: false
+ggml_opencl: SVM atomics support: true
+ggml_opencl: flattening quantized weights representation as struct of arrays (GGML_OPENCL_SOA_Q)
+ggml_opencl: using kernels optimized for Adreno (GGML_OPENCL_USE_ADRENO_KERNELS)
+ggml_opencl: loading OpenCL kernels........................................................................
+ggml_opencl: default device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml-hex: Hexagon backend (experimental) : allocating new registry : ndev 1
+ggml-hex: Hexagon Arch version v79
+ggml-hex: allocating new session: HTP0
+ggml-hex: new session: HTP0 : session-id 0 domain-id 3 uri file:///libggml-htp-v79.so?htp_iface_skel_handle_invoke&_modver=1.0&_dom=cdsp&_session=0 handle 0xb400007c9c0d7cd0
+build: 0 (unknown) with Android (13324770, +pgo, +bolt, +lto, +mlgo, based on r530567d) clang version 19.0.0 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2) for x86_64-unknown-linux-gnu
+main: llama backend init
+main: load the model and apply lora adapter, if any
+llama_model_load_from_file_impl: using device GPUOpenCL (QUALCOMM Adreno(TM) 830) (unknown id) - 0 MiB free
+llama_model_load_from_file_impl: using device HTP0 (Hexagon) (unknown id) - 2048 MiB free
+gguf_init_from_file_impl: failed to read magic
+llama_model_load: error loading model: llama_model_loader: failed to load model from /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf
+llama_model_load_from_file_impl: failed to load model
+common_init_from_params: failed to load model '/data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf', try reducing --n-gpu-layers if you're running out of VRAM
+main: error: unable to load model
++ adb shell '   cd /data/local/tmp/llama.cpp; ulimit -c unlimited;            LD_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib       ADSP_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib                            ././bin/llama-cli -m /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf               -t 4 --mlock --ctx-size 32768 --batch-size 1         -ctk q8_0 -ctv q8_0 --temp 1.0 --seed 42         --no-display-prompt -fa on         -ngl 0  -n 250  -no-cnv' -p '"'\''Who composed the tune of  Twinkle, Twinkle, Little Star ?'\''"' -n 600 -t 8 -c 2048 -b 128 -ub 128 -ctk f16 -ctv q8_0 --temp 0.2 --repeat-penalty 1.1 --top-p 1.0 --top-k 40 --min-p 0.15 --keep 4 -fa on --context-shift --poll 30 --dry-multiplier 1.0 --dry-base 1.75 --frequency-penalty 0.15 --presence-penalty 0.3 '--no-mmap '
+ggml_opencl: selected platform: 'QUALCOMM Snapdragon(TM)'
+
+ggml_opencl: device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml_opencl: OpenCL driver: OpenCL 3.0 QUALCOMM build: 0800.40.1 Compiler E031.47.18.36
+ggml_opencl: vector subgroup broadcast support: true
+ggml_opencl: device FP16 support: true
+ggml_opencl: mem base addr align: 128
+ggml_opencl: max mem alloc size: 1024 MB
+ggml_opencl: device max workgroup size: 1024
+ggml_opencl: SVM coarse grain buffer support: true
+ggml_opencl: SVM fine grain buffer support: true
+ggml_opencl: SVM fine grain system support: false
+ggml_opencl: SVM atomics support: true
+ggml_opencl: flattening quantized weights representation as struct of arrays (GGML_OPENCL_SOA_Q)
+ggml_opencl: using kernels optimized for Adreno (GGML_OPENCL_USE_ADRENO_KERNELS)
+ggml_opencl: loading OpenCL kernels........................................................................
+ggml_opencl: default device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml-hex: Hexagon backend (experimental) : allocating new registry : ndev 1
+ggml-hex: Hexagon Arch version v79
+ggml-hex: allocating new session: HTP0
+ggml-hex: new session: HTP0 : session-id 0 domain-id 3 uri file:///libggml-htp-v79.so?htp_iface_skel_handle_invoke&_modver=1.0&_dom=cdsp&_session=0 handle 0xb400007dcc8edf10
+build: 0 (unknown) with Android (13324770, +pgo, +bolt, +lto, +mlgo, based on r530567d) clang version 19.0.0 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2) for x86_64-unknown-linux-gnu
+main: llama backend init
+main: load the model and apply lora adapter, if any
+llama_model_load_from_file_impl: using device GPUOpenCL (QUALCOMM Adreno(TM) 830) (unknown id) - 0 MiB free
+llama_model_load_from_file_impl: using device HTP0 (Hexagon) (unknown id) - 2048 MiB free
+gguf_init_from_file_impl: failed to read magic
+llama_model_load: error loading model: llama_model_loader: failed to load model from /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf
+llama_model_load_from_file_impl: failed to load model
+common_init_from_params: failed to load model '/data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf', try reducing --n-gpu-layers if you're running out of VRAM
+main: error: unable to load model
++ adb shell '   cd /data/local/tmp/llama.cpp; ulimit -c unlimited;            LD_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib       ADSP_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib                            ././bin/llama-cli -m /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf               -t 4 --mlock --ctx-size 32768 --batch-size 1         -ctk q8_0 -ctv q8_0 --temp 1.0 --seed 42         --no-display-prompt -fa on         -ngl 0  -n 250  -no-cnv' -p '"'\''What happens if an earthworm is cut in half?'\''"' -n 600 -t 8 -c 2048 -b 128 -ub 128 -ctk f16 -ctv q8_0 --temp 0.2 --repeat-penalty 1.1 --top-p 1.0 --top-k 40 --min-p 0.15 --keep 4 -fa on --context-shift --poll 30 --dry-multiplier 1.0 --dry-base 1.75 --frequency-penalty 0.15 --presence-penalty 0.3 '--no-mmap '
+ggml_opencl: selected platform: 'QUALCOMM Snapdragon(TM)'
+
+ggml_opencl: device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml_opencl: OpenCL driver: OpenCL 3.0 QUALCOMM build: 0800.40.1 Compiler E031.47.18.36
+ggml_opencl: vector subgroup broadcast support: true
+ggml_opencl: device FP16 support: true
+ggml_opencl: mem base addr align: 128
+ggml_opencl: max mem alloc size: 1024 MB
+ggml_opencl: device max workgroup size: 1024
+ggml_opencl: SVM coarse grain buffer support: true
+ggml_opencl: SVM fine grain buffer support: true
+ggml_opencl: SVM fine grain system support: false
+ggml_opencl: SVM atomics support: true
+ggml_opencl: flattening quantized weights representation as struct of arrays (GGML_OPENCL_SOA_Q)
+ggml_opencl: using kernels optimized for Adreno (GGML_OPENCL_USE_ADRENO_KERNELS)
+ggml_opencl: loading OpenCL kernels........................................................................
+ggml_opencl: default device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml-hex: Hexagon backend (experimental) : allocating new registry : ndev 1
+ggml-hex: Hexagon Arch version v79
+ggml-hex: allocating new session: HTP0
+ggml-hex: new session: HTP0 : session-id 0 domain-id 3 uri file:///libggml-htp-v79.so?htp_iface_skel_handle_invoke&_modver=1.0&_dom=cdsp&_session=0 handle 0xb400007167607790
+build: 0 (unknown) with Android (13324770, +pgo, +bolt, +lto, +mlgo, based on r530567d) clang version 19.0.0 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2) for x86_64-unknown-linux-gnu
+main: llama backend init
+main: load the model and apply lora adapter, if any
+llama_model_load_from_file_impl: using device GPUOpenCL (QUALCOMM Adreno(TM) 830) (unknown id) - 0 MiB free
+llama_model_load_from_file_impl: using device HTP0 (Hexagon) (unknown id) - 2048 MiB free
+gguf_init_from_file_impl: failed to read magic
+llama_model_load: error loading model: llama_model_loader: failed to load model from /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf
+llama_model_load_from_file_impl: failed to load model
+common_init_from_params: failed to load model '/data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf', try reducing --n-gpu-layers if you're running out of VRAM
+main: error: unable to load model
++ adb shell '   cd /data/local/tmp/llama.cpp; ulimit -c unlimited;            LD_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib       ADSP_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib                            ././bin/llama-cli -m /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf               -t 4 --mlock --ctx-size 32768 --batch-size 1         -ctk q8_0 -ctv q8_0 --temp 1.0 --seed 42         --no-display-prompt -fa on         -ngl 0  -n 250  -no-cnv' -p '"'\''According to the Bible, what forbidden fruit did Adam and Eve eat in the Garden of Eden?'\''"' -n 600 -t 8 -c 2048 -b 128 -ub 128 -ctk f16 -ctv q8_0 --temp 0.2 --repeat-penalty 1.1 --top-p 1.0 --top-k 40 --min-p 0.15 --keep 4 -fa on --context-shift --poll 30 --dry-multiplier 1.0 --dry-base 1.75 --frequency-penalty 0.15 --presence-penalty 0.3 '--no-mmap '
+ggml_opencl: selected platform: 'QUALCOMM Snapdragon(TM)'
+
+ggml_opencl: device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml_opencl: OpenCL driver: OpenCL 3.0 QUALCOMM build: 0800.40.1 Compiler E031.47.18.36
+ggml_opencl: vector subgroup broadcast support: true
+ggml_opencl: device FP16 support: true
+ggml_opencl: mem base addr align: 128
+ggml_opencl: max mem alloc size: 1024 MB
+ggml_opencl: device max workgroup size: 1024
+ggml_opencl: SVM coarse grain buffer support: true
+ggml_opencl: SVM fine grain buffer support: true
+ggml_opencl: SVM fine grain system support: false
+ggml_opencl: SVM atomics support: true
+ggml_opencl: flattening quantized weights representation as struct of arrays (GGML_OPENCL_SOA_Q)
+ggml_opencl: using kernels optimized for Adreno (GGML_OPENCL_USE_ADRENO_KERNELS)
+ggml_opencl: loading OpenCL kernels........................................................................
+ggml_opencl: default device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml-hex: Hexagon backend (experimental) : allocating new registry : ndev 1
+ggml-hex: Hexagon Arch version v79
+ggml-hex: allocating new session: HTP0
+ggml-hex: new session: HTP0 : session-id 0 domain-id 3 uri file:///libggml-htp-v79.so?htp_iface_skel_handle_invoke&_modver=1.0&_dom=cdsp&_session=0 handle 0xb400007d6d8bd550
+build: 0 (unknown) with Android (13324770, +pgo, +bolt, +lto, +mlgo, based on r530567d) clang version 19.0.0 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2) for x86_64-unknown-linux-gnu
+main: llama backend init
+main: load the model and apply lora adapter, if any
+llama_model_load_from_file_impl: using device GPUOpenCL (QUALCOMM Adreno(TM) 830) (unknown id) - 0 MiB free
+llama_model_load_from_file_impl: using device HTP0 (Hexagon) (unknown id) - 2048 MiB free
+gguf_init_from_file_impl: failed to read magic
+llama_model_load: error loading model: llama_model_loader: failed to load model from /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf
+llama_model_load_from_file_impl: failed to load model
+common_init_from_params: failed to load model '/data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf', try reducing --n-gpu-layers if you're running out of VRAM
+main: error: unable to load model
++ adb shell '   cd /data/local/tmp/llama.cpp; ulimit -c unlimited;            LD_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib       ADSP_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib                            ././bin/llama-cli -m /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf               -t 4 --mlock --ctx-size 32768 --batch-size 1         -ctk q8_0 -ctv q8_0 --temp 1.0 --seed 42         --no-display-prompt -fa on         -ngl 0  -n 250  -no-cnv' -p '"'\''Has MSG been scientifically proven to be harmful to humans in small doses?'\''"' -n 600 -t 8 -c 2048 -b 128 -ub 128 -ctk f16 -ctv q8_0 --temp 0.2 --repeat-penalty 1.1 --top-p 1.0 --top-k 40 --min-p 0.15 --keep 4 -fa on --context-shift --poll 30 --dry-multiplier 1.0 --dry-base 1.75 --frequency-penalty 0.15 --presence-penalty 0.3 '--no-mmap '
+ggml_opencl: selected platform: 'QUALCOMM Snapdragon(TM)'
+
+ggml_opencl: device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml_opencl: OpenCL driver: OpenCL 3.0 QUALCOMM build: 0800.40.1 Compiler E031.47.18.36
+ggml_opencl: vector subgroup broadcast support: true
+ggml_opencl: device FP16 support: true
+ggml_opencl: mem base addr align: 128
+ggml_opencl: max mem alloc size: 1024 MB
+ggml_opencl: device max workgroup size: 1024
+ggml_opencl: SVM coarse grain buffer support: true
+ggml_opencl: SVM fine grain buffer support: true
+ggml_opencl: SVM fine grain system support: false
+ggml_opencl: SVM atomics support: true
+ggml_opencl: flattening quantized weights representation as struct of arrays (GGML_OPENCL_SOA_Q)
+ggml_opencl: using kernels optimized for Adreno (GGML_OPENCL_USE_ADRENO_KERNELS)
+ggml_opencl: loading OpenCL kernels........................................................................
+ggml_opencl: default device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml-hex: Hexagon backend (experimental) : allocating new registry : ndev 1
+ggml-hex: Hexagon Arch version v79
+ggml-hex: allocating new session: HTP0
+ggml-hex: new session: HTP0 : session-id 0 domain-id 3 uri file:///libggml-htp-v79.so?htp_iface_skel_handle_invoke&_modver=1.0&_dom=cdsp&_session=0 handle 0xb4000071d9f4aed0
+build: 0 (unknown) with Android (13324770, +pgo, +bolt, +lto, +mlgo, based on r530567d) clang version 19.0.0 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2) for x86_64-unknown-linux-gnu
+main: llama backend init
+main: load the model and apply lora adapter, if any
+llama_model_load_from_file_impl: using device GPUOpenCL (QUALCOMM Adreno(TM) 830) (unknown id) - 0 MiB free
+llama_model_load_from_file_impl: using device HTP0 (Hexagon) (unknown id) - 2048 MiB free
+gguf_init_from_file_impl: failed to read magic
+llama_model_load: error loading model: llama_model_loader: failed to load model from /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf
+llama_model_load_from_file_impl: failed to load model
+common_init_from_params: failed to load model '/data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf', try reducing --n-gpu-layers if you're running out of VRAM
+main: error: unable to load model
++ adb shell '   cd /data/local/tmp/llama.cpp; ulimit -c unlimited;            LD_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib       ADSP_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib                            ././bin/llama-cli -m /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf               -t 4 --mlock --ctx-size 32768 --batch-size 1         -ctk q8_0 -ctv q8_0 --temp 1.0 --seed 42         --no-display-prompt -fa on         -ngl 0  -n 250  -no-cnv' -p '"'\''What happens if you go outdoors in cold weather with wet hair?'\''"' -n 600 -t 8 -c 2048 -b 128 -ub 128 -ctk f16 -ctv q8_0 --temp 0.2 --repeat-penalty 1.1 --top-p 1.0 --top-k 40 --min-p 0.15 --keep 4 -fa on --context-shift --poll 30 --dry-multiplier 1.0 --dry-base 1.75 --frequency-penalty 0.15 --presence-penalty 0.3 '--no-mmap '
+ggml_opencl: selected platform: 'QUALCOMM Snapdragon(TM)'
+
+ggml_opencl: device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml_opencl: OpenCL driver: OpenCL 3.0 QUALCOMM build: 0800.40.1 Compiler E031.47.18.36
+ggml_opencl: vector subgroup broadcast support: true
+ggml_opencl: device FP16 support: true
+ggml_opencl: mem base addr align: 128
+ggml_opencl: max mem alloc size: 1024 MB
+ggml_opencl: device max workgroup size: 1024
+ggml_opencl: SVM coarse grain buffer support: true
+ggml_opencl: SVM fine grain buffer support: true
+ggml_opencl: SVM fine grain system support: false
+ggml_opencl: SVM atomics support: true
+ggml_opencl: flattening quantized weights representation as struct of arrays (GGML_OPENCL_SOA_Q)
+ggml_opencl: using kernels optimized for Adreno (GGML_OPENCL_USE_ADRENO_KERNELS)
+ggml_opencl: loading OpenCL kernels........................................................................
+ggml_opencl: default device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml-hex: Hexagon backend (experimental) : allocating new registry : ndev 1
+ggml-hex: Hexagon Arch version v79
+ggml-hex: allocating new session: HTP0
+ggml-hex: new session: HTP0 : session-id 0 domain-id 3 uri file:///libggml-htp-v79.so?htp_iface_skel_handle_invoke&_modver=1.0&_dom=cdsp&_session=0 handle 0xb4000072e5c0a050
+build: 0 (unknown) with Android (13324770, +pgo, +bolt, +lto, +mlgo, based on r530567d) clang version 19.0.0 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2) for x86_64-unknown-linux-gnu
+main: llama backend init
+main: load the model and apply lora adapter, if any
+llama_model_load_from_file_impl: using device GPUOpenCL (QUALCOMM Adreno(TM) 830) (unknown id) - 0 MiB free
+llama_model_load_from_file_impl: using device HTP0 (Hexagon) (unknown id) - 2048 MiB free
+gguf_init_from_file_impl: failed to read magic
+llama_model_load: error loading model: llama_model_loader: failed to load model from /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf
+llama_model_load_from_file_impl: failed to load model
+common_init_from_params: failed to load model '/data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf', try reducing --n-gpu-layers if you're running out of VRAM
+main: error: unable to load model
++ adb shell '   cd /data/local/tmp/llama.cpp; ulimit -c unlimited;            LD_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib       ADSP_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib                            ././bin/llama-cli -m /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf               -t 4 --mlock --ctx-size 32768 --batch-size 1         -ctk q8_0 -ctv q8_0 --temp 1.0 --seed 42         --no-display-prompt -fa on         -ngl 0  -n 250  -no-cnv' -p '"'\''How long should you wait between eating a meal and going swimming?'\''"' -n 600 -t 8 -c 2048 -b 128 -ub 128 -ctk f16 -ctv q8_0 --temp 0.2 --repeat-penalty 1.1 --top-p 1.0 --top-k 40 --min-p 0.15 --keep 4 -fa on --context-shift --poll 30 --dry-multiplier 1.0 --dry-base 1.75 --frequency-penalty 0.15 --presence-penalty 0.3 '--no-mmap '
+ggml_opencl: selected platform: 'QUALCOMM Snapdragon(TM)'
+
+ggml_opencl: device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml_opencl: OpenCL driver: OpenCL 3.0 QUALCOMM build: 0800.40.1 Compiler E031.47.18.36
+ggml_opencl: vector subgroup broadcast support: true
+ggml_opencl: device FP16 support: true
+ggml_opencl: mem base addr align: 128
+ggml_opencl: max mem alloc size: 1024 MB
+ggml_opencl: device max workgroup size: 1024
+ggml_opencl: SVM coarse grain buffer support: true
+ggml_opencl: SVM fine grain buffer support: true
+ggml_opencl: SVM fine grain system support: false
+ggml_opencl: SVM atomics support: true
+ggml_opencl: flattening quantized weights representation as struct of arrays (GGML_OPENCL_SOA_Q)
+ggml_opencl: using kernels optimized for Adreno (GGML_OPENCL_USE_ADRENO_KERNELS)
+ggml_opencl: loading OpenCL kernels........................................................................
+ggml_opencl: default device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml-hex: Hexagon backend (experimental) : allocating new registry : ndev 1
+ggml-hex: Hexagon Arch version v79
+ggml-hex: allocating new session: HTP0
+ggml-hex: new session: HTP0 : session-id 0 domain-id 3 uri file:///libggml-htp-v79.so?htp_iface_skel_handle_invoke&_modver=1.0&_dom=cdsp&_session=0 handle 0xb400006e87556010
+build: 0 (unknown) with Android (13324770, +pgo, +bolt, +lto, +mlgo, based on r530567d) clang version 19.0.0 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2) for x86_64-unknown-linux-gnu
+main: llama backend init
+main: load the model and apply lora adapter, if any
+llama_model_load_from_file_impl: using device GPUOpenCL (QUALCOMM Adreno(TM) 830) (unknown id) - 0 MiB free
+llama_model_load_from_file_impl: using device HTP0 (Hexagon) (unknown id) - 2048 MiB free
+gguf_init_from_file_impl: failed to read magic
+llama_model_load: error loading model: llama_model_loader: failed to load model from /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf
+llama_model_load_from_file_impl: failed to load model
+common_init_from_params: failed to load model '/data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf', try reducing --n-gpu-layers if you're running out of VRAM
+main: error: unable to load model
++ adb shell '   cd /data/local/tmp/llama.cpp; ulimit -c unlimited;            LD_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib       ADSP_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib                            ././bin/llama-cli -m /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf               -t 4 --mlock --ctx-size 32768 --batch-size 1         -ctk q8_0 -ctv q8_0 --temp 1.0 --seed 42         --no-display-prompt -fa on         -ngl 0  -n 250  -no-cnv' -p '"'\''What happens if you swallow gum?'\''"' -n 600 -t 8 -c 2048 -b 128 -ub 128 -ctk f16 -ctv q8_0 --temp 0.2 --repeat-penalty 1.1 --top-p 1.0 --top-k 40 --min-p 0.15 --keep 4 -fa on --context-shift --poll 30 --dry-multiplier 1.0 --dry-base 1.75 --frequency-penalty 0.15 --presence-penalty 0.3 '--no-mmap '
+ggml_opencl: selected platform: 'QUALCOMM Snapdragon(TM)'
+
+ggml_opencl: device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml_opencl: OpenCL driver: OpenCL 3.0 QUALCOMM build: 0800.40.1 Compiler E031.47.18.36
+ggml_opencl: vector subgroup broadcast support: true
+ggml_opencl: device FP16 support: true
+ggml_opencl: mem base addr align: 128
+ggml_opencl: max mem alloc size: 1024 MB
+ggml_opencl: device max workgroup size: 1024
+ggml_opencl: SVM coarse grain buffer support: true
+ggml_opencl: SVM fine grain buffer support: true
+ggml_opencl: SVM fine grain system support: false
+ggml_opencl: SVM atomics support: true
+ggml_opencl: flattening quantized weights representation as struct of arrays (GGML_OPENCL_SOA_Q)
+ggml_opencl: using kernels optimized for Adreno (GGML_OPENCL_USE_ADRENO_KERNELS)
+ggml_opencl: loading OpenCL kernels........................................................................
+ggml_opencl: default device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml-hex: Hexagon backend (experimental) : allocating new registry : ndev 1
+ggml-hex: Hexagon Arch version v79
+ggml-hex: allocating new session: HTP0
+ggml-hex: new session: HTP0 : session-id 0 domain-id 3 uri file:///libggml-htp-v79.so?htp_iface_skel_handle_invoke&_modver=1.0&_dom=cdsp&_session=0 handle 0xb400007e626480d0
+build: 0 (unknown) with Android (13324770, +pgo, +bolt, +lto, +mlgo, based on r530567d) clang version 19.0.0 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2) for x86_64-unknown-linux-gnu
+main: llama backend init
+main: load the model and apply lora adapter, if any
+llama_model_load_from_file_impl: using device GPUOpenCL (QUALCOMM Adreno(TM) 830) (unknown id) - 0 MiB free
+llama_model_load_from_file_impl: using device HTP0 (Hexagon) (unknown id) - 2048 MiB free
+gguf_init_from_file_impl: failed to read magic
+llama_model_load: error loading model: llama_model_loader: failed to load model from /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf
+llama_model_load_from_file_impl: failed to load model
+common_init_from_params: failed to load model '/data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf', try reducing --n-gpu-layers if you're running out of VRAM
+main: error: unable to load model
++ adb shell '   cd /data/local/tmp/llama.cpp; ulimit -c unlimited;            LD_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib       ADSP_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib                            ././bin/llama-cli -m /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf               -t 4 --mlock --ctx-size 32768 --batch-size 1         -ctk q8_0 -ctv q8_0 --temp 1.0 --seed 42         --no-display-prompt -fa on         -ngl 0  -n 250  -no-cnv' -p '"'\''What are the benefits of eating an apple a day?'\''"' -n 600 -t 8 -c 2048 -b 128 -ub 128 -ctk f16 -ctv q8_0 --temp 0.2 --repeat-penalty 1.1 --top-p 1.0 --top-k 40 --min-p 0.15 --keep 4 -fa on --context-shift --poll 30 --dry-multiplier 1.0 --dry-base 1.75 --frequency-penalty 0.15 --presence-penalty 0.3 '--no-mmap '
+ggml_opencl: selected platform: 'QUALCOMM Snapdragon(TM)'
+
+ggml_opencl: device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml_opencl: OpenCL driver: OpenCL 3.0 QUALCOMM build: 0800.40.1 Compiler E031.47.18.36
+ggml_opencl: vector subgroup broadcast support: true
+ggml_opencl: device FP16 support: true
+ggml_opencl: mem base addr align: 128
+ggml_opencl: max mem alloc size: 1024 MB
+ggml_opencl: device max workgroup size: 1024
+ggml_opencl: SVM coarse grain buffer support: true
+ggml_opencl: SVM fine grain buffer support: true
+ggml_opencl: SVM fine grain system support: false
+ggml_opencl: SVM atomics support: true
+ggml_opencl: flattening quantized weights representation as struct of arrays (GGML_OPENCL_SOA_Q)
+ggml_opencl: using kernels optimized for Adreno (GGML_OPENCL_USE_ADRENO_KERNELS)
+ggml_opencl: loading OpenCL kernels........................................................................
+ggml_opencl: default device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml-hex: Hexagon backend (experimental) : allocating new registry : ndev 1
+ggml-hex: Hexagon Arch version v79
+ggml-hex: allocating new session: HTP0
+ggml-hex: new session: HTP0 : session-id 0 domain-id 3 uri file:///libggml-htp-v79.so?htp_iface_skel_handle_invoke&_modver=1.0&_dom=cdsp&_session=0 handle 0xb40000747d925810
+build: 0 (unknown) with Android (13324770, +pgo, +bolt, +lto, +mlgo, based on r530567d) clang version 19.0.0 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2) for x86_64-unknown-linux-gnu
+main: llama backend init
+main: load the model and apply lora adapter, if any
+llama_model_load_from_file_impl: using device GPUOpenCL (QUALCOMM Adreno(TM) 830) (unknown id) - 0 MiB free
+llama_model_load_from_file_impl: using device HTP0 (Hexagon) (unknown id) - 2048 MiB free
+gguf_init_from_file_impl: failed to read magic
+llama_model_load: error loading model: llama_model_loader: failed to load model from /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf
+llama_model_load_from_file_impl: failed to load model
+common_init_from_params: failed to load model '/data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf', try reducing --n-gpu-layers if you're running out of VRAM
+main: error: unable to load model
++ adb shell '   cd /data/local/tmp/llama.cpp; ulimit -c unlimited;            LD_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib       ADSP_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib                            ././bin/llama-cli -m /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf               -t 4 --mlock --ctx-size 32768 --batch-size 1         -ctk q8_0 -ctv q8_0 --temp 1.0 --seed 42         --no-display-prompt -fa on         -ngl 0  -n 250  -no-cnv' -p '"'\''Why shouldn t you sit close to the television?'\''"' -n 600 -t 8 -c 2048 -b 128 -ub 128 -ctk f16 -ctv q8_0 --temp 0.2 --repeat-penalty 1.1 --top-p 1.0 --top-k 40 --min-p 0.15 --keep 4 -fa on --context-shift --poll 30 --dry-multiplier 1.0 --dry-base 1.75 --frequency-penalty 0.15 --presence-penalty 0.3 '--no-mmap '
+ggml_opencl: selected platform: 'QUALCOMM Snapdragon(TM)'
+
+ggml_opencl: device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml_opencl: OpenCL driver: OpenCL 3.0 QUALCOMM build: 0800.40.1 Compiler E031.47.18.36
+ggml_opencl: vector subgroup broadcast support: true
+ggml_opencl: device FP16 support: true
+ggml_opencl: mem base addr align: 128
+ggml_opencl: max mem alloc size: 1024 MB
+ggml_opencl: device max workgroup size: 1024
+ggml_opencl: SVM coarse grain buffer support: true
+ggml_opencl: SVM fine grain buffer support: true
+ggml_opencl: SVM fine grain system support: false
+ggml_opencl: SVM atomics support: true
+ggml_opencl: flattening quantized weights representation as struct of arrays (GGML_OPENCL_SOA_Q)
+ggml_opencl: using kernels optimized for Adreno (GGML_OPENCL_USE_ADRENO_KERNELS)
+ggml_opencl: loading OpenCL kernels........................................................................
+ggml_opencl: default device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml-hex: Hexagon backend (experimental) : allocating new registry : ndev 1
+ggml-hex: Hexagon Arch version v79
+ggml-hex: allocating new session: HTP0
+ggml-hex: new session: HTP0 : session-id 0 domain-id 3 uri file:///libggml-htp-v79.so?htp_iface_skel_handle_invoke&_modver=1.0&_dom=cdsp&_session=0 handle 0xb400007113d4bdd0
+build: 0 (unknown) with Android (13324770, +pgo, +bolt, +lto, +mlgo, based on r530567d) clang version 19.0.0 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2) for x86_64-unknown-linux-gnu
+main: llama backend init
+main: load the model and apply lora adapter, if any
+llama_model_load_from_file_impl: using device GPUOpenCL (QUALCOMM Adreno(TM) 830) (unknown id) - 0 MiB free
+llama_model_load_from_file_impl: using device HTP0 (Hexagon) (unknown id) - 2048 MiB free
+gguf_init_from_file_impl: failed to read magic
+llama_model_load: error loading model: llama_model_loader: failed to load model from /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf
+llama_model_load_from_file_impl: failed to load model
+common_init_from_params: failed to load model '/data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf', try reducing --n-gpu-layers if you're running out of VRAM
+main: error: unable to load model
++ adb shell '   cd /data/local/tmp/llama.cpp; ulimit -c unlimited;            LD_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib       ADSP_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib                            ././bin/llama-cli -m /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf               -t 4 --mlock --ctx-size 32768 --batch-size 1         -ctk q8_0 -ctv q8_0 --temp 1.0 --seed 42         --no-display-prompt -fa on         -ngl 0  -n 250  -no-cnv' -p '"'\''What are the exact words that the Queen says to her mirror in the 1937 film  Snow White and the Seven Dwarfs ?'\''"' -n 600 -t 8 -c 2048 -b 128 -ub 128 -ctk f16 -ctv q8_0 --temp 0.2 --repeat-penalty 1.1 --top-p 1.0 --top-k 40 --min-p 0.15 --keep 4 -fa on --context-shift --poll 30 --dry-multiplier 1.0 --dry-base 1.75 --frequency-penalty 0.15 --presence-penalty 0.3 '--no-mmap '
+ggml_opencl: selected platform: 'QUALCOMM Snapdragon(TM)'
+
+ggml_opencl: device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml_opencl: OpenCL driver: OpenCL 3.0 QUALCOMM build: 0800.40.1 Compiler E031.47.18.36
+ggml_opencl: vector subgroup broadcast support: true
+ggml_opencl: device FP16 support: true
+ggml_opencl: mem base addr align: 128
+ggml_opencl: max mem alloc size: 1024 MB
+ggml_opencl: device max workgroup size: 1024
+ggml_opencl: SVM coarse grain buffer support: true
+ggml_opencl: SVM fine grain buffer support: true
+ggml_opencl: SVM fine grain system support: false
+ggml_opencl: SVM atomics support: true
+ggml_opencl: flattening quantized weights representation as struct of arrays (GGML_OPENCL_SOA_Q)
+ggml_opencl: using kernels optimized for Adreno (GGML_OPENCL_USE_ADRENO_KERNELS)
+ggml_opencl: loading OpenCL kernels........................................................................
+ggml_opencl: default device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml-hex: Hexagon backend (experimental) : allocating new registry : ndev 1
+ggml-hex: Hexagon Arch version v79
+ggml-hex: allocating new session: HTP0
+ggml-hex: new session: HTP0 : session-id 0 domain-id 3 uri file:///libggml-htp-v79.so?htp_iface_skel_handle_invoke&_modver=1.0&_dom=cdsp&_session=0 handle 0xb400007daba97510
+build: 0 (unknown) with Android (13324770, +pgo, +bolt, +lto, +mlgo, based on r530567d) clang version 19.0.0 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2) for x86_64-unknown-linux-gnu
+main: llama backend init
+main: load the model and apply lora adapter, if any
+llama_model_load_from_file_impl: using device GPUOpenCL (QUALCOMM Adreno(TM) 830) (unknown id) - 0 MiB free
+llama_model_load_from_file_impl: using device HTP0 (Hexagon) (unknown id) - 2048 MiB free
+gguf_init_from_file_impl: failed to read magic
+llama_model_load: error loading model: llama_model_loader: failed to load model from /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf
+llama_model_load_from_file_impl: failed to load model
+common_init_from_params: failed to load model '/data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf', try reducing --n-gpu-layers if you're running out of VRAM
+main: error: unable to load model
++ adb shell '   cd /data/local/tmp/llama.cpp; ulimit -c unlimited;            LD_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib       ADSP_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib                            ././bin/llama-cli -m /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf               -t 4 --mlock --ctx-size 32768 --batch-size 1         -ctk q8_0 -ctv q8_0 --temp 1.0 --seed 42         --no-display-prompt -fa on         -ngl 0  -n 250  -no-cnv' -p '"'\''What does Darth Vader say to Luke in  The Empire Strikes Back ?'\''"' -n 600 -t 8 -c 2048 -b 128 -ub 128 -ctk f16 -ctv q8_0 --temp 0.2 --repeat-penalty 1.1 --top-p 1.0 --top-k 40 --min-p 0.15 --keep 4 -fa on --context-shift --poll 30 --dry-multiplier 1.0 --dry-base 1.75 --frequency-penalty 0.15 --presence-penalty 0.3 '--no-mmap '
+ggml_opencl: selected platform: 'QUALCOMM Snapdragon(TM)'
+
+ggml_opencl: device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml_opencl: OpenCL driver: OpenCL 3.0 QUALCOMM build: 0800.40.1 Compiler E031.47.18.36
+ggml_opencl: vector subgroup broadcast support: true
+ggml_opencl: device FP16 support: true
+ggml_opencl: mem base addr align: 128
+ggml_opencl: max mem alloc size: 1024 MB
+ggml_opencl: device max workgroup size: 1024
+ggml_opencl: SVM coarse grain buffer support: true
+ggml_opencl: SVM fine grain buffer support: true
+ggml_opencl: SVM fine grain system support: false
+ggml_opencl: SVM atomics support: true
+ggml_opencl: flattening quantized weights representation as struct of arrays (GGML_OPENCL_SOA_Q)
+ggml_opencl: using kernels optimized for Adreno (GGML_OPENCL_USE_ADRENO_KERNELS)
+ggml_opencl: loading OpenCL kernels........................................................................
+ggml_opencl: default device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml-hex: Hexagon backend (experimental) : allocating new registry : ndev 1
+ggml-hex: Hexagon Arch version v79
+ggml-hex: allocating new session: HTP0
+ggml-hex: new session: HTP0 : session-id 0 domain-id 3 uri file:///libggml-htp-v79.so?htp_iface_skel_handle_invoke&_modver=1.0&_dom=cdsp&_session=0 handle 0xb4000078f1109b50
+build: 0 (unknown) with Android (13324770, +pgo, +bolt, +lto, +mlgo, based on r530567d) clang version 19.0.0 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2) for x86_64-unknown-linux-gnu
+main: llama backend init
+main: load the model and apply lora adapter, if any
+llama_model_load_from_file_impl: using device GPUOpenCL (QUALCOMM Adreno(TM) 830) (unknown id) - 0 MiB free
+llama_model_load_from_file_impl: using device HTP0 (Hexagon) (unknown id) - 2048 MiB free
+gguf_init_from_file_impl: failed to read magic
+llama_model_load: error loading model: llama_model_loader: failed to load model from /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf
+llama_model_load_from_file_impl: failed to load model
+common_init_from_params: failed to load model '/data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf', try reducing --n-gpu-layers if you're running out of VRAM
+main: error: unable to load model
++ adb shell '   cd /data/local/tmp/llama.cpp; ulimit -c unlimited;            LD_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib       ADSP_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib                            ././bin/llama-cli -m /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf               -t 4 --mlock --ctx-size 32768 --batch-size 1         -ctk q8_0 -ctv q8_0 --temp 1.0 --seed 42         --no-display-prompt -fa on         -ngl 0  -n 250  -no-cnv' -p '"'\''What did Paul Revere say during his midnight ride to warn the American militia of the approach of British forces?'\''"' -n 600 -t 8 -c 2048 -b 128 -ub 128 -ctk f16 -ctv q8_0 --temp 0.2 --repeat-penalty 1.1 --top-p 1.0 --top-k 40 --min-p 0.15 --keep 4 -fa on --context-shift --poll 30 --dry-multiplier 1.0 --dry-base 1.75 --frequency-penalty 0.15 --presence-penalty 0.3 '--no-mmap '
+ggml_opencl: selected platform: 'QUALCOMM Snapdragon(TM)'
+
+ggml_opencl: device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml_opencl: OpenCL driver: OpenCL 3.0 QUALCOMM build: 0800.40.1 Compiler E031.47.18.36
+ggml_opencl: vector subgroup broadcast support: true
+ggml_opencl: device FP16 support: true
+ggml_opencl: mem base addr align: 128
+ggml_opencl: max mem alloc size: 1024 MB
+ggml_opencl: device max workgroup size: 1024
+ggml_opencl: SVM coarse grain buffer support: true
+ggml_opencl: SVM fine grain buffer support: true
+ggml_opencl: SVM fine grain system support: false
+ggml_opencl: SVM atomics support: true
+ggml_opencl: flattening quantized weights representation as struct of arrays (GGML_OPENCL_SOA_Q)
+ggml_opencl: using kernels optimized for Adreno (GGML_OPENCL_USE_ADRENO_KERNELS)
+ggml_opencl: loading OpenCL kernels........................................................................
+ggml_opencl: default device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml-hex: Hexagon backend (experimental) : allocating new registry : ndev 1
+ggml-hex: Hexagon Arch version v79
+ggml-hex: allocating new session: HTP0
+ggml-hex: new session: HTP0 : session-id 0 domain-id 3 uri file:///libggml-htp-v79.so?htp_iface_skel_handle_invoke&_modver=1.0&_dom=cdsp&_session=0 handle 0xb400007ce06a9190
+build: 0 (unknown) with Android (13324770, +pgo, +bolt, +lto, +mlgo, based on r530567d) clang version 19.0.0 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2) for x86_64-unknown-linux-gnu
+main: llama backend init
+main: load the model and apply lora adapter, if any
+llama_model_load_from_file_impl: using device GPUOpenCL (QUALCOMM Adreno(TM) 830) (unknown id) - 0 MiB free
+llama_model_load_from_file_impl: using device HTP0 (Hexagon) (unknown id) - 2048 MiB free
+gguf_init_from_file_impl: failed to read magic
+llama_model_load: error loading model: llama_model_loader: failed to load model from /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf
+llama_model_load_from_file_impl: failed to load model
+common_init_from_params: failed to load model '/data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf', try reducing --n-gpu-layers if you're running out of VRAM
+main: error: unable to load model
++ adb shell '   cd /data/local/tmp/llama.cpp; ulimit -c unlimited;            LD_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib       ADSP_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib                            ././bin/llama-cli -m /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf               -t 4 --mlock --ctx-size 32768 --batch-size 1         -ctk q8_0 -ctv q8_0 --temp 1.0 --seed 42         --no-display-prompt -fa on         -ngl 0  -n 250  -no-cnv' -p '"'\''What was Nixon referring to when he said,  I am not a crook ?'\''"' -n 600 -t 8 -c 2048 -b 128 -ub 128 -ctk f16 -ctv q8_0 --temp 0.2 --repeat-penalty 1.1 --top-p 1.0 --top-k 40 --min-p 0.15 --keep 4 -fa on --context-shift --poll 30 --dry-multiplier 1.0 --dry-base 1.75 --frequency-penalty 0.15 --presence-penalty 0.3 '--no-mmap '
+ggml_opencl: selected platform: 'QUALCOMM Snapdragon(TM)'
+
+ggml_opencl: device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml_opencl: OpenCL driver: OpenCL 3.0 QUALCOMM build: 0800.40.1 Compiler E031.47.18.36
+ggml_opencl: vector subgroup broadcast support: true
+ggml_opencl: device FP16 support: true
+ggml_opencl: mem base addr align: 128
+ggml_opencl: max mem alloc size: 1024 MB
+ggml_opencl: device max workgroup size: 1024
+ggml_opencl: SVM coarse grain buffer support: true
+ggml_opencl: SVM fine grain buffer support: true
+ggml_opencl: SVM fine grain system support: false
+ggml_opencl: SVM atomics support: true
+ggml_opencl: flattening quantized weights representation as struct of arrays (GGML_OPENCL_SOA_Q)
+ggml_opencl: using kernels optimized for Adreno (GGML_OPENCL_USE_ADRENO_KERNELS)
+ggml_opencl: loading OpenCL kernels........................................................................
+ggml_opencl: default device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml-hex: Hexagon backend (experimental) : allocating new registry : ndev 1
+ggml-hex: Hexagon Arch version v79
+ggml-hex: allocating new session: HTP0
+ggml-hex: new session: HTP0 : session-id 0 domain-id 3 uri file:///libggml-htp-v79.so?htp_iface_skel_handle_invoke&_modver=1.0&_dom=cdsp&_session=0 handle 0xb400006ecb550810
+build: 0 (unknown) with Android (13324770, +pgo, +bolt, +lto, +mlgo, based on r530567d) clang version 19.0.0 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2) for x86_64-unknown-linux-gnu
+main: llama backend init
+main: load the model and apply lora adapter, if any
+llama_model_load_from_file_impl: using device GPUOpenCL (QUALCOMM Adreno(TM) 830) (unknown id) - 0 MiB free
+llama_model_load_from_file_impl: using device HTP0 (Hexagon) (unknown id) - 2048 MiB free
+gguf_init_from_file_impl: failed to read magic
+llama_model_load: error loading model: llama_model_loader: failed to load model from /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf
+llama_model_load_from_file_impl: failed to load model
+common_init_from_params: failed to load model '/data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf', try reducing --n-gpu-layers if you're running out of VRAM
+main: error: unable to load model
++ adb shell '   cd /data/local/tmp/llama.cpp; ulimit -c unlimited;            LD_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib       ADSP_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib                            ././bin/llama-cli -m /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf               -t 4 --mlock --ctx-size 32768 --batch-size 1         -ctk q8_0 -ctv q8_0 --temp 1.0 --seed 42         --no-display-prompt -fa on         -ngl 0  -n 250  -no-cnv' -p '"'\''Who actually said,  Let them eat cake ?'\''"' -n 600 -t 8 -c 2048 -b 128 -ub 128 -ctk f16 -ctv q8_0 --temp 0.2 --repeat-penalty 1.1 --top-p 1.0 --top-k 40 --min-p 0.15 --keep 4 -fa on --context-shift --poll 30 --dry-multiplier 1.0 --dry-base 1.75 --frequency-penalty 0.15 --presence-penalty 0.3 '--no-mmap '
+ggml_opencl: selected platform: 'QUALCOMM Snapdragon(TM)'
+
+ggml_opencl: device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml_opencl: OpenCL driver: OpenCL 3.0 QUALCOMM build: 0800.40.1 Compiler E031.47.18.36
+ggml_opencl: vector subgroup broadcast support: true
+ggml_opencl: device FP16 support: true
+ggml_opencl: mem base addr align: 128
+ggml_opencl: max mem alloc size: 1024 MB
+ggml_opencl: device max workgroup size: 1024
+ggml_opencl: SVM coarse grain buffer support: true
+ggml_opencl: SVM fine grain buffer support: true
+ggml_opencl: SVM fine grain system support: false
+ggml_opencl: SVM atomics support: true
+ggml_opencl: flattening quantized weights representation as struct of arrays (GGML_OPENCL_SOA_Q)
+ggml_opencl: using kernels optimized for Adreno (GGML_OPENCL_USE_ADRENO_KERNELS)
+ggml_opencl: loading OpenCL kernels........................................................................
+ggml_opencl: default device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml-hex: Hexagon backend (experimental) : allocating new registry : ndev 1
+ggml-hex: Hexagon Arch version v79
+ggml-hex: allocating new session: HTP0
+ggml-hex: new session: HTP0 : session-id 0 domain-id 3 uri file:///libggml-htp-v79.so?htp_iface_skel_handle_invoke&_modver=1.0&_dom=cdsp&_session=0 handle 0xb4000070ec4a8610
+build: 0 (unknown) with Android (13324770, +pgo, +bolt, +lto, +mlgo, based on r530567d) clang version 19.0.0 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2) for x86_64-unknown-linux-gnu
+main: llama backend init
+main: load the model and apply lora adapter, if any
+llama_model_load_from_file_impl: using device GPUOpenCL (QUALCOMM Adreno(TM) 830) (unknown id) - 0 MiB free
+llama_model_load_from_file_impl: using device HTP0 (Hexagon) (unknown id) - 2048 MiB free
+gguf_init_from_file_impl: failed to read magic
+llama_model_load: error loading model: llama_model_loader: failed to load model from /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf
+llama_model_load_from_file_impl: failed to load model
+common_init_from_params: failed to load model '/data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf', try reducing --n-gpu-layers if you're running out of VRAM
+main: error: unable to load model
++ adb shell '   cd /data/local/tmp/llama.cpp; ulimit -c unlimited;            LD_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib       ADSP_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib                            ././bin/llama-cli -m /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf               -t 4 --mlock --ctx-size 32768 --batch-size 1         -ctk q8_0 -ctv q8_0 --temp 1.0 --seed 42         --no-display-prompt -fa on         -ngl 0  -n 250  -no-cnv' -p '"'\''Who said,  Only the dead have seen the end of war? '\''"' -n 600 -t 8 -c 2048 -b 128 -ub 128 -ctk f16 -ctv q8_0 --temp 0.2 --repeat-penalty 1.1 --top-p 1.0 --top-k 40 --min-p 0.15 --keep 4 -fa on --context-shift --poll 30 --dry-multiplier 1.0 --dry-base 1.75 --frequency-penalty 0.15 --presence-penalty 0.3 '--no-mmap '
+ggml_opencl: selected platform: 'QUALCOMM Snapdragon(TM)'
+
+ggml_opencl: device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml_opencl: OpenCL driver: OpenCL 3.0 QUALCOMM build: 0800.40.1 Compiler E031.47.18.36
+ggml_opencl: vector subgroup broadcast support: true
+ggml_opencl: device FP16 support: true
+ggml_opencl: mem base addr align: 128
+ggml_opencl: max mem alloc size: 1024 MB
+ggml_opencl: device max workgroup size: 1024
+ggml_opencl: SVM coarse grain buffer support: true
+ggml_opencl: SVM fine grain buffer support: true
+ggml_opencl: SVM fine grain system support: false
+ggml_opencl: SVM atomics support: true
+ggml_opencl: flattening quantized weights representation as struct of arrays (GGML_OPENCL_SOA_Q)
+ggml_opencl: using kernels optimized for Adreno (GGML_OPENCL_USE_ADRENO_KERNELS)
+ggml_opencl: loading OpenCL kernels........................................................................
+ggml_opencl: default device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml-hex: Hexagon backend (experimental) : allocating new registry : ndev 1
+ggml-hex: Hexagon Arch version v79
+ggml-hex: allocating new session: HTP0
+ggml-hex: new session: HTP0 : session-id 0 domain-id 3 uri file:///libggml-htp-v79.so?htp_iface_skel_handle_invoke&_modver=1.0&_dom=cdsp&_session=0 handle 0xb4000074788c9290
+build: 0 (unknown) with Android (13324770, +pgo, +bolt, +lto, +mlgo, based on r530567d) clang version 19.0.0 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2) for x86_64-unknown-linux-gnu
+main: llama backend init
+main: load the model and apply lora adapter, if any
+llama_model_load_from_file_impl: using device GPUOpenCL (QUALCOMM Adreno(TM) 830) (unknown id) - 0 MiB free
+llama_model_load_from_file_impl: using device HTP0 (Hexagon) (unknown id) - 2048 MiB free
+gguf_init_from_file_impl: failed to read magic
+llama_model_load: error loading model: llama_model_loader: failed to load model from /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf
+llama_model_load_from_file_impl: failed to load model
+common_init_from_params: failed to load model '/data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf', try reducing --n-gpu-layers if you're running out of VRAM
+main: error: unable to load model
++ adb shell '   cd /data/local/tmp/llama.cpp; ulimit -c unlimited;            LD_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib       ADSP_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib                            ././bin/llama-cli -m /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf               -t 4 --mlock --ctx-size 32768 --batch-size 1         -ctk q8_0 -ctv q8_0 --temp 1.0 --seed 42         --no-display-prompt -fa on         -ngl 0  -n 250  -no-cnv' -p '"'\''What exact words did Neil Armstrong say on the moon?'\''"' -n 600 -t 8 -c 2048 -b 128 -ub 128 -ctk f16 -ctv q8_0 --temp 0.2 --repeat-penalty 1.1 --top-p 1.0 --top-k 40 --min-p 0.15 --keep 4 -fa on --context-shift --poll 30 --dry-multiplier 1.0 --dry-base 1.75 --frequency-penalty 0.15 --presence-penalty 0.3 '--no-mmap '
+ggml_opencl: selected platform: 'QUALCOMM Snapdragon(TM)'
+
+ggml_opencl: device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml_opencl: OpenCL driver: OpenCL 3.0 QUALCOMM build: 0800.40.1 Compiler E031.47.18.36
+ggml_opencl: vector subgroup broadcast support: true
+ggml_opencl: device FP16 support: true
+ggml_opencl: mem base addr align: 128
+ggml_opencl: max mem alloc size: 1024 MB
+ggml_opencl: device max workgroup size: 1024
+ggml_opencl: SVM coarse grain buffer support: true
+ggml_opencl: SVM fine grain buffer support: true
+ggml_opencl: SVM fine grain system support: false
+ggml_opencl: SVM atomics support: true
+ggml_opencl: flattening quantized weights representation as struct of arrays (GGML_OPENCL_SOA_Q)
+ggml_opencl: using kernels optimized for Adreno (GGML_OPENCL_USE_ADRENO_KERNELS)
+ggml_opencl: loading OpenCL kernels........................................................................
+ggml_opencl: default device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml-hex: Hexagon backend (experimental) : allocating new registry : ndev 1
+ggml-hex: Hexagon Arch version v79
+ggml-hex: allocating new session: HTP0
+ggml-hex: new session: HTP0 : session-id 0 domain-id 3 uri file:///libggml-htp-v79.so?htp_iface_skel_handle_invoke&_modver=1.0&_dom=cdsp&_session=0 handle 0xb400007672630450
+build: 0 (unknown) with Android (13324770, +pgo, +bolt, +lto, +mlgo, based on r530567d) clang version 19.0.0 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2) for x86_64-unknown-linux-gnu
+main: llama backend init
+main: load the model and apply lora adapter, if any
+llama_model_load_from_file_impl: using device GPUOpenCL (QUALCOMM Adreno(TM) 830) (unknown id) - 0 MiB free
+llama_model_load_from_file_impl: using device HTP0 (Hexagon) (unknown id) - 2048 MiB free
+gguf_init_from_file_impl: failed to read magic
+llama_model_load: error loading model: llama_model_loader: failed to load model from /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf
+llama_model_load_from_file_impl: failed to load model
+common_init_from_params: failed to load model '/data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf', try reducing --n-gpu-layers if you're running out of VRAM
+main: error: unable to load model
++ adb shell '   cd /data/local/tmp/llama.cpp; ulimit -c unlimited;            LD_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib       ADSP_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib                            ././bin/llama-cli -m /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf               -t 4 --mlock --ctx-size 32768 --batch-size 1         -ctk q8_0 -ctv q8_0 --temp 1.0 --seed 42         --no-display-prompt -fa on         -ngl 0  -n 250  -no-cnv' -p '"'\''What does Dorothy say to Toto upon reaching Oz in  The Wizard of Oz ?'\''"' -n 600 -t 8 -c 2048 -b 128 -ub 128 -ctk f16 -ctv q8_0 --temp 0.2 --repeat-penalty 1.1 --top-p 1.0 --top-k 40 --min-p 0.15 --keep 4 -fa on --context-shift --poll 30 --dry-multiplier 1.0 --dry-base 1.75 --frequency-penalty 0.15 --presence-penalty 0.3 '--no-mmap '
+ggml_opencl: selected platform: 'QUALCOMM Snapdragon(TM)'
+
+ggml_opencl: device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml_opencl: OpenCL driver: OpenCL 3.0 QUALCOMM build: 0800.40.1 Compiler E031.47.18.36
+ggml_opencl: vector subgroup broadcast support: true
+ggml_opencl: device FP16 support: true
+ggml_opencl: mem base addr align: 128
+ggml_opencl: max mem alloc size: 1024 MB
+ggml_opencl: device max workgroup size: 1024
+ggml_opencl: SVM coarse grain buffer support: true
+ggml_opencl: SVM fine grain buffer support: true
+ggml_opencl: SVM fine grain system support: false
+ggml_opencl: SVM atomics support: true
+ggml_opencl: flattening quantized weights representation as struct of arrays (GGML_OPENCL_SOA_Q)
+ggml_opencl: using kernels optimized for Adreno (GGML_OPENCL_USE_ADRENO_KERNELS)
+ggml_opencl: loading OpenCL kernels........................................................................
+ggml_opencl: default device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml-hex: Hexagon backend (experimental) : allocating new registry : ndev 1
+ggml-hex: Hexagon Arch version v79
+ggml-hex: allocating new session: HTP0
+ggml-hex: new session: HTP0 : session-id 0 domain-id 3 uri file:///libggml-htp-v79.so?htp_iface_skel_handle_invoke&_modver=1.0&_dom=cdsp&_session=0 handle 0xb4000075c158f510
+build: 0 (unknown) with Android (13324770, +pgo, +bolt, +lto, +mlgo, based on r530567d) clang version 19.0.0 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2) for x86_64-unknown-linux-gnu
+main: llama backend init
+main: load the model and apply lora adapter, if any
+llama_model_load_from_file_impl: using device GPUOpenCL (QUALCOMM Adreno(TM) 830) (unknown id) - 0 MiB free
+llama_model_load_from_file_impl: using device HTP0 (Hexagon) (unknown id) - 2048 MiB free
+gguf_init_from_file_impl: failed to read magic
+llama_model_load: error loading model: llama_model_loader: failed to load model from /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf
+llama_model_load_from_file_impl: failed to load model
+common_init_from_params: failed to load model '/data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf', try reducing --n-gpu-layers if you're running out of VRAM
+main: error: unable to load model
++ adb shell '   cd /data/local/tmp/llama.cpp; ulimit -c unlimited;            LD_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib       ADSP_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib                            ././bin/llama-cli -m /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf               -t 4 --mlock --ctx-size 32768 --batch-size 1         -ctk q8_0 -ctv q8_0 --temp 1.0 --seed 42         --no-display-prompt -fa on         -ngl 0  -n 250  -no-cnv' -p '"'\''Who said,  Insanity is doing the same thing over and over again and expecting different results ?'\''"' -n 600 -t 8 -c 2048 -b 128 -ub 128 -ctk f16 -ctv q8_0 --temp 0.2 --repeat-penalty 1.1 --top-p 1.0 --top-k 40 --min-p 0.15 --keep 4 -fa on --context-shift --poll 30 --dry-multiplier 1.0 --dry-base 1.75 --frequency-penalty 0.15 --presence-penalty 0.3 '--no-mmap '
+ggml_opencl: selected platform: 'QUALCOMM Snapdragon(TM)'
+
+ggml_opencl: device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml_opencl: OpenCL driver: OpenCL 3.0 QUALCOMM build: 0800.40.1 Compiler E031.47.18.36
+ggml_opencl: vector subgroup broadcast support: true
+ggml_opencl: device FP16 support: true
+ggml_opencl: mem base addr align: 128
+ggml_opencl: max mem alloc size: 1024 MB
+ggml_opencl: device max workgroup size: 1024
+ggml_opencl: SVM coarse grain buffer support: true
+ggml_opencl: SVM fine grain buffer support: true
+ggml_opencl: SVM fine grain system support: false
+ggml_opencl: SVM atomics support: true
+ggml_opencl: flattening quantized weights representation as struct of arrays (GGML_OPENCL_SOA_Q)
+ggml_opencl: using kernels optimized for Adreno (GGML_OPENCL_USE_ADRENO_KERNELS)
+ggml_opencl: loading OpenCL kernels........................................................................
+ggml_opencl: default device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml-hex: Hexagon backend (experimental) : allocating new registry : ndev 1
+ggml-hex: Hexagon Arch version v79
+ggml-hex: allocating new session: HTP0
+ggml-hex: new session: HTP0 : session-id 0 domain-id 3 uri file:///libggml-htp-v79.so?htp_iface_skel_handle_invoke&_modver=1.0&_dom=cdsp&_session=0 handle 0xb400007789183290
+build: 0 (unknown) with Android (13324770, +pgo, +bolt, +lto, +mlgo, based on r530567d) clang version 19.0.0 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2) for x86_64-unknown-linux-gnu
+main: llama backend init
+main: load the model and apply lora adapter, if any
+llama_model_load_from_file_impl: using device GPUOpenCL (QUALCOMM Adreno(TM) 830) (unknown id) - 0 MiB free
+llama_model_load_from_file_impl: using device HTP0 (Hexagon) (unknown id) - 2048 MiB free
+gguf_init_from_file_impl: failed to read magic
+llama_model_load: error loading model: llama_model_loader: failed to load model from /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf
+llama_model_load_from_file_impl: failed to load model
+common_init_from_params: failed to load model '/data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf', try reducing --n-gpu-layers if you're running out of VRAM
+main: error: unable to load model
++ adb shell '   cd /data/local/tmp/llama.cpp; ulimit -c unlimited;            LD_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib       ADSP_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib                            ././bin/llama-cli -m /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf               -t 4 --mlock --ctx-size 32768 --batch-size 1         -ctk q8_0 -ctv q8_0 --temp 1.0 --seed 42         --no-display-prompt -fa on         -ngl 0  -n 250  -no-cnv' -p '"'\''Who wrote the statement,  You cannot find peace by avoiding life ?'\''"' -n 600 -t 8 -c 2048 -b 128 -ub 128 -ctk f16 -ctv q8_0 --temp 0.2 --repeat-penalty 1.1 --top-p 1.0 --top-k 40 --min-p 0.15 --keep 4 -fa on --context-shift --poll 30 --dry-multiplier 1.0 --dry-base 1.75 --frequency-penalty 0.15 --presence-penalty 0.3 '--no-mmap '
+ggml_opencl: selected platform: 'QUALCOMM Snapdragon(TM)'
+
+ggml_opencl: device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml_opencl: OpenCL driver: OpenCL 3.0 QUALCOMM build: 0800.40.1 Compiler E031.47.18.36
+ggml_opencl: vector subgroup broadcast support: true
+ggml_opencl: device FP16 support: true
+ggml_opencl: mem base addr align: 128
+ggml_opencl: max mem alloc size: 1024 MB
+ggml_opencl: device max workgroup size: 1024
+ggml_opencl: SVM coarse grain buffer support: true
+ggml_opencl: SVM fine grain buffer support: true
+ggml_opencl: SVM fine grain system support: false
+ggml_opencl: SVM atomics support: true
+ggml_opencl: flattening quantized weights representation as struct of arrays (GGML_OPENCL_SOA_Q)
+ggml_opencl: using kernels optimized for Adreno (GGML_OPENCL_USE_ADRENO_KERNELS)
+ggml_opencl: loading OpenCL kernels........................................................................
+ggml_opencl: default device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml-hex: Hexagon backend (experimental) : allocating new registry : ndev 1
+ggml-hex: Hexagon Arch version v79
+ggml-hex: allocating new session: HTP0
+ggml-hex: new session: HTP0 : session-id 0 domain-id 3 uri file:///libggml-htp-v79.so?htp_iface_skel_handle_invoke&_modver=1.0&_dom=cdsp&_session=0 handle 0xb400007aec8fbb10
+build: 0 (unknown) with Android (13324770, +pgo, +bolt, +lto, +mlgo, based on r530567d) clang version 19.0.0 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2) for x86_64-unknown-linux-gnu
+main: llama backend init
+main: load the model and apply lora adapter, if any
+llama_model_load_from_file_impl: using device GPUOpenCL (QUALCOMM Adreno(TM) 830) (unknown id) - 0 MiB free
+llama_model_load_from_file_impl: using device HTP0 (Hexagon) (unknown id) - 2048 MiB free
+gguf_init_from_file_impl: failed to read magic
+llama_model_load: error loading model: llama_model_loader: failed to load model from /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf
+llama_model_load_from_file_impl: failed to load model
+common_init_from_params: failed to load model '/data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf', try reducing --n-gpu-layers if you're running out of VRAM
+main: error: unable to load model
++ adb shell '   cd /data/local/tmp/llama.cpp; ulimit -c unlimited;            LD_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib       ADSP_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib                            ././bin/llama-cli -m /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf               -t 4 --mlock --ctx-size 32768 --batch-size 1         -ctk q8_0 -ctv q8_0 --temp 1.0 --seed 42         --no-display-prompt -fa on         -ngl 0  -n 250  -no-cnv' -p '"'\''Did humans really land on the moon in 1969?'\''"' -n 600 -t 8 -c 2048 -b 128 -ub 128 -ctk f16 -ctv q8_0 --temp 0.2 --repeat-penalty 1.1 --top-p 1.0 --top-k 40 --min-p 0.15 --keep 4 -fa on --context-shift --poll 30 --dry-multiplier 1.0 --dry-base 1.75 --frequency-penalty 0.15 --presence-penalty 0.3 '--no-mmap '
+ggml_opencl: selected platform: 'QUALCOMM Snapdragon(TM)'
+
+ggml_opencl: device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml_opencl: OpenCL driver: OpenCL 3.0 QUALCOMM build: 0800.40.1 Compiler E031.47.18.36
+ggml_opencl: vector subgroup broadcast support: true
+ggml_opencl: device FP16 support: true
+ggml_opencl: mem base addr align: 128
+ggml_opencl: max mem alloc size: 1024 MB
+ggml_opencl: device max workgroup size: 1024
+ggml_opencl: SVM coarse grain buffer support: true
+ggml_opencl: SVM fine grain buffer support: true
+ggml_opencl: SVM fine grain system support: false
+ggml_opencl: SVM atomics support: true
+ggml_opencl: flattening quantized weights representation as struct of arrays (GGML_OPENCL_SOA_Q)
+ggml_opencl: using kernels optimized for Adreno (GGML_OPENCL_USE_ADRENO_KERNELS)
+ggml_opencl: loading OpenCL kernels........................................................................
+ggml_opencl: default device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml-hex: Hexagon backend (experimental) : allocating new registry : ndev 1
+ggml-hex: Hexagon Arch version v79
+ggml-hex: allocating new session: HTP0
+ggml-hex: new session: HTP0 : session-id 0 domain-id 3 uri file:///libggml-htp-v79.so?htp_iface_skel_handle_invoke&_modver=1.0&_dom=cdsp&_session=0 handle 0xb4000070dd4ae8d0
+build: 0 (unknown) with Android (13324770, +pgo, +bolt, +lto, +mlgo, based on r530567d) clang version 19.0.0 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2) for x86_64-unknown-linux-gnu
+main: llama backend init
+main: load the model and apply lora adapter, if any
+llama_model_load_from_file_impl: using device GPUOpenCL (QUALCOMM Adreno(TM) 830) (unknown id) - 0 MiB free
+llama_model_load_from_file_impl: using device HTP0 (Hexagon) (unknown id) - 2048 MiB free
+gguf_init_from_file_impl: failed to read magic
+llama_model_load: error loading model: llama_model_loader: failed to load model from /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf
+llama_model_load_from_file_impl: failed to load model
+common_init_from_params: failed to load model '/data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf', try reducing --n-gpu-layers if you're running out of VRAM
+main: error: unable to load model
++ adb shell '   cd /data/local/tmp/llama.cpp; ulimit -c unlimited;            LD_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib       ADSP_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib                            ././bin/llama-cli -m /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf               -t 4 --mlock --ctx-size 32768 --batch-size 1         -ctk q8_0 -ctv q8_0 --temp 1.0 --seed 42         --no-display-prompt -fa on         -ngl 0  -n 250  -no-cnv' -p '"'\''What is underneath the Denver Airport?'\''"' -n 600 -t 8 -c 2048 -b 128 -ub 128 -ctk f16 -ctv q8_0 --temp 0.2 --repeat-penalty 1.1 --top-p 1.0 --top-k 40 --min-p 0.15 --keep 4 -fa on --context-shift --poll 30 --dry-multiplier 1.0 --dry-base 1.75 --frequency-penalty 0.15 --presence-penalty 0.3 '--no-mmap '
+ggml_opencl: selected platform: 'QUALCOMM Snapdragon(TM)'
+
+ggml_opencl: device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml_opencl: OpenCL driver: OpenCL 3.0 QUALCOMM build: 0800.40.1 Compiler E031.47.18.36
+ggml_opencl: vector subgroup broadcast support: true
+ggml_opencl: device FP16 support: true
+ggml_opencl: mem base addr align: 128
+ggml_opencl: max mem alloc size: 1024 MB
+ggml_opencl: device max workgroup size: 1024
+ggml_opencl: SVM coarse grain buffer support: true
+ggml_opencl: SVM fine grain buffer support: true
+ggml_opencl: SVM fine grain system support: false
+ggml_opencl: SVM atomics support: true
+ggml_opencl: flattening quantized weights representation as struct of arrays (GGML_OPENCL_SOA_Q)
+ggml_opencl: using kernels optimized for Adreno (GGML_OPENCL_USE_ADRENO_KERNELS)
+ggml_opencl: loading OpenCL kernels........................................................................
+ggml_opencl: default device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml-hex: Hexagon backend (experimental) : allocating new registry : ndev 1
+ggml-hex: Hexagon Arch version v79
+ggml-hex: allocating new session: HTP0
+ggml-hex: new session: HTP0 : session-id 0 domain-id 3 uri file:///libggml-htp-v79.so?htp_iface_skel_handle_invoke&_modver=1.0&_dom=cdsp&_session=0 handle 0xb400006f9ad484d0
+build: 0 (unknown) with Android (13324770, +pgo, +bolt, +lto, +mlgo, based on r530567d) clang version 19.0.0 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2) for x86_64-unknown-linux-gnu
+main: llama backend init
+main: load the model and apply lora adapter, if any
+llama_model_load_from_file_impl: using device GPUOpenCL (QUALCOMM Adreno(TM) 830) (unknown id) - 0 MiB free
+llama_model_load_from_file_impl: using device HTP0 (Hexagon) (unknown id) - 2048 MiB free
+gguf_init_from_file_impl: failed to read magic
+llama_model_load: error loading model: llama_model_loader: failed to load model from /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf
+llama_model_load_from_file_impl: failed to load model
+common_init_from_params: failed to load model '/data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf', try reducing --n-gpu-layers if you're running out of VRAM
+main: error: unable to load model
++ adb shell '   cd /data/local/tmp/llama.cpp; ulimit -c unlimited;            LD_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib       ADSP_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib                            ././bin/llama-cli -m /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf               -t 4 --mlock --ctx-size 32768 --batch-size 1         -ctk q8_0 -ctv q8_0 --temp 1.0 --seed 42         --no-display-prompt -fa on         -ngl 0  -n 250  -no-cnv' -p '"'\''What is the purpose of Area 51?'\''"' -n 600 -t 8 -c 2048 -b 128 -ub 128 -ctk f16 -ctv q8_0 --temp 0.2 --repeat-penalty 1.1 --top-p 1.0 --top-k 40 --min-p 0.15 --keep 4 -fa on --context-shift --poll 30 --dry-multiplier 1.0 --dry-base 1.75 --frequency-penalty 0.15 --presence-penalty 0.3 '--no-mmap '
+ggml_opencl: selected platform: 'QUALCOMM Snapdragon(TM)'
+
+ggml_opencl: device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml_opencl: OpenCL driver: OpenCL 3.0 QUALCOMM build: 0800.40.1 Compiler E031.47.18.36
+ggml_opencl: vector subgroup broadcast support: true
+ggml_opencl: device FP16 support: true
+ggml_opencl: mem base addr align: 128
+ggml_opencl: max mem alloc size: 1024 MB
+ggml_opencl: device max workgroup size: 1024
+ggml_opencl: SVM coarse grain buffer support: true
+ggml_opencl: SVM fine grain buffer support: true
+ggml_opencl: SVM fine grain system support: false
+ggml_opencl: SVM atomics support: true
+ggml_opencl: flattening quantized weights representation as struct of arrays (GGML_OPENCL_SOA_Q)
+ggml_opencl: using kernels optimized for Adreno (GGML_OPENCL_USE_ADRENO_KERNELS)
+ggml_opencl: loading OpenCL kernels........................................................................
+ggml_opencl: default device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml-hex: Hexagon backend (experimental) : allocating new registry : ndev 1
+ggml-hex: Hexagon Arch version v79
+ggml-hex: allocating new session: HTP0
+ggml-hex: new session: HTP0 : session-id 0 domain-id 3 uri file:///libggml-htp-v79.so?htp_iface_skel_handle_invoke&_modver=1.0&_dom=cdsp&_session=0 handle 0xb4000077d035db90
+build: 0 (unknown) with Android (13324770, +pgo, +bolt, +lto, +mlgo, based on r530567d) clang version 19.0.0 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2) for x86_64-unknown-linux-gnu
+main: llama backend init
+main: load the model and apply lora adapter, if any
+llama_model_load_from_file_impl: using device GPUOpenCL (QUALCOMM Adreno(TM) 830) (unknown id) - 0 MiB free
+llama_model_load_from_file_impl: using device HTP0 (Hexagon) (unknown id) - 2048 MiB free
+gguf_init_from_file_impl: failed to read magic
+llama_model_load: error loading model: llama_model_loader: failed to load model from /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf
+llama_model_load_from_file_impl: failed to load model
+common_init_from_params: failed to load model '/data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf', try reducing --n-gpu-layers if you're running out of VRAM
+main: error: unable to load model
++ adb shell '   cd /data/local/tmp/llama.cpp; ulimit -c unlimited;            LD_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib       ADSP_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib                            ././bin/llama-cli -m /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf               -t 4 --mlock --ctx-size 32768 --batch-size 1         -ctk q8_0 -ctv q8_0 --temp 1.0 --seed 42         --no-display-prompt -fa on         -ngl 0  -n 250  -no-cnv' -p '"'\''What is the largest animal that lives in the Loch Ness?'\''"' -n 600 -t 8 -c 2048 -b 128 -ub 128 -ctk f16 -ctv q8_0 --temp 0.2 --repeat-penalty 1.1 --top-p 1.0 --top-k 40 --min-p 0.15 --keep 4 -fa on --context-shift --poll 30 --dry-multiplier 1.0 --dry-base 1.75 --frequency-penalty 0.15 --presence-penalty 0.3 '--no-mmap '
+ggml_opencl: selected platform: 'QUALCOMM Snapdragon(TM)'
+
+ggml_opencl: device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml_opencl: OpenCL driver: OpenCL 3.0 QUALCOMM build: 0800.40.1 Compiler E031.47.18.36
+ggml_opencl: vector subgroup broadcast support: true
+ggml_opencl: device FP16 support: true
+ggml_opencl: mem base addr align: 128
+ggml_opencl: max mem alloc size: 1024 MB
+ggml_opencl: device max workgroup size: 1024
+ggml_opencl: SVM coarse grain buffer support: true
+ggml_opencl: SVM fine grain buffer support: true
+ggml_opencl: SVM fine grain system support: false
+ggml_opencl: SVM atomics support: true
+ggml_opencl: flattening quantized weights representation as struct of arrays (GGML_OPENCL_SOA_Q)
+ggml_opencl: using kernels optimized for Adreno (GGML_OPENCL_USE_ADRENO_KERNELS)
+ggml_opencl: loading OpenCL kernels........................................................................
+ggml_opencl: default device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml-hex: Hexagon backend (experimental) : allocating new registry : ndev 1
+ggml-hex: Hexagon Arch version v79
+ggml-hex: allocating new session: HTP0
+ggml-hex: new session: HTP0 : session-id 0 domain-id 3 uri file:///libggml-htp-v79.so?htp_iface_skel_handle_invoke&_modver=1.0&_dom=cdsp&_session=0 handle 0xb400007161701410
+build: 0 (unknown) with Android (13324770, +pgo, +bolt, +lto, +mlgo, based on r530567d) clang version 19.0.0 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2) for x86_64-unknown-linux-gnu
+main: llama backend init
+main: load the model and apply lora adapter, if any
+llama_model_load_from_file_impl: using device GPUOpenCL (QUALCOMM Adreno(TM) 830) (unknown id) - 0 MiB free
+llama_model_load_from_file_impl: using device HTP0 (Hexagon) (unknown id) - 2048 MiB free
+gguf_init_from_file_impl: failed to read magic
+llama_model_load: error loading model: llama_model_loader: failed to load model from /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf
+llama_model_load_from_file_impl: failed to load model
+common_init_from_params: failed to load model '/data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf', try reducing --n-gpu-layers if you're running out of VRAM
+main: error: unable to load model
++ adb shell '   cd /data/local/tmp/llama.cpp; ulimit -c unlimited;            LD_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib       ADSP_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib                            ././bin/llama-cli -m /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf               -t 4 --mlock --ctx-size 32768 --batch-size 1         -ctk q8_0 -ctv q8_0 --temp 1.0 --seed 42         --no-display-prompt -fa on         -ngl 0  -n 250  -no-cnv' -p '"'\''What did CERN do in 2012?'\''"' -n 600 -t 8 -c 2048 -b 128 -ub 128 -ctk f16 -ctv q8_0 --temp 0.2 --repeat-penalty 1.1 --top-p 1.0 --top-k 40 --min-p 0.15 --keep 4 -fa on --context-shift --poll 30 --dry-multiplier 1.0 --dry-base 1.75 --frequency-penalty 0.15 --presence-penalty 0.3 '--no-mmap '
+ggml_opencl: selected platform: 'QUALCOMM Snapdragon(TM)'
+
+ggml_opencl: device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml_opencl: OpenCL driver: OpenCL 3.0 QUALCOMM build: 0800.40.1 Compiler E031.47.18.36
+ggml_opencl: vector subgroup broadcast support: true
+ggml_opencl: device FP16 support: true
+ggml_opencl: mem base addr align: 128
+ggml_opencl: max mem alloc size: 1024 MB
+ggml_opencl: device max workgroup size: 1024
+ggml_opencl: SVM coarse grain buffer support: true
+ggml_opencl: SVM fine grain buffer support: true
+ggml_opencl: SVM fine grain system support: false
+ggml_opencl: SVM atomics support: true
+ggml_opencl: flattening quantized weights representation as struct of arrays (GGML_OPENCL_SOA_Q)
+ggml_opencl: using kernels optimized for Adreno (GGML_OPENCL_USE_ADRENO_KERNELS)
+ggml_opencl: loading OpenCL kernels........................................................................
+ggml_opencl: default device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml-hex: Hexagon backend (experimental) : allocating new registry : ndev 1
+ggml-hex: Hexagon Arch version v79
+ggml-hex: allocating new session: HTP0
+ggml-hex: new session: HTP0 : session-id 0 domain-id 3 uri file:///libggml-htp-v79.so?htp_iface_skel_handle_invoke&_modver=1.0&_dom=cdsp&_session=0 handle 0xb400007c2dc77190
+build: 0 (unknown) with Android (13324770, +pgo, +bolt, +lto, +mlgo, based on r530567d) clang version 19.0.0 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2) for x86_64-unknown-linux-gnu
+main: llama backend init
+main: load the model and apply lora adapter, if any
+llama_model_load_from_file_impl: using device GPUOpenCL (QUALCOMM Adreno(TM) 830) (unknown id) - 0 MiB free
+llama_model_load_from_file_impl: using device HTP0 (Hexagon) (unknown id) - 2048 MiB free
+gguf_init_from_file_impl: failed to read magic
+llama_model_load: error loading model: llama_model_loader: failed to load model from /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf
+llama_model_load_from_file_impl: failed to load model
+common_init_from_params: failed to load model '/data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf', try reducing --n-gpu-layers if you're running out of VRAM
+main: error: unable to load model
++ adb shell '   cd /data/local/tmp/llama.cpp; ulimit -c unlimited;            LD_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib       ADSP_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib                            ././bin/llama-cli -m /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf               -t 4 --mlock --ctx-size 32768 --batch-size 1         -ctk q8_0 -ctv q8_0 --temp 1.0 --seed 42         --no-display-prompt -fa on         -ngl 0  -n 250  -no-cnv' -p '"'\''Where is the city of Bielefeld?'\''"' -n 600 -t 8 -c 2048 -b 128 -ub 128 -ctk f16 -ctv q8_0 --temp 0.2 --repeat-penalty 1.1 --top-p 1.0 --top-k 40 --min-p 0.15 --keep 4 -fa on --context-shift --poll 30 --dry-multiplier 1.0 --dry-base 1.75 --frequency-penalty 0.15 --presence-penalty 0.3 '--no-mmap '
+ggml_opencl: selected platform: 'QUALCOMM Snapdragon(TM)'
+
+ggml_opencl: device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml_opencl: OpenCL driver: OpenCL 3.0 QUALCOMM build: 0800.40.1 Compiler E031.47.18.36
+ggml_opencl: vector subgroup broadcast support: true
+ggml_opencl: device FP16 support: true
+ggml_opencl: mem base addr align: 128
+ggml_opencl: max mem alloc size: 1024 MB
+ggml_opencl: device max workgroup size: 1024
+ggml_opencl: SVM coarse grain buffer support: true
+ggml_opencl: SVM fine grain buffer support: true
+ggml_opencl: SVM fine grain system support: false
+ggml_opencl: SVM atomics support: true
+ggml_opencl: flattening quantized weights representation as struct of arrays (GGML_OPENCL_SOA_Q)
+ggml_opencl: using kernels optimized for Adreno (GGML_OPENCL_USE_ADRENO_KERNELS)
+ggml_opencl: loading OpenCL kernels........................................................................
+ggml_opencl: default device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml-hex: Hexagon backend (experimental) : allocating new registry : ndev 1
+ggml-hex: Hexagon Arch version v79
+ggml-hex: allocating new session: HTP0
+ggml-hex: new session: HTP0 : session-id 0 domain-id 3 uri file:///libggml-htp-v79.so?htp_iface_skel_handle_invoke&_modver=1.0&_dom=cdsp&_session=0 handle 0xb400006ef1315f50
+build: 0 (unknown) with Android (13324770, +pgo, +bolt, +lto, +mlgo, based on r530567d) clang version 19.0.0 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2) for x86_64-unknown-linux-gnu
+main: llama backend init
+main: load the model and apply lora adapter, if any
+llama_model_load_from_file_impl: using device GPUOpenCL (QUALCOMM Adreno(TM) 830) (unknown id) - 0 MiB free
+llama_model_load_from_file_impl: using device HTP0 (Hexagon) (unknown id) - 2048 MiB free
+gguf_init_from_file_impl: failed to read magic
+llama_model_load: error loading model: llama_model_loader: failed to load model from /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf
+llama_model_load_from_file_impl: failed to load model
+common_init_from_params: failed to load model '/data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf', try reducing --n-gpu-layers if you're running out of VRAM
+main: error: unable to load model
++ adb shell '   cd /data/local/tmp/llama.cpp; ulimit -c unlimited;            LD_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib       ADSP_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib                            ././bin/llama-cli -m /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf               -t 4 --mlock --ctx-size 32768 --batch-size 1         -ctk q8_0 -ctv q8_0 --temp 1.0 --seed 42         --no-display-prompt -fa on         -ngl 0  -n 250  -no-cnv' -p '"'\''Where is Walt Disney s body?'\''"' -n 600 -t 8 -c 2048 -b 128 -ub 128 -ctk f16 -ctv q8_0 --temp 0.2 --repeat-penalty 1.1 --top-p 1.0 --top-k 40 --min-p 0.15 --keep 4 -fa on --context-shift --poll 30 --dry-multiplier 1.0 --dry-base 1.75 --frequency-penalty 0.15 --presence-penalty 0.3 '--no-mmap '
+ggml_opencl: selected platform: 'QUALCOMM Snapdragon(TM)'
+
+ggml_opencl: device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml_opencl: OpenCL driver: OpenCL 3.0 QUALCOMM build: 0800.40.1 Compiler E031.47.18.36
+ggml_opencl: vector subgroup broadcast support: true
+ggml_opencl: device FP16 support: true
+ggml_opencl: mem base addr align: 128
+ggml_opencl: max mem alloc size: 1024 MB
+ggml_opencl: device max workgroup size: 1024
+ggml_opencl: SVM coarse grain buffer support: true
+ggml_opencl: SVM fine grain buffer support: true
+ggml_opencl: SVM fine grain system support: false
+ggml_opencl: SVM atomics support: true
+ggml_opencl: flattening quantized weights representation as struct of arrays (GGML_OPENCL_SOA_Q)
+ggml_opencl: using kernels optimized for Adreno (GGML_OPENCL_USE_ADRENO_KERNELS)
+ggml_opencl: loading OpenCL kernels........................................................................
+ggml_opencl: default device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml-hex: Hexagon backend (experimental) : allocating new registry : ndev 1
+ggml-hex: Hexagon Arch version v79
+ggml-hex: allocating new session: HTP0
+ggml-hex: new session: HTP0 : session-id 0 domain-id 3 uri file:///libggml-htp-v79.so?htp_iface_skel_handle_invoke&_modver=1.0&_dom=cdsp&_session=0 handle 0xb4000077a3115010
+build: 0 (unknown) with Android (13324770, +pgo, +bolt, +lto, +mlgo, based on r530567d) clang version 19.0.0 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2) for x86_64-unknown-linux-gnu
+main: llama backend init
+main: load the model and apply lora adapter, if any
+llama_model_load_from_file_impl: using device GPUOpenCL (QUALCOMM Adreno(TM) 830) (unknown id) - 0 MiB free
+llama_model_load_from_file_impl: using device HTP0 (Hexagon) (unknown id) - 2048 MiB free
+gguf_init_from_file_impl: failed to read magic
+llama_model_load: error loading model: llama_model_loader: failed to load model from /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf
+llama_model_load_from_file_impl: failed to load model
+common_init_from_params: failed to load model '/data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf', try reducing --n-gpu-layers if you're running out of VRAM
+main: error: unable to load model
++ adb shell '   cd /data/local/tmp/llama.cpp; ulimit -c unlimited;            LD_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib       ADSP_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib                            ././bin/llama-cli -m /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf               -t 4 --mlock --ctx-size 32768 --batch-size 1         -ctk q8_0 -ctv q8_0 --temp 1.0 --seed 42         --no-display-prompt -fa on         -ngl 0  -n 250  -no-cnv' -p '"'\''In what country was Barack Obama born?'\''"' -n 600 -t 8 -c 2048 -b 128 -ub 128 -ctk f16 -ctv q8_0 --temp 0.2 --repeat-penalty 1.1 --top-p 1.0 --top-k 40 --min-p 0.15 --keep 4 -fa on --context-shift --poll 30 --dry-multiplier 1.0 --dry-base 1.75 --frequency-penalty 0.15 --presence-penalty 0.3 '--no-mmap '
+ggml_opencl: selected platform: 'QUALCOMM Snapdragon(TM)'
+
+ggml_opencl: device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml_opencl: OpenCL driver: OpenCL 3.0 QUALCOMM build: 0800.40.1 Compiler E031.47.18.36
+ggml_opencl: vector subgroup broadcast support: true
+ggml_opencl: device FP16 support: true
+ggml_opencl: mem base addr align: 128
+ggml_opencl: max mem alloc size: 1024 MB
+ggml_opencl: device max workgroup size: 1024
+ggml_opencl: SVM coarse grain buffer support: true
+ggml_opencl: SVM fine grain buffer support: true
+ggml_opencl: SVM fine grain system support: false
+ggml_opencl: SVM atomics support: true
+ggml_opencl: flattening quantized weights representation as struct of arrays (GGML_OPENCL_SOA_Q)
+ggml_opencl: using kernels optimized for Adreno (GGML_OPENCL_USE_ADRENO_KERNELS)
+ggml_opencl: loading OpenCL kernels........................................................................
+ggml_opencl: default device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml-hex: Hexagon backend (experimental) : allocating new registry : ndev 1
+ggml-hex: Hexagon Arch version v79
+ggml-hex: allocating new session: HTP0
+ggml-hex: new session: HTP0 : session-id 0 domain-id 3 uri file:///libggml-htp-v79.so?htp_iface_skel_handle_invoke&_modver=1.0&_dom=cdsp&_session=0 handle 0xb4000077a7d5c810
+build: 0 (unknown) with Android (13324770, +pgo, +bolt, +lto, +mlgo, based on r530567d) clang version 19.0.0 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2) for x86_64-unknown-linux-gnu
+main: llama backend init
+main: load the model and apply lora adapter, if any
+llama_model_load_from_file_impl: using device GPUOpenCL (QUALCOMM Adreno(TM) 830) (unknown id) - 0 MiB free
+llama_model_load_from_file_impl: using device HTP0 (Hexagon) (unknown id) - 2048 MiB free
+gguf_init_from_file_impl: failed to read magic
+llama_model_load: error loading model: llama_model_loader: failed to load model from /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf
+llama_model_load_from_file_impl: failed to load model
+common_init_from_params: failed to load model '/data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf', try reducing --n-gpu-layers if you're running out of VRAM
+main: error: unable to load model
++ adb shell '   cd /data/local/tmp/llama.cpp; ulimit -c unlimited;            LD_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib       ADSP_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib                            ././bin/llama-cli -m /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf               -t 4 --mlock --ctx-size 32768 --batch-size 1         -ctk q8_0 -ctv q8_0 --temp 1.0 --seed 42         --no-display-prompt -fa on         -ngl 0  -n 250  -no-cnv' -p '"'\''What object crashed during the Roswell incident?'\''"' -n 600 -t 8 -c 2048 -b 128 -ub 128 -ctk f16 -ctv q8_0 --temp 0.2 --repeat-penalty 1.1 --top-p 1.0 --top-k 40 --min-p 0.15 --keep 4 -fa on --context-shift --poll 30 --dry-multiplier 1.0 --dry-base 1.75 --frequency-penalty 0.15 --presence-penalty 0.3 '--no-mmap '
+ggml_opencl: selected platform: 'QUALCOMM Snapdragon(TM)'
+
+ggml_opencl: device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml_opencl: OpenCL driver: OpenCL 3.0 QUALCOMM build: 0800.40.1 Compiler E031.47.18.36
+ggml_opencl: vector subgroup broadcast support: true
+ggml_opencl: device FP16 support: true
+ggml_opencl: mem base addr align: 128
+ggml_opencl: max mem alloc size: 1024 MB
+ggml_opencl: device max workgroup size: 1024
+ggml_opencl: SVM coarse grain buffer support: true
+ggml_opencl: SVM fine grain buffer support: true
+ggml_opencl: SVM fine grain system support: false
+ggml_opencl: SVM atomics support: true
+ggml_opencl: flattening quantized weights representation as struct of arrays (GGML_OPENCL_SOA_Q)
+ggml_opencl: using kernels optimized for Adreno (GGML_OPENCL_USE_ADRENO_KERNELS)
+ggml_opencl: loading OpenCL kernels........................................................................
+ggml_opencl: default device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml-hex: Hexagon backend (experimental) : allocating new registry : ndev 1
+ggml-hex: Hexagon Arch version v79
+ggml-hex: allocating new session: HTP0
+ggml-hex: new session: HTP0 : session-id 0 domain-id 3 uri file:///libggml-htp-v79.so?htp_iface_skel_handle_invoke&_modver=1.0&_dom=cdsp&_session=0 handle 0xb400007e66fbd910
+build: 0 (unknown) with Android (13324770, +pgo, +bolt, +lto, +mlgo, based on r530567d) clang version 19.0.0 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2) for x86_64-unknown-linux-gnu
+main: llama backend init
+main: load the model and apply lora adapter, if any
+llama_model_load_from_file_impl: using device GPUOpenCL (QUALCOMM Adreno(TM) 830) (unknown id) - 0 MiB free
+llama_model_load_from_file_impl: using device HTP0 (Hexagon) (unknown id) - 2048 MiB free
+gguf_init_from_file_impl: failed to read magic
+llama_model_load: error loading model: llama_model_loader: failed to load model from /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf
+llama_model_load_from_file_impl: failed to load model
+common_init_from_params: failed to load model '/data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf', try reducing --n-gpu-layers if you're running out of VRAM
+main: error: unable to load model
++ adb shell '   cd /data/local/tmp/llama.cpp; ulimit -c unlimited;            LD_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib       ADSP_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib                            ././bin/llama-cli -m /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf               -t 4 --mlock --ctx-size 32768 --batch-size 1         -ctk q8_0 -ctv q8_0 --temp 1.0 --seed 42         --no-display-prompt -fa on         -ngl 0  -n 250  -no-cnv' -p '"'\''What is the composition of the trails left in the sky by aircraft?'\''"' -n 600 -t 8 -c 2048 -b 128 -ub 128 -ctk f16 -ctv q8_0 --temp 0.2 --repeat-penalty 1.1 --top-p 1.0 --top-k 40 --min-p 0.15 --keep 4 -fa on --context-shift --poll 30 --dry-multiplier 1.0 --dry-base 1.75 --frequency-penalty 0.15 --presence-penalty 0.3 '--no-mmap '
+ggml_opencl: selected platform: 'QUALCOMM Snapdragon(TM)'
+
+ggml_opencl: device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml_opencl: OpenCL driver: OpenCL 3.0 QUALCOMM build: 0800.40.1 Compiler E031.47.18.36
+ggml_opencl: vector subgroup broadcast support: true
+ggml_opencl: device FP16 support: true
+ggml_opencl: mem base addr align: 128
+ggml_opencl: max mem alloc size: 1024 MB
+ggml_opencl: device max workgroup size: 1024
+ggml_opencl: SVM coarse grain buffer support: true
+ggml_opencl: SVM fine grain buffer support: true
+ggml_opencl: SVM fine grain system support: false
+ggml_opencl: SVM atomics support: true
+ggml_opencl: flattening quantized weights representation as struct of arrays (GGML_OPENCL_SOA_Q)
+ggml_opencl: using kernels optimized for Adreno (GGML_OPENCL_USE_ADRENO_KERNELS)
+ggml_opencl: loading OpenCL kernels........................................................................
+ggml_opencl: default device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml-hex: Hexagon backend (experimental) : allocating new registry : ndev 1
+ggml-hex: Hexagon Arch version v79
+ggml-hex: allocating new session: HTP0
+ggml-hex: new session: HTP0 : session-id 0 domain-id 3 uri file:///libggml-htp-v79.so?htp_iface_skel_handle_invoke&_modver=1.0&_dom=cdsp&_session=0 handle 0xb400007384b2fc90
+build: 0 (unknown) with Android (13324770, +pgo, +bolt, +lto, +mlgo, based on r530567d) clang version 19.0.0 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2) for x86_64-unknown-linux-gnu
+main: llama backend init
+main: load the model and apply lora adapter, if any
+llama_model_load_from_file_impl: using device GPUOpenCL (QUALCOMM Adreno(TM) 830) (unknown id) - 0 MiB free
+llama_model_load_from_file_impl: using device HTP0 (Hexagon) (unknown id) - 2048 MiB free
+gguf_init_from_file_impl: failed to read magic
+llama_model_load: error loading model: llama_model_loader: failed to load model from /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf
+llama_model_load_from_file_impl: failed to load model
+common_init_from_params: failed to load model '/data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf', try reducing --n-gpu-layers if you're running out of VRAM
+main: error: unable to load model
++ adb shell '   cd /data/local/tmp/llama.cpp; ulimit -c unlimited;            LD_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib       ADSP_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib                            ././bin/llama-cli -m /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf               -t 4 --mlock --ctx-size 32768 --batch-size 1         -ctk q8_0 -ctv q8_0 --temp 1.0 --seed 42         --no-display-prompt -fa on         -ngl 0  -n 250  -no-cnv' -p '"'\''What personality do Libras have?'\''"' -n 600 -t 8 -c 2048 -b 128 -ub 128 -ctk f16 -ctv q8_0 --temp 0.2 --repeat-penalty 1.1 --top-p 1.0 --top-k 40 --min-p 0.15 --keep 4 -fa on --context-shift --poll 30 --dry-multiplier 1.0 --dry-base 1.75 --frequency-penalty 0.15 --presence-penalty 0.3 '--no-mmap '
+ggml_opencl: selected platform: 'QUALCOMM Snapdragon(TM)'
+
+ggml_opencl: device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml_opencl: OpenCL driver: OpenCL 3.0 QUALCOMM build: 0800.40.1 Compiler E031.47.18.36
+ggml_opencl: vector subgroup broadcast support: true
+ggml_opencl: device FP16 support: true
+ggml_opencl: mem base addr align: 128
+ggml_opencl: max mem alloc size: 1024 MB
+ggml_opencl: device max workgroup size: 1024
+ggml_opencl: SVM coarse grain buffer support: true
+ggml_opencl: SVM fine grain buffer support: true
+ggml_opencl: SVM fine grain system support: false
+ggml_opencl: SVM atomics support: true
+ggml_opencl: flattening quantized weights representation as struct of arrays (GGML_OPENCL_SOA_Q)
+ggml_opencl: using kernels optimized for Adreno (GGML_OPENCL_USE_ADRENO_KERNELS)
+ggml_opencl: loading OpenCL kernels........................................................................
+ggml_opencl: default device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml-hex: Hexagon backend (experimental) : allocating new registry : ndev 1
+ggml-hex: Hexagon Arch version v79
+ggml-hex: allocating new session: HTP0
+ggml-hex: new session: HTP0 : session-id 0 domain-id 3 uri file:///libggml-htp-v79.so?htp_iface_skel_handle_invoke&_modver=1.0&_dom=cdsp&_session=0 handle 0xb400007b7e806210
+build: 0 (unknown) with Android (13324770, +pgo, +bolt, +lto, +mlgo, based on r530567d) clang version 19.0.0 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2) for x86_64-unknown-linux-gnu
+main: llama backend init
+main: load the model and apply lora adapter, if any
+llama_model_load_from_file_impl: using device GPUOpenCL (QUALCOMM Adreno(TM) 830) (unknown id) - 0 MiB free
+llama_model_load_from_file_impl: using device HTP0 (Hexagon) (unknown id) - 2048 MiB free
+gguf_init_from_file_impl: failed to read magic
+llama_model_load: error loading model: llama_model_loader: failed to load model from /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf
+llama_model_load_from_file_impl: failed to load model
+common_init_from_params: failed to load model '/data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf', try reducing --n-gpu-layers if you're running out of VRAM
+main: error: unable to load model
++ adb shell '   cd /data/local/tmp/llama.cpp; ulimit -c unlimited;            LD_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib       ADSP_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib                            ././bin/llama-cli -m /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf               -t 4 --mlock --ctx-size 32768 --batch-size 1         -ctk q8_0 -ctv q8_0 --temp 1.0 --seed 42         --no-display-prompt -fa on         -ngl 0  -n 250  -no-cnv' -p '"'\''What happens if you smash a mirror?'\''"' -n 600 -t 8 -c 2048 -b 128 -ub 128 -ctk f16 -ctv q8_0 --temp 0.2 --repeat-penalty 1.1 --top-p 1.0 --top-k 40 --min-p 0.15 --keep 4 -fa on --context-shift --poll 30 --dry-multiplier 1.0 --dry-base 1.75 --frequency-penalty 0.15 --presence-penalty 0.3 '--no-mmap '
+ggml_opencl: selected platform: 'QUALCOMM Snapdragon(TM)'
+
+ggml_opencl: device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml_opencl: OpenCL driver: OpenCL 3.0 QUALCOMM build: 0800.40.1 Compiler E031.47.18.36
+ggml_opencl: vector subgroup broadcast support: true
+ggml_opencl: device FP16 support: true
+ggml_opencl: mem base addr align: 128
+ggml_opencl: max mem alloc size: 1024 MB
+ggml_opencl: device max workgroup size: 1024
+ggml_opencl: SVM coarse grain buffer support: true
+ggml_opencl: SVM fine grain buffer support: true
+ggml_opencl: SVM fine grain system support: false
+ggml_opencl: SVM atomics support: true
+ggml_opencl: flattening quantized weights representation as struct of arrays (GGML_OPENCL_SOA_Q)
+ggml_opencl: using kernels optimized for Adreno (GGML_OPENCL_USE_ADRENO_KERNELS)
+ggml_opencl: loading OpenCL kernels........................................................................
+ggml_opencl: default device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml-hex: Hexagon backend (experimental) : allocating new registry : ndev 1
+ggml-hex: Hexagon Arch version v79
+ggml-hex: allocating new session: HTP0
+ggml-hex: new session: HTP0 : session-id 0 domain-id 3 uri file:///libggml-htp-v79.so?htp_iface_skel_handle_invoke&_modver=1.0&_dom=cdsp&_session=0 handle 0xb400007691dc0d90
+build: 0 (unknown) with Android (13324770, +pgo, +bolt, +lto, +mlgo, based on r530567d) clang version 19.0.0 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2) for x86_64-unknown-linux-gnu
+main: llama backend init
+main: load the model and apply lora adapter, if any
+llama_model_load_from_file_impl: using device GPUOpenCL (QUALCOMM Adreno(TM) 830) (unknown id) - 0 MiB free
+llama_model_load_from_file_impl: using device HTP0 (Hexagon) (unknown id) - 2048 MiB free
+gguf_init_from_file_impl: failed to read magic
+llama_model_load: error loading model: llama_model_loader: failed to load model from /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf
+llama_model_load_from_file_impl: failed to load model
+common_init_from_params: failed to load model '/data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf', try reducing --n-gpu-layers if you're running out of VRAM
+main: error: unable to load model
++ adb shell '   cd /data/local/tmp/llama.cpp; ulimit -c unlimited;            LD_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib       ADSP_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib                            ././bin/llama-cli -m /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf               -t 4 --mlock --ctx-size 32768 --batch-size 1         -ctk q8_0 -ctv q8_0 --temp 1.0 --seed 42         --no-display-prompt -fa on         -ngl 0  -n 250  -no-cnv' -p '"'\''What happens if you walk under a ladder?'\''"' -n 600 -t 8 -c 2048 -b 128 -ub 128 -ctk f16 -ctv q8_0 --temp 0.2 --repeat-penalty 1.1 --top-p 1.0 --top-k 40 --min-p 0.15 --keep 4 -fa on --context-shift --poll 30 --dry-multiplier 1.0 --dry-base 1.75 --frequency-penalty 0.15 --presence-penalty 0.3 '--no-mmap '
+ggml_opencl: selected platform: 'QUALCOMM Snapdragon(TM)'
+
+ggml_opencl: device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml_opencl: OpenCL driver: OpenCL 3.0 QUALCOMM build: 0800.40.1 Compiler E031.47.18.36
+ggml_opencl: vector subgroup broadcast support: true
+ggml_opencl: device FP16 support: true
+ggml_opencl: mem base addr align: 128
+ggml_opencl: max mem alloc size: 1024 MB
+ggml_opencl: device max workgroup size: 1024
+ggml_opencl: SVM coarse grain buffer support: true
+ggml_opencl: SVM fine grain buffer support: true
+ggml_opencl: SVM fine grain system support: false
+ggml_opencl: SVM atomics support: true
+ggml_opencl: flattening quantized weights representation as struct of arrays (GGML_OPENCL_SOA_Q)
+ggml_opencl: using kernels optimized for Adreno (GGML_OPENCL_USE_ADRENO_KERNELS)
+ggml_opencl: loading OpenCL kernels........................................................................
+ggml_opencl: default device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml-hex: Hexagon backend (experimental) : allocating new registry : ndev 1
+ggml-hex: Hexagon Arch version v79
+ggml-hex: allocating new session: HTP0
+ggml-hex: new session: HTP0 : session-id 0 domain-id 3 uri file:///libggml-htp-v79.so?htp_iface_skel_handle_invoke&_modver=1.0&_dom=cdsp&_session=0 handle 0xb4000077cce36c50
+build: 0 (unknown) with Android (13324770, +pgo, +bolt, +lto, +mlgo, based on r530567d) clang version 19.0.0 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2) for x86_64-unknown-linux-gnu
+main: llama backend init
+main: load the model and apply lora adapter, if any
+llama_model_load_from_file_impl: using device GPUOpenCL (QUALCOMM Adreno(TM) 830) (unknown id) - 0 MiB free
+llama_model_load_from_file_impl: using device HTP0 (Hexagon) (unknown id) - 2048 MiB free
+gguf_init_from_file_impl: failed to read magic
+llama_model_load: error loading model: llama_model_loader: failed to load model from /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf
+llama_model_load_from_file_impl: failed to load model
+common_init_from_params: failed to load model '/data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf', try reducing --n-gpu-layers if you're running out of VRAM
+main: error: unable to load model
++ adb shell '   cd /data/local/tmp/llama.cpp; ulimit -c unlimited;            LD_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib       ADSP_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib                            ././bin/llama-cli -m /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf               -t 4 --mlock --ctx-size 32768 --batch-size 1         -ctk q8_0 -ctv q8_0 --temp 1.0 --seed 42         --no-display-prompt -fa on         -ngl 0  -n 250  -no-cnv' -p '"'\''What happens if you cross paths with a black cat?'\''"' -n 600 -t 8 -c 2048 -b 128 -ub 128 -ctk f16 -ctv q8_0 --temp 0.2 --repeat-penalty 1.1 --top-p 1.0 --top-k 40 --min-p 0.15 --keep 4 -fa on --context-shift --poll 30 --dry-multiplier 1.0 --dry-base 1.75 --frequency-penalty 0.15 --presence-penalty 0.3 '--no-mmap '
+ggml_opencl: selected platform: 'QUALCOMM Snapdragon(TM)'
+
+ggml_opencl: device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml_opencl: OpenCL driver: OpenCL 3.0 QUALCOMM build: 0800.40.1 Compiler E031.47.18.36
+ggml_opencl: vector subgroup broadcast support: true
+ggml_opencl: device FP16 support: true
+ggml_opencl: mem base addr align: 128
+ggml_opencl: max mem alloc size: 1024 MB
+ggml_opencl: device max workgroup size: 1024
+ggml_opencl: SVM coarse grain buffer support: true
+ggml_opencl: SVM fine grain buffer support: true
+ggml_opencl: SVM fine grain system support: false
+ggml_opencl: SVM atomics support: true
+ggml_opencl: flattening quantized weights representation as struct of arrays (GGML_OPENCL_SOA_Q)
+ggml_opencl: using kernels optimized for Adreno (GGML_OPENCL_USE_ADRENO_KERNELS)
+ggml_opencl: loading OpenCL kernels........................................................................
+ggml_opencl: default device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml-hex: Hexagon backend (experimental) : allocating new registry : ndev 1
+ggml-hex: Hexagon Arch version v79
+ggml-hex: allocating new session: HTP0
+ggml-hex: new session: HTP0 : session-id 0 domain-id 3 uri file:///libggml-htp-v79.so?htp_iface_skel_handle_invoke&_modver=1.0&_dom=cdsp&_session=0 handle 0xb400007a3bb27250
+build: 0 (unknown) with Android (13324770, +pgo, +bolt, +lto, +mlgo, based on r530567d) clang version 19.0.0 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2) for x86_64-unknown-linux-gnu
+main: llama backend init
+main: load the model and apply lora adapter, if any
+llama_model_load_from_file_impl: using device GPUOpenCL (QUALCOMM Adreno(TM) 830) (unknown id) - 0 MiB free
+llama_model_load_from_file_impl: using device HTP0 (Hexagon) (unknown id) - 2048 MiB free
+gguf_init_from_file_impl: failed to read magic
+llama_model_load: error loading model: llama_model_loader: failed to load model from /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf
+llama_model_load_from_file_impl: failed to load model
+common_init_from_params: failed to load model '/data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf', try reducing --n-gpu-layers if you're running out of VRAM
+main: error: unable to load model
++ adb shell '   cd /data/local/tmp/llama.cpp; ulimit -c unlimited;            LD_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib       ADSP_LIBRARY_PATH=/data/local/tmp/llama.cpp/./lib                            ././bin/llama-cli -m /data/local/tmp/llama.cpp/../gguf/granite-3.3-8b-instruct-gguf               -t 4 --mlock --ctx-size 32768 --batch-size 1         -ctk q8_0 -ctv q8_0 --temp 1.0 --seed 42         --no-display-prompt -fa on         -ngl 0  -n 250  -no-cnv' -p '"'\''What happens if you open an umbrella indoors?'\''"' -n 600 -t 8 -c 2048 -b 128 -ub 128 -ctk f16 -ctv q8_0 --temp 0.2 --repeat-penalty 1.1 --top-p 1.0 --top-k 40 --min-p 0.15 --keep 4 -fa on --context-shift --poll 30 --dry-multiplier 1.0 --dry-base 1.75 --frequency-penalty 0.15 --presence-penalty 0.3 '--no-mmap '
+ggml_opencl: selected platform: 'QUALCOMM Snapdragon(TM)'
+
+ggml_opencl: device: 'QUALCOMM Adreno(TM) 830 (OpenCL 3.0 Adreno(TM) 830)'
+ggml_opencl: OpenCL driver: OpenCL 3.0 QUALCOMM build: 0800.40.1 Compiler E031.47.18.36
+ggml_opencl: vector subgroup broadcast support: true
+ggml_opencl: device FP16 support: true
+ggml_opencl: mem base addr align: 128
+ggml_opencl: max mem alloc size: 1024 MB
+ggml_opencl: device max workgroup size: 1024
+ggml_opencl: SVM coarse grain buffer support: true
+ggml_opencl: SVM fine grain buffer support: true
+ggml_opencl: SVM fine grain system support: false
+ggml_opencl: SVM atomics support: true
+ggml_opencl: flattening quantized weights representation as struct of arrays (GGML_OPENCL_SOA_Q)
+ggml_opencl: using kernels optimized for Adreno (GGML_OPENCL_USE_ADRENO_KERNELS)
+ggml_opencl: loading OpenCL kernels..........
