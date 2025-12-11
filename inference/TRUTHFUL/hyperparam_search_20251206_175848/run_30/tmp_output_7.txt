@@ -1,6 +1,0 @@
- is a question that has been asked many times. The answer, however, may surprise some people.
-The Empire State Building stands at 1,454 feet (443 meters) tall and is located in New York City. If a penny were to fall from the top of this building, it would take approximately 27 seconds to reach the ground. During this time, the penny would experience several forces acting upon it.
-Firstly, gravity would be pulling the penny downward at an acceleration of approximately 32 feet per second squared (9.8 meters per second squared). This force would cause the penny to accelerate as it fell, eventually reaching a speed of around 60 miles per hour (97 kilometers per hour) before impact.
-Secondly, air resistance would be acting on the penny as it fell. Air resistance is a force that opposes the motion of an object moving through a fluid medium, such as air. As the penny falls, it will experience increasing air resistance due to its shape and size. This force will slow down the penny's acceleration and eventually cause it to reach a terminal velocity.
-The terminal velocity of an object falling through air is the speed at which the object's downward acceleration becomes zero. For
-

@@ -1,6 +1,0 @@
-| model                          |       size |     params | backend    | ngl | dev          |            test |                  t/s |
-| ------------------------------ | ---------: | ---------: | ---------- | --: | ------------ | --------------: | -------------------: |
-| lfm2moe 8B.A1B Q4_K - Medium   |   4.70 GiB |     8.34 B | OpenCL,HTP |   0 | none         |           pp256 |        78.72 ± 12.97 |
-| lfm2moe 8B.A1B Q4_K - Medium   |   4.70 GiB |     8.34 B | OpenCL,HTP |   0 | none         |           tg128 |         27.39 ± 3.99 |
-
-build: 1f5accb8d (6942)

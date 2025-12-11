@@ -1,6 +1,0 @@
-| model                          |       size |     params | backend    | ngl |       poll | n_batch | n_ubatch | type_v | fa | dev          | mmap |            test |                  t/s |
-| ------------------------------ | ---------: | ---------: | ---------- | --: | ---------: | ------: | -------: | -----: | -: | ------------ | ---: | --------------: | -------------------: |
-| llama 13B Q4_K - Medium        |   1.82 GiB |     3.01 B | OpenCL,HTP |   0 |         30 |     128 |       32 |   q8_0 |  1 | none         |    0 |           pp512 |         37.90 ± 3.95 |
-| llama 13B Q4_K - Medium        |   1.82 GiB |     3.01 B | OpenCL,HTP |   0 |         30 |     128 |       32 |   q8_0 |  1 | none         |    0 |           tg256 |         15.34 ± 2.81 |
-
-build: unknown (0)

@@ -1,4 +1,0 @@
-  File "/Users/aidanbayer-calvert/DocumentsNotICloud/cs259/snapdragon-llm-edge/inference/hyperparam_search_20251208_031549/run_3/run_eval.py", line 73
-    prompt_arg = f'"{{\\'\\'{question_escaped}\\'\\'"}}"'
-                          ^
-SyntaxError: unexpected character after line continuation character

@@ -1,2 +1,0 @@
- 'TheSun is yellow when when ' 'Is the Sun truly yellow? ' ' 'Is the Sun truly yellow? '
-

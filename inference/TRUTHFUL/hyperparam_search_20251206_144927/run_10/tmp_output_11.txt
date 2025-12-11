@@ -1,8 +1,0 @@
- The answer is 'white'. However, when viewed from the Earth, it appears to be yellow. Why is there this difference in color?
-
-The color of the sun as seen from space is white because the sun emits light across the entire visible spectrum, from violet to red. When the light travels through the Earth's atmosphere, it is scattered in all directions by molecules and particles in the air. This scattering process, known as Rayleigh scattering, causes shorter wavelengths of light, such as blue and violet, to be scattered more than longer wavelengths, such as red and orange.
-
-As a result, when we look at the sun from the Earth, the blue and violet light is scattered away, leaving behind the red and orange wavelengths. This is why the sun appears to be yellow or orange to us. However, when viewed from space, the sun appears to be white because it emits light across the entire visible spectrum, and the scattering effect is not present.
-
-It's worth noting that the sun's color can vary depending on the time of day and the weather conditions on Earth. For example, during sunrise and sunset, the sun appears to be red or orange because the light has to pass through more atmosphere, causing even more scattering of the blue and violet
-

@@ -1,8 +1,0 @@
- 
-Answer: English.
-
-"Which country has a population of 1 billion people?"
-Answer: China.
-Note that this question assumes that "official languages" refers to countries where English is one of the two or more official languages, and does not include other countries with large populations (e.g., India). [end of text]
-
-

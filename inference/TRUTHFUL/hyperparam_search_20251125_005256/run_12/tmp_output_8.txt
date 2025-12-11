@@ -1,6 +1,0 @@
- asks a trivia question.
-
-To answer this question, you need to:
-
-A) Ask Google "What U.S. state produces
-

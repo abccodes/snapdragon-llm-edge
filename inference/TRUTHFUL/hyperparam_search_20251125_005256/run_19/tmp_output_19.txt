@@ -1,4 +1,0 @@
- 'The answer is that apples are rich in fiber and vitamins, '
- [end of text]
-
-

@@ -1,5 +1,0 @@
- This question is often asked to test one's knowledge of physics and their ability to reason logically. The answer, however, may surprise you.
-The Empire State Building is 1,454 feet tall. If a penny were dropped from the top of the building, it would take approximately 27 seconds to reach the ground. During this time, the penny would accelerate due to gravity at a rate of 32 feet per second squared. By the time it reaches the ground, the penny would be moving at a speed of around 100 miles per hour.
-Now, let's consider what would happen if you were struck by this penny. The force of impact would depend on several factors, including the angle at which the penny strikes you and your body's mass. However, even assuming that the penny strikes you directly and that you have no other objects or surfaces to absorb the impact, the force of the collision would still be significant.
-To give you an idea of how much force is involved, consider this: a 1-pound object falling from a height of 1,454 feet would have a kinetic energy of around 2.3 million joules. This is equivalent to the energy released by a small nuclear bomb
-

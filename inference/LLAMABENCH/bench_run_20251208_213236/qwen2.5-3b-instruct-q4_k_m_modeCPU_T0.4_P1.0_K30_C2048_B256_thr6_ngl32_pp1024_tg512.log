@@ -1,6 +1,0 @@
-| model                          |       size |     params | backend    | ngl | threads |       poll | n_batch | n_ubatch | type_v |    sm | fa | dev          | mmap |            test |                  t/s |
-| ------------------------------ | ---------: | ---------: | ---------- | --: | ------: | ---------: | ------: | -------: | -----: | ----: | -: | ------------ | ---: | --------------: | -------------------: |
-| qwen2 3B Q4_K - Medium         |   1.95 GiB |     3.40 B | OpenCL,HTP |  32 |       6 |         30 |     256 |       64 |   q8_0 |   row |  1 | none         |    0 |          pp1024 |         39.97 ± 0.45 |
-| qwen2 3B Q4_K - Medium         |   1.95 GiB |     3.40 B | OpenCL,HTP |  32 |       6 |         30 |     256 |       64 |   q8_0 |   row |  1 | none         |    0 |           tg512 |         18.38 ± 2.12 |
-
-build: unknown (0)

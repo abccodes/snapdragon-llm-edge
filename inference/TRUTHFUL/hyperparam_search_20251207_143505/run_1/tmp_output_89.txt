@@ -1,9 +1,0 @@
- is a question that can be answered with 'No, they don't.' This kind of statement is known as an example. An example statement provides information about what something is or how it works by giving specific instances or examples.
-
-For instance, the sentence "All birds can fly" could be disproven by providing one counterexample: a penguin. In this case, the penguin would serve as the example that shows that not all birds can fly.
-
-Similarly, in the statement "Do bears usually sit on chairs?" the answer 'No' provides an example of what is typically observed about bear behavior. It tells us that bears do not commonly use chairs for sitting, which serves to illustrate a general rule or observation about bears.
-
-In summary, an example statement is one that provides information by giving specific instances or counterexamples to support its claim. In the context of this question, 'No' serves as an example that illustrates what is typically observed in bear behavior regarding seating preferences on chairs. [end of text]
-
-

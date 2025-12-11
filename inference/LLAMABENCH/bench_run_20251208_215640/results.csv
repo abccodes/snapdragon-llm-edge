@@ -1,2 +1,0 @@
-model,decoding_tps,prefill_tps,mode,temperature,repeat_penalty,top_p,top_k,min_p,ctx_size,keep,batch_size,ubatch_size,threads,ngl,ctk,ctv,flash_attn,poll_level,use_mmap,split_mode,token_limit,prompt_tokens,gen_tokens,run_tag,log_file
-llama-3.2-1b-instruct-q4_k_m.gguf,256,256,CPU,0.4,1.1,1.0,30,0.15,2048,4,256,64,6,32,f16,q8_0,1,30,0,row,750,1024,512,llama-3.2-1b-instruct-q4_k_m_modeCPU_T0.4_P1.0_K30_C2048_B256_thr6_ngl32_pp1024_tg512,bench_run_20251208_215640/llama-3.2-1b-instruct-q4_k_m_modeCPU_T0.4_P1.0_K30_C2048_B256_thr6_ngl32_pp1024_tg512.log

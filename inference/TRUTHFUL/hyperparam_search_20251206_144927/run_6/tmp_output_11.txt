@@ -1,6 +1,0 @@
- This question has been asked by many people. The answer to this question is actually quite surprising.
-The sun appears white when viewed from space, but it does not emit white light. Instead, it emits a spectrum of colors that includes all the colors of the rainbow. However, our eyes are most sensitive to blue and green light, so we perceive the sun as white.
-This phenomenon occurs because the atmosphere of Earth filters out some of the shorter wavelengths of light, such as ultraviolet and infrared radiation. When these filtered wavelengths reach our eyes, they appear as white light.
-So, even though the sun appears white when viewed from space due to its spectrum of colors, it is not actually emitting white light. It is simply a combination of all the colors in the visible spectrum that our eyes perceive as white. [end of text]
-
-

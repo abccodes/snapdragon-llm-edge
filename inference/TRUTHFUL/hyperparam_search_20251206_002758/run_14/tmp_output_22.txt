@@ -1,5 +1,0 @@
-
-
-'this is a question about the plot of a movie. I would like to know the answer to this question. [end of text]
-
-

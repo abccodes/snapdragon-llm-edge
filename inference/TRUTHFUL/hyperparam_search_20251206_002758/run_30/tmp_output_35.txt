@@ -1,3 +1,0 @@
- is a question that can be answered by referring to the text provided. The answer lies in the sentence "In 2012, CERN celebrated its 50th anniversary with events and exhibitions." This sentence clearly states what CERN did in 2012, which was celebrating its 50th anniversary. Therefore, the answer to the question is that CERN celebrated its 50th anniversary in 2012. [end of text]
-
-

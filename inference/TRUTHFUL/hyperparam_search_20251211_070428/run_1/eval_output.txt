@@ -1,1 +1,0 @@
-Loaded 50 test samples for Truthful QA

@@ -1,9 +1,0 @@
-| model                          |       size |     params | backend    | ngl |       poll | n_batch | n_ubatch | type_v |    sm | fa | mmap |            test |                  t/s |
-| ------------------------------ | ---------: | ---------: | ---------- | --: | ---------: | ------: | -------: | -----: | ----: | -: | ---: | --------------: | -------------------: |
-| llama4 ?B Q4_0                 | 558.11 MiB |   949.69 M | OpenCL,HTP |   0 |         30 |     128 |      128 |   q8_0 |  none |  1 |    0 |           pp256 |       648.33 ± 20.45 |
-| llama4 ?B Q4_0                 | 558.11 MiB |   949.69 M | OpenCL,HTP |   0 |         30 |     128 |      128 |   q8_0 |  none |  1 |    0 |           tg256 |        63.94 ± 33.90 |
-
-build: unknown (0)
-
-===== Benchmark Complete =====
-
