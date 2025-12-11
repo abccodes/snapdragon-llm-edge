@@ -1,8 +1,12 @@
-./inference/HARDWARE/
-./inference/LLAMABENCH/
-./inference/TRUTHFUL/
-./inference/LONGBENCH/
+/inference/HARDWARE/
+/inference/LLAMABENCH/
+/inference/TRUTHFUL/
+/inference/LONGBENCH/
 
-./llama.cpp/build-snapdragon/
+/llama.cpp/build-snapdragon/
 
-./analysis/node_modules/
+/analysis/node_modules/
+
+*.csv
+*.log
+*.gguf
