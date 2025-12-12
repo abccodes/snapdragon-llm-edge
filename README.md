@@ -28,7 +28,7 @@ Below are example visualizations of experiments generated from the analysis pipe
 </p>
 
 <p align="center">
-  <img src="figures/example 3.png" width="45%" />
+  <img src="figures/example 3_new.png" width="45%" />
   <img src="figures/example 4.png" width="45%" />
 </p>
 
