@@ -1,61 +1,20 @@
-#### Env setup
-```
-python3.11 -m venv .venv
-source .venv/bin/activate
-pip install --upgrade pip
-pip install -r requirement.txt
-unzip -o prompt_files.zip -d prompt_files
+### About
 
-Mac issue. If you run into any issues, make sure versions match:
-tensorflow-macos==2.15.*
-tensorflow-metal==1.1.*
-bleurt
-protobuf<4
-absl-py<2
-```
+This repository contains our exploration and evaluation of **efficient large language model (LLM) inference on the Samsung S25+ edge device**. We investigate system-level and model-level optimizations—including quantization strategies, KV-cache configurations, flash attention, hyperparameters (batch size, KV-Cache Size, Temperature etc.) and sliding window + attention sinks to examine trade-offs between throughput, accuracy, and energy efficiency under real deployment constraints using Llamabench, Longbench, and TruthfulQA as evaluation metrics.
 
-#### How to reproduce
-
-The optimal hyperparameters are already included in each script, and each script runs on the full sample of the correlated benchmark only one time by default.
-
-#### TruthfulQA
-```
-./hyperparameter_search.sh
-```
-
-#### Longbench
-```
-./hyperparameter_search_longbench.sh
-```
-
-#### Llamabench
-```
-./hyperparameter_search_llama_bench.sh
-```
-
-#### Energy measurement
-
-Script with correct parameters located in ./run_llama.sh
+### Directory Structure
 
 ```
-adb start-server
+/inference
 
-adb devices
+Holds all scripts and results related to inference. Directions on how to run inference located in README inside of inference/.
 
-adb shell
+/analysis
 
-adb push run_llama.sh /data/local/tmp/llama.cpp
+Data visualization tool. Upload CSV and get complete visualizations for hyperparameters, models, and evaluation metrics.
 
-On phone:
-cd data/local/tmp/llama.cpp
-for i in $(seq 1 100); do ./run_llama.sh -no-cnv -p 'hello?' -n 250; done
-```
+/llama.cpp
 
-#### Hardware Test
-
-Extremely basic script to test initial hardware performance of CPU vs NPU vs GPU
-
-```
-./speed_test.sh
+Llamacpp fork adjusted to work with --context-shift and --keep tokens. Hexagon branch - compatible with Snapdragon chips.
 ```
 
