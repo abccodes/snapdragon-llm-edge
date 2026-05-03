@@ -24,23 +24,6 @@ Data visualization tool. Upload CSV and get complete visualizations for hyperpar
 
 Llamacpp fork adjusted to work with --context-shift and --keep tokens. Hexagon branch - compatible with Snapdragon chips.
 ```
-
-#### Example Visuals
-
-Below are example visualizations of experiments generated from the analysis pipeline, demonstrating how inference results and hyperparameter sweeps can be explored and compared.
-
-<p align="center">
-  <img src="figures/example 1.png" width="60%" />
-</p>
-
-<p align="center">
-  <img src="figures/example 2.png" width="60%" />
-</p>
-
-<p align="center">
-  <img src="figures/example 3_new.png" width="60%" />
-</p>
-
 <p align="center">
   <img src="figures/example 4.png" width="60%" />
 </p>
