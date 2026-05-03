@@ -5,7 +5,7 @@ Exploration and evaluation of efficient large language model (LLM) inference on 
 ### Overview
 
 <p align="center">
-  <img src="figures/snapdragonedgeproject.svg" width="60%" />
+  <img src="figures/snapdragonedgeproject.svg" />
 </p>
 
 
