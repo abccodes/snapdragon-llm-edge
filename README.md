@@ -1,6 +1,13 @@
-### About
+## Snapdragon Edge LLM Inference
 
-This repository contains our exploration and evaluation of **efficient large language model (LLM) inference on the Samsung S25+ edge device**. We investigate system-level and model-level optimizations—including quantization strategies, KV-cache configurations, flash attention, hyperparameters (batch size, KV-Cache Size, Temperature etc.) and sliding window + attention sinks to examine trade-offs between throughput, accuracy, and energy efficiency under real deployment constraints using Llamabench, Longbench, and TruthfulQA as evaluation metrics.
+Exploration and evaluation of efficient large language model (LLM) inference on the Samsung S25+ edge device. We investigate system-level and model-level optimizations—including quantization strategies, KV-cache configurations, flash attention, hyperparameters (batch size, KV-Cache Size, Temperature etc.) and sliding window + attention sinks to examine trade-offs between throughput, accuracy, and energy efficiency under real deployment constraints using Llamabench, Longbench, and TruthfulQA as evaluation metrics.
+
+### Overview
+
+<p align="center">
+  <img src="figures/snapdragonedgeproject.svg" width="60%" />
+</p>
+
 
 ### Directory Structure
 
