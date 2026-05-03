@@ -9,7 +9,9 @@ Exploration and evaluation of efficient large language model (LLM) inference on 
 </p>
 
 
-### Directory Structure
+### Directory Structure and Setup
+
+- Setup instructions provided inside individual directories
 
 ```
 /inference
@@ -24,7 +26,3 @@ Data visualization tool. Upload CSV and get complete visualizations for hyperpar
 
 Llamacpp fork adjusted to work with --context-shift and --keep tokens. Hexagon branch - compatible with Snapdragon chips.
 ```
-<p align="center">
-  <img src="figures/example 4.png" width="60%" />
-</p>
-
