@@ -2,13 +2,6 @@
 
 Exploration and evaluation of efficient large language model (LLM) inference on the Samsung S25+ edge device. We investigate system-level and model-level optimizations—including quantization strategies, KV-cache configurations, flash attention, hyperparameters (batch size, KV-Cache Size, Temperature etc.) and sliding window + attention sinks to examine trade-offs between throughput, accuracy, and energy efficiency under real deployment constraints using Llamabench, Longbench, and TruthfulQA as evaluation metrics.
 
-### Overview
-
-<p align="center">
-  <img src="figures/snapdragonedge.svg" />
-</p>
-
-
 ### Directory Structure and Setup
 
 - Setup instructions provided inside individual directories
